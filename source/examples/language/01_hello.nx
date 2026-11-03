@@ -1,0 +1,6 @@
+using System;
+
+public int main() {
+    Console.writeLine("Hallo, NORTEX!");
+    return 0;
+}

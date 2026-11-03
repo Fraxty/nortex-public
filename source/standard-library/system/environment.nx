@@ -1,0 +1,6 @@
+namespace System;
+
+public class Environment
+{
+    public intrinsic static string getPlatformName();
+}

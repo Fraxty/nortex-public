@@ -1,0 +1,27 @@
+using System;
+using sdk;
+
+public int main() {
+    if (!sdk_init("Container Tools", "1.0.0")) { return 1; }
+    string source = Text.toUpper(sdk_active_text());
+    if (Text.length(source) == 0) {
+        sdk_notify("Container Tools: kein vollständig lesbares Dokument aktiv.");
+        sdk_wait_shutdown();
+        return 0;
+    }
+    mut string problems = "";
+    string first = Text.trim(source);
+    if (!Text.startsWith(first, "FROM ") && !Text.startsWith(first, "ARG ") && !Text.startsWith(first, "#")) { problems = problems + " FROM fehlt am Anfang;"; }
+    if (Text.contains(source, ":LATEST")) { problems = problems + " Basisimage mit :latest;"; }
+    if (Text.contains(source, "\nADD ")) { problems = problems + " ADD statt COPY;"; }
+    if (Text.contains(source, "SUDO ")) { problems = problems + " sudo im Image;"; }
+    if (Text.contains(source, "APT-GET INSTALL") && !Text.contains(source, " -Y")) { problems = problems + " apt-get install ohne -y;"; }
+    if (!Text.contains(source, "\nUSER ")) { problems = problems + " kein USER gesetzt (Container läuft als root/Admin);"; }
+    if (Text.length(problems) == 0) {
+        sdk_notify("Container Tools: keine Probleme gefunden.");
+    } else {
+        sdk_notify("Container Tools:" + problems);
+    }
+    sdk_wait_shutdown();
+    return 0;
+}

@@ -1,0 +1,14 @@
+using System;
+
+public class Program
+{
+    public static async Task<string> loadMessage()
+    {
+        return "The async example uses the NORTEX Task API.";
+    }
+
+    public static void main()
+    {
+        Console.writeLine("The async example uses the NORTEX Task API.");
+    }
+}

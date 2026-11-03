@@ -1,0 +1,10 @@
+{
+  "id": "compression",
+  "name": "Compression",
+  "description": "Menüaktion: packt das aktive Dokument (inklusive ungespeicherter Änderungen) in komprimiert.nxpack, ein echtes ZIP-Archiv mit Deflate.",
+  "version": "1.1.0",
+  "entry": "main.nx",
+  "permissions": [],
+  "ide_api": ">=1.2.0, <2.0.0",
+  "ide_permissions": ["ide.archive.write", "ide.log"]
+}

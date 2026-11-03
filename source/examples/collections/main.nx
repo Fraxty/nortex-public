@@ -1,0 +1,20 @@
+using System;
+using System.Collections;
+
+public class Program
+{
+    public static void main()
+    {
+        List<int> numbers = new List<int>();
+        numbers.add(10);
+        numbers.add(20);
+        numbers.remove(0);
+
+        Vec<int> values = new Vec<int>();
+        values.push(100);
+        values.push(200);
+        values.reserve(100);
+
+        Console.writeLine("List and Vec use separate APIs.");
+    }
+}

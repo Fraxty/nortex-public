@@ -1,0 +1,6 @@
+namespace System.Process;
+
+public class ProcessInfo
+{
+    public intrinsic static string getImplementationStatus();
+}

@@ -1,0 +1,10 @@
+{
+  "id": "pdf-tools",
+  "name": "PDF Tools",
+  "description": "Menüaktion: exportiert das aktive Dokument als echte PDF-Datei (Courier, A4, Latin-1; höchstens 1 MiB Text und 400 Seiten) ins Projekt.",
+  "version": "1.1.0",
+  "entry": "main.nx",
+  "permissions": [],
+  "ide_api": ">=1.2.0, <2.0.0",
+  "ide_permissions": ["ide.document.read", "ide.document.export", "ide.log"]
+}

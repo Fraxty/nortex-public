@@ -1,0 +1,164 @@
+[package]
+name = "nortex"
+version = "0.1.0"
+source_type = "dev_archive"
+archive_suffix = "src"
+description = "NORTEX compiler source distribution"
+license = "MIT"
+
+[paths]
+output_dir = "dist"
+archive_pattern = "{name}-{version}-{suffix}.zip"
+checksum_suffix = ".sha256"
+manifest_filename = "MANIFEST.json"
+report_pattern = "{name}-{version}-build.json"
+
+[manifest]
+required_files = [
+    "Cargo.toml",
+    "Cargo.lock",
+    "README.md",
+    "BUILD_STATUS.md",
+    "LICENSE",
+    "scripts/verify.ps1",
+    "compiler/src/lib.rs",
+    "compiler/src/bin/nortexc.rs",
+]
+required_directories = [
+    "compiler/src",
+    "compiler/tests",
+    "runtime",
+    "scripts",
+]
+reject_duplicate_archive_paths = true
+reject_unsafe_archive_paths = true
+reject_symlinks = true
+reject_unexpected_binaries = true
+allowed_binary_paths = [
+    "ide/assets/fonts/*.ttf",
+    "ide/assets/fonts/*.otf",
+    # Build-time: embedded into nortex-code.exe by ide/build.rs (winres).
+    "assets/icons/app/*.ico",
+    # Runtime: embedded via include_bytes! in ide/src/ui/branding.rs.
+    "assets/icons/app/*.png",
+    # Public social-media artwork.
+    "docs/social/*.png",
+    "docs/user-manual/images/*.png",
+    "assets/icons/runtime/*.png",
+]
+max_file_size_mb = 100
+
+[rules]
+exclude_dirs = [
+    ".git",
+    ".idea",
+    ".vscode",
+    ".pytest_cache",
+    ".mypy_cache",
+    ".ruff_cache",
+    ".tox",
+    ".venv",
+    "venv",
+    "node_modules",
+    "target",
+    "dist",
+    "releases",
+    "build",
+    "coverage",
+    "__pycache__",
+]
+exclude_extensions = [
+    ".tmp",
+    ".log",
+    ".pyc",
+    ".pyo",
+    ".swp",
+    ".swo",
+    ".bak",
+    ".orig",
+    ".part",
+    ".obj",
+    ".o",
+    ".pdb",
+]
+exclude_filenames = [".DS_Store", "Thumbs.db", "desktop.ini"]
+exclude_paths = [
+    ".coverage",
+    ".coverage.xml",
+    "docs/archive/source-snapshots/NORTEX-updated-source.zip",
+    "docs/archive/*",
+    "docs/audit/*",
+    "docs/release/*",
+    "public-repo/*",
+    "ide/Inter.zip",
+    "*.jpg",
+    "bin/*",
+    "ide/Inter/*",
+    "ide/Inter,JetBrains_Mono.zip",
+    "ide/Inter,JetBrains_Mono/*",
+    "scripts/Git-*.exe",
+    "scripts/innosetup-*.exe",
+]
+case_insensitive_matching = true
+
+[security]
+enabled = true
+fail_on_blocked_files = true
+fail_on_detected_secrets = true
+scan_file_contents = true
+scan_filenames = true
+blocked_patterns = [
+    "*.env",
+    "*.env.*",
+    "*credentials*",
+    "*id_rsa*",
+    "*id_ed25519*",
+    "*.pem",
+    "*.p12",
+    "*.pfx",
+    "*.key",
+    "*config.prod.json*",
+    "*secret*",
+]
+allowed_security_patterns = [
+    ".env.example",
+    ".env.template",
+    ".env.sample",
+]
+max_file_size_mb = 100
+
+[reproducibility]
+enabled = true
+fixed_timestamp = 1767225600
+compression = "deflate"
+compression_level = 9
+archive_comment = "NORTEX source release"
+hash_algorithm = "sha256"
+
+[verification]
+enabled = true
+run_cargo_fmt = true
+run_cargo_check = true
+run_cargo_clippy = true
+run_cargo_test = true
+run_clean_unpack_build = true
+cargo_all_targets = true
+cargo_all_features = false
+cargo_deny_warnings = true
+command_timeout_seconds = 600
+
+[release]
+require_git_repository = true
+require_clean_worktree = false
+allow_untracked_files = true
+require_all_gates_passed = true
+overwrite_existing_archive = true
+
+[report]
+enabled = true
+include_file_hashes = true
+include_file_sizes = true
+include_verification_results = true
+include_toolchain_versions = true
+include_git_commit = true
+include_git_worktree_status = true

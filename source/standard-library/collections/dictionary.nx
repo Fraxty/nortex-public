@@ -1,0 +1,12 @@
+namespace System.Collections;
+
+public class Dictionary<K, V>
+{
+    public intrinsic usize length();
+    public intrinsic bool isEmpty();
+    public intrinsic bool containsKey(&K key);
+    public intrinsic Option<&V> get(&K key);
+    public intrinsic Option<&mut V> getMutable(&K key);
+    public intrinsic Option<V> remove(&K key);
+    public intrinsic void clear();
+}

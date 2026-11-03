@@ -1,0 +1,8 @@
+public class Ownership {
+    public void invalid() {
+        mut int value = 1;
+        &int shared = &value;
+        &mut int exclusive = &mut value;
+        int observed = *shared;
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "html-tools",
+  "name": "HTML Tools",
+  "description": "Prüft HTML auf fehlende title/html-Tags, Bilder ohne alt und unausgeglichene div-Tags.",
+  "version": "1.0.0",
+  "entry": "main.nx",
+  "permissions": [],
+  "ide_api": ">=1.1.0, <2.0.0",
+  "ide_permissions": ["ide.document.read", "ide.notification", "ide.log"]
+}

@@ -1,0 +1,5 @@
+public class Ownership {
+    public void invalid(&int value) {
+        *value = 1;
+    }
+}

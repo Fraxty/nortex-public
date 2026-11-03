@@ -1,0 +1,11 @@
+namespace System.Collections;
+
+public class HashSet<T>
+{
+    public intrinsic usize length();
+    public intrinsic bool isEmpty();
+    public intrinsic bool contains(&T value);
+    public intrinsic bool add(T value);
+    public intrinsic bool remove(&T value);
+    public intrinsic void clear();
+}

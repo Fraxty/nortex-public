@@ -1,0 +1,12 @@
+// Nur Frontend: `nortexc check` akzeptiert die Datei, `nortexc build` nicht (NX2001).
+public struct Point {
+    public int x;
+    public int y;
+}
+
+public int main() {
+    mut Point p = new Point();
+    p.x = 3;
+    p.y = 4;
+    return p.x + p.y;
+}

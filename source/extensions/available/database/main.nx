@@ -1,0 +1,40 @@
+using System;
+using sdk;
+
+public int count_of(string text, string part) {
+    StringList pieces = Text.split(text, part);
+    int found = StringList.length(pieces) - 1;
+    StringList.free(pieces);
+    return found;
+}
+
+public int main() {
+    if (!sdk_init("Database", "1.0.0")) { return 1; }
+    string source = sdk_active_text();
+    if (Text.length(source) == 0) {
+        sdk_notify("Database: kein vollständig lesbares Dokument aktiv.");
+        sdk_wait_shutdown();
+        return 0;
+    }
+    StringList statements = Text.split(source + "", ";");
+    mut int total = 0;
+    mut int risky = 0;
+    mut int wildcard = 0;
+    mut int i = 0;
+    while (i < StringList.length(statements)) {
+        string sql = Text.toUpper(Text.trim(StringList.get(statements, i)));
+        if (Text.length(sql) > 0) {
+            total += 1;
+            if ((Text.startsWith(sql, "UPDATE") || Text.startsWith(sql, "DELETE")) && !Text.contains(sql, " WHERE ")) { risky += 1; }
+            if (Text.startsWith(sql, "SELECT *")) { wildcard += 1; }
+        }
+        i += 1;
+    }
+    StringList.free(statements);
+    int quotes = count_of(source + "", "'");
+    mut string report = "Database: " + Convert.toString(total) + " Anweisungen, " + Convert.toString(risky) + " UPDATE/DELETE ohne WHERE, " + Convert.toString(wildcard) + " x SELECT *";
+    if (quotes % 2 != 0) { report = report + ", Anführungszeichen unausgeglichen"; }
+    sdk_notify(report + ".");
+    sdk_wait_shutdown();
+    return 0;
+}

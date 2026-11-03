@@ -1,0 +1,11 @@
+namespace System.Collections;
+
+public class Stack<T>
+{
+    public intrinsic usize length();
+    public intrinsic bool isEmpty();
+    public intrinsic void push(T value);
+    public intrinsic Option<T> pop();
+    public intrinsic Option<&T> peek();
+    public intrinsic void clear();
+}

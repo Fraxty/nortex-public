@@ -1,6 +1,8 @@
 # Installation
 
-**Plattform:** Windows 11 x64 (Windows 10 nicht getestet, kein Supportstatus). Alle Dateien sind derzeit **nicht signiert**; Windows SmartScreen kann warnen. Prüfe die SHA-256-Summe aus `SHA256SUMS.txt`:
+**Plattform:** Windows 11 x64 (getestet). Das Manifest deklariert Windows 10/11-Kompatibilität;
+Windows 10 22H2 ist mangels Testsystem noch nicht verifiziert. Alle Dateien sind derzeit **nicht
+signiert**; Windows SmartScreen kann warnen. Prüfe die SHA-256-Summe aus `SHA256SUMS.txt`:
 
 ```powershell
 Get-FileHash .\NORTEX-Setup-x64.exe -Algorithm SHA256

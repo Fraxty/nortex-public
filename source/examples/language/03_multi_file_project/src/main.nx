@@ -1,0 +1,9 @@
+// Baubar: nortexc build examples\language\03_multi_file_project
+// `using util;` laedt src\util.nx (Datei relativ zur importierenden Datei).
+// Exitcode 42 = twice(21).
+using util;
+
+public int main()
+{
+    return twice(21);
+}

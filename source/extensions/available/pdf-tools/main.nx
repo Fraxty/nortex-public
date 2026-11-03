@@ -1,0 +1,31 @@
+using System;
+using sdk;
+
+// Menüaktion: schreibt das aktive Dokument als <Name>.pdf ins Projekt (echtes PDF durch die IDE).
+public int main() {
+    if (!sdk_init_actions("PDF Tools", "1.1.0", "[{\"id\":\"export-pdf\",\"title\":\"Aktives Dokument als PDF exportieren\"}]")) { return 1; }
+    mut int guard = 0;
+    while (guard < 100000) {
+        string line = sdk_wait_action();
+        if (Text.length(line) == 0) { return 0; }
+        int id = sdk_int_field(line + "", "id");
+        if (sdk_string_field(line + "", "action") == "export-pdf") {
+            string name = sdk_active_name();
+            if (Text.length(name) == 0) {
+                sdk_action_failed(id, "kein aktives Dokument");
+            } else {
+                string output = name + ".pdf";
+                string response = sdk_export_pdf(output + "");
+                if (sdk_failed(response + "")) {
+                    sdk_action_failed(id, "PDF nicht erstellt: " + sdk_error_message(response + ""));
+                } else {
+                    sdk_action_done(id, "PDF Tools: " + output + " mit " + Convert.toString(sdk_int_field(response + "", "pages")) + " Seite(n) erstellt (Unicode; Formatierung mit %%nxpdf 1).");
+                }
+            }
+        } else {
+            sdk_action_failed(id, "unbekannte Aktion");
+        }
+        guard += 1;
+    }
+    return 0;
+}

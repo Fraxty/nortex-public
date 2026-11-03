@@ -1,0 +1,1 @@
+using System;`r`n`r`npublic int add(int left, int right) {`r`n    return left + right;`r`n}`r`n`r`npublic int main() {`r`n    Console.writeLine(Convert.toString(add(20, 22)));`r`n    return 0;`r`n}`r`n`r`n// social screenshot change

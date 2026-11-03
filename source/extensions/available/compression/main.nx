@@ -1,0 +1,26 @@
+using System;
+using sdk;
+
+// Menüaktion: packt den aktuellen Text des aktiven Dokuments (auch ungespeichert) in
+// komprimiert.nxpack, ein echtes ZIP mit Deflate.
+public int main() {
+    if (!sdk_init_actions("Compression", "1.1.0", "[{\"id\":\"pack-active\",\"title\":\"Aktives Dokument als .nxpack packen\"}]")) { return 1; }
+    mut int guard = 0;
+    while (guard < 100000) {
+        string line = sdk_wait_action();
+        if (Text.length(line) == 0) { return 0; }
+        int id = sdk_int_field(line + "", "id");
+        if (sdk_string_field(line + "", "action") == "pack-active") {
+            string response = sdk_create_archive("komprimiert.nxpack", "", true);
+            if (sdk_failed(response + "")) {
+                sdk_action_failed(id, "komprimiert.nxpack nicht erstellt: " + sdk_error_message(response + ""));
+            } else {
+                sdk_action_done(id, "Compression: komprimiert.nxpack (ZIP, Deflate, " + Convert.toString(sdk_int_field(response + "", "archive_bytes")) + " Bytes) erstellt.");
+            }
+        } else {
+            sdk_action_failed(id, "unbekannte Aktion");
+        }
+        guard += 1;
+    }
+    return 0;
+}

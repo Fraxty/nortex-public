@@ -1,0 +1,68 @@
+name: NORTEX CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  msrv:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: dtolnay/rust-toolchain@1.88
+      - name: Check workspace (MSRV, let-chains require 1.88)
+        run: cargo check --workspace --all-targets --locked
+      - name: Check workspace versions
+        run: python scripts/check_versions.py
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - name: Check workspace versions
+        run: python scripts/check_versions.py
+      - name: Format
+        run: cargo fmt --all -- --check
+      - name: Check workspace
+        run: cargo check --workspace --all-targets --locked
+      - name: Build workspace
+        run: cargo build --workspace --all-targets --locked
+      - name: Test workspace
+        run: cargo test --workspace --all-targets --locked
+      - name: Leistungsbenchmarks (ignorierte Tests, ohne Zeit-Assertions)
+        run: cargo test -p nortex-ide --release --locked -- --ignored --nocapture
+      - name: Clippy
+        run: cargo clippy --workspace --all-targets --locked -- -D warnings
+  release-zip:
+    needs: verify
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Release build
+        run: cargo build --workspace --release --locked
+      - name: Source package
+        run: python scripts/package.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nortex-dist
+          path: dist/*.zip
+          if-no-files-found: error

@@ -1,0 +1,14 @@
+/target/
+**/*.rs.bk
+**/*.pdb
+**/*.ilk
+**/*.obj
+**/*.exe
+.vscode/
+.idea/
+
+/build/
+/bin/
+
+# Generierte Release-Artefakte (scripts/package.py, scripts/stage_release.ps1)
+/dist/

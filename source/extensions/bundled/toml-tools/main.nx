@@ -1,0 +1,40 @@
+using System;
+using sdk;
+
+public int main() {
+    if (!sdk_init("TOML Tools", "1.0.0")) { return 1; }
+    string source = sdk_active_text();
+    if (Text.length(source) == 0) {
+        sdk_notify("TOML Tools: kein vollständig lesbares Dokument aktiv.");
+        sdk_wait_shutdown();
+        return 0;
+    }
+    StringList lines = Text.split(source + "", "\n");
+    mut int tables = 0;
+    mut int keys = 0;
+    mut int bad = 0;
+    mut int i = 0;
+    while (i < StringList.length(lines) && bad == 0) {
+        string line = Text.trim(StringList.get(lines, i));
+        if (Text.length(line) == 0 || Text.startsWith(line, "#")) {
+            i += 1;
+            continue;
+        }
+        if (Text.startsWith(line, "[")) {
+            if (Text.endsWith(line, "]")) { tables += 1; } else { bad = i + 1; }
+        } else if (Text.indexOf(line, "=") > 0) {
+            keys += 1;
+        } else {
+            bad = i + 1;
+        }
+        i += 1;
+    }
+    StringList.free(lines);
+    if (bad > 0) {
+        sdk_notify("TOML Tools: ungültige Zeile " + Convert.toString(bad) + ".");
+    } else {
+        sdk_notify("TOML Tools: " + Convert.toString(tables) + " Tabellen, " + Convert.toString(keys) + " Schlüssel, keine Fehler gefunden.");
+    }
+    sdk_wait_shutdown();
+    return 0;
+}

@@ -1,0 +1,10 @@
+{
+  "id": "csv-tools",
+  "name": "CSV Tools",
+  "description": "Prüft das aktive CSV-Dokument auf eine einheitliche Spaltenzahl.",
+  "version": "1.0.0",
+  "entry": "main.nx",
+  "permissions": [],
+  "ide_api": ">=1.0.0, <2.0.0",
+  "ide_permissions": ["ide.document.read", "ide.notification", "ide.log"]
+}

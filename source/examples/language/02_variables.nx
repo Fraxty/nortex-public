@@ -1,0 +1,10 @@
+public int main() {
+    int width = 6;
+    int height = 7;
+    int area = width * height;
+    mut int total = area;
+    total += 8;
+    total -= 3;
+    const int OFFSET = 3;
+    return total + OFFSET;
+}

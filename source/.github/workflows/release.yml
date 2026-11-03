@@ -1,0 +1,45 @@
+name: Release (Windows x64)
+
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Tests
+        run: cargo test --workspace --locked
+      - name: Release-Build
+        run: cargo build --workspace --release --locked
+      - name: Staging, Installer, Portable-ZIP
+        shell: pwsh
+        run: |
+          choco install innosetup -y --no-progress
+          scripts/stage_release.ps1
+          & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" installer\nortex_setup.iss
+          scripts/build_portable.ps1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nortex-windows-x64-UNSIGNED
+          path: |
+            dist/NORTEX-Setup-x64.exe
+            dist/NORTEX-Portable-x64.zip
+            dist/SHA256SUMS.txt
+      - name: GitHub-Release als Entwurf (Pre-release bis v1.0.0)
+        if: startsWith(github.ref, 'refs/tags/v')
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $tag = "${{ github.ref_name }}"
+          $flags = @("--draft")
+          if ($tag -notmatch '^v([1-9]\d*)\.') { $flags += "--prerelease" }
+          gh release create $tag dist/NORTEX-Setup-x64.exe dist/NORTEX-Portable-x64.zip dist/SHA256SUMS.txt --title "NORTEX Code $tag" --notes-file public-repo/RELEASE_NOTES.md @flags

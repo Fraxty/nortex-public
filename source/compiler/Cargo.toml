@@ -1,0 +1,22 @@
+[package]
+name = "nortex-compiler"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "nortexc"
+path = "src/bin/nortexc.rs"
+
+[dependencies]
+cranelift-codegen = "0.121.1"
+cranelift-frontend = "0.121.1"
+cranelift-module = "0.121.1"
+cranelift-native = "0.121.1"
+cranelift-object = "0.121.1"
+serde = { version = "1", features = ["derive"] }
+target-lexicon = "0.13.5"
+toml = "0.8"

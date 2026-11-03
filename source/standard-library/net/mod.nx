@@ -1,0 +1,7 @@
+namespace System.Net;
+
+public struct TcpAddress
+{
+    public string host;
+    public ushort port;
+}

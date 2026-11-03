@@ -1,0 +1,10 @@
+{
+  "id": "toml-tools",
+  "name": "TOML Tools",
+  "description": "Prüft Tabellen und Schlüssel-Wert-Zeilen im aktiven TOML-Dokument.",
+  "version": "1.0.0",
+  "entry": "main.nx",
+  "permissions": [],
+  "ide_api": ">=1.1.0, <2.0.0",
+  "ide_permissions": ["ide.document.read", "ide.notification", "ide.log"]
+}

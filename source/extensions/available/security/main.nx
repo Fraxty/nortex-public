@@ -1,0 +1,46 @@
+using System;
+using sdk;
+
+public bool looks_secret(string text) {
+    string lower = Text.toLower(text);
+    return Text.contains(lower, "password=") || Text.contains(lower, "password =") || Text.contains(lower, "password:")
+        || Text.contains(lower, "secret=") || Text.contains(lower, "secret =")
+        || Text.contains(lower, "api_key") || Text.contains(lower, "apikey")
+        || Text.contains(lower, "begin private key") || Text.contains(lower, "akia");
+}
+
+// Höchstens 40 Dateien, damit das Anfragelimit der IDE nicht erreicht wird.
+public int main() {
+    if (!sdk_init("Security", "1.0.0")) { return 1; }
+    string listing = sdk_project_files();
+    if (Text.length(listing) == 0) {
+        sdk_notify("Security: keine Projektdateien gefunden.");
+        sdk_wait_shutdown();
+        return 0;
+    }
+    StringList files = Text.split(listing, "\n");
+    mut int checked = 0;
+    mut int hits = 0;
+    mut string names = "";
+    mut int i = 0;
+    while (i < StringList.length(files) && checked < 40) {
+        string path = StringList.get(files, i);
+        string text = sdk_read_file(path + "");
+        if (Text.length(text) > 0) {
+            checked += 1;
+            if (looks_secret(text + "")) {
+                hits += 1;
+                if (hits <= 3) { names = names + " " + path; }
+            }
+        }
+        i += 1;
+    }
+    StringList.free(files);
+    if (hits == 0) {
+        sdk_notify("Security: " + Convert.toString(checked) + " Dateien geprüft, keine Geheimnisse gefunden.");
+    } else {
+        sdk_notify("Security: mögliche Geheimnisse in " + Convert.toString(hits) + " Datei(en):" + names);
+    }
+    sdk_wait_shutdown();
+    return 0;
+}

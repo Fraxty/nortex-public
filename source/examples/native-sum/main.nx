@@ -1,0 +1,19 @@
+using System;
+
+public int sum_to(int limit) {
+    mut int total = 0;
+    mut int current = 1;
+
+    while (current <= limit) {
+        total += current;
+        current += 1;
+    }
+
+    return total;
+}
+
+public int main() {
+    int total = sum_to(10);
+    Console.writeLine("The sum from 1 through 10 is " + Convert.toString(total) + ".");
+    return total;
+}

@@ -1,0 +1,8 @@
+public class Ownership {
+    public void consume(string value) { }
+    public void invalid() {
+        string value = "payload";
+        consume(value);
+        consume(value);
+    }
+}

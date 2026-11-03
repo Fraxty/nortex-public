@@ -1,0 +1,10 @@
+public class Ownership {
+    public void invalid() {
+        mut &int reference;
+        {
+            int inner = 1;
+            reference = &inner;
+        }
+        int observed = *reference;
+    }
+}

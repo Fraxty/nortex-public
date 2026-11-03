@@ -1,0 +1,33 @@
+using System;
+using sdk;
+
+// Zählt für jede URL, ob sie https/http verwendet und einen Host besitzt.
+public int main() {
+    if (!sdk_init("Network", "1.0.0")) { return 1; }
+    string source = sdk_active_text();
+    if (Text.length(source) == 0) {
+        sdk_notify("Network: kein vollständig lesbares Dokument aktiv.");
+        sdk_wait_shutdown();
+        return 0;
+    }
+    StringList parts = Text.split(Text.toLower(source), "http");
+    mut int secure = 0;
+    mut int plain = 0;
+    mut int broken = 0;
+    mut int i = 1;
+    while (i < StringList.length(parts)) {
+        string piece = StringList.get(parts, i);
+        mut int hostAt = -1;
+        if (Text.startsWith(piece, "s://")) { secure += 1; hostAt = 4; }
+        else if (Text.startsWith(piece, "://")) { plain += 1; hostAt = 3; }
+        if (hostAt >= 0) {
+            int first = Text.charAt(piece, hostAt);
+            if (first <= 32 || first == 47) { broken += 1; }
+        }
+        i += 1;
+    }
+    StringList.free(parts);
+    sdk_notify("Network: " + Convert.toString(secure) + " https-URLs, " + Convert.toString(plain) + " unverschlüsselte http-URLs, " + Convert.toString(broken) + " ohne Host.");
+    sdk_wait_shutdown();
+    return 0;
+}

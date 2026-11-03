@@ -1,0 +1,10 @@
+{
+  "id": "json-tools",
+  "name": "JSON Tools",
+  "description": "Formatiert oder minimiert das aktive JSON-Dokument.",
+  "version": "1.0.0",
+  "entry": "main.nx",
+  "permissions": [],
+  "ide_api": ">=1.0.0, <2.0.0",
+  "ide_permissions": ["ide.document.read", "ide.document.write", "ide.notification", "ide.log"]
+}

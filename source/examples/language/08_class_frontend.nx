@@ -1,0 +1,18 @@
+// Native class example: build and run with `nortexc build`.
+public class Counter {
+    public int value = 0;
+
+    public void inc() {
+        value = value + 1;
+    }
+
+    public int get() {
+        return value;
+    }
+}
+
+public int main() {
+    mut Counter c = new Counter();
+    c.inc();
+    return c.get();
+}

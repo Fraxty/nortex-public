@@ -1,0 +1,21 @@
+using System;
+using sdk;
+
+public string hello_template() {
+    return "using System;\n\npublic int main() {\n    Console.writeLine(\"Hallo NORTEX\");\n    return 0;\n}\n";
+}
+
+// Das aktive Dokument wird nur ersetzt, wenn es leer ist.
+public int main() {
+    if (!sdk_init("Templates", "1.0.0")) { return 1; }
+    string current = Text.trim(sdk_active_text());
+    if (Text.length(current) > 0) {
+        sdk_notify("Templates: Dokument ist nicht leer, Vorlage wurde nicht eingefügt.");
+    } else if (sdk_replace_active(hello_template())) {
+        sdk_notify("Templates: Programmvorlage eingefügt.");
+    } else {
+        sdk_log("error", "Vorlage konnte nicht eingefügt werden.");
+    }
+    sdk_wait_shutdown();
+    return 0;
+}

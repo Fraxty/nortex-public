@@ -1,0 +1,10 @@
+{
+  "id": "system",
+  "name": "System",
+  "description": "Zeigt Theme, Projektgröße und Git-Branch der laufenden IDE.",
+  "version": "1.0.0",
+  "entry": "main.nx",
+  "permissions": [],
+  "ide_api": ">=1.1.0, <2.0.0",
+  "ide_permissions": ["ide.theme.read", "ide.git.read", "ide.project.read", "ide.notification", "ide.log"]
+}

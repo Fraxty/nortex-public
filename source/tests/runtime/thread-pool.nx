@@ -1,0 +1,4 @@
+async Task<int> calculate()
+{
+    return 42;
+}

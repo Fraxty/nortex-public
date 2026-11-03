@@ -1,0 +1,18 @@
+public int main() {
+    mut int sum = 0;
+    for (mut int i = 1; i <= 10; i += 1) {
+        if (i % 2 != 0) {
+            continue;
+        }
+        sum += i;
+    }
+
+    mut int n = 0;
+    while (true) {
+        n += 1;
+        if (n == 5) {
+            break;
+        }
+    }
+    return sum + n;
+}

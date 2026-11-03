@@ -1,0 +1,11 @@
+namespace System.Collections;
+
+public class Queue<T>
+{
+    public intrinsic usize length();
+    public intrinsic bool isEmpty();
+    public intrinsic void enqueue(T value);
+    public intrinsic Option<T> dequeue();
+    public intrinsic Option<&T> peek();
+    public intrinsic void clear();
+}

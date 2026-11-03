@@ -1,0 +1,10 @@
+{
+  "id": "templates",
+  "name": "Templates",
+  "description": "Fügt in ein leeres Dokument eine NORTEX-Programmvorlage ein.",
+  "version": "1.0.0",
+  "entry": "main.nx",
+  "permissions": [],
+  "ide_api": ">=1.1.0, <2.0.0",
+  "ide_permissions": ["ide.document.read", "ide.document.write", "ide.notification", "ide.log"]
+}

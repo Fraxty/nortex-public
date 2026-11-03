@@ -1,0 +1,10 @@
+{
+  "id": "database",
+  "name": "Database",
+  "description": "Prüft SQL-Skripte auf UPDATE/DELETE ohne WHERE, SELECT * und offene Anführungszeichen. Verbindet sich mit keiner Datenbank.",
+  "version": "1.0.0",
+  "entry": "main.nx",
+  "permissions": [],
+  "ide_api": ">=1.1.0, <2.0.0",
+  "ide_permissions": ["ide.document.read", "ide.notification", "ide.log"]
+}

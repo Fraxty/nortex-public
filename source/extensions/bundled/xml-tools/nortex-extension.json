@@ -1,0 +1,10 @@
+{
+  "id": "xml-tools",
+  "name": "XML Tools",
+  "description": "Prüft, ob die Tags im aktiven XML-Dokument korrekt verschachtelt sind.",
+  "version": "1.0.0",
+  "entry": "main.nx",
+  "permissions": [],
+  "ide_api": ">=1.1.0, <2.0.0",
+  "ide_permissions": ["ide.document.read", "ide.notification", "ide.log"]
+}

@@ -1,0 +1,12 @@
+namespace System.IO;
+
+public class IoError
+{
+    public string message;
+}
+
+public class File
+{
+    public intrinsic static Result<string, IoError> readText(string path);
+    public intrinsic static Result<void, IoError> writeText(string path, string content);
+}

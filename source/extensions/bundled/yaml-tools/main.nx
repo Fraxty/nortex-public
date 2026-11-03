@@ -1,0 +1,47 @@
+using System;
+using sdk;
+
+// YAML erlaubt keine Tabs zum Einrücken; sie werden zu zwei Leerzeichen,
+// Zeilenende-Leerraum wird entfernt.
+public string tidy_line(string line) {
+    mut int end = Text.length(line);
+    while (end > 0) {
+        int c = Text.charAt(line, end - 1);
+        if (c != 32 && c != 9 && c != 13) { break; }
+        end -= 1;
+    }
+    return Text.replace(Text.substring(line, 0, end), "\t", "  ");
+}
+
+public int main() {
+    if (!sdk_init("YAML Tools", "1.0.0")) { return 1; }
+    string source = sdk_active_text();
+    if (Text.length(source) == 0) {
+        sdk_notify("YAML Tools: kein vollständig lesbares Dokument aktiv.");
+        sdk_wait_shutdown();
+        return 0;
+    }
+    StringList lines = Text.split(source + "", "\n");
+    mut string buf = "";
+    mut int changed = 0;
+    mut int i = 0;
+    int total = StringList.length(lines);
+    while (i < total) {
+        string original = StringList.get(lines, i);
+        string tidy = tidy_line(original + "");
+        if (tidy != original) { changed += 1; }
+        buf = buf + tidy;
+        if (i < total - 1) { buf = buf + "\n"; }
+        i += 1;
+    }
+    StringList.free(lines);
+    if (changed == 0) {
+        sdk_notify("YAML Tools: nichts zu bereinigen.");
+    } else if (sdk_replace_active(buf)) {
+        sdk_notify("YAML Tools: " + Convert.toString(changed) + " Zeilen bereinigt.");
+    } else {
+        sdk_log("error", "Dokument konnte nicht ersetzt werden.");
+    }
+    sdk_wait_shutdown();
+    return 0;
+}

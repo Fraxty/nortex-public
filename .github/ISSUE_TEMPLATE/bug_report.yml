@@ -1,0 +1,27 @@
+name: Fehlerbericht / Bug report
+description: Funktionsfehler melden (keine Sicherheitslücken – siehe SECURITY.md)
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Sicherheitslücken bitte NICHT hier melden, sondern gemäß SECURITY.md. / Do NOT report vulnerabilities here; see SECURITY.md."
+  - type: input
+    id: version
+    attributes:
+      label: Version
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Windows-Version / Windows version
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zur Reproduktion / Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartet vs. tatsächlich / Expected vs. actual

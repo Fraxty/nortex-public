@@ -1,0 +1,29 @@
+using System;
+using sdk;
+
+public string dockerfile_template() {
+    return "# Windows-Container für ein mit nortexc gebautes Programm\nFROM mcr.microsoft.com/windows/nanoserver:ltsc2022\nWORKDIR /app\nCOPY app.exe .\nUSER ContainerUser\nCMD [\"app.exe\"]\n";
+}
+
+// Bestehende Dateien werden nie überschrieben.
+public int main() {
+    if (!sdk_init("Docker Integration", "1.0.0")) { return 1; }
+    mut string report = "Docker Integration:";
+    if (Text.length(sdk_read_file("Dockerfile")) > 0) {
+        report = report + " Dockerfile existiert bereits;";
+    } else if (sdk_write_file("Dockerfile", dockerfile_template())) {
+        report = report + " Dockerfile erstellt;";
+    } else {
+        report = report + " Dockerfile konnte nicht geschrieben werden;";
+    }
+    if (Text.length(sdk_read_file(".dockerignore")) > 0) {
+        report = report + " .dockerignore existiert bereits.";
+    } else if (sdk_write_file(".dockerignore", "target/\n.git/\n*.pdb\n")) {
+        report = report + " .dockerignore erstellt.";
+    } else {
+        report = report + " .dockerignore konnte nicht geschrieben werden.";
+    }
+    sdk_notify(report);
+    sdk_wait_shutdown();
+    return 0;
+}

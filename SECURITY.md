@@ -17,11 +17,11 @@ Bitte angeben: betroffene Version, Windows-Version, Schritte zur Reproduktion, e
 |---|---|
 | 0.1.0 (Public Preview) | Vorabversion, keine Sicherheitszusagen |
 
-Offiziell vorgesehene Plattform: Windows 11 x64. Windows 10 ist weder getestet noch als unterstützt dokumentiert.
+Windows 11 x64 wurde getestet. Windows 10 22H2 ist im App-Manifest als Kompatibilitätsziel eingetragen, wurde jedoch mangels Testsystem nicht ausgeführt oder als unterstützt verifiziert.
 
 ## Sicherheitsmodell (Ist-Stand)
 
-- NORTEX Code ist ein lokales Entwicklerwerkzeug. Terminal, Build und gestartete Programme laufen mit den Rechten des Benutzers; es gibt **keine Sandbox**. Öffne keine nicht vertrauenswürdigen Projekte und baue/starte deren Code nicht.
+- NORTEX Code ist ein lokales Entwicklerwerkzeug. Terminal, Build und gestartete Nutzerprogramme laufen mit den Rechten des Benutzers und **ohne Sandbox**. Gehostete Extensions laufen unter Windows separat in einem AppContainer mit freigegebenen Berechtigungen; der AppContainer-Smoke- und Berechtigungspfad wurde auf Windows 11 getestet. Öffne keine nicht vertrauenswürdigen Projekte und baue/starte deren Code nicht.
 - Keine Telemetrie, keine automatische Übermittlung, keine Update-Abfrage (siehe `PRIVACY.md`).
 - Release-Dateien sind **nicht digital signiert** (siehe README). Prüfsummen: `SHA256SUMS.txt`.
 - Es wird keine Aussage getroffen, dass keine unbekannten Schwachstellen existieren.

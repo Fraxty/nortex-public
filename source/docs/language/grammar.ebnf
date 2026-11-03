@@ -1,0 +1,130 @@
+# NORTEX 0.3.1-dev – Zielgrammatik (EBNF)
+# Diese Grammatik beschreibt das beschlossene Sprachziel. Nicht implementierte
+# Produktionen sind in BUILD_STATUS.md ausdrücklich als offen markiert.
+
+program              = { using_directive }, [ namespace_declaration ],
+                       { declaration | trait_implementation }, EOF ;
+using_directive      = "using", qualified_name, ";" ;
+namespace_declaration = "namespace", qualified_name, ";" ;
+qualified_name       = identifier, { ".", identifier } ;
+
+declaration          = { modifier }, ( type_declaration | function_declaration ) ;
+modifier              = "public" | "private" | "protected" | "internal"
+                      | "static" | "abstract" | "sealed" | "partial" | "extern"
+                      | "unsafe" | "const" | "virtual" | "override" | "async" | "readonly" ;
+
+type_declaration     = type_kind, identifier, [ generic_parameters ],
+                       [ ":", type_list ], "{", { member }, "}" ;
+type_kind            = "class" | "struct" | "record" | "interface" | "trait" | "enum" ;
+member                = enum_variant | constructor | class_member ;
+enum_variant          = identifier, [ "(", type_list, ")" ], [ "," | ";" ] ;
+constructor           = { modifier }, identifier, parameters, block ;
+class_member          = { modifier }, type_reference,
+                        ( "operator", operator_symbol, parameters, ( block | ";" )
+                        | identifier, [ generic_parameters ],
+                          ( parameters, ( block | ";" )
+                          | [ "=", expression ], ";" ) ) ;
+
+trait_implementation = "impl", qualified_name, "for", type_reference,
+                       [ where_clause ], "{", { class_member }, "}" ;
+function_declaration = [ extern_abi ], { modifier }, ( csharp_function | fn_function ) ;
+extern_abi            = "extern", string_literal ;
+csharp_function      = type_reference, identifier, [ generic_parameters ],
+                       parameters, ( block | ";" ) ;
+fn_function          = "fn", identifier, [ generic_parameters ], parameters,
+                       [ "->", type_reference ], [ where_clause ], ( block | ";" ) ;
+parameters           = "(", [ parameter, { ",", parameter } ], ")" ;
+parameter            = type_reference, identifier ;
+generic_parameters   = "<", identifier, { ",", identifier }, ">" ;
+generic_arguments    = "<", type_reference, { ",", type_reference }, ">" ;
+type_list            = type_reference, { ",", type_reference } ;
+where_clause          = "where", constraint, { ",", constraint } ;
+constraint            = identifier, ":", qualified_name, { "+", qualified_name } ;
+
+type_reference       = [ borrow_or_pointer ],
+                        ( tuple_type | fixed_array_type | qualified_name,
+                          [ generic_arguments ], { "[", "]" } ) ;
+tuple_type           = "(", type_reference, ",", type_reference, { ",", type_reference }, ")" ;
+borrow_or_pointer    = "&", [ "mut" ] | "*", ( "const" | "mut" ) ;
+fixed_array_type     = "[", type_reference, ";", integer_literal, "]" ;
+
+block                = "{", { statement }, "}" ;
+statement            = block | variable_declaration | return_statement | throw_statement
+                       | if_statement | while_statement | for_statement | switch_statement
+                       | match_statement | try_statement | unsafe_statement
+                       | break_statement | continue_statement | expression_statement | ";" ;
+variable_declaration = ( "let", identifier
+                       | "mut", type_reference, identifier
+                       | "const", type_reference, identifier
+                       | type_reference, identifier ), [ "=", expression ], ";" ;
+return_statement     = "return", [ expression ], ";" ;
+throw_statement      = "throw", [ expression ], ";" ;
+if_statement         = "if", "(", expression, ")", statement, [ "else", statement ] ;
+while_statement      = "while", "(", expression, ")", statement ;
+for_statement        = "for", "(", [ for_initializer ], ";", [ expression ], ";",
+                       [ expression ], ")", statement ;
+for_initializer     = variable_declaration_without_semicolon | expression ;
+variable_declaration_without_semicolon = ( "let", identifier
+                       | "mut", type_reference, identifier
+                       | "const", type_reference, identifier
+                       | type_reference, identifier ), [ "=", expression ] ;
+switch_statement     = "switch", "(", expression, ")", "{", { switch_case }, "}" ;
+switch_case          = ( "case", expression | "default" ), ":", { statement_until_next_case } ;
+statement_until_next_case = statement ;
+match_statement      = "match", "(", expression, ")", "{", { match_arm }, "}" ;
+match_arm            = ( identifier, [ "(", [ identifier, { ",", identifier } ], ")" ] | "_" ),
+                       [ "when", expression ], "=>", block, [ "," | ";" ] ;
+try_statement        = "try", block, { catch_clause }, [ finally_clause ] ;
+catch_clause         = "catch", [ "(", [ type_reference ], [ identifier ], ")" ], block ;
+finally_clause       = "finally", block ;
+unsafe_statement     = "unsafe", block ;
+break_statement      = "break", ";" ;
+continue_statement   = "continue", ";" ;
+expression_statement = expression, ";" ;
+
+expression           = assignment ;
+assignment           = logical_or, [ ( "=" | "+=" | "-=" | "*=" | "/=" ), assignment ] ;
+logical_or           = logical_and, { "||", logical_and } ;
+logical_and          = bitwise_or, { "&&", bitwise_or } ;
+bitwise_or           = bitwise_xor, { "|", bitwise_xor } ;
+bitwise_xor          = bitwise_and, { "^", bitwise_and } ;
+bitwise_and          = equality, { "&", equality } ;
+equality             = comparison, { ( "==" | "!=" ), comparison } ;
+comparison           = shift, { ( "<" | ">" | "<=" | ">=" ), shift } ;
+shift                = additive, { ( "<<" | ">>" ), additive } ;
+additive             = multiplicative, { ( "+" | "-" ), multiplicative } ;
+multiplicative       = unary, { ( "*" | "/" | "%" ), unary } ;
+unary                = ( "!" | "~" | "+" | "-" | "++" | "--" | "await" ), unary
+                       | postfix ;
+postfix              = primary, { call_suffix | member_suffix | index_suffix | "++" | "--" } ;
+call_suffix          = "(", [ expression, { ",", expression } ], ")" ;
+member_suffix        = ".", identifier ;
+index_suffix         = "[", expression, "]" ;
+primary              = identifier | numeric_literal | string_literal | character_literal
+                       | "true" | "false" | tuple_expression | "(", expression, ")"
+                       | "new", type_reference, [ call_suffix ] ;
+tuple_expression     = "(", expression, ",", expression, { ",", expression }, ")" ;
+
+operator_symbol      = "==" | "!=" | "<" | ">" | "<=" | ">=" ;
+identifier           = ASCII_LETTER_OR_UNDERSCORE,
+                       { ASCII_LETTER_OR_DIGIT_OR_UNDERSCORE } ;
+numeric_literal      = integer_literal | float_literal ;
+integer_literal      = DIGIT, { DIGIT | "_" }, [ integer_suffix ] ;
+float_literal        = DIGIT, { DIGIT | "_" }, ".", DIGIT, { DIGIT | "_" }, [ float_suffix | "dec" ] ;
+integer_suffix      = "i8" | "i16" | "i32" | "i64" | "i128"
+                       | "u8" | "u16" | "u32" | "u64" | "u128" ;
+float_suffix        = "f32" | "f64" ;
+string_literal       = '"', { string_character | escape_sequence }, '"' ;
+character_literal    = "'", character_value, "'" ;
+character_value      = unicode_scalar | escape_sequence ;
+string_character    = ? jedes Unicode-Zeichen außer Anführungszeichen, Backslash und Zeilenumbruch ? ;
+escape_sequence      = "\\n" | "\\r" | "\\t" | "\\0" | "\\\"" | "\\\\" | "\\'" ;
+
+# Semantische Regeln:
+# - NORTEX ist case-sensitive; Identifier sind ASCII-only.
+# - Unqualifizierte typisierte Bindungen sind immutable; `mut` erlaubt Mutation.
+# - `null` und der Fehlerfortleitungsoperator `?` sind nicht Bestandteil der Sprache.
+# - Switch besitzt kein fall-through; default muss höchstens einmal und zuletzt stehen.
+# - `match` muss exhaustiv sein oder einen `_`-Arm besitzen.
+# - Interface-Methoden besitzen keine Standardimplementierung; Traits können Defaultmethoden besitzen.
+# - Die aktuelle Parserimplementierung deckt nur einen Teil dieser Grammatik ab.

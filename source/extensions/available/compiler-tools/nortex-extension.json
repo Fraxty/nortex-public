@@ -1,0 +1,10 @@
+{
+  "id": "compiler-tools",
+  "name": "Compiler Tools",
+  "description": "Zeigt Kennzahlen und die Compiler-Diagnosen des aktiven NORTEX-Dokuments.",
+  "version": "1.0.0",
+  "entry": "main.nx",
+  "permissions": [],
+  "ide_api": ">=1.1.0, <2.0.0",
+  "ide_permissions": ["ide.document.read", "ide.diagnostics.read", "ide.notification", "ide.log"]
+}

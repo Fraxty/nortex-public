@@ -1,10 +1,35 @@
 # NORTEX Code – Public Preview 0.1.0 test record
 
-Validation performed for the Windows x64 release package:
+## Source distribution
 
-- `cargo test --workspace -- --test-threads=1` — passed, including native-class compiler tests, marketplace archive tests, and the interactive plugin-extension end-to-end test.
-- `cargo clippy --workspace --all-targets -- -D warnings` — passed.
-- `cargo fmt --all -- --check` — passed.
-- Release build, Inno Setup 7 installer build, portable ZIP contents, and SHA-256 sums are checked for this package.
+`python scripts/package.py` passed all configured gates:
 
-The interactive extension test exercises `.nxpack` creation and PDF export through the hosted-plugin IPC path. It does not exercise the AppContainer sandbox on a clean Windows installation. Release binaries are unsigned; Windows 10 and clean-machine installation are not tested.
+- `cargo fmt --all -- --check`
+- `cargo check --workspace --locked --all-targets`
+- `cargo clippy --workspace --locked --all-targets -- -D warnings`
+- `cargo test --workspace --locked --all-targets`
+- Clean extraction followed by `cargo build --workspace --locked`
+
+The test suite includes native class/inheritance/generic dispatch, plugin IPC, extension
+end-to-end, archive handling, and PDF generation tests.
+
+## Windows 11 release smoke tests
+
+- Release binaries built with local paths remapped.
+- Inno Setup 7.1.1 compiled the installer.
+- Installer installed into an isolated temporary directory, the IDE launched, and the app
+  uninstalled successfully. The uninstaller left an empty target directory, which was removed
+  after verification.
+- Portable ZIP extracted and the IDE launched.
+- SHA-256 checksums were generated for the installer, portable package, and source archive.
+- `cargo test -p nortex-ide windows_smoke -- --ignored --test-threads=1` — all five
+  AppContainer smoke/policy tests passed on Windows 11, including timeout, cancellation, and
+  permission-boundary checks.
+- Formatted Unicode PDF opened in the integrated PDF viewer. Two-page output, headings, bold,
+  italic, Greek and German text, page break, and header were visible.
+
+## Not validated
+
+Windows 10 22H2 and a clean Windows installation were not tested because no separate test
+machine or VM is available. The AppContainer and package tests ran on the existing Windows 11
+host. Release binaries are unsigned; SmartScreen may show a warning.

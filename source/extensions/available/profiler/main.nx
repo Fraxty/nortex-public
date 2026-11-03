@@ -1,0 +1,44 @@
+using System;
+using sdk;
+
+// Statisches Profil: Länge jeder Funktion (Zeilen zwischen Kopfzeile und schließender
+// Klammer in Spalte 0). Es wird nichts ausgeführt oder gemessen.
+public int main() {
+    if (!sdk_init("Profiler", "1.0.0")) { return 1; }
+    string source = sdk_active_text();
+    if (Text.length(source) == 0) {
+        sdk_notify("Profiler: kein vollständig lesbares Dokument aktiv.");
+        sdk_wait_shutdown();
+        return 0;
+    }
+    StringList lines = Text.split(source + "", "\n");
+    mut int functions = 0;
+    mut int longest = 0;
+    mut int start = -1;
+    mut string longestName = "";
+    mut string currentName = "";
+    mut int i = 0;
+    while (i < StringList.length(lines)) {
+        string line = StringList.get(lines, i);
+        if (start < 0 && Text.startsWith(line, "public ") && Text.contains(line, "(") && Text.endsWith(Text.trim(line), "{")) {
+            start = i;
+            currentName = Text.trim(Text.substring(line, 0, Text.indexOf(line, "(")));
+            functions += 1;
+        } else if (start >= 0 && Text.startsWith(line, "}")) {
+            if (i - start > longest) {
+                longest = i - start;
+                longestName = currentName + "";
+            }
+            start = -1;
+        }
+        i += 1;
+    }
+    StringList.free(lines);
+    if (functions == 0) {
+        sdk_notify("Profiler: keine Funktionen gefunden.");
+    } else {
+        sdk_notify("Profiler: " + Convert.toString(functions) + " Funktionen, längste: '" + longestName + "' mit " + Convert.toString(longest + 1) + " Zeilen.");
+    }
+    sdk_wait_shutdown();
+    return 0;
+}

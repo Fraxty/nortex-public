@@ -1,0 +1,4 @@
+namespace System;
+
+// Root declaration for the NORTEX-owned System namespace.
+// Console and Environment are declared in their own .nx source files.

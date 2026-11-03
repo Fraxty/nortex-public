@@ -1,0 +1,10 @@
+{
+  "id": "yaml-tools",
+  "name": "YAML Tools",
+  "description": "Ersetzt Tabs beim Einrücken und entfernt Leerraum am Zeilenende.",
+  "version": "1.0.0",
+  "entry": "main.nx",
+  "permissions": [],
+  "ide_api": ">=1.1.0, <2.0.0",
+  "ide_permissions": ["ide.document.read", "ide.document.write", "ide.notification", "ide.log"]
+}

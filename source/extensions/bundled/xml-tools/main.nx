@@ -1,0 +1,61 @@
+using System;
+using sdk;
+
+// Name des Tags ab Position `at` (nach '<' oder '</').
+public string tag_name(string src, int at) {
+    mut int end = at;
+    int n = Text.length(src);
+    while (end < n) {
+        int c = Text.charAt(src, end);
+        if (c == 32 || c == 62 || c == 47 || c == 10 || c == 9 || c == 13) { break; }
+        end += 1;
+    }
+    return Text.substring(src, at, end - at);
+}
+
+// Gibt 0 zurück, wenn alle Tags paarweise geschlossen sind, sonst die Zeile des Fehlers.
+// Offene Tags stehen als "<name>" hintereinander im Stapel-String.
+public int first_mismatch(string src) {
+    mut string stack = "";
+    mut int line = 1;
+    mut int i = 0;
+    mut int bad = 0;
+    int n = Text.length(src);
+    while (i < n && bad == 0) {
+        int c = Text.charAt(src, i);
+        if (c == 10) { line += 1; }
+        if (c == 60) {
+            int next = Text.charAt(src, i + 1);
+            int close = Text.indexOf(Text.substring(src, i, n - i), ">");
+            if (close < 0) {
+                bad = line;
+            } else if (next == 47) {
+                string marker = "<" + tag_name(src + "", i + 2) + ">";
+                if (Text.endsWith(stack, marker)) {
+                    stack = Text.substring(stack, 0, Text.length(stack) - Text.length(marker));
+                } else {
+                    bad = line;
+                }
+            } else if (next != 63 && next != 33 && Text.charAt(src, i + close - 1) != 47) {
+                stack = stack + "<" + tag_name(src + "", i + 1) + ">";
+            }
+        }
+        i += 1;
+    }
+    if (bad == 0 && Text.length(stack) > 0) { bad = line; }
+    return bad;
+}
+
+public int main() {
+    if (!sdk_init("XML Tools", "1.0.0")) { return 1; }
+    string source = sdk_active_text();
+    if (Text.length(source) == 0) {
+        sdk_notify("XML Tools: kein vollständig lesbares Dokument aktiv.");
+    } else {
+        int bad = first_mismatch(source + "");
+        if (bad == 0) { sdk_notify("XML Tools: alle Tags sind korrekt verschachtelt."); }
+        else { sdk_notify("XML Tools: Tag-Fehler in oder nach Zeile " + Convert.toString(bad) + "."); }
+    }
+    sdk_wait_shutdown();
+    return 0;
+}

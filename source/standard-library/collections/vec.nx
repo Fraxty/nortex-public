@@ -1,0 +1,16 @@
+namespace System.Collections;
+
+/// Low-level dynamic contiguous array with explicit capacity management.
+public class Vec<T>
+{
+    public intrinsic usize length();
+    public intrinsic usize capacity();
+    public intrinsic bool isEmpty();
+    public intrinsic void push(T value);
+    public intrinsic Option<T> pop();
+    public intrinsic Option<&T> get(usize index);
+    public intrinsic Option<&mut T> getMutable(usize index);
+    public intrinsic void reserve(usize additional);
+    public intrinsic void shrinkToFit();
+    public intrinsic void clear();
+}

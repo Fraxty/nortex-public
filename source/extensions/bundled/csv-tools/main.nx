@@ -1,0 +1,50 @@
+using System;
+using sdk;
+
+public int count_fields(string line) {
+    mut int fields = 1;
+    mut bool quoted = false;
+    mut int i = 0;
+    int n = Text.length(line);
+    while (i < n) {
+        int c = Text.charAt(line, i);
+        if (c == 34) { quoted = !quoted; }
+        else if (c == 44 && !quoted) { fields += 1; }
+        i += 1;
+    }
+    return fields;
+}
+
+public int main() {
+    if (!sdk_init("CSV Tools", "1.0.0")) { return 1; }
+    string source = sdk_active_text();
+    if (Text.length(source) == 0) {
+        sdk_notify("CSV Tools: kein vollständig lesbares Dokument aktiv.");
+        sdk_wait_shutdown();
+        return 0;
+    }
+    StringList lines = Text.split(source + "", "\n");
+    mut int rows = 0;
+    mut int expected = 0;
+    mut int firstBad = 0;
+    mut int i = 0;
+    while (i < StringList.length(lines)) {
+        string line = Text.replace(StringList.get(lines, i), "\r", "");
+        if (Text.length(line) > 0) {
+            rows += 1;
+            int fields = count_fields(line + "");
+            if (rows == 1) { expected = fields; }
+            else if (fields != expected && firstBad == 0) { firstBad = i + 1; }
+        }
+        i += 1;
+    }
+    StringList.free(lines);
+    string summary = "CSV Tools: " + Convert.toString(rows) + " Zeilen, " + Convert.toString(expected) + " Spalten.";
+    if (firstBad > 0) {
+        sdk_notify(summary + " Abweichende Spaltenzahl in Zeile " + Convert.toString(firstBad) + ".");
+    } else {
+        sdk_notify(summary + " Alle Zeilen sind konsistent.");
+    }
+    sdk_wait_shutdown();
+    return 0;
+}

@@ -1,0 +1,20 @@
+// Baubar: nortexc build examples\language\04_win32_demo
+// Ruft echte Win32-Funktionen per extern "C" auf (kernel32.lib, user32.lib aus nortex.toml).
+// Nur int/bool-Parameter und -Rueckgaben werden unterstuetzt; Zeiger/Strings
+// (z. B. MessageBoxA) sind noch nicht moeglich.
+// Exitcode 0 = GetCurrentProcessId lieferte eine plausible PID.
+public extern "C" int GetCurrentProcessId();
+public extern "C" int GetTickCount();
+public extern "C" int GetSystemMetrics(int index);
+
+public int main()
+{
+    int pid = GetCurrentProcessId();
+    int ticks = GetTickCount();
+    int width = GetSystemMetrics(0);
+    if (pid > 0)
+    {
+        return 0;
+    }
+    return 1;
+}

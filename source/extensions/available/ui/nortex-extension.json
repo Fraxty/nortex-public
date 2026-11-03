@@ -1,0 +1,10 @@
+{
+  "id": "ui",
+  "name": "UI",
+  "description": "Liest das IDE-Theme und stuft #rrggbb-Farben im Dokument als hell oder dunkel ein.",
+  "version": "1.0.0",
+  "entry": "main.nx",
+  "permissions": [],
+  "ide_api": ">=1.1.0, <2.0.0",
+  "ide_permissions": ["ide.theme.read", "ide.document.read", "ide.notification", "ide.log"]
+}

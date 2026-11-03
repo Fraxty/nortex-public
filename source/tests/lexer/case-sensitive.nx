@@ -1,0 +1,6 @@
+public class NamingExample
+{
+    private int name = 1;
+    private int Name = 2;
+    private int NAME = 3;
+}

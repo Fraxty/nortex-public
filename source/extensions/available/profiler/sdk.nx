@@ -1,0 +1,223 @@
+// NORTEX Plugin SDK: spricht das IDE-Protokoll (docs/ide/plugins.md) über stdin/stdout.
+// Jede Extension bindet eine Kopie dieser Datei per `using sdk;` ein.
+using System;
+
+// JSON-String-Literal inklusive Anführungszeichen.
+public string sdk_quote(string text) {
+    mut string buf = "\"";
+    mut int start = 0;
+    mut int i = 0;
+    while (i < Text.length(text)) {
+        int c = Text.charAt(text, i);
+        mut string escaped = "";
+        if (c == 34) { escaped = "\\\""; }
+        if (c == 92) { escaped = "\\\\"; }
+        if (c == 10) { escaped = "\\n"; }
+        if (c == 13) { escaped = "\\r"; }
+        if (c == 9) { escaped = "\\t"; }
+        if (c >= 0 && c < 32 && c != 10 && c != 13 && c != 9) { escaped = " "; }
+        if (Text.length(escaped) > 0) {
+            buf = buf + Text.substring(text, start, i - start) + escaped;
+            start = i + 1;
+        }
+        i += 1;
+    }
+    buf = buf + Text.substring(text, start, i - start) + "\"";
+    return buf;
+}
+
+// Wert des JSON-Strings, der nach `"key":` folgt; leer, wenn das Feld fehlt.
+public string sdk_string_field(string frame, string key) {
+    string marker = "\"" + key + "\":\"";
+    int found = Text.indexOf(frame, marker);
+    if (found < 0) { return ""; }
+    mut int i = found + Text.length(marker);
+    mut int start = i;
+    mut string buf = "";
+    while (i < Text.length(frame)) {
+        int c = Text.charAt(frame, i);
+        if (c == 34) {
+            return buf + Text.substring(frame, start, i - start);
+        }
+        if (c == 92) {
+            int next = Text.charAt(frame, i + 1);
+            mut string decoded = "?";
+            if (next == 110) { decoded = "\n"; }
+            if (next == 114) { decoded = "\r"; }
+            if (next == 116) { decoded = "\t"; }
+            if (next == 34) { decoded = "\""; }
+            if (next == 92) { decoded = "\\"; }
+            if (next == 47) { decoded = "/"; }
+            buf = buf + Text.substring(frame, start, i - start) + decoded;
+            if (next == 117) {
+                // \uXXXX: nur ASCII-Bereich wird in das Ergebnis übernommen.
+                int code = sdk_hex4(frame + "", i + 2);
+                if (code >= 32 && code < 127) {
+                    buf = Text.substring(buf, 0, Text.length(buf) - 1) + sdk_ascii(code);
+                }
+                i += 6;
+            } else {
+                i += 2;
+            }
+            start = i;
+        } else {
+            i += 1;
+        }
+    }
+    return "";
+}
+
+public int sdk_hex4(string text, int at) {
+    mut int value = 0;
+    mut int i = 0;
+    while (i < 4) {
+        int c = Text.charAt(text, at + i);
+        mut int digit = 0;
+        if (c >= 48 && c <= 57) { digit = c - 48; }
+        if (c >= 97 && c <= 102) { digit = c - 87; }
+        if (c >= 65 && c <= 70) { digit = c - 55; }
+        value = value * 16 + digit;
+        i += 1;
+    }
+    return value;
+}
+
+public string sdk_ascii(int code) {
+    string table = " !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}~";
+    if (code == 34) { return "\""; }
+    if (code == 92) { return "\\"; }
+    if (code < 32 || code > 126) { return "?"; }
+        mut int index = code - 32;
+    if (code > 34) { index = index - 1; }
+    if (code > 92) { index = index - 1; }
+    return Text.substring(table, index, 1);
+}
+
+// Ganzzahl nach `"key":`; -1, wenn das Feld fehlt.
+public int sdk_int_field(string frame, string key) {
+    string marker = "\"" + key + "\":";
+    int found = Text.indexOf(frame, marker);
+    if (found < 0) { return -1; }
+    mut int i = found + Text.length(marker);
+    mut int value = 0;
+    mut int digits = 0;
+    while (i < Text.length(frame)) {
+        int c = Text.charAt(frame, i);
+        if (c < 48 || c > 57) { return value; }
+        value = value * 10 + (c - 48);
+        digits += 1;
+        i += 1;
+    }
+    if (digits == 0) { return -1; }
+    return value;
+}
+
+public bool sdk_send(string frame) {
+    Console.writeLine(frame);
+    return true;
+}
+
+public bool sdk_reply(int id, string resultJson) {
+    return sdk_send("{\"protocol\":1,\"id\":" + Convert.toString(id) + ",\"type\":\"response\",\"result\":" + resultJson + "}");
+}
+
+// Wartet auf `initialize` und meldet Namen und Version. false, wenn die IDE vorher schließt.
+public bool sdk_init(string name, string version) {
+    mut int guard = 0;
+    while (guard < 100) {
+        string line = Console.readLine();
+        if (Text.length(line) == 0) { return false; }
+        if (Text.contains(line, "\"method\":\"initialize\"")) {
+            int id = sdk_int_field(line, "id");
+            string result = "{\"ide_api\":\">=1.0.0, <2.0.0\",\"name\":" + sdk_quote(name) + ",\"version\":" + sdk_quote(version) + "}";
+            return sdk_reply(id, result);
+        }
+        guard += 1;
+    }
+    return false;
+}
+
+// Synchroner Aufruf einer IDE-API-Methode; liefert die komplette Antwortzeile
+// (leer, wenn die IDE beendet). Fehler erkennt man mit sdk_failed.
+public string sdk_call(string method, string paramsJson) {
+    sdk_send("{\"protocol\":1,\"id\":7,\"type\":\"request\",\"method\":" + sdk_quote(method) + ",\"params\":" + paramsJson + "}");
+    mut int guard = 0;
+    while (guard < 1000) {
+        string line = Console.readLine();
+        if (Text.length(line) == 0) { return ""; }
+        if (Text.contains(line, "\"type\":\"response\"")) { return line + ""; }
+        if (Text.contains(line, "\"method\":\"shutdown\"")) {
+            sdk_reply(sdk_int_field(line, "id"), "{}");
+            return "";
+        }
+        guard += 1;
+    }
+    return "";
+}
+
+public bool sdk_failed(string response) {
+    return Text.length(response) == 0 || Text.contains(response, "\"error\":{");
+}
+
+public bool sdk_log(string level, string message) {
+    string response = sdk_call("log", "{\"level\":" + sdk_quote(level) + ",\"message\":" + sdk_quote(message) + "}");
+    return !sdk_failed(response);
+}
+
+public bool sdk_notify(string message) {
+    string response = sdk_call("notification.show", "{\"text\":" + sdk_quote(message) + "}");
+    return !sdk_failed(response);
+}
+
+// Text des aktiven Dokuments; leer ohne Dokument oder bei gekürztem Inhalt (truncated).
+public string sdk_active_text() {
+    string response = sdk_call("document.active", "{}");
+    if (sdk_failed(response + "")) { return ""; }
+    if (Text.contains(response, "\"truncated\":true")) { return ""; }
+    return sdk_string_field(response, "text");
+}
+
+public string sdk_active_name() {
+    return sdk_string_field(sdk_call("document.active", "{}"), "name");
+}
+
+public bool sdk_replace_active(string text) {
+    return !sdk_failed(sdk_call("document.replace", "{\"text\":" + sdk_quote(text) + "}"));
+}
+
+public bool sdk_write_file(string path, string text) {
+    return !sdk_failed(sdk_call("file.write", "{\"path\":" + sdk_quote(path) + ",\"text\":" + sdk_quote(text) + "}"));
+}
+
+public string sdk_read_file(string path) {
+    string response = sdk_call("file.read", "{\"path\":" + sdk_quote(path) + "}");
+    if (sdk_failed(response + "")) { return ""; }
+    return sdk_string_field(response, "text");
+}
+
+// Projektdateien (relative Pfade), durch Zeilenumbrüche getrennt.
+public string sdk_project_files() {
+    string response = sdk_call("project.files", "{}");
+    if (sdk_failed(response + "")) { return ""; }
+    int open = Text.indexOf(response, "\"files\":[");
+    if (open < 0) { return ""; }
+    int from = open + 9;
+    int close = Text.indexOf(response, "]");
+    if (close < from + 2) { return ""; }
+    string body = Text.substring(response, from + 1, close - from - 2);
+    return Text.replace(body, "\",\"", "\n");
+}
+
+// Blockiert bis die IDE `shutdown` sendet und bestätigt es.
+public bool sdk_wait_shutdown() {
+    mut int guard = 0;
+    while (guard < 100000) {
+        string line = Console.readLine();
+        if (Text.length(line) == 0) { return false; }
+        if (Text.contains(line, "\"method\":\"shutdown\"")) {
+            return sdk_reply(sdk_int_field(line, "id"), "{}");
+        }
+        guard += 1;
+    }
+    return false;
+}

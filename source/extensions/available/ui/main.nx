@@ -1,0 +1,49 @@
+using System;
+using sdk;
+
+public int hex_digit(int c) {
+    if (c >= 48 && c <= 57) { return c - 48; }
+    if (c >= 97 && c <= 102) { return c - 87; }
+    if (c >= 65 && c <= 70) { return c - 55; }
+    return -1;
+}
+
+// Wahrgenommene Helligkeit 0..255 eines #rrggbb-Werts, -1 bei ungültigem Wert.
+public int brightness(string color) {
+    if (Text.length(color) != 7) { return -1; }
+    mut int channel = 0;
+    mut int sum = 0;
+    mut int i = 0;
+    while (i < 3) {
+        int high = hex_digit(Text.charAt(color, 1 + i * 2));
+        int low = hex_digit(Text.charAt(color, 2 + i * 2));
+        if (high < 0 || low < 0) { return -1; }
+        channel = high * 16 + low;
+        if (i == 0) { sum += channel * 299; }
+        if (i == 1) { sum += channel * 587; }
+        if (i == 2) { sum += channel * 114; }
+        i += 1;
+    }
+    return sum / 1000;
+}
+
+public int main() {
+    if (!sdk_init("UI", "1.0.0")) { return 1; }
+    string theme = sdk_string_field(sdk_call("theme.current", "{}"), "name");
+    string source = sdk_active_text();
+    StringList parts = Text.split(source + "", "#");
+    mut int dark = 0;
+    mut int light = 0;
+    mut int i = 1;
+    while (i < StringList.length(parts)) {
+        string candidate = "#" + Text.substring(StringList.get(parts, i), 0, 6);
+        int value = brightness(candidate + "");
+        if (value >= 0 && value < 128) { dark += 1; }
+        if (value >= 128) { light += 1; }
+        i += 1;
+    }
+    StringList.free(parts);
+    sdk_notify("UI: Theme " + theme + ", Farben im Dokument: " + Convert.toString(dark) + " dunkel, " + Convert.toString(light) + " hell.");
+    sdk_wait_shutdown();
+    return 0;
+}

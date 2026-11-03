@@ -1,0 +1,8 @@
+// Baubar: nortexc build examples\language\01_hello_world
+using System;
+
+public int main()
+{
+    Console.writeLine("Hallo, NORTEX!");
+    return 0;
+}

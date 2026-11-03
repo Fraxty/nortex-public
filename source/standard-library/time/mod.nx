@@ -1,0 +1,6 @@
+namespace System.Time;
+
+public struct Duration
+{
+    public ulong nanoseconds;
+}

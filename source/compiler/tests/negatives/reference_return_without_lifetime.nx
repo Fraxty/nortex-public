@@ -1,0 +1,7 @@
+public class Ownership {
+    public &int invalid() {
+        int value = 1;
+        &int reference = &value;
+        return reference;
+    }
+}

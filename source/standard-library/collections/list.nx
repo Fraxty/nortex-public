@@ -1,0 +1,15 @@
+namespace System.Collections;
+
+/// Dynamic contiguous collection with amortized O(1) append and O(1) indexing.
+public class List<T>
+{
+    public intrinsic usize length();
+    public intrinsic usize capacity();
+    public intrinsic bool isEmpty();
+    public intrinsic void add(T value);
+    public intrinsic void insert(usize index, T value);
+    public intrinsic Option<T> remove(usize index);
+    public intrinsic Option<&T> get(usize index);
+    public intrinsic Option<&mut T> getMutable(usize index);
+    public intrinsic void clear();
+}

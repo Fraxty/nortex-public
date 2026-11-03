@@ -1,0 +1,1689 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R] /Count 34 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 167 >>
+stream
+BT
+/F2 40.00 Tf 1 0 0 1 62.00 514.00 Tm (NORTEX) Tj
+/F1 24.00 Tf 1 0 0 1 62.00 482.00 Tm (Sprachreferenz) Tj
+/F1 13.00 Tf 1 0 0 1 62.00 432.00 Tm (Version 0.1.0) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 6 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+8 0 obj
+<< /Length 4928 >>
+stream
+BT
+/F2 20.00 Tf 1 0 0 1 62.00 744.00 Tm (Inhaltsverzeichnis) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 714.00 Tm (Kapitel 1 – Einführung) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 714.00 Tm (5) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 699.00 Tm (Was ist NORTEX?) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 699.00 Tm (5) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 684.00 Tm (Ziele) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 684.00 Tm (5) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 669.00 Tm (Eigenschaften \(belegt\)) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 669.00 Tm (5) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 654.00 Tm (Abgrenzung) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 654.00 Tm (5) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 639.00 Tm (Einsatzmöglichkeiten \(aktuell realistisch\)) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 639.00 Tm (5) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 624.00 Tm (Technische Voraussetzungen) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 624.00 Tm (5) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 606.00 Tm (Kapitel 2 – Installation und Einrichtung) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 606.00 Tm (6) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 588.00 Tm (Kapitel 3 – Grundlagen der Syntax) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 588.00 Tm (7) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 573.00 Tm (Aufbau eines Programms) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 573.00 Tm (7) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 558.00 Tm (Anweisungen, Ausdrücke, Blöcke) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 558.00 Tm (7) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 543.00 Tm (Kommentare) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 543.00 Tm (7) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 528.00 Tm (Bezeichner) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 528.00 Tm (8) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 513.00 Tm (Schlüsselwörter) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 513.00 Tm (8) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 498.00 Tm (Typische Fehler) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 498.00 Tm (8) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 483.00 Tm (Namenskonventionen \(Empfehlung\)) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 483.00 Tm (8) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 468.00 Tm (Geplant \(Zielentwurf\)) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 468.00 Tm (8) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 450.00 Tm (Kapitel 4 – Datentypen und Variablen) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 450.00 Tm (9) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 435.00 Tm (Primitive Typen) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 435.00 Tm (9) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 420.00 Tm (Literale) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 420.00 Tm (9) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 405.00 Tm (Variablen) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 405.00 Tm (10) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 390.00 Tm (Typinferenz) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 390.00 Tm (10) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 375.00 Tm (Typkonvertierungen) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 375.00 Tm (10) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 360.00 Tm (Gültigkeitsbereiche) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 360.00 Tm (10) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 345.00 Tm (Einschränkungen) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 345.00 Tm (11) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 330.00 Tm (Geplant \(Zielentwurf, nicht ausführbar\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 330.00 Tm (11) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 312.00 Tm (Kapitel 5 – Operatoren) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 312.00 Tm (12) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 297.00 Tm (Übersicht) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 297.00 Tm (12) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 282.00 Tm (Rangfolge \(hoch -> niedrig\), Assoziativität) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 282.00 Tm (12) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 267.00 Tm (Verhalten) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 267.00 Tm (12) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 252.00 Tm (Typkompatibilität) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 252.00 Tm (13) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 237.00 Tm (Häufige Fehler) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 237.00 Tm (13) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 222.00 Tm (Operatorüberladung) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 222.00 Tm (13) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 204.00 Tm (Kapitel 6 – Kontrollstrukturen) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 204.00 Tm (14) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 189.00 Tm (if / else) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 189.00 Tm (14) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 174.00 Tm (while) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 174.00 Tm (14) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 159.00 Tm (for) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 159.00 Tm (14) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 144.00 Tm (break und continue) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 144.00 Tm (14) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 129.00 Tm (return) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 129.00 Tm (14) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 114.00 Tm (Ternär) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 114.00 Tm (15) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 99.00 Tm (Weitere Konstrukte \(nur Frontend\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 99.00 Tm (15) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 81.00 Tm (Kapitel 7 – Funktionen und Methoden) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 81.00 Tm (16) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 66.00 Tm (Funktionsdefinition) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 66.00 Tm (16) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 51.00 Tm (Aufruf, Rekursion) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 51.00 Tm (16) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (2) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 8 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+10 0 obj
+<< /Length 5156 >>
+stream
+BT
+/F1 10.00 Tf 1 0 0 1 78.00 757.00 Tm (Rückgabewerte) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 757.00 Tm (16) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 742.00 Tm (Lokale Variablen) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 742.00 Tm (16) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 727.00 Tm (Methoden und Sichtbarkeit \(nur Frontend\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 727.00 Tm (16) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 712.00 Tm (Einschränkungen) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 712.00 Tm (17) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 697.00 Tm (Entwurfsregeln und Frontend-Stand) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 697.00 Tm (17) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 679.00 Tm (Kapitel 8 – Structs und Datenstrukturen) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 679.00 Tm (18) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 664.00 Tm (Struct-Definition) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 664.00 Tm (18) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 649.00 Tm (Initialisierung und Zugriff) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 649.00 Tm (18) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 634.00 Tm (Klassen mit Methoden) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 634.00 Tm (18) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 619.00 Tm (Weitere Deklarationen) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 619.00 Tm (18) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 604.00 Tm (Arrays und Sammlungen) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 604.00 Tm (18) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 589.00 Tm (Verschachtelung) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 589.00 Tm (19) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 574.00 Tm (Klassen, Vererbung, Generics, Collections \(Zielentwurf\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 574.00 Tm (19) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 556.00 Tm (Kapitel 9 – Speicherverwaltung) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 556.00 Tm (20) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 541.00 Tm (Tatsächlicher Stand) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 541.00 Tm (20) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 526.00 Tm (Sprachziel: Ownership) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 526.00 Tm (20) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 511.00 Tm (Sicherheitsmechanismen \(implementiert\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 511.00 Tm (20) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 496.00 Tm (Lebensdauer) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 496.00 Tm (20) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 481.00 Tm (Runtime) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 481.00 Tm (20) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 466.00 Tm (Geplantes Speichermodell \(Entwurf\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 466.00 Tm (20) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 448.00 Tm (Kapitel 10 – Ein- und Ausgabe) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 448.00 Tm (22) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 433.00 Tm (Konsolenausgabe) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 433.00 Tm (22) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 418.00 Tm (Nicht unterstützt \(jeweils NX2001/NX2002\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 418.00 Tm (22) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 403.00 Tm (String-Konkatenation) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 403.00 Tm (22) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 388.00 Tm (Ergebniswerte als Ausgabekanal) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 388.00 Tm (23) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 373.00 Tm (Standardbibliothek) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 373.00 Tm (23) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 358.00 Tm (Strings \(Zielentwurf\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 358.00 Tm (23) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 340.00 Tm (Kapitel 11 – Fehlermeldungen und Debugging) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 340.00 Tm (24) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 325.00 Tm (Format) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 325.00 Tm (24) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 310.00 Tm (Fehlerklassen mit tatsächlich beobachteten Codes) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 310.00 Tm (24) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 295.00 Tm (Laufzeitfehler) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 295.00 Tm (24) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 280.00 Tm (Bekannter Compilerfehler) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 280.00 Tm (25) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 265.00 Tm (Strategien) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 265.00 Tm (25) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 250.00 Tm (Fehlerbehandlung \(Entwurf und Frontend-Stand\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 250.00 Tm (25) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 235.00 Tm (Asynchronität \(geplant\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 235.00 Tm (25) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 217.00 Tm (Kapitel 12 – Kompilierung und technische Funktionsweise) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 217.00 Tm (26) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 202.00 Tm (Pipeline) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 202.00 Tm (26) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 187.00 Tm (Kommandos) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 187.00 Tm (26) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 172.00 Tm (Eigenschaften des Backends) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 172.00 Tm (26) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 157.00 Tm (Hinweis zu älteren Dokumenten) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 157.00 Tm (27) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 142.00 Tm (ABI \(Zielentwurf\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 142.00 Tm (27) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 127.00 Tm (Paketformat .ntx \(geplant\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 127.00 Tm (27) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 109.00 Tm (Kapitel 13 – Praktische Beispiele) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 109.00 Tm (28) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 94.00 Tm (1. Hello World – 01_hello.nx) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 94.00 Tm (28) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (3) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 10 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+12 0 obj
+<< /Length 2919 >>
+stream
+BT
+/F1 10.00 Tf 1 0 0 1 78.00 757.00 Tm (2. Variablen und Berechnungen – 02_variables.nx) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 757.00 Tm (28) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 742.00 Tm (3. Bedingungen – 03_conditions.nx) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 742.00 Tm (28) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 727.00 Tm (4. Schleifen – 04_loops.nx) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 727.00 Tm (29) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 712.00 Tm (5. Funktionen und Rekursion – 05_functions.nx) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 712.00 Tm (29) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 697.00 Tm (6. Vollständige Anwendung: Primzahlen – 06_primes.nx) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 697.00 Tm (29) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 682.00 Tm (7. Structs – 07_struct_frontend.nx \(nur check\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 682.00 Tm (30) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 667.00 Tm (8. Methoden – 08_class_frontend.nx \(nur check\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 667.00 Tm (30) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 652.00 Tm (9. Heap-Allokation) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 652.00 Tm (30) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 634.00 Tm (Kapitel 14 – Sprachreferenz) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 634.00 Tm (31) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 619.00 Tm (Schlüsselwörter) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 619.00 Tm (31) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 604.00 Tm (Token) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 604.00 Tm (31) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 589.00 Tm (Operatoren und Symbole) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 589.00 Tm (31) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 574.00 Tm (Grammatikalische Konstruktionen \(nativ\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 574.00 Tm (31) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 559.00 Tm (Unterstützte Anweisungen) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 559.00 Tm (32) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 544.00 Tm (Built-in-Funktionen) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 544.00 Tm (32) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 529.00 Tm (Diagnosecodes \(beobachtet\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 529.00 Tm (32) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 514.00 Tm (Relevante Einschränkungen) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 514.00 Tm (32) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 496.00 Tm (Kapitel 15 – FAQ und Best Practices) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 496.00 Tm (33) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 481.00 Tm (Häufige Anfängerfehler) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 481.00 Tm (33) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 466.00 Tm (FAQ) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 466.00 Tm (33) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 451.00 Tm (Empfohlene Praktiken) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 451.00 Tm (33) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 436.00 Tm (Performance) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 436.00 Tm (33) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 421.00 Tm (Größere Projekte) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 421.00 Tm (33) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 406.00 Tm (Offene Entscheidungen \(Projektinhaber\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 406.00 Tm (34) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (4) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 12 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+14 0 obj
+<< /Length 3328 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (Kapitel 1 – Einführung) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (<- Inhaltsverzeichnis · Weiter: Kapitel 2) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 684.55 Tm (Was ist NORTEX?) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 666.05 Tm (NORTEX ist eine statisch und streng typisierte, kompilierte Programmiersprache mit C#-ähnlicher) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 651.55 Tm (Deklarationssyntax. Der Compiler nortexc ist in Rust geschrieben und erzeugt über Cranelift native) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 637.05 Tm (Windows-x64-Programme \(.exe\).) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 617.55 Tm (public int main\(\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 606.05 Tm (    return 42;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 594.55 Tm (}) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 552.30 Tm (Ziele) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 533.80 Tm (Laut Projektdokumentation: Speichersicherheit ohne Garbage Collector \(Ownership/Borrowing\),) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 519.30 Tm (explizite Veränderlichkeit, stabile Diagnosecodes \(NXnnnn\) und ein kompilierter Ausführungspfad.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 504.80 Tm (Davon sind Veränderlichkeitsregeln und Diagnosen implementiert; Ownership-Prüfung ist teilweise) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 490.30 Tm (vorhanden \(siehe Kapitel 9\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 451.05 Tm (Eigenschaften \(belegt\)) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 432.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 432.55 Tm (Bezeichner und Schlüsselwörter sind case-sensitive; Bezeichner sind ASCII-only.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 416.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 416.05 Tm (Bindungen sind standardmäßig unveränderlich; mut macht sie veränderlich.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 399.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 399.55 Tm (Kein null in sicherem Code.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 383.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 383.05 Tm (Overflow-Prüfung bei Ganzzahlarithmetik standardmäßig aktiv.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 366.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 366.55 Tm (Deutsche Compilermeldungen mit stabilen Codes.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 330.30 Tm (Abgrenzung) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 311.80 Tm (NORTEX sieht C#-ähnlich aus, ist aber eigenständig: Top-Level-Funktionen ohne Klasse,) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 297.30 Tm (mut-Bindungen, Ownership-Konzepte und ein eigener, deutlich kleinerer Funktionsumfang. Syntax) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 282.80 Tm (anderer Sprachen darf nicht angenommen werden \(z. B. keine Casts, kein do-while, kein let\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 243.55 Tm (Einsatzmöglichkeiten \(aktuell realistisch\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 225.05 Tm (Kleine Konsolenprogramme mit ganzzahliger Logik, Compiler-/Sprachexperimente, Lernprojekt.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 210.55 Tm (Allgemeine Anwendungsentwicklung ist erst nach Umsetzung von Strings, Structs, Heap und) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 196.05 Tm (Standardbibliothek möglich \(siehe README\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 156.80 Tm (Technische Voraussetzungen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 138.30 Tm (Windows 10/11 x64, Rust-Toolchain \(Edition 2024, Cargo >= 1.88\) und die MSVC-Buildtools \(Linker) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 123.80 Tm (link.exe\). Siehe Kapitel 2.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (5) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 14 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+16 0 obj
+<< /Length 889 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (Kapitel 2 – Installation und Einrichtung) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (<- Kapitel 1 · Inhalt · Weiter: Kapitel 3) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 704.30 Tm (Voraussetzungen \(Windows x64, Rust >= 1.88, MSVC Build Tools\), Build-Befehle, erstes Programm) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 689.80 Tm (und das Manifest nortex.toml stehen zentral in der Installationsanleitung.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 670.30 Tm (Kurzfassung:) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 650.80 Tm (cargo build --release -p nortex-compiler) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 639.30 Tm (nortexc build hello.nx -o hello.exe) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 616.80 Tm (Hinweis: using util; löst eigene .nx-Dateien auf \(flacher Namensraum\), siehe Ist-Spezifikation.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (6) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 16 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+18 0 obj
+<< /Length 3164 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (Kapitel 3 – Grundlagen der Syntax) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (<- Kapitel 2 · Inhalt · Weiter: Kapitel 4) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 684.55 Tm (Aufbau eines Programms) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 666.05 Tm (Eine Quelldatei \(.nx\) besteht aus optionalen using-/namespace-Zeilen und Deklarationen. Funktionen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 651.55 Tm (dürfen direkt auf oberster Ebene stehen. Der native Einstiegspunkt ist genau eine parameterlose) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 637.05 Tm (Funktion public int main\(\); ihr Rückgabewert wird zum Exitcode.) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 617.55 Tm (using System;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 606.05 Tm () Tj
+/F3 8.50 Tf 1 0 0 1 72.00 594.55 Tm (public int main\(\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 583.05 Tm (    Console.writeLine\("Hallo"\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 571.55 Tm (    return 0;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 560.05 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 537.55 Tm (void main\(\), main\(int a\) und bool main\(\) werden beim Build mit „Windows-Programme benötigen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 523.05 Tm (derzeit genau eine parameterlose int-main-Funktion“ abgelehnt; ohne main scheitert der Linker) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 508.55 Tm (\(LNK2019\).) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 489.05 Tm (using System; ist für Console im getesteten Pfad nicht nötig, aber üblich. using mit unbekanntem) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 474.55 Tm (Namespace \(using Foo.Bar;\) ergibt NX1003.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 435.30 Tm (Anweisungen, Ausdrücke, Blöcke) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 416.80 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 416.80 Tm (Eine Anweisung endet mit ; \(Deklaration, Zuweisung, Aufruf, return, break, continue\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 400.30 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 400.30 Tm (Ein Ausdruck liefert einen Wert \(a * b, f\(x\), c ? 1 : 2\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 383.80 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 383.80 Tm (Ein Block { ... } gruppiert Anweisungen und bildet einen eigenen Gültigkeitsbereich.) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 367.30 Tm (public int main\(\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 355.80 Tm (    int a = 1;            // Deklaration) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 344.30 Tm (    mut int b = a + 2;    // Ausdruck als Initialisierung) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 332.80 Tm (    if \(b > 2\) {          // Block) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 321.30 Tm (        b += 1;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 309.80 Tm (    }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 298.30 Tm (    return b;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 286.80 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 264.30 Tm (Fehlendes Semikolon: error[NX0100]: Nach einer Variablendeklaration wird ';' erwartet. Nach) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 249.80 Tm (Blöcken \(}\) steht kein ;.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 210.55 Tm (Kommentare) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 192.05 Tm (// Zeilenkommentar) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 180.55 Tm (/* Blockkommentar */) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 158.05 Tm (Kommentare dürfen Unicode enthalten.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (7) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 18 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+20 0 obj
+<< /Length 2640 >>
+stream
+BT
+/F2 15.00 Tf 1 0 0 1 62.00 751.75 Tm (Bezeichner) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 733.25 Tm ([A-Za-z_][A-Za-z0-9_]*, nur ASCII. Groß-/Kleinschreibung ist signifikant \(name, Name, NAME sind) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 718.75 Tm (verschieden\). Stilwarnungen NX0004: Konstanten sollen UPPER_SNAKE_CASE, Variablen/Member) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 704.25 Tm (camelCase sein \(Warnung, kein Fehler\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 665.00 Tm (Schlüsselwörter) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 646.50 Tm (Alle reservierten Wörter stehen in Kapitel 14. get/set sind normale Bezeichner.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 607.25 Tm (Typische Fehler) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 587.25 Tm (Fehler | Meldung) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 572.25 Tm (Unbekanntes Zeichen \(@\) | NX0100 Unbekanntes Zeichen '@') Tj
+/F1 9.50 Tf 1 0 0 1 72.00 557.25 Tm (Reserviertes let | NX0100 'let' ist reserviert, aber in NORTEX nicht unterstützt) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 542.25 Tm (Unbekannter Bezeichner | NX1004) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 527.25 Tm (Doppelte Deklaration im selben Scope | NX1001) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 485.00 Tm (Namenskonventionen \(Empfehlung\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 466.50 Tm (Bezeichner bestehen aus ASCII-Buchstaben, Ziffern und _; Unicode ist nur in Kommentaren und) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 452.00 Tm (String-/Char-Literalen erlaubt. Typen PascalCase \(ohne I-Präfix bei Interfaces\), Methoden und) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 437.50 Tm (Variablen camelCase, Konstanten UPPER_SNAKE_CASE, Modul-/Dateinamen snake_case.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 423.00 Tm (Zwei-Buchstaben-Akronyme bleiben groß \(IOStream, getID\), längere werden wie Wörter behandelt) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 408.50 Tm (\(XmlParser\). Private Felder tragen keine führenden Unterstriche. Verstöße sind Warnungen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 394.00 Tm (\(NX0004\), keine Fehler.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 354.75 Tm (Geplant \(Zielentwurf\)) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 336.25 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 336.25 Tm (using importiert nur NORTEX-Namespaces; es gibt keine Verbindung zu .NET.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 319.75 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 319.75 Tm (Sichtbarkeiten public, private, protected, internal werden geparst; ihre Durchsetzung über) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 305.25 Tm (Modulgrenzen fehlt \(siehe Kapitel 14\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 288.75 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 288.75 Tm (Das Paketformat .ntx ist Teil des Entwurfs, siehe Kapitel 12.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (8) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 20 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+22 0 obj
+<< /Length 4798 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (Kapitel 4 – Datentypen und Variablen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (<- Kapitel 3 · Inhalt · Weiter: Kapitel 5) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 684.55 Tm (Primitive Typen) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 664.55 Tm (Typ | Breite | Nativ \(Build\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 649.55 Tm (int | 32 Bit, vorzeichenbehaftet | ja) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 634.55 Tm (bool | true/false | ja) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 619.55 Tm (uint, short, ulong | 32/16/64 Bit | Locals und Parameter/Rückgabe ja \(uint-Funktion getestet\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 604.55 Tm (long | 64 Bit | Parameter/Rückgabe ja; Locals mit Division/Vergleich können im Codegen abstürzen) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 591.55 Tm (\(Cranelift-Panic, bekannt\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 576.55 Tm (sbyte, byte, ushort, i128, u128, nint, nuint, isize, usize | siehe diese Seite \(Abschnitt „Geplant“\) |) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 563.55 Tm (Frontend; nicht einzeln nativ geprüft) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 548.55 Tm (float, double, decimal | IEEE-754 32/64 bzw. 128 Bit | nein \(NX2001\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 533.55 Tm (char | Unicode-Skalar | nein \(NX2002\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 518.55 Tm (string | UTF-8-Slice \(Datenzeiger + Byte-Länge\) | ja, als Literal, lokale Variable, interner) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 505.55 Tm (Parameter/Rückgabewert und Console-Argument) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 490.55 Tm (void | kein Wert | nur als Rückgabetyp) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 448.30 Tm (Literale) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 429.80 Tm (String-Literale und ihre 16-Byte-Slice-Deskriptoren liegen schreibgeschützt im COFF-Datenbereich.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 415.30 Tm (Die Länge zählt UTF-8-Bytes.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 395.80 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 395.80 Tm (Konkatenation: a + b ruft nortex_string_concat der Runtime auf. Sie reserviert per HeapAlloc) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 381.30 Tm (einen Block aus Deskriptor, Bytes und abschließendem NUL und liefert den neuen Slice.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 366.80 Tm (Schlägt die Allokation fehl, bricht das Programm mit einem Trap ab.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 350.30 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 350.30 Tm (Globals: const string und mut string sind auf Top-Level erlaubt. Der Initialisierer ist ein) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 335.80 Tm (Stringliteral oder eine +-Verkettung von Literalen \(zur Compilezeit gefaltet\). Das Global ist ein) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 321.30 Tm (Zeiger auf einen Deskriptor in .rdata; mut string ersetzt nur den Slice.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 304.80 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 304.80 Tm (extern "C": String-Argumente werden als char* \(Datenzeiger\) übergeben. Alle Strings sind) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 290.30 Tm (NUL-terminiert; ein eingebettetes \\0 beendet den String aus C-Sicht früher. Externe Funktionen) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 275.80 Tm (dürfen keinen string zurückgeben.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 259.30 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 259.30 Tm (Vergleich: == und != rufen nortex_string_eq \(Längen- und Byte-Vergleich\) auf und liefern bool.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 244.80 Tm (Ordnungsoperatoren \(, …\) auf Strings sind nicht implementiert.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 228.30 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 228.30 Tm (Drop und Move: Heap-Strings \(Ergebnisse von +\) gehören genau einer Variable. Beim) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 213.80 Tm (Scope-Ende, bei return und vor dem Überschreiben ruft der Codegen nortex_string_free) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 199.30 Tm (\(HeapFree\) auf, außer der Wert wurde verschoben. Zuweisung, Initialisierung, Rückgabe und) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 184.80 Tm (Übergabe an interne Funktionen verschieben den Quellstring; jede weitere Verwendung meldet) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 170.30 Tm (NX1202. Konkatenation, Vergleich, Console und extern "C"-Aufrufe leihen nur. Statische) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 155.80 Tm (Literale und const string werden nie freigegeben.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 139.30 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 139.30 Tm (Grenzen: Beim Verschieben eines mut string-Globals \(string b = name;, Rückgabe, Argument,) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 124.80 Tm (Ternary-Zweig\) wird der Wert kopiert \(name + ""\); das Global behält seinen Puffer. Beim) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 110.30 Tm (Neuzuweisen wird der alte Heap-Puffer freigegeben.) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 93.80 Tm (int a = 42;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 82.30 Tm (int h = 0xFF;          // hexadezimal) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 70.80 Tm (int b = 0b1010;        // binär) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (9) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 22 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+24 0 obj
+<< /Length 4409 >>
+stream
+BT
+/F3 8.50 Tf 1 0 0 1 72.00 760.50 Tm (double d = 1.5e3;      // Exponent \(Frontend\)) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 749.00 Tm (float f = 2.5f;        // Suffix f nötig; 2.5 ist double) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 737.50 Tm (char c = 'x';) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 726.00 Tm (string s = "text";) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 714.50 Tm (bool t = true;) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 692.00 Tm (Literale werden gegen den Zieltyp geprüft: int a = 3000000000; -> NX1102 … liegt außerhalb des) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 677.50 Tm (Wertebereichs von 'int'. Integer-Suffixe wie 5L lexen, scheitern aber im nativen Lowering \(NX2002\).) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 663.00 Tm (Escapes in Strings: \\n \\r \\t \\0 \\" \\\\; unbekannte \(\\q\) -> NX0100.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 623.75 Tm (Variablen) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 605.25 Tm (int a = 1;          // unveränderlich) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 593.75 Tm (mut int b = 2;      // veränderlich) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 582.25 Tm (const int LIMIT = 3;) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 559.75 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 559.75 Tm (Unveränderlich ist Standard. a = 2; -> NX1200 Der unveränderliche Wert 'a' darf nicht neu) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 545.25 Tm (zugewiesen werden.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 528.75 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 528.75 Tm (Globale Werte dürfen auch auf oberster Ebene stehen. Sie benötigen einen compile-time) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 514.25 Tm (auswertbaren Initialisierer; mut erlaubt spätere Änderungen. Beispiel: public const int) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 499.75 Tm (MAX_PLAYERS = 100; und mut int playerCount = 0;.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 483.25 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 483.25 Tm (Globale Ganzzahl- und bool-Werte werden nativ in schreibgeschützten bzw. beschreibbaren) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 468.75 Tm (COFF-Datensektionen abgelegt. Andere global deklarierbare Typen werden im Frontend) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 454.25 Tm (geprüft, sind im nativen MIR-Subset aber noch nicht verfügbar \(NX2002\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 437.75 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 437.75 Tm (Auch Parameter und Schleifenvariablen sind unveränderlich; für for muss mut int i verwendet) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 423.25 Tm (werden.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 406.75 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 406.75 Tm (const verlangt UPPER_SNAKE_CASE \(sonst Warnung NX0004\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 390.25 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 390.25 Tm (Jede Variable braucht Typ und Initialisierer. let ist reserviert und nicht nutzbar. readonly int a =) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 375.75 Tm (1; ist als lokale Deklaration ungültig.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 359.25 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 359.25 Tm (null ist verboten \(NX1102\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 323.00 Tm (Typinferenz) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 304.50 Tm (var c = a * b; besteht check, wird aber im Build abgelehnt: „Variablentyp-Inferenz wird in dieser) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 290.00 Tm (Lowering-Stufe nicht unterstützt“ \(NX2001\). Im nativen Code immer explizite Typen verwenden.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 250.75 Tm (Typkonvertierungen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 232.25 Tm (Es gibt keine implizite Konvertierung zwischen Ganzzahltypen: uint + int -> NX1102 Die Operanden) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 217.75 Tm (von '+' müssen denselben numerischen Typ besitzen; return eines byte aus int-Funktion -> NX1102.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 203.25 Tm (Eine funktionierende Cast-Syntax ist nicht vorhanden \(\(int\)x und x as int werden nicht geparst\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 164.00 Tm (Gültigkeitsbereiche) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 145.50 Tm (Ein Block {} bildet einen Scope. Variablen sind ab der Deklaration bis zum Blockende sichtbar;) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 131.00 Tm (Verwendung außerhalb -> NX1004. Doppelte Namen im selben Scope -> NX1001. Ein) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 116.50 Tm (verschachtelter Scope kann einen äußeren Namen im getesteten Fall nicht neu zuweisen, wenn) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 102.00 Tm (dieser unveränderlich ist \(NX1200\).) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 82.50 Tm (public int main\(\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 71.00 Tm (    mut int a = 1;) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (10) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 24 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+26 0 obj
+<< /Length 4379 >>
+stream
+BT
+/F3 8.50 Tf 1 0 0 1 72.00 760.50 Tm (    if \(a == 1\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 749.00 Tm (        int b = 5;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 737.50 Tm (        a = b;          // ok: a ist mut) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 726.00 Tm (    }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 714.50 Tm (    return a;           // 5; b ist hier nicht sichtbar) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 703.00 Tm (}) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 660.75 Tm (Einschränkungen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 642.25 Tm (Nativ nur skalare Ganzzahl-/Bool-Werte. Strings, Gleitkomma, Arrays, Structs und Klassen sind noch) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 627.75 Tm (nicht ausführbar.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 588.50 Tm (Geplant \(Zielentwurf, nicht ausführbar\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 570.00 Tm (Primitive Typnamen sind case-sensitive und haben keine Aliasse \(Int32, String, Bool, Unit, Never) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 555.50 Tm (sind ungültig\). Implizite verlustbehaftete numerische Konvertierungen sind ausgeschlossen. char ist) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 541.00 Tm (ein 32-Bit-Unicode-Skalarwert; string ist UTF-8, length\(\) zählt Bytes. void ist kein speicherbarer) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 526.50 Tm (Werttyp; der divergierende Typ heißt !. nint/nuint/isize/usize sind pointerbreit \(Windows x64/ARM64:) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 512.00 Tm (64 Bit\).) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 492.50 Tm (Typinferenz: var x = …; leitet den Typ aus dem Initialisierer ab \(Ist: unveränderlich, mut var für) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 478.00 Tm (veränderbar\). Eine globale Inferenz über Parameter, Rückgaben und Generics ist nicht) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 463.50 Tm (implementiert; mehrdeutige Inferenz soll ein Fehler sein. const verlangt einen Compile-Time-Wert.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 444.00 Tm (Decimal128 \(Entwurf\): decimal soll ein eigenes 128-Bit-Festkommaformat sein: 1 Vorzeichenbit, 7 Bit) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 429.50 Tm (Scale \(0–38\), 120-Bit-Koeffizient \(0 bis 10³?-1\); Wert \(-1\)^sign x coefficient / 10^scale, Rundung) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 415.00 Tm (nearest, ties to even; Überlauf/Division durch null sollen ArithmeticException auslösen. Keine stille) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 400.50 Tm (Umwandlung in double. Nur das Format ist spezifiziert, es gibt keine Arithmetik.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 381.00 Tm (Zusammengesetzte Typen \(Entwurf\): T[] \(dynamisch\), [T; N] \(fest\), Tupel \(T1, T2, …\) mit mindestens) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 366.50 Tm (zwei Elementen, struct, class, record \(unveränderlich, strukturelle Gleichheit\), enum \(Summentyp\),) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 352.00 Tm (interface, trait. Option \(Some/None\) und Result \(Ok/Err\); null gibt es im sicheren Modell nicht.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 332.50 Tm (Weitere Typkonzepte \(Entwurf, nur als Namen bekannt\):) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 311.50 Tm (Typ | Vorgesehene Semantik) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 296.50 Tm (object | explizites Type-Erasure/Boxing, kein universeller Basistyp) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 281.50 Tm (dynamic | dynamische Auflösung mit Laufzeitprüfung \(DynamicDispatchException\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 266.50 Tm (&T, &mut T | geteilter bzw. exklusiver Borrow) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 251.50 Tm (*const T, *mut T | Raw-Pointer, Dereferenzierung nur in unsafe) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 236.50 Tm (Box | eindeutiger Heap-Owner) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 221.50 Tm (Rc, Arc | geteiltes Eigentum \(nicht threadsicher / atomar\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 206.50 Tm (Cell, RefCell | interne Veränderlichkeit \(RefCell mit Laufzeitprüfung\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 191.50 Tm (Mutex, RwLock | Synchronisation; Send/Sync markieren Thread-Sicherheit) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 176.50 Tm (Span | nicht besitzende Sicht auf zusammenhängenden Speicher) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 161.50 Tm (Memory | besitzender Runtime-Handle) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 146.50 Tm (Func, Action | aufrufbare Werte; Captures folgen Move-/Borrow-Regeln) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 131.50 Tm (Future, Task | Berechnung bzw. eingeplante Ausführung, siehe Kapitel 11) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 109.00 Tm (Die Registrierung eines Typnamens im Compiler belegt keine Implementierung.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (11) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 26 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+28 0 obj
+<< /Length 3286 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (Kapitel 5 – Operatoren) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (<- Kapitel 4 · Inhalt · Weiter: Kapitel 6) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 684.55 Tm (Übersicht) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 664.55 Tm (Kategorie | Operatoren | Nativ) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 649.55 Tm (Arithmetisch | + - * / % \(binär\), - \(unär\) | ja) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 634.55 Tm (Vergleich | == !=  = | ja) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 619.55 Tm (Logisch | && || ! | ja \(kurzschließend\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 604.55 Tm (Bitweise | & | ^ > | ja) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 589.55 Tm (Bitweises NOT | ~ | nein \(NX2002\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 574.55 Tm (Zuweisung | = += -= *= /= %= | ja) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 559.55 Tm (Weitere Zuweisungen | &= |= ^= >= | Frontend) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 544.55 Tm (Inkrement/Dekrement | ++ -- \(prä/post\) | nein \(NX2002\); stattdessen a += 1) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 529.55 Tm (Ternär | bedingung ? a : b | ja) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 514.55 Tm (Sonstige Token | . , ; : :: -> => \( \) [ ] { } | Syntax) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 472.30 Tm (Rangfolge \(hoch -> niedrig\), Assoziativität) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 452.30 Tm (Stufe | Operatoren | Assoziativität) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 437.30 Tm (11 | * / % | links) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 422.30 Tm (10 | + - | links) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 407.30 Tm (9 | > | links) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 392.30 Tm (8 |  = | links) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 377.30 Tm (7 | == != | links) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 362.30 Tm (6 | & | links) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 347.30 Tm (5 | ^ | links) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 332.30 Tm (4 | | | links) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 317.30 Tm (3 | && | links) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 302.30 Tm (2 | || | links) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 287.30 Tm (2/1 | ?: \(Ternär\) | rechts) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 272.30 Tm (1 | = und zusammengesetzte Zuweisungen | rechts) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 249.80 Tm (Unäre Operatoren \(- ! ~\) binden stärker als alle binären. Quelle: Parser \(compiler/src/parser/mod.rs\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 210.55 Tm (Verhalten) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 192.05 Tm (public int main\(\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 180.55 Tm (    int a = 17;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 169.05 Tm (    return a % 5 + \(-a\) / 4;     // 2 + \(-4\) = -2 \(Division schneidet Richtung 0 ab\)) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 157.55 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 135.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 135.05 Tm (Ganzzahldivision rundet zur Null: -7 / 2 ergibt -3.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 118.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 118.55 Tm (&&/|| werten rechts nur bei Bedarf aus: a != 0 && 10 / a > 1 ist sicher bei a == 0.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 102.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 102.05 Tm (Overflow: Standard ist Trap. add\(2147483647, 1\) beendet das Programm mit Exitcode) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 87.55 Tm (-1073741795 \(0xC000001D\). Mit --overflow-checks=false wird umlaufend gerechnet. Division) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 73.05 Tm (durch 0 trappt ebenfalls.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (12) Tj ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 28 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+30 0 obj
+<< /Length 2462 >>
+stream
+BT
+/F2 15.00 Tf 1 0 0 1 62.00 751.75 Tm (Typkompatibilität) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 733.25 Tm (Beide Operanden eines arithmetischen/Vergleichsoperators müssen denselben numerischen Typ) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 718.75 Tm (haben \(NX1102\). Bedingungen müssen bool sein. Überladbar sind nur == !=  = \(static, zwei) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 704.25 Tm (Parameter, Rückgabe bool; nur Frontend\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 665.00 Tm (Häufige Fehler) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 646.50 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 646.50 Tm (a++ im nativen Code -> NX2002 Operator 'post++' wird im aktuellen MIR-Subset nicht) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 632.00 Tm (unterstützt.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 615.50 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 615.50 Tm (Mischen von int und uint/long ohne Cast-Möglichkeit.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 579.25 Tm (Operatorüberladung) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 560.75 Tm (Überladbar sind ausschließlich ==, !=, , =. Jede Überladung ist static, hat genau zwei Parameter und) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 546.25 Tm (liefert bool:) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 526.75 Tm (public class Vector3) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 515.25 Tm ({) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 503.75 Tm (    public static bool operator ==\(Vector3 left, Vector3 right\)) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 492.25 Tm (    {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 480.75 Tm (        return left.x == right.x && left.y == right.y && left.z == right.z;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 469.25 Tm (    }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 457.75 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 435.25 Tm (Das Frontend prüft Operatorliste, static, Parameterzahl und bool-Rückgabe. Geplant: Prüfung der) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 420.75 Tm (Parameterbeziehung zum definierenden Typ und der Konsistenz \(==/!=, sinnvolle Ordnung\); der) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 406.25 Tm (Compiler kann mathematische Konsistenz beliebiger Implementierungen nicht beweisen.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 386.75 Tm (Nicht überladbar: + - * / %, & | ^ ~, ! && ||, >, ++ --, Indexierung, Aufruf, Memberzugriff, Zuweisung) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 372.25 Tm (und eigene Operatorzeichen. && und || behalten Kurzschlussauswertung. ? gehört nur zum) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 357.75 Tm (Ternäroperator c ? a : b; einen ?-Fehlerfortleitungsoperator gibt es nicht.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (13) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 30 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+32 0 obj
+<< /Length 2902 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (Kapitel 6 – Kontrollstrukturen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (<- Kapitel 5 · Inhalt · Weiter: Kapitel 7) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 704.30 Tm (Alle Strukturen dieses Kapitels sind in examples/language/03_conditions.nx und 04_loops.nx) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 689.80 Tm (verifiziert und laufen nativ.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 650.55 Tm (if / else) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 632.05 Tm (if \(bedingung\) { ... } else if \(bedingung\) { ... } else { ... }) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 609.55 Tm (Die Bedingung steht in Klammern und muss bool sein. Geschweifte Klammern dürfen bei einer) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 595.05 Tm (einzelnen Anweisung entfallen \(if \(a == 1\) return 5; getestet\).) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 575.55 Tm (public int classify\(int score\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 564.05 Tm (    if \(score >= 90\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 552.55 Tm (        return 1;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 541.05 Tm (    } else if \(score >= 50\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 529.55 Tm (        return 2;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 518.05 Tm (    }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 506.55 Tm (    return 3;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 495.05 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 472.55 Tm (Verschachtelung ist beliebig \(nested_if getestet\). Häufiger Fehler: Nicht-bool-Bedingung -> NX1102.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 433.30 Tm (while) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 414.80 Tm (while \(bedingung\) { ... }) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 392.30 Tm (Prüft vor jedem Durchlauf. while \(true\) mit break ist zulässig. Es gibt kein do … while.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 353.05 Tm (for) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 334.55 Tm (for \(mut int i = 0; i < 10; i += 1\) { ... }) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 312.05 Tm (Klassische Form: Initialisierung; Bedingung; Fortschritt. Die Laufvariable muss mut sein \(sonst) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 297.55 Tm (NX1200\). i++ als Fortschritt scheitert nativ; i += 1 verwenden. foreach / for \(T v in seq\) ist nur im) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 283.05 Tm (Frontend vorhanden.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 243.80 Tm (break und continue) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 225.30 Tm (break verlässt die innerste Schleife, continue springt zur nächsten Iteration. Außerhalb: NX1301) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 210.80 Tm (\(break\) bzw. NX1302 \(continue\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 171.55 Tm (return) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 153.05 Tm (return ausdruck; beendet die Funktion. In Funktionen mit Rückgabetyp ist ein Wert Pflicht \(return; ->) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 138.55 Tm (NX1103\); jeder Kontrollpfad muss zurückkehren \(NX1103 Nicht jeder Kontrollfluss … liefert einen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 124.05 Tm (Rückgabewert\).) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (14) Tj ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 32 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+34 0 obj
+<< /Length 693 >>
+stream
+BT
+/F2 15.00 Tf 1 0 0 1 62.00 751.75 Tm (Ternär) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 733.25 Tm (int t = sum > 5 ? 1 : 2; – rechts-assoziativ, nativ verfügbar.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 694.00 Tm (Weitere Konstrukte \(nur Frontend\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 675.50 Tm (switch/case/default -> im Build NX2001 Diese Kontrollflussanweisung wird in der aktuellen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 661.00 Tm (Lowering-Stufe nicht unterstützt; try/catch -> ebenso; match ist teilweise geparst \(Armsyntax im Test) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 646.50 Tm (nicht akzeptiert, NX0100\).) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (15) Tj ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 34 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+36 0 obj
+<< /Length 3540 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (Kapitel 7 – Funktionen und Methoden) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (<- Kapitel 6 · Inhalt · Weiter: Kapitel 8) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 684.55 Tm (Funktionsdefinition) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 666.05 Tm ([Modifier] Rückgabetyp name\(Typ param1, Typ param2\) { Rumpf }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 643.55 Tm (public int add3\(int a, int b, int c\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 632.05 Tm (    return a + b + c;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 620.55 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 598.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 598.05 Tm (Modifier: public, private, static sind nativ getestet \(private int helper\(\), public static int twice\(int) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 583.55 Tm (n\)\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 567.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 567.05 Tm (Parameter sind unveränderlich \(a = a + 1; -> NX1200\); mut-Parameter existieren nicht \(NX0100) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 552.55 Tm (Typname erwartet\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 536.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 536.05 Tm (Jede Funktion mit Nicht-void-Rückgabetyp braucht einen Rumpf und auf allen Pfaden ein return) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 521.55 Tm (\(NX1103\). Eine Signatur ohne Rumpf -> NX1005.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 485.30 Tm (Aufruf, Rekursion) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 466.80 Tm (Aufrufe sind nativ nur direkte Aufrufe freier, nicht-generischer Funktionen. Reihenfolge der) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 452.30 Tm (Definitionen ist egal \(wechselseitige Rekursion even/odd getestet\).) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 432.80 Tm (public int fib\(int n\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 421.30 Tm (    if \(n < 2\) { return n; }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 409.80 Tm (    return fib\(n - 1\) + fib\(n - 2\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 398.30 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 375.80 Tm (Falsche Argumentzahl: NX1107 Keine Überladung von 'f' akzeptiert 2 Argumente. Kandidaten: f\(int\).) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 361.30 Tm (Unbekannte Funktion: NX1004.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 322.05 Tm (Rückgabewerte) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 303.55 Tm (Genau ein Wert über return. String-Literale können lokalen Variablen zugewiesen, als Parameter) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 289.05 Tm (übergeben und von internen Funktionen zurückgegeben werden. void-Funktionen sind im nativen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 274.55 Tm (Build nicht aufrufbar, außer Console.write/writeLine \(NX2002 Void-Aufrufe sind im MIR-Subset nur für) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 260.05 Tm (Console.write und Console.writeLine verfügbar\). String-Parameter/Rückgaben sowie bool, int, uint) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 245.55 Tm (werden nativ unterstützt; String-ABI in extern "C" ist nicht unterstützt.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 206.30 Tm (Lokale Variablen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 187.80 Tm (Gelten ab Deklaration bis Blockende, sind pro Aufruf getrennt \(Kapitel 4\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 148.55 Tm (Methoden und Sichtbarkeit \(nur Frontend\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 130.05 Tm (Methoden stehen in class/struct; public/private/protected/internal werden geparst. Aufruf c.inc\(\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 115.55 Tm (besteht check, der Build lehnt Klassen/new ab \(NX2001; siehe Kapitel 8\). Konstruktoren heißen wie) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 101.05 Tm (der Typ; die Signatur- und Überladungsprüfung fehlt.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (16) Tj ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 36 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+38 0 obj
+<< /Length 1900 >>
+stream
+BT
+/F2 15.00 Tf 1 0 0 1 62.00 751.75 Tm (Einschränkungen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 733.25 Tm (Keine Generics, Lambdas, Überladungsauflösung nativ, Funktionszeiger oder Standardparameter.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 694.00 Tm (Entwurfsregeln und Frontend-Stand) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 675.50 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 675.50 Tm (Die C#-ähnliche Deklaration \(public int add\(int a, int b\)\) ist die einzige Form; fn name\(...\) -> T) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 661.00 Tm (gehört nicht zur Sprache. Konstruktoren heißen wie der Typ und haben keinen Rückgabetyp.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 644.50 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 644.50 Tm (Generische Parameter stehen hinter dem Namen: public T identity\(T value\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 628.00 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 628.00 Tm (Überladungen unterscheiden sich durch Parametertypen, nicht allein durch den Rückgabetyp.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 613.50 Tm (Unsuffigierte Integer-Literale bevorzugen bei sonst gültigen Überladungen ganzzahlige vor) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 599.00 Tm (Fließkomma-Parametern; gleichrangige Kandidaten bleiben mehrdeutig \(NX1107\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 582.50 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 582.50 Tm (Das Frontend erkennt fehlende Rückgabepfade, generische Methodenaufrufe und) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 568.00 Tm (Typargument-Substitution in einfachen Signaturen; ein nicht-statischer Methodenaufruf über) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 553.50 Tm (den Typnamen wird abgelehnt.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 537.00 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 537.00 Tm (Geplant: vollständige generische Inferenz, Constraint-Prüfung, modulübergreifende Auflösung,) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 522.50 Tm (Codegenerierung.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (17) Tj ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 38 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+40 0 obj
+<< /Length 3340 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (Kapitel 8 – Structs und Datenstrukturen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (<- Kapitel 7 · Inhalt · Weiter: Kapitel 9) Tj
+/F1 10.50 Tf 1 0 0 1 76.00 704.30 Tm (Status: nur Frontend. struct, class, new, Feldzugriff und Methoden bestehen nortexc check, aber) Tj
+/F1 10.50 Tf 1 0 0 1 76.00 689.80 Tm (nortexc build meldet NX2001 Dieser Ausdruck wird in der aktuellen Lowering-Stufe nicht) Tj
+/F1 10.50 Tf 1 0 0 1 76.00 675.30 Tm (unterstützt. Sie erzeugen keine EXE. Verifiziert mit 07_struct_frontend.nx und) Tj
+/F1 10.50 Tf 1 0 0 1 76.00 660.80 Tm (08_class_frontend.nx.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 621.55 Tm (Struct-Definition) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 603.05 Tm (public struct Point {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 591.55 Tm (    public int x;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 580.05 Tm (    public int y;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 568.55 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 546.05 Tm (Felder besitzen Typ und Sichtbarkeit; public int value = 0; erlaubt einen Initialwert \(Klassenfeld,) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 531.55 Tm (getestet\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 492.30 Tm (Initialisierung und Zugriff) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 473.80 Tm (mut Point p = new Point\(\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 462.30 Tm (p.x = 3;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 450.80 Tm (p.y = 4;) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 428.30 Tm (Eine Zuweisung an ein Feld einer unveränderlichen Bindung wird abgelehnt: NX1201 Die) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 413.80 Tm (Veränderung über ein Member oder einen Index erfordert einen exklusiven &mut-Borrow. Deshalb) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 399.30 Tm (mut Point p.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 360.05 Tm (Klassen mit Methoden) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 341.55 Tm (public class Counter {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 330.05 Tm (    public int value = 0;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 318.55 Tm (    public void inc\(\) { value = value + 1; }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 307.05 Tm (    public int get\(\) { return value; }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 295.55 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 273.05 Tm (Konstruktor public Counter\(int x\) { this.v = x; } wird geparst; Zuweisungen an Felder scheitern im) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 258.55 Tm (Lowering \(NX2001 Zuweisungen sind nur an lokale Namen … zulässig\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 219.30 Tm (Weitere Deklarationen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 200.80 Tm (record, interface, trait, enum \(public enum Color { Red, Green }\) werden geparst. Color c =) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 186.30 Tm (Color.Red; scheitert nativ. Vererbung : Base, IContract wird angenommen, Vertragsprüfung fehlt.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 171.80 Tm (Generische Typen und where-Klauseln sind nicht unterstützt.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 132.55 Tm (Arrays und Sammlungen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 114.05 Tm (Array-Typen T[], [T; N] werden in Signaturen geparst; Array-Erzeugung new T[n] fehlt \(NX0100\).) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 99.55 Tm (Nativ sind Arrays nicht erlaubt \(NX2002 Parametertyp 'int[]' liegt außerhalb des skalaren) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 85.05 Tm (MIR-Subsets\). Collections liegen nur als .nx-Entwürfe in standard-library/collections/ vor.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (18) Tj ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 40 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+42 0 obj
+<< /Length 3660 >>
+stream
+BT
+/F2 15.00 Tf 1 0 0 1 62.00 751.75 Tm (Verschachtelung) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 733.25 Tm (Verschachtelte Strukturen sind im Typmodell vorgesehen \(type_system/struct_layout.rs berechnet) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 718.75 Tm (Layouts\), aber nicht ausführbar.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 679.50 Tm (Klassen, Vererbung, Generics, Collections \(Zielentwurf\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 661.00 Tm (Parser und erste Deklarationsprüfungen sind vorhanden; Konstruktorauflösung, Receiver-Borrowing,) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 646.50 Tm (vollständige Vererbung, Interface-/Trait-Prüfung und Trait-Coherence fehlen. Alles Folgende ist) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 632.00 Tm (geplant:) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 612.50 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 612.50 Tm (Klasse: nominaler Typ mit Identität; new erzeugt eine Instanz mit genau einem Owner.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 598.00 Tm (Zuweisung/Übergabe verschiebt den Owner \(kein Kopieren\); Teilen über Rc/Arc. Der) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 583.50 Tm (Receiver-Vertrag von Instanzmethoden ist offen \(Kapitel 15\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 567.00 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 567.00 Tm (Struct: Werttyp, Move ist Standard; Kopieren nur mit nachgewiesener Copy-Eigenschaft; Heap) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 552.50 Tm (nur explizit über Box o. Ä.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 536.00 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 536.00 Tm (Record: unveränderlicher Werttyp mit struktureller Gleichheit \(Feldtypen brauchen Gleichheit\);) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 521.50 Tm (erbt nicht von Klassen.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 505.00 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 505.00 Tm (Interface: reine Signaturen, keine Felder, keine Standardimplementierungen. Trait:) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 490.50 Tm (Fähigkeitsvertrag mit Standardmethoden und assoziierten Typen. Beide stehen in der :-Liste) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 476.00 Tm (des Typs; impl Trait for Type gibt es nicht.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 459.50 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 459.50 Tm (Vererbung: höchstens eine Basisklasse, beliebig viele Interfaces/Traits; keine) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 445.00 Tm (Mehrfachvererbung von Klassen; Structs/Records erben nicht von Klassen.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 428.50 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 428.50 Tm (Generics: Container, identity; erste Strategie ist Monomorphisierung mit Deduplizierung) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 414.00 Tm (gleicher Instanziierungen. Bounds mit where T: Drawable \(mehrere mit +\); pro Paket nur eine) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 399.50 Tm (Implementierung je Trait/Typ-Paar, und Trait oder Typ muss im eigenen Paket liegen) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 385.00 Tm (\(Kohärenz\). Ist: der Parser kennt generische Parameter, die Semantik prüft nur die) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 370.50 Tm (Argumentanzahl bekannter Typen.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 354.00 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 354.00 Tm (Collections \(System.Collections, nur API-Signaturen in standard-library/collections/*.nx\): List) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 339.50 Tm (\(komfortabel, amortisiertes O\(1\)-Append\), Vec \(Low-Level, explizite Kapazität; keine implizite) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 325.00 Tm (Umwandlung zu List\), Dictionary, HashSet, Queue, Stack. Längen und Indizes sind usize,) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 310.50 Tm (lesender Zugriff liefert Option, verändernder Option. Speicherverwaltung, Hashing und) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 296.00 Tm (Iteratoren fehlen.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (19) Tj ET
+endstream
+endobj
+43 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 42 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+44 0 obj
+<< /Length 3742 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (Kapitel 9 – Speicherverwaltung) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (<- Kapitel 8 · Inhalt · Weiter: Kapitel 10) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 684.55 Tm (Tatsächlicher Stand) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 666.05 Tm (Native NORTEX-Programme arbeiten aktuell ausschließlich mit Skalaren auf dem Stack bzw. in) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 651.55 Tm (Registern. Es gibt keine Heap-Allokation, keine Freigabe und keine Pointer, die ein Programm) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 637.05 Tm (schreiben könnte.) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 616.05 Tm (Thema | Stand) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 601.05 Tm (Stack | Locals und Parameter skalarer Typen; Rekursion nutzt den Systemstack \(Verhalten bei) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 588.05 Tm (Stacküberlauf nicht dokumentiert/geprüft\).) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 573.05 Tm (Heap / new | Frontend akzeptiert new T\(\); Build: NX2001. Kein Allokator angebunden.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 558.05 Tm (Freigabe / Destruktoren | nicht implementiert \(Destruktoren: nicht unterstützt\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 543.05 Tm (Pointer / unsafe | unsafe { } wird nicht geparst; Raw Pointer fehlen) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 528.05 Tm (Box, Rc, Arc | nur in Entwurfsdokumenten \(ownership.md\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 513.05 Tm (Garbage Collector | bewusst keiner) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 470.80 Tm (Sprachziel: Ownership) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 452.30 Tm (Das Zielmodell \(ownership.md\): ein Owner pro Wert, Move bei Übergabe, &T/&mut T Borrows,) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 437.80 Tm (explizites clone\(\). Der Compiler prüft davon teilweise \(MIR/Semantik\): Moves aus lokalen Bindungen,) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 423.30 Tm (Konflikte zwischen &/&mut, &mut aus unveränderlicher Bindung \(NX1200/NX1201\). Vollständige) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 408.80 Tm (Lifetime-/Regionsinferenz fehlt.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 369.55 Tm (Sicherheitsmechanismen \(implementiert\)) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 351.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 351.05 Tm (Unveränderlich als Default; Mutation nur über mut.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 334.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 334.55 Tm (Kein null in sicherem Code.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 318.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 318.05 Tm (Overflow- und Division-durch-null-Trap \(Exitcode -1073741795\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 301.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 301.55 Tm (Skalare sind Copy; keine Aliasing-Probleme möglich.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 265.30 Tm (Lebensdauer) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 246.80 Tm (Lokale Variablen leben bis zum Ende ihres Blocks bzw. Funktionsaufrufs.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 207.55 Tm (Runtime) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 189.05 Tm (runtime/ enthält Rust-Prototypen \(allocation, memory, exceptions, async\); sie sind nicht an den) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 174.55 Tm (Compiler gebunden. Gebunden ist nur die Console-Ausgabe \(siehe Kapitel 10\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 135.30 Tm (Geplantes Speichermodell \(Entwurf\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 116.80 Tm (Kein Garbage Collector; Ownership und Borrowing: Moves übertragen den Owner, &T erlaubt) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 102.30 Tm (geteilte lesende, &mut T einen exklusiven schreibenden Borrow, keine Referenz überlebt ihren) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 87.80 Tm (Owner. Raw-Pointer nur in unsafe. Span ist an eine Borrow-Lifetime gebunden und darf nicht über) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 73.30 Tm (den Speicher hinaus gespeichert werden; Memory besitzt seinen Speicher. Speicher wird über den) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (20) Tj ET
+endstream
+endobj
+45 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 44 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+46 0 obj
+<< /Length 341 >>
+stream
+BT
+/F1 10.50 Tf 1 0 0 1 62.00 757.50 Tm (Allocator freigegeben, der ihn bereitgestellt hat. Vollständige Move-/Borrow-/Lifetime-Prüfung ist nicht) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 743.00 Tm (implementiert; Details: ownership.md.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (21) Tj ET
+endstream
+endobj
+47 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 46 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+48 0 obj
+<< /Length 3749 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (Kapitel 10 – Ein- und Ausgabe) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (<- Kapitel 9 · Inhalt · Weiter: Kapitel 11) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 684.55 Tm (Konsolenausgabe) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 666.05 Tm (Console.write\("Text ohne Zeilenumbruch"\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 654.55 Tm (Console.writeLine\("Text mit Zeilenumbruch"\);) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 632.05 Tm (Beide Aufrufe akzeptieren im nativen Build genau einen Wert vom Typ string. String-Literale und) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 617.55 Tm (String-Variablen können ausgegeben werden. Die Runtime erhält den UTF-8-Datenzeiger und die) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 603.05 Tm (Byte-Länge über einen ABI-Aufruf; dies ist keine allgemeine C-ABI-String-Anbindung.) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 583.55 Tm (using System;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 572.05 Tm () Tj
+/F3 8.50 Tf 1 0 0 1 72.00 560.55 Tm (public int main\(\)) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 549.05 Tm ({) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 537.55 Tm (    string greeting = "Hallo";) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 526.05 Tm (    Console.write\(greeting\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 514.55 Tm (    Console.writeLine\(" NORTEX"\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 503.05 Tm (    return 0;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 491.55 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 469.05 Tm (Interne Stringwerte verwenden einen 16-Byte-Slice-Deskriptor \(Datenzeiger und Byte-Länge\), der als) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 454.55 Tm (Adresse gemäß Windows-x64-ABI übergeben wird. String-Literalbytes und Deskriptoren liegen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 440.05 Tm (schreibgeschützt im COFF-Datenbereich. Leere Strings und eingebettete NUL-Bytes werden anhand) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 425.55 Tm (der Länge korrekt behandelt.) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 406.05 Tm (using System;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 394.55 Tm () Tj
+/F3 8.50 Tf 1 0 0 1 72.00 383.05 Tm (public int main\(\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 371.55 Tm (    Console.write\("a"\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 360.05 Tm (    Console.writeLine\("b\\tc \\"zitiert\\" \\\\"\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 348.55 Tm (    return 0;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 337.05 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 314.55 Tm (Ausgabe: ab?c "zitiert" \\. Escapes: \\n \\r \\t \\0 \\" \\\\. Ein leerer String ist erlaubt. Unicode im Literal wird) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 300.05 Tm (als UTF-8-Bytes ausgegeben; die korrekte Darstellung hängt von der Konsolen-Codepage ab \(nicht) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 285.55 Tm (systematisch geprüft\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 246.30 Tm (Nicht unterstützt \(jeweils NX2001/NX2002\)) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 226.30 Tm (Versuch | Meldung) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 211.30 Tm (Console.writeLine\(5\); | Argument muss vom Typ string sein) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 196.30 Tm (Console.readLine\(\) | nur direkte freie Funktionen und Console-Ausgabe) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 154.05 Tm (String-Konkatenation) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 135.55 Tm (Console.writeLine\("Hallo " + name\); ist erlaubt: + zwischen zwei string-Werten erzeugt über) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 121.05 Tm (nortex_string_concat \(Windows HeapAlloc\) einen neuen Heap-String. Dieser wird beim Scope-Ende) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 106.55 Tm (über nortex_string_free freigegeben \(Drop im Codegen, siehe 04-data-types.md\). Top-Level-Strings) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 92.05 Tm (\(const string/mut string\) und extern "C"-Aufrufe mit string-Argument \(char*, NUL-terminiert\) sind) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 77.55 Tm (ebenfalls möglich, siehe 04-data-types.md.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (22) Tj ET
+endstream
+endobj
+49 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 48 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+50 0 obj
+<< /Length 1849 >>
+stream
+BT
+/F1 10.50 Tf 1 0 0 1 62.00 757.50 Tm (Konsoleneingabe, Formatierung und Interpolation sind nicht implementiert. Fehlerausgabe \(stderr\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 743.00 Tm (hat keine eigene API.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 703.75 Tm (Ergebniswerte als Ausgabekanal) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 685.25 Tm (Weil Zahlen nicht ausgegeben werden können, liefern Beispielprogramme Ergebnisse als Exitcode) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 670.75 Tm (\(return countPrimes\(100\); -> 25\). In PowerShell: $LASTEXITCODE.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 631.50 Tm (Standardbibliothek) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 613.00 Tm (standard-library/system/console.nx und io/mod.nx sind Entwürfe ohne Compilerbindung.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 573.75 Tm (Strings \(Zielentwurf\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 555.25 Tm (string ist UTF-8 und besitzt seinen Speicher. length\(\) zählt Bytes \(nicht Skalarwerte oder) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 540.75 Tm (Graphemcluster\); Indexzugriff ist byte-orientiert und liefert byte; chars\(\) iteriert Unicode-Skalarwerte) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 526.25 Tm (\(char, 32 Bit\), bytes\(\) die UTF-8-Bytes. Strings müssen gültiges UTF-8 bleiben. Vorgesehene API:) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 511.75 Tm (length\(\), isEmpty\(\), contains\(\), startsWith\(\), endsWith\(\), replace\(\), split\(\), trim\(\), toUpperCase\(\),) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 497.25 Tm (toLowerCase\(\), chars\(\), bytes\(\). Ein öffentlicher StringBuilder ist nicht vorgesehen. Der Typchecker) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 482.75 Tm (akzeptiert string + string und string + skalare Primitive \(Ergebnis string\); die Formatierung ist noch) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 468.25 Tm (nicht End-to-End verfügbar.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (23) Tj ET
+endstream
+endobj
+51 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 50 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+52 0 obj
+<< /Length 3568 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (Kapitel 11 – Fehlermeldungen und) Tj
+/F2 22.00 Tf 1 0 0 1 62.00 712.60 Tm (Debugging) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 694.10 Tm (<- Kapitel 10 · Inhalt · Weiter: Kapitel 12) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 654.85 Tm (Format) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 636.35 Tm (error[NX1102]: Typfehler in Variableninitialisierung: erwartet 'float', erhalten 'double'.) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 624.85 Tm ( --> datei.nx:7:19) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 613.35 Tm (   |) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 601.85 Tm ( 7 |     float f = 2.5;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 590.35 Tm (   |               ^^^) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 567.85 Tm (Meldungen sind deutsch; Codes \(NXnnnn\) sind stabil. Severity: error oder warning. nortexc bricht bei) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 553.35 Tm (Fehlern mit Exitcode != 0 ab und schreibt keine EXE.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 514.10 Tm (Fehlerklassen mit tatsächlich beobachteten Codes) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 494.10 Tm (Klasse | Code | Beispiel / Behebung) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 479.10 Tm (Lexikalisch/Syntax | NX0100 | int a = ; · @ · fehlendes ; · nicht abgeschlossener String · unbekannte) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 466.10 Tm (Escape \\q. Syntax korrigieren.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 451.10 Tm (Doppelte Deklaration | NX1001 | int a zweimal im Scope -> umbenennen.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 436.10 Tm (Namensauflösung | NX1003, NX1004 | Unbekannter Namespace/Bezeichner -> deklarieren oder) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 423.10 Tm (korrigieren.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 408.10 Tm (Memberdeklaration | NX1005 | Funktion ohne Rumpf -> { ... } ergänzen.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 393.10 Tm (Typen | NX1100, NX1102 | int a = "text"; -> passenden Typ nutzen; Literal außerhalb des Wertebereichs.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 378.10 Tm (Rückgabe | NX1103 | Nicht alle Pfade geben zurück -> return ergänzen.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 363.10 Tm (Überladung/Aufruf | NX1107 | Falsche Argumentzahl.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 348.10 Tm (Veränderlichkeit | NX1200, NX1201 | Zuweisung an unveränderliche Bindung -> mut setzen.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 333.10 Tm (Kontrollfluss | NX1301, NX1302 | break/continue außerhalb einer Schleife.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 318.10 Tm (Stil-Warnung | NX0004 | Konstante nicht UPPER_SNAKE_CASE, Variable nicht camelCase.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 303.10 Tm (Backend-Subset | NX2001, NX2002 | Konstrukt vom nativen Lowering nicht unterstützt \(siehe unten\).) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 288.10 Tm (Codegen/Linker | \(ohne Code\) | „genau eine parameterlose int-main-Funktion“, LNK2019 bei fehlender) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 275.10 Tm (main.) Tj
+/F1 10.50 Tf 1 0 0 1 76.00 252.60 Tm (Abweichung zur Codetabelle: diagnostic-codes.md reserviert NX0001–NX0003 für Lexerfehler.) Tj
+/F1 10.50 Tf 1 0 0 1 76.00 238.10 Tm (Der aktuelle Lexer meldet diese Fälle tatsächlich als NX0100. Maßgeblich ist das beobachtete) Tj
+/F1 10.50 Tf 1 0 0 1 76.00 223.60 Tm (Verhalten.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 184.35 Tm (Laufzeitfehler) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 165.85 Tm (Es gibt keine Laufzeit-Fehlermeldungen oder Exceptions. Ein Overflow- oder Division-durch-0-Trap) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 151.35 Tm (beendet das Programm mit Exitcode -1073741795 \(0xC000001D, illegale Instruktion\) ohne Text. Mit) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 136.85 Tm (--overflow-checks=false entfällt der Overflow-Trap.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (24) Tj ET
+endstream
+endobj
+53 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 52 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+54 0 obj
+<< /Length 3747 >>
+stream
+BT
+/F2 15.00 Tf 1 0 0 1 62.00 751.75 Tm (Bekannter Compilerfehler) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 733.25 Tm (Programme mit long-Locals und Division/Vergleich gegen int-Literal können einen Panic im) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 718.75 Tm (Cranelift-Frontend auslösen \(frontend.rs\), statt einer Diagnose. Workaround: long nur als) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 704.25 Tm (Parameter/Rückgabe verwenden.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 665.00 Tm (Strategien) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 646.50 Tm (1.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 646.50 Tm (nortexc check datei.nx für reine Frontend-Fehler.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 630.00 Tm (2.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 630.00 Tm (NX2001/NX2002 bedeuten „noch nicht nativ“, nicht „falscher Code“: auf unterstützte) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 615.50 Tm (Konstrukte umstellen \(README\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 599.00 Tm (3.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 599.00 Tm (nortexc mir datei.nx zeigt das optimierte MIR.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 582.50 Tm (4.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 582.50 Tm (Ergebnisse über den Exitcode ausgeben \(Kapitel 10\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 546.25 Tm (Fehlerbehandlung \(Entwurf und Frontend-Stand\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 527.75 Tm (NORTEX trennt optionale Werte \(Option: Some/None\), erwartbare Fehler \(Result: Ok/Err\) und) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 513.25 Tm (Exceptions \(throw, try/catch/finally\). Es gibt keinen ?-Operator. Option und Result sollen must_use) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 498.75 Tm (sein; ein nicht verwendetes Ergebnis muss behandelt, weitergegeben oder mit discard\(value\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 484.25 Tm (verworfen werden.) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 464.75 Tm (public Result<int, string> divide\(int first, int second\)) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 453.25 Tm ({) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 441.75 Tm (    if \(second == 0\) { return Err\("Division by zero"\); }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 430.25 Tm (    return Ok\(first / second\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 418.75 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 396.25 Tm (Ist-Stand \(Frontend\): Ein Result als eigenständiges Ausdrucksstatement meldet NX1108; nicht) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 381.75 Tm (vollständige Enum-match-Arme melden NX1109 \(_ ist der Fallback\). Option wird nicht auf must_use) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 367.25 Tm (geprüft. Geplant: discard, native Exception-Unwinding, RAII-Bereinigung, vollständiges match,) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 352.75 Tm (Exceptions als Statuswerte an der C-ABI-Grenze; checked/unchecked ist offen \(Kapitel 15\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 313.50 Tm (Asynchronität \(geplant\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 295.00 Tm (Ziel: async-Funktionen werden zu suspendierbaren Zustandsmaschinen; await blockiert keinen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 280.50 Tm (Worker. Future ist die Berechnung, Task die von der Runtime eingeplante Ausführung.) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 261.00 Tm (public async Task<string> loadText\(string path\)) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 249.50 Tm ({) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 238.00 Tm (    return await File.readText\(path\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 226.50 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 204.00 Tm (Der Parser kennt async/await; der Compiler senkt sie nicht in die Runtime ab. Der Rust-Prototyp) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 189.50 Tm (runtime/src/async/ hat einen Waker-basierten Scheduler mit FIFO-Queue und block_on \(nur für) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 175.00 Tm (Einstieg/Tests\). Es fehlen Work-Stealing, Timer, Cancellation-API, IOCP-Reaktor und) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 160.50 Tm (Send/Sync-Analyse.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (25) Tj ET
+endstream
+endobj
+55 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 54 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+56 0 obj
+<< /Length 3738 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (Kapitel 12 – Kompilierung und technische) Tj
+/F2 22.00 Tf 1 0 0 1 62.00 712.60 Tm (Funktionsweise) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 694.10 Tm (<- Kapitel 11 · Inhalt · Weiter: Kapitel 13) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 654.85 Tm (Pipeline) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 636.35 Tm (.nx -> Lexer -> Parser/AST -> semantische Prüfung -> HIR -> MIR) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 624.85 Tm (    -> MIR-Validierung + Optimierung -> Cranelift -> Windows-x64-COFF \(.obj\)) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 613.35 Tm (    -> MSVC-Linker \(+ NORTEX-Runtime\) -> .exe) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 589.35 Tm (Stufe | Quelle | Aufgabe) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 574.35 Tm (Lexer | compiler/src/lexer/mod.rs | ASCII-Bezeichner, Schlüsselwörter, Zahlen, Strings/Chars, Symbole,) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 561.35 Tm (Kommentarspannen \(für die IDE\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 546.35 Tm (Parser/AST | parser/mod.rs, ast/mod.rs | Pratt-Parser für Ausdrücke, Deklarationen, Anweisungen; Fehler) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 533.35 Tm (als NX0100) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 518.35 Tm (Semantik | semantic/mod.rs, type_checker.rs | Namen, Typen, Veränderlichkeit, Rückgabepfade,) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 505.35 Tm (Move/Borrow-Grundprüfungen, Stilwarnungen) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 490.35 Tm (HIR | hir/mod.rs | aufgelöste, typisierte Zwischenform) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 475.35 Tm (MIR | mir/lowering.rs, mir/mod.rs | CFG mit Blöcken; skalares Subset; Definite-Assignment- und) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 462.35 Tm (Loan-Prüfung; Diagnosen NX2001/NX2002 für nicht unterstützte Konstrukte) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 447.35 Tm (Optimizer | optimizer/mod.rs | Optimierungen auf validiertem MIR) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 432.35 Tm (Codegen | codegen/mod.rs | Cranelift-IR -> COFF-Objekt für x86_64-pc-windows-msvc; Overflow-Trap) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 417.35 Tm (Linker | linker/mod.rs | ruft MSVC link.exe, bindet CRT und Runtime; zusätzliche Argumente aus dem) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 404.35 Tm (Manifest) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 389.35 Tm (Driver | driver/mod.rs | verbindet die Stufen) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 347.10 Tm (Kommandos) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 327.10 Tm (Kommando | Wirkung) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 312.10 Tm (nortexc check  | Lexer + Parser + Semantik) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 297.10 Tm (nortexc mir  | gibt validiertes, optimiertes MIR aus) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 282.10 Tm (nortexc build  [-o …] [--emit-obj] [--overflow-checks[=bool]] | erzeugt .exe oder .obj) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 239.85 Tm (Eigenschaften des Backends) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 221.35 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 221.35 Tm (Ziel: ausschließlich Windows x64 \(MSVC\). Kein Linux/ARM64.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 204.85 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 204.85 Tm (Einstieg: C-main der CRT; NORTEX-int main\(\) liefert den Prozess-Exitcode.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 188.35 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 188.35 Tm (Stringwerte werden als Adresse eines 16-Byte-UTF-8-Slice-Deskriptors repräsentiert;) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 173.85 Tm (Console.write\(Line\) lädt daraus Datenzeiger und Byte-Länge für den Runtime-ABI-Aufruf.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 157.35 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 157.35 Tm (Nicht unterstützte Konstrukte werden diagnostiziert, nicht still ignoriert \(Ausnahme: im) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 142.85 Tm (getesteten Fall async-Deklaration baut ohne Wirkung; enum/class-Deklarationen ohne Nutzung) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 128.35 Tm (werden akzeptiert\).) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (26) Tj ET
+endstream
+endobj
+57 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 56 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+58 0 obj
+<< /Length 2897 >>
+stream
+BT
+/F2 15.00 Tf 1 0 0 1 62.00 751.75 Tm (Hinweis zu älteren Dokumenten) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 733.25 Tm (docs/compiler/architecture.md beschreibt einen früheren Stand \(„natives Backend noch nicht fertig“\).) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 718.75 Tm (Der native Pfad für das skalare Subset ist inzwischen vorhanden und durch End-to-End-Tests belegt) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 704.25 Tm (\(sum_to\(10\) -> Exitcode 55\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 665.00 Tm (ABI \(Zielentwurf\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 646.50 Tm (extern "C" markiert eine Funktion mit C-ABI; nur ABI-kompatible Parameter/Rückgaben sind zulässig.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 632.00 Tm (Structs sind nur mit [repr\(C\)] C-kompatibel; string, Klassen-Owner, Generics, Exceptions,) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 617.50 Tm (Task/Future und beliebige Result/Option-Layouts haben keine automatische C-Kompatibilität. Strings) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 603.00 Tm (gehen als UTF-8-Zeiger plus Byte-Länge; Speicher wird vom bereitstellenden Allocator freigegeben.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 588.50 Tm (Symbolnamen, Calling Convention und ABI-Hauptversion gehören zum Schnittstellenvertrag. Eine) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 574.00 Tm (freigegebene Binärkompatibilitätsgarantie und ein FFI-Testlauf fehlen; Verbindliches steht in Phase) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 559.50 Tm (4.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 520.25 Tm (Paketformat .ntx \(geplant\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 501.75 Tm (.nx ist Quelltext, nortex.toml das TOML-Manifest, .ntx ein eigener deterministischer Binär-Container) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 487.25 Tm (\(kein ZIP, kein Quelltext\). Reader und Writer sind nicht implementiert. Entwurf \(Containerformat 1,) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 472.75 Tm (little-endian\): 48-Byte-Header mit Magic NORTEXPK, Major-/Minorversion, Flags \(unbekannte) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 458.25 Tm (Pflichtflags -> Ablehnung\), Offset/Länge des TOML-Manifests, Index-Offset, Eintragszahl und) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 443.75 Tm (reservierten Nullbytes; Index je Datei mit Pfadlänge, Typ, Flags, Offsets, Größen und SHA-256,) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 429.25 Tm (lexikografisch sortiert; 8-Byte-ausgerichtete Nutzdaten, keine Kompression. Validierung: nur relative) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 414.75 Tm (UTF-8-Pfade mit / \(kein .., keine Duplikate\), alle Bereiche innerhalb der Datei, Größenlimits vor) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 400.25 Tm (Allokation, Integerüberlauf-Prüfung, SHA-256-Prüfung \(Schutz vor Beschädigung, keine) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 385.75 Tm (Authentifizierung\), optionale Signaturen \(Verfahren offen\), atomare Installation ohne Symlinks. Builds) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 371.25 Tm (sollen byteidentisch reproduzierbar sein.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (27) Tj ET
+endstream
+endobj
+59 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 58 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+60 0 obj
+<< /Length 3009 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (Kapitel 13 – Praktische Beispiele) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (<- Kapitel 12 · Inhalt · Weiter: Kapitel 14) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 704.30 Tm (Alle Dateien liegen in examples/language/. Jedes Beispiel wurde mit nortexc build gebaut und) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 689.80 Tm (ausgeführt \(Ausnahmen: 07/08, nur check\). Aufruf: nortexc build examples\\language\\NN_name.nx -o) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 675.30 Tm (out.exe; .\\out.exe; $LASTEXITCODE.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 636.05 Tm (1. Hello World – 01_hello.nx) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 617.55 Tm (using System;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 606.05 Tm () Tj
+/F3 8.50 Tf 1 0 0 1 72.00 594.55 Tm (public int main\(\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 583.05 Tm (    Console.writeLine\("Hallo, NORTEX!"\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 571.55 Tm (    return 0;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 560.05 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 537.55 Tm (Gibt Hallo, NORTEX! aus, Exitcode 0. main ist der Einstieg, der return-Wert der Exitcode.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 498.30 Tm (2. Variablen und Berechnungen – 02_variables.nx) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 479.80 Tm (public int main\(\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 468.30 Tm (    int width = 6;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 456.80 Tm (    int height = 7;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 445.30 Tm (    int area = width * height;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 433.80 Tm (    mut int total = area;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 422.30 Tm (    total += 8;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 410.80 Tm (    total -= 3;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 399.30 Tm (    const int OFFSET = 3;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 387.80 Tm (    return total + OFFSET;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 376.30 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 353.80 Tm (Unveränderliche Werte per Default, mut für total. Rechnung: 42 -> 50 -> 47 -> 50. Exitcode 50.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 314.55 Tm (3. Bedingungen – 03_conditions.nx) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 296.05 Tm (public int classify\(int score\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 284.55 Tm (    if \(score >= 90\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 273.05 Tm (        return 1;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 261.55 Tm (    } else if \(score >= 50\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 250.05 Tm (        return 2;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 238.55 Tm (    }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 227.05 Tm (    return 3;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 215.55 Tm (}) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 204.05 Tm () Tj
+/F3 8.50 Tf 1 0 0 1 72.00 192.55 Tm (public int main\(\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 181.05 Tm (    Console.writeLine\("Klassifiziere den Wert 72"\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 169.55 Tm (    return classify\(72\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 158.05 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 135.55 Tm (72 erfüllt nur die zweite Bedingung. Ausgabe Klassifiziere den Wert 72, Exitcode 2.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (28) Tj ET
+endstream
+endobj
+61 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 60 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+62 0 obj
+<< /Length 3296 >>
+stream
+BT
+/F2 15.00 Tf 1 0 0 1 62.00 751.75 Tm (4. Schleifen – 04_loops.nx) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 733.25 Tm (public int main\(\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 721.75 Tm (    mut int sum = 0;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 710.25 Tm (    for \(mut int i = 1; i <= 10; i += 1\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 698.75 Tm (        if \(i % 2 != 0\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 687.25 Tm (            continue;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 675.75 Tm (        }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 664.25 Tm (        sum += i;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 652.75 Tm (    }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 641.25 Tm () Tj
+/F3 8.50 Tf 1 0 0 1 72.00 629.75 Tm (    mut int n = 0;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 618.25 Tm (    while \(true\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 606.75 Tm (        n += 1;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 595.25 Tm (        if \(n == 5\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 583.75 Tm (            break;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 572.25 Tm (        }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 560.75 Tm (    }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 549.25 Tm (    return sum + n;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 537.75 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 515.25 Tm (for summiert gerade Zahlen \(2+4+6+8+10 = 30\), continue überspringt ungerade; while \(true\) endet) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 500.75 Tm (per break bei 5. Exitcode 35.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 461.50 Tm (5. Funktionen und Rekursion – 05_functions.nx) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 443.00 Tm (public int gcd\(int a, int b\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 431.50 Tm (    if \(b == 0\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 420.00 Tm (        return a;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 408.50 Tm (    }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 397.00 Tm (    return gcd\(b, a % b\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 385.50 Tm (}) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 374.00 Tm () Tj
+/F3 8.50 Tf 1 0 0 1 72.00 362.50 Tm (public int fib\(int n\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 351.00 Tm (    if \(n < 2\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 339.50 Tm (        return n;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 328.00 Tm (    }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 316.50 Tm (    return fib\(n - 1\) + fib\(n - 2\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 305.00 Tm (}) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 293.50 Tm () Tj
+/F3 8.50 Tf 1 0 0 1 72.00 282.00 Tm (public int main\(\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 270.50 Tm (    return gcd\(48, 18\) + fib\(10\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 259.00 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 236.50 Tm (gcd\(48,18\) = 6, fib\(10\) = 55. Exitcode 61.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 197.25 Tm (6. Vollständige Anwendung: Primzahlen – 06_primes.nx) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 178.75 Tm (using System;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 167.25 Tm () Tj
+/F3 8.50 Tf 1 0 0 1 72.00 155.75 Tm (public bool isPrime\(int n\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 144.25 Tm (    if \(n < 2\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 132.75 Tm (        return false;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 121.25 Tm (    }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 109.75 Tm (    mut int d = 2;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 98.25 Tm (    while \(d * d <= n\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 86.75 Tm (        if \(n % d == 0\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 75.25 Tm (            return false;) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (29) Tj ET
+endstream
+endobj
+63 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 62 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+64 0 obj
+<< /Length 2905 >>
+stream
+BT
+/F3 8.50 Tf 1 0 0 1 72.00 760.50 Tm (        }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 749.00 Tm (        d += 1;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 737.50 Tm (    }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 726.00 Tm (    return true;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 714.50 Tm (}) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 703.00 Tm () Tj
+/F3 8.50 Tf 1 0 0 1 72.00 691.50 Tm (public int countPrimes\(int limit\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 680.00 Tm (    mut int count = 0;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 668.50 Tm (    for \(mut int n = 2; n <= limit; n += 1\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 657.00 Tm (        if \(isPrime\(n\)\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 645.50 Tm (            count += 1;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 634.00 Tm (        }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 622.50 Tm (    }) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 611.00 Tm (    return count;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 599.50 Tm (}) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 588.00 Tm () Tj
+/F3 8.50 Tf 1 0 0 1 72.00 576.50 Tm (public int main\(\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 565.00 Tm (    Console.writeLine\("Zaehle Primzahlen bis 100"\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 553.50 Tm (    return countPrimes\(100\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 542.00 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 519.50 Tm (Kombiniert bool-Funktionen, Schleifen, frühe Rückgaben, Aufrufketten und Konsolenausgabe. Es gibt) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 505.00 Tm (25 Primzahlen <= 100. Exitcode 25.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 465.75 Tm (7. Structs – 07_struct_frontend.nx \(nur check\)) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 447.25 Tm (public struct Point {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 435.75 Tm (    public int x;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 424.25 Tm (    public int y;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 412.75 Tm (}) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 401.25 Tm () Tj
+/F3 8.50 Tf 1 0 0 1 72.00 389.75 Tm (public int main\(\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 378.25 Tm (    mut Point p = new Point\(\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 366.75 Tm (    p.x = 3;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 355.25 Tm (    p.y = 4;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 343.75 Tm (    return p.x + p.y;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 332.25 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 309.75 Tm (nortexc check erfolgreich; nortexc build -> NX2001. Zeigt die vorgesehene Syntax, ist aber noch) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 295.25 Tm (nicht ausführbar.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 256.00 Tm (8. Methoden – 08_class_frontend.nx \(nur check\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 237.50 Tm (Klasse Counter mit inc\(\)/get\(\); gleicher Status wie Beispiel 7 \(siehe Kapitel 8\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 198.25 Tm (9. Heap-Allokation) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 179.75 Tm (Nicht ausführbar: new erzeugt im nativen Build immer NX2001. Es gibt daher kein lauffähiges) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 165.25 Tm (Heap-Beispiel \(Kapitel 9\).) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (30) Tj ET
+endstream
+endobj
+65 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 64 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+66 0 obj
+<< /Length 3853 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (Kapitel 14 – Sprachreferenz) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (<- Kapitel 13 · Inhalt · Weiter: Kapitel 15) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 684.55 Tm (Schlüsselwörter) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 666.05 Tm (Quelle: is_keyword in compiler/src/lexer/mod.rs.) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 645.05 Tm (Gruppe | Wörter | Nativ nutzbar) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 630.05 Tm (Deklarationen | using namespace class struct record interface trait enum | nur Deklaration akzeptiert) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 615.05 Tm (Modifier | public private protected internal static abstract sealed partial extern unsafe const virtual override) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 602.05 Tm (async readonly | public private static const) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 587.05 Tm (Veränderlichkeit | var mut ref out params | mut) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 572.05 Tm (Kontrollfluss | return throw if else while for in switch case default break continue try catch finally match |) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 559.05 Tm (return if else while for break continue) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 544.05 Tm (Literale | true false null | true false \(null verboten\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 529.05 Tm (Ausdrücke | new await this base operator is as typeof sizeof where | nein) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 514.05 Tm (Reserviert | let | nein \(NX0100\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 499.05 Tm (Typen | sbyte short int long i128 byte ushort uint ulong u128 nint nuint isize usize float double decimal) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 486.05 Tm (bool char string void | int bool uint short ulong long \(Einschränkungen: Kap. 4\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 463.55 Tm (Nicht-Schlüsselwörter: Console, System, get, set, do, foreach, fn.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 424.30 Tm (Token) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 405.80 Tm (Identifier, Keyword, Number \(dezimal, 0x, 0b, Exponent, Suffix\), StringLiteral, CharacterLiteral,) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 391.30 Tm (Symbol, EndOfFile. Kommentare werden separat erfasst.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 352.05 Tm (Operatoren und Symbole) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 333.55 Tm (+ - * / % · == !=  = · && || ! · & | ^ ~ > · = += -= *= /= %= &= |= ^= >= · ++ -- · ? : · . , ; \( \) [ ] { } · ->) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 319.05 Tm (=> ::. Rangfolge: Kapitel 5.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 279.80 Tm (Grammatikalische Konstruktionen \(nativ\)) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 261.30 Tm (Datei        = { Using } { Funktion } ;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 249.80 Tm (Using        = "using" Name ";" ;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 238.30 Tm (Funktion     = { Modifier } Typ Name "\(" [ Typ Name { "," Typ Name } ] "\)" Block ;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 226.80 Tm (Block        = "{" { Anweisung } "}" ;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 215.30 Tm (Anweisung    = Deklaration | Zuweisung ";" | Aufruf ";" | If | While | For) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 203.80 Tm (             | "break" ";" | "continue" ";" | "return" [ Ausdruck ] ";" | Block ;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 192.30 Tm (Deklaration  = [ "mut" | "const" ] Typ Name "=" Ausdruck ";" ;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 180.80 Tm (If           = "if" "\(" Ausdruck "\)" Anweisung [ "else" Anweisung ] ;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 169.30 Tm (While        = "while" "\(" Ausdruck "\)" Anweisung ;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 157.80 Tm (For          = "for" "\(" Deklaration Ausdruck ";" Zuweisung "\)" Anweisung ;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 146.30 Tm (Ternär       = Ausdruck "?" Ausdruck ":" Ausdruck ;) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 123.80 Tm (Das ist eine vereinfachte Sicht des nativ unterstützten Teils. Die vollständige Frontend-Grammatik:) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 109.30 Tm (grammar.ebnf.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (31) Tj ET
+endstream
+endobj
+67 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 66 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+68 0 obj
+<< /Length 1886 >>
+stream
+BT
+/F2 15.00 Tf 1 0 0 1 62.00 751.75 Tm (Unterstützte Anweisungen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 733.25 Tm (Lokale Deklaration, Zuweisung \(einfach/zusammengesetzt\), Funktionsaufruf, Console.write\(Line\),) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 718.75 Tm (if/else, while, for, break, continue, return, Block.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 679.50 Tm (Built-in-Funktionen) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 659.50 Tm (Funktion | Signatur | Einschränkung) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 644.50 Tm (Console.write | \(string\) | genau ein Stringwert) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 629.50 Tm (Console.writeLine | \(string\) | genau ein Stringwert) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 607.00 Tm (Weitere eingebaute Funktionen existieren nicht \(Console.readLine nicht auflösbar\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 567.75 Tm (Diagnosecodes \(beobachtet\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 549.25 Tm (NX0004 NX0100 NX1001 NX1003 NX1004 NX1005 NX1100 NX1102 NX1103 NX1107 NX1200) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 534.75 Tm (NX1201 NX1301 NX1302 NX2001 NX2002. Siehe Kapitel 11.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 495.50 Tm (Relevante Einschränkungen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 477.00 Tm (intrinsic ist ein kontextabhängiger Modifier ausschließlich für Dateien unter standard-library/; in) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 462.50 Tm (Anwendungscode wird er mit NX1005 abgelehnt. Ein Intrinsic-/Runtime-Symbolbinder existiert nicht.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 443.00 Tm (Siehe Feature-Übersicht. Zusätzlich: nur Windows x64; main muss public int main\(\) ohne Parameter) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 428.50 Tm (sein; Modulsystem ohne qualifizierte Namen und Sichtbarkeit \(using mit flachem Namensraum\);) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 414.00 Tm (long-Locals mit Division können den Codegen abstürzen lassen.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (32) Tj ET
+endstream
+endobj
+69 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 68 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+70 0 obj
+<< /Length 3891 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (Kapitel 15 – FAQ und Best Practices) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (<- Kapitel 14 · Inhalt) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 684.55 Tm (Häufige Anfängerfehler) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 664.55 Tm (Fehler | Ursache / Lösung) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 649.55 Tm (NX1200 bei i += 1 in for | Laufvariable mut deklarieren: for \(mut int i = 0; …\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 634.55 Tm (NX1200 bei Parameter ändern | Parameter sind unveränderlich; lokale mut-Kopie anlegen.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 619.55 Tm (NX2001/NX2002 beim Build | Konstrukt ist nur Frontend \(Klassen, Heap-Strings, var, switch, …\).) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 604.55 Tm („genau eine parameterlose int-main-Funktion“ | public int main\(\) verwenden.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 589.55 Tm (a++ scheitert | a += 1;) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 574.55 Tm (Keine Zahlenausgabe | Ergebnis als Exitcode zurückgeben.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 559.55 Tm (let x = 1; | Typ angeben: int x = 1;) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 544.55 Tm (NX1102 bei uint + int | Gleiche Typen verwenden; es gibt keine Casts.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 502.30 Tm (FAQ) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 483.80 Tm (Warum läuft meine Klasse nicht? class/struct/new sind im Frontend, aber nicht im nativen Lowering.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 469.30 Tm (Kann ich Strings speichern? Ja. Literale, lokale Variablen, Top-Level-const/mut string, interne) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 454.80 Tm (Parameter und Rückgaben verwenden UTF-8-Slices; a + b erzeugt Heap-Strings \(ohne Freigabe\).) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 440.30 Tm (Wie debugge ich? nortexc check, nortexc mir, Exitcodes; ein Debugger existiert nicht. Gibt es Linux?) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 425.80 Tm (Nein, nur Windows x64. Gibt es Module? Ja: using util; löst util.nx bzw. util/mod.nx auf \(flacher) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 411.30 Tm (Namensraum\), siehe Ist-Spezifikation.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 372.05 Tm (Empfohlene Praktiken) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 353.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 353.55 Tm (Namen: Funktionen/Variablen camelCase, Konstanten UPPER_SNAKE_CASE, Typen) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 339.05 Tm (PascalCase \(entspricht den NX0004-Warnungen\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 322.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 322.55 Tm (Veränderlichkeit: Nur dort mut, wo nötig.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 306.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 306.05 Tm (Struktur: Kleine Funktionen mit einem return-Pfad; main nur als Orchestrator.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 289.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 289.55 Tm (Fehlerprüfung: Vor Division auf 0 prüfen \(Trap statt Fehlermeldung\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 273.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 273.05 Tm (Typen: Im nativen Code int/bool bevorzugen; explizite Typen statt var.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 256.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 256.55 Tm (Verifikation: Beispiele nach jeder Änderung bauen und Exitcode prüfen.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 220.30 Tm (Performance) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 201.80 Tm (Der Backend-Optimierer arbeitet auf MIR; Rekursion \(fib\) ist nicht optimiert \(kein Tail-Call-Nachweis\).) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 187.30 Tm (Overflow-Prüfung kostet etwas; --overflow-checks=false nur bewusst einsetzen, da dann) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 172.80 Tm (Wraparound ohne Warnung auftritt.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 133.55 Tm (Größere Projekte) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 115.05 Tm (Mit nortex.toml bauen \(Kapitel 2\). Mehrere .nx-Dateien lassen sich über using zusammenführen) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 100.55 Tm (\(flacher Namensraum, keine Sichtbarkeitsprüfung zwischen Modulen; siehe Ist-Spezifikation\).) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (33) Tj ET
+endstream
+endobj
+71 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 70 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+72 0 obj
+<< /Length 1732 >>
+stream
+BT
+/F2 15.00 Tf 1 0 0 1 62.00 751.75 Tm (Offene Entscheidungen \(Projektinhaber\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 733.25 Tm (Diese Punkte sind nicht freigegeben; der Compiler darf sie nicht als endgültig behandeln:) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 713.75 Tm (1.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 713.75 Tm (Lizenz: Der Repository-Header lautet MIT; das ist keine bestätigte rechtliche Freigabe.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 697.25 Tm (2.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 697.25 Tm (Exceptions: checked oder unchecked und das native Unwind-Verfahren sind offen. Exceptions) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 682.75 Tm (dürfen nie unkontrolliert über eine C-ABI-Grenze laufen.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 666.25 Tm (3.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 666.25 Tm (Arithmetik: Ob Checked-Arithmetik im Release-Standard ist, ist offen \(derzeit konfigurierbar) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 651.75 Tm (über Overflow-Checks, siehe Manifest\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 635.25 Tm (4.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 635.25 Tm (Methodenreceiver: &self, &mut self oder ein anderer Vertrag für Instanzmethoden ist offen.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 618.75 Tm (5.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 618.75 Tm (Backend: Das Backend ist Cranelift mit MSVC link.exe; LLVM ist nicht verbindlich und) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 604.25 Tm (höchstens ein nicht-normativer Prototyp.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 587.75 Tm (Frühere Entwurfsregeln, die der Ist-Stand überholt hat \(Bindungen „standardmäßig veränderbar“,) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 573.25 Tm (Manifest .nortex, Linker lld-link, „keine native EXE“\), gelten nicht mehr.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX - Sprachreferenz) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (34) Tj ET
+endstream
+endobj
+73 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 72 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+74 0 obj
+<< /Title (NORTEX - Sprachreferenz) /Producer (build_manual_pdf.py) >>
+endobj
+xref
+0 75
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000352 00000 n 
+0000000449 00000 n 
+0000000551 00000 n 
+0000000646 00000 n 
+0000000864 00000 n 
+0000001010 00000 n 
+0000005990 00000 n 
+0000006136 00000 n 
+0000011345 00000 n 
+0000011493 00000 n 
+0000014465 00000 n 
+0000014613 00000 n 
+0000017994 00000 n 
+0000018142 00000 n 
+0000019083 00000 n 
+0000019231 00000 n 
+0000022448 00000 n 
+0000022596 00000 n 
+0000025289 00000 n 
+0000025437 00000 n 
+0000030288 00000 n 
+0000030436 00000 n 
+0000034898 00000 n 
+0000035046 00000 n 
+0000039478 00000 n 
+0000039626 00000 n 
+0000042965 00000 n 
+0000043113 00000 n 
+0000045628 00000 n 
+0000045776 00000 n 
+0000048731 00000 n 
+0000048879 00000 n 
+0000049624 00000 n 
+0000049772 00000 n 
+0000053365 00000 n 
+0000053513 00000 n 
+0000055466 00000 n 
+0000055614 00000 n 
+0000059007 00000 n 
+0000059155 00000 n 
+0000062868 00000 n 
+0000063016 00000 n 
+0000066811 00000 n 
+0000066959 00000 n 
+0000067352 00000 n 
+0000067500 00000 n 
+0000071302 00000 n 
+0000071450 00000 n 
+0000073352 00000 n 
+0000073500 00000 n 
+0000077121 00000 n 
+0000077269 00000 n 
+0000081069 00000 n 
+0000081217 00000 n 
+0000085008 00000 n 
+0000085156 00000 n 
+0000088106 00000 n 
+0000088254 00000 n 
+0000091316 00000 n 
+0000091464 00000 n 
+0000094813 00000 n 
+0000094961 00000 n 
+0000097919 00000 n 
+0000098067 00000 n 
+0000101973 00000 n 
+0000102121 00000 n 
+0000104060 00000 n 
+0000104208 00000 n 
+0000108152 00000 n 
+0000108300 00000 n 
+0000110085 00000 n 
+0000110233 00000 n 
+trailer
+<< /Size 75 /Root 1 0 R /Info 74 0 R >>
+startxref
+110320
+%%EOF

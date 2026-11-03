@@ -1,0 +1,1079 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R] /Count 22 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 169 >>
+stream
+BT
+/F2 40.00 Tf 1 0 0 1 62.00 514.00 Tm (NORTEX Code) Tj
+/F1 24.00 Tf 1 0 0 1 62.00 482.00 Tm (User Manual) Tj
+/F1 13.00 Tf 1 0 0 1 62.00 432.00 Tm (Version 0.1.0) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 6 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+8 0 obj
+<< /Length 4758 >>
+stream
+BT
+/F2 20.00 Tf 1 0 0 1 62.00 744.00 Tm (Table of contents) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 714.00 Tm (1 Welcome to Nortex Code) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 714.00 Tm (4) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 699.00 Tm (What is Nortex Code?) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 699.00 Tm (4) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 684.00 Tm (What is it used for?) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 684.00 Tm (4) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 669.00 Tm (Overview of the main features) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 669.00 Tm (4) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 654.00 Tm (Relation to the language) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 654.00 Tm (4) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 636.00 Tm (2 Installation and first start) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 636.00 Tm (5) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 621.00 Tm (System requirements) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 621.00 Tm (5) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 606.00 Tm (Installation) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 606.00 Tm (5) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 591.00 Tm (Starting) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 591.00 Tm (5) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 576.00 Tm (First start) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 576.00 Tm (5) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 561.00 Tm (Files written by the IDE) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 561.00 Tm (5) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 546.00 Tm (Common problems) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 546.00 Tm (5) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 528.00 Tm (3 User interface) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 528.00 Tm (6) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 513.00 Tm (Menu bar) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 513.00 Tm (6) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 498.00 Tm (Activity bar) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 498.00 Tm (6) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 483.00 Tm (Explorer) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 483.00 Tm (7) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 468.00 Tm (Editor area) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 468.00 Tm (7) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 453.00 Tm (Tabs) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 453.00 Tm (7) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 438.00 Tm (Console \(bottom panels\)) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 438.00 Tm (7) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 423.00 Tm (Sidecar) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 423.00 Tm (7) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 408.00 Tm (Status bar) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 408.00 Tm (7) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 393.00 Tm (Other views) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 393.00 Tm (7) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 375.00 Tm (4 Projects and files) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 375.00 Tm (8) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 360.00 Tm (Creating a project) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 360.00 Tm (8) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 345.00 Tm (Opening / refreshing a project) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 345.00 Tm (8) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 330.00 Tm (Files) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 330.00 Tm (8) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 315.00 Tm (Not available) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 315.00 Tm (8) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 297.00 Tm (5 Working with the editor) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 297.00 Tm (9) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 282.00 Tm (Basic features) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 282.00 Tm (9) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 267.00 Tm (Auto-completion) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 267.00 Tm (9) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 252.00 Tm (Line commands) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 252.00 Tm (9) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 237.00 Tm (Find and replace) Tj
+/F1 10.00 Tf 1 0 0 1 527.44 237.00 Tm (9) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 222.00 Tm (Tabs and split editor) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 222.00 Tm (10) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 207.00 Tm (Navigation) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 207.00 Tm (10) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 192.00 Tm (Rename, breadcrumbs and minimap) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 192.00 Tm (10) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 174.00 Tm (6 Build and run) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 174.00 Tm (11) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 159.00 Tm (Triggering) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 159.00 Tm (11) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 144.00 Tm (Sequence) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 144.00 Tm (11) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 129.00 Tm (Reading the result) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 129.00 Tm (11) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 114.00 Tm (Overflow checks) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 114.00 Tm (11) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 99.00 Tm (Limits) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 99.00 Tm (11) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 81.00 Tm (7 Terminal and consoles) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 81.00 Tm (12) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 66.00 Tm (Terminal) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 66.00 Tm (12) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 48.00 Tm (8 Error analysis and debugging) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 48.00 Tm (13) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (2) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 8 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+10 0 obj
+<< /Length 2828 >>
+stream
+BT
+/F1 10.00 Tf 1 0 0 1 78.00 757.00 Tm (Recognizing errors) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 757.00 Tm (13) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 742.00 Tm (Reading diagnostics) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 742.00 Tm (13) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 727.00 Tm (Common problems) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 727.00 Tm (13) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 712.00 Tm (Debugging features) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 712.00 Tm (13) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 694.00 Tm (9 Settings and customization) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 694.00 Tm (15) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 679.00 Tm (Layout of the settings view) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 679.00 Tm (15) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 664.00 Tm (Reset, export and import) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 664.00 Tm (15) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 649.00 Tm (Active settings) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 649.00 Tm (15) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 634.00 Tm (Planned \(visible, but greyed out and without effect\)) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 634.00 Tm (16) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 619.00 Tm (Shortcuts) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 619.00 Tm (16) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 604.00 Tm (Account and synchronization) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 604.00 Tm (16) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 589.00 Tm (Window layout) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 589.00 Tm (16) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 574.00 Tm (Not customizable) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 574.00 Tm (17) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 556.00 Tm (10 Keyboard shortcuts) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 556.00 Tm (18) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 541.00 Tm (General) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 541.00 Tm (18) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 526.00 Tm (File management) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 526.00 Tm (18) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 511.00 Tm (Editor) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 511.00 Tm (18) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 496.00 Tm (Navigation and side bar) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 496.00 Tm (19) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 481.00 Tm (Terminal and console) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 481.00 Tm (19) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 466.00 Tm (Build, run and debugging) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 466.00 Tm (19) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 451.00 Tm (Panels and windows) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 451.00 Tm (19) Tj
+/F1 10.00 Tf 1 0 0 1 78.00 436.00 Tm (Menu shortcuts) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 436.00 Tm (19) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 418.00 Tm (11 First steps) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 418.00 Tm (20) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 400.00 Tm (12 Efficient workflows) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 400.00 Tm (21) Tj
+/F2 10.00 Tf 1 0 0 1 62.00 382.00 Tm (13 FAQ and troubleshooting) Tj
+/F1 10.00 Tf 1 0 0 1 521.88 382.00 Tm (22) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (3) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 10 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+12 0 obj
+<< /Length 2843 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (1 Welcome to Nortex Code) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (Contents · Next: Installation) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 684.55 Tm (What is Nortex Code?) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 666.05 Tm (Nortex Code is the graphical development environment \(IDE, "Integrated Development Environment"\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 651.55 Tm (for the Nortex programming language. An IDE combines a text editor, file overview, compiler) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 637.05 Tm (invocation and output in a single window.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 617.55 Tm (Nortex Code is a standalone Windows program. To build, it calls the Nortex compiler nortexc, which) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 603.05 Tm (translates .nx files into a Windows executable \(EXE\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 563.80 Tm (What is it used for?) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 545.30 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 545.30 Tm (Writing Nortex source code \(.nx\),) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 528.80 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 528.80 Tm (building and running with one click \(Run, Ctrl+F5\),) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 512.30 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 512.30 Tm (reading compiler messages with their positions,) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 495.80 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 495.80 Tm (editing several files in tabs and split views.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 459.55 Tm (Overview of the main features) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 439.55 Tm (Area | Feature) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 424.55 Tm (Editor | Syntax highlighting, line numbers, auto-completion, find/replace, split view) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 409.55 Tm (Build | Run button, overflow checks, nortex.toml projects) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 394.55 Tm (Output | Compiler Log, Runtime Output, Terminal \(PowerShell\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 379.55 Tm (Customization | Theme, density, UI and editor zoom, language \(German/English\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 357.05 Tm (Not included are, among others, a full debugger backend, project wizards and file rename/delete \(see) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 342.55 Tm (feature status\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 303.30 Tm (Relation to the language) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 284.80 Tm (The language determines what can be compiled. Today the compiler natively builds only a small) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 270.30 Tm (subset \(including int/bool, if/while/for, functions and UTF-8 string slices for variables, function calls) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 255.80 Tm (and Console.writeLine\). The IDE recognizes more syntax than the build can actually produce; details:) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 241.30 Tm (Language reference.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (4) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 12 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+14 0 obj
+<< /Length 3170 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (2 Installation and first start) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (Back · Contents · Next: Interface) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 684.55 Tm (System requirements) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 666.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 666.05 Tm (Windows 10/11, 64-bit.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 649.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 649.55 Tm (To link generated programs: the Microsoft linker \(Visual Studio Build Tools\) – see Language) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 635.05 Tm (reference, chapter 2.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 618.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 618.55 Tm (Optional: Git \(for the Git view\) and PowerShell \(for the terminal\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 582.30 Tm (Installation) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 563.80 Tm (Unpack the program folder anywhere. Next to nortex-code.exe there must be the compiler) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 549.30 Tm (nortexc.exe and the library nortex_runtime.lib. If something is missing, Build & Run reports it in the) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 534.80 Tm (Compiler Log; the dashboard shows the state of the tools.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 495.55 Tm (Starting) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 477.05 Tm (Double-click nortex-code.exe. The working directory at start becomes the project folder \(shown in the) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 462.55 Tm (Explorer field\). If you start the EXE from a shortcut, set the desired "Start in" folder there.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 423.30 Tm (First start) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 404.80 Tm (On first start the dashboard opens \(project overview with the buttons New, Open file, Build & Run and) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 390.30 Tm ("Toolchain Diagnostics"\). It shows whether the compiler and the runtime library were found. Both) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 375.80 Tm (should be green.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 356.30 Tm ([Abbildung: Dashboard]) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 317.05 Tm (Files written by the IDE) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 298.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 298.55 Tm (Your settings \(theme, density, zoom, language, recently opened files\) in the folder) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 284.05 Tm (%APPDATA%\\NORTEX Code.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 267.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 267.55 Tm (When building: .exe next to the source file \(without a manifest\) or the output location given in) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 253.05 Tm (nortex.toml.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 216.80 Tm (Common problems) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 196.80 Tm (Problem | Solution) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 181.80 Tm (Compiler not found | Put nortexc.exe next to nortex-code.exe) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 166.80 Tm (Runtime library not found | Put nortex_runtime.lib next to the EXE) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 151.80 Tm (Linker error during build | Install the Visual Studio Build Tools) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 136.80 Tm (Terminal does not start | Message "Shell cannot be started"; PowerShell must be available) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (5) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 14 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+16 0 obj
+<< /Length 3694 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (3 User interface) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (Back · Contents · Next: Projects and files) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 704.30 Tm ([Abbildung: Main window with editor]) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 683.30 Tm (No. | Area | Location) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 668.30 Tm (1 | Menu bar | top) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 653.30 Tm (2 | Activity bar | far left \(narrow icon strip\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 638.30 Tm (3 | Side bar \(Explorer, Search, Git, Debugger\) | left of the activity bar) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 623.30 Tm (4 | Editor area with tabs and run bar | center) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 608.30 Tm (5 | Sidecar | right) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 593.30 Tm (6 | Status bar | between editor and console) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 578.30 Tm (7 | Console \(Compiler Log, Runtime Output, Terminal\) | bottom) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 536.05 Tm (Menu bar) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 517.55 Tm (Menus: File, Edit, View, AI, Help.) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 496.55 Tm (Menu | Entries) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 481.55 Tm (File | New file \(Ctrl+N\) · Open… · Open folder… · Save \(Ctrl+S\) · Save as… · Close project folder \(only) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 468.55 Tm (hides the side bar\) · Refresh project · Open project folder in Explorer · Exit) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 453.55 Tm (Edit | Undo · Redo \(greyed out when there is nothing to do\) · Cut \(Ctrl+X\) · Copy \(Ctrl+C\) · Paste) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 440.55 Tm (\(greyed out, only via Ctrl+V in the editor\) · Select all \(Ctrl+A\) · Find \(Ctrl+F\) · Find/Replace \(Ctrl+H\) ·) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 427.55 Tm (Duplicate line · Move line up/down · Select next occurrence · Toggle block comment \(Ctrl+/\) · Go to) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 414.55 Tm (line…) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 399.55 Tm (View | Zen mode \(F11\) · Explorer \(Ctrl+B\) · Terminal / Diagnostics \(Ctrl+J\) · Show status bar · Side bar) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 386.55 Tm (\(Explorer, Search, Git, Debugger\) · Reset layout · Show line numbers · Show minimap \(Ctrl+Alt+M\) ·) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 373.55 Tm (Reset zoom · Sidecar \(Ctrl+Shift+L\) · Editor layout \(Single, Two columns, Two rows, 2x2 grid, Close) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 360.55 Tm (pane\) · Theme · Density · UI zoom · Editor zoom · Language) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 345.55 Tm (AI | Note "Not connected yet – no code is sent."; all entries \(Explain code, Refactoring suggestion,) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 332.55 Tm (Analyze error, Suggest tests, Generate documentation\) are disabled, planned) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 317.55 Tm (Help | Getting started · Copy diagnostic information · License · NORTEX Code manual · Open) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 304.55 Tm (documentation folder · Keyboard shortcuts · Update check \(only reports that the check is unavailable) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 291.55 Tm (offline\) · About) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 269.05 Tm ([Abbildung: Edit menu]) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 229.80 Tm (Activity bar) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 211.30 Tm (At the top the N logo \(dashboard\), below it Explorer, Editor, Search, Git, Debugger, and at the very) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 196.80 Tm (bottom the gear \(settings\). The active icon has a 2 px strip on its left edge \(purple for) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 182.30 Tm (Explorer/Editor/Dashboard, blue for Git/Debugger\). Clicking the already active side icon toggles the) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 167.80 Tm (side bar \(Ctrl+B\).) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (6) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 16 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+18 0 obj
+<< /Length 3274 >>
+stream
+BT
+/F2 15.00 Tf 1 0 0 1 62.00 751.75 Tm (Explorer) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 733.25 Tm (Shows the project folder as a tree with collapsible folders. The icon color depends on the file type \(.nx) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 718.75 Tm (purple\). A click opens the file. At the top: an input field for the project folder and Open.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 679.50 Tm (Editor area) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 661.00 Tm (Top row: Run \(Ctrl+F5\), Save, the checkbox Overflow checks, file name. Tabs and the editor follow.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 646.50 Tm (File -> Save as… opens the file dialog. Details: Chapter 5.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 607.25 Tm (Tabs) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 588.75 Tm (One tab per open file; + creates a new document. The active tab has a lighter background and an) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 574.25 Tm (amber line. Unsaved changes are shown by an amber dot • next to the always visible x \(close\). With) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 559.75 Tm (unsaved changes a dialog asks whether to save or discard. A red dot ? marks the active tab when) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 545.25 Tm (there are compiler errors. Tabs can be dragged by their file name to reorder them or to move them to) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 530.75 Tm (another pane.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 491.50 Tm (Console \(bottom panels\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 473.00 Tm (Tabs Compiler Log \(n\), Runtime Output, Terminal. Toggle with Ctrl+J or View -> Terminal /) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 458.50 Tm (Diagnostics. See Chapter 7.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 419.25 Tm (Sidecar) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 400.75 Tm (Right panel "AI assistance" with an input field and Send. It is not connected to any AI provider.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 386.25 Tm (Toggle with Ctrl+Shift+L or View -> Sidecar. In narrow windows it collapses automatically.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 347.00 Tm (Status bar) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 328.50 Tm (From left to right: project name · status message \(green after a successful run, red on errors\) · error) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 314.00 Tm (count · line and column. It can be hidden under View -> Status bar.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 274.75 Tm (Other views) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 256.25 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 256.25 Tm (Dashboard: project overview, build and toolchain status, recently opened files.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 239.75 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 239.75 Tm (Settings: gear icon \(Chapter 9\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 223.25 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 223.25 Tm (Command palette: Ctrl+Shift+P or F1 \(Chapter 10\).) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 206.75 Tm ([Abbildung: Command palette]) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 187.25 Tm (Zen mode \(View menu, F11\) hides secondary areas; Esc exits it. There are no context menus) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 172.75 Tm (\(right-click\). Small windows exist for Go to line, Help -> License, Keyboard shortcuts, About, the) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 158.25 Tm (manual and the account window; the Windows file dialog is used for opening/saving files.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (7) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 18 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+20 0 obj
+<< /Length 2859 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (4 Projects and files) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (Back · Contents · Next: Editor) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 704.30 Tm (A project is a folder. There is no "New project" wizard.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 665.05 Tm (Creating a project) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 646.55 Tm (1.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 646.55 Tm (Create a folder in Windows Explorer.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 630.05 Tm (2.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 630.05 Tm (Optionally place a nortex.toml in it \(manifest; see the manifest schema\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 613.55 Tm (3.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 613.55 Tm (Start Nortex Code with this folder as working directory, or enter the path in the field at the top of) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 599.05 Tm (the Explorer and click Open.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 562.80 Tm (Opening / refreshing a project) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 544.30 Tm (Enter the path in the Explorer field -> Open. Status bar message "Project loaded" or "Project could) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 529.80 Tm (not be refreshed: …". File -> Refresh project re-reads the file list in the background \(also after) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 515.30 Tm (changes made outside the IDE\). With a nortex.toml in the project folder the status bar shows "Name) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 500.80 Tm (-> output file" and the window title reads " — NORTEX Code".) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 461.55 Tm (Files) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 441.55 Tm (Action | How) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 426.55 Tm (New | + in the tab area, File -> New file or New on the dashboard) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 411.55 Tm (Open | Click in the Explorer · Ctrl+P \(Windows file dialog, filter .nx/.nortex\) · Open file on the dashboard) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 398.55 Tm (· drag a file onto the window · recently opened file on the dashboard) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 383.55 Tm (Save | Ctrl+S or Save. For a new document the save dialog opens.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 368.55 Tm (Save as | File -> Save as… or Ctrl+Shift+S opens the file dialog.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 353.55 Tm (Close | x on the tab. With unsaved changes you can save, discard or cancel.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 331.05 Tm (Saving is atomic \(a failed write leaves the original file unchanged\). Errors appear as a status) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 316.55 Tm (message, e.g. "Save failed: …".) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 277.30 Tm (Not available) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 258.80 Tm (Renaming, deleting, creating folders and moving files only work outside the IDE \(Windows Explorer,) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 244.30 Tm (Terminal tab\). Afterwards use Refresh project.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (8) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 20 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+22 0 obj
+<< /Length 3477 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (5 Working with the editor) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (Back · Contents · Next: Build and run) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 684.55 Tm (Basic features) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 666.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 666.05 Tm (Syntax highlighting for keywords, identifiers, numbers, strings, characters, operators,) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 651.55 Tm (punctuation and comments \(colors depend on the theme\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 635.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 635.05 Tm (Line numbers in the left column.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 618.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 618.55 Tm (Undo/Redo: Ctrl+Z, Ctrl+Y or Ctrl+Shift+Z \(also in the Edit menu\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 602.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 602.05 Tm (Errors are marked directly in the editor \(inline diagnostics, updated shortly after typing\) and) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 587.55 Tm (listed in the Compiler Log \(Chapter 8\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 571.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 571.05 Tm (There is no bracket completion and no multi-cursor.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 534.80 Tm (Auto-completion) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 516.30 Tm (From 2 characters of an identifier a popup opens with up to 5 suggestions: keywords first, then) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 501.80 Tm (identifiers from the current document.) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 480.80 Tm (Key | Effect) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 465.80 Tm (Arrow up/down | Move selection \(wraps around\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 450.80 Tm (Tab or Enter | Accept suggestion) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 435.80 Tm (Esc | Close popup) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 393.55 Tm (Line commands) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 373.55 Tm (Command | Key) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 358.55 Tm (Toggle comment | Ctrl+/) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 343.55 Tm (Move line\(s\) up/down | Alt+^ / Alt+v) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 328.55 Tm (Duplicate line\(s\) | Shift+Alt+v) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 313.55 Tm (Select next occurrence of the selected text | Ctrl+D) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 271.30 Tm (Find and replace) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 252.80 Tm (Ctrl+F opens a floating field at the top right of the editor, Ctrl+H additionally with "Replace with". If) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 238.30 Tm (text is selected it is taken over.) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 217.30 Tm (Control | Function) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 202.30 Tm (Search field | Matches are searched live) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 187.30 Tm (Switches Aa / W / .\\* | Match case · Whole word · Regular expressions \(with capture groups in the) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 174.30 Tm (replacement text\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 159.30 Tm (? / ? or Enter / Shift+Enter | previous / next match) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 144.30 Tm (Replace / All | replace current / all matches) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 129.30 Tm (x or Esc | close) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 106.80 Tm (An invalid regular expression is shown as an error without crashing the IDE. Search across files:) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 92.30 Tm (Search side bar \(Ctrl+Shift+F\): enter a term, Search or Enter; clicking a match opens the file \(simple) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 77.80 Tm (text search, no line highlighting\).) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 528.27 40 Tm (9) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 22 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+24 0 obj
+<< /Length 2251 >>
+stream
+BT
+/F2 15.00 Tf 1 0 0 1 62.00 751.75 Tm (Tabs and split editor) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 733.25 Tm (Several files live in tabs; Ctrl+Tab switches to the next tab. Via View -> Editor layout \(or keyboard\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 718.75 Tm (the editor can be split:) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 697.75 Tm (Layout | Key) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 682.75 Tm (Two columns | Ctrl+\\ \(also Ctrl+Shift+2\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 667.75 Tm (Two rows | Ctrl+Shift+\\ \(also Ctrl+Shift+3\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 652.75 Tm (2x2 grid | Ctrl+Shift+4) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 637.75 Tm (Single | View -> Editor layout -> Single) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 615.25 Tm (Focus: Ctrl+1 … Ctrl+4 selects the pane; Ctrl+Alt+Arrow or Alt+<-/-> moves in that direction;) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 600.75 Tm (Ctrl+Shift+W closes the active pane.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 561.50 Tm (Navigation) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 543.00 Tm (There is no "Go to definition". Use: Ctrl+F, project search, tabs, Ctrl+P \(open file\), and Edit -> Go to) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 528.50 Tm (line….) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 489.25 Tm (Rename, breadcrumbs and minimap) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 470.75 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 470.75 Tm (F2 opens an input field at the cursor with the identifier under the cursor. Enter renames all) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 456.25 Tm (occurrences in the current file, Esc cancels. Comments, strings and keywords are untouched;) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 441.75 Tm (ASCII names only, no project-wide rename.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 425.25 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 425.25 Tm (Breadcrumbs above the editor show the file and enclosing scopes \(e.g. struct and function\). A) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 410.75 Tm (click jumps to the start line of the scope.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 394.25 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 394.25 Tm (Minimap at the right edge \(60 px\); a click scrolls. Toggle with Ctrl+Alt+M, via the View menu or) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 379.75 Tm (the command palette; stored as editor.minimap.enabled.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (10) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 24 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+26 0 obj
+<< /Length 3806 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (6 Build and run) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (Back · Contents · Next: Terminal and consoles) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 704.30 Tm (Nortex Code has one build function: Build & Run. It saves, compiles with nortexc build and starts the) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 689.80 Tm (generated EXE.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 650.55 Tm (Triggering) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 630.55 Tm (Way | Note) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 615.55 Tm (? Run button | in the editor area) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 600.55 Tm (Ctrl+F5 | ) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 585.55 Tm (Ctrl+Shift+B | same function \(no build-only mode\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 570.55 Tm (Command palette -> Build & Run | ) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 555.55 Tm (Dashboard -> Build & Run | ) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 533.05 Tm (While building the bar shows "Compiling…"; a second build cannot start at the same time.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 493.80 Tm (Sequence) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 475.30 Tm (1.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 475.30 Tm (The active file is saved. For new documents without a path the save dialog appears.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 458.80 Tm (2.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 458.80 Tm (Without nortex.toml: nortexc build  --output  --overflow-checks=; the EXE is placed next to the) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 444.30 Tm (source file.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 427.80 Tm (3.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 427.80 Tm (With nortex.toml in the project folder: the manifest is built. The EXE is placed in the project's) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 413.30 Tm (build\\ subfolder; overflow checks come from the IDE setting unless the manifest defines them.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 396.80 Tm (4.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 396.80 Tm (The compiler log shows the compiler output. Then the IDE starts the EXE; its output appears in) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 382.30 Tm (Runtime Output, followed by "Program finished \(exit code …\)".) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 365.80 Tm ([Abbildung: Result of a run]) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 326.55 Tm (Reading the result) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 308.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 308.05 Tm (Status bar green: build succeeded. Red: compiler errors. The program's exit code is just a value) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 293.55 Tm (\(Nortex programs return it via return\) and never turns red. In the screenshot "Exitcode Some\(0\)") Tj
+/F1 10.50 Tf 1 0 0 1 88.00 279.05 Tm (is the IDE's actual display for exit code 0.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 262.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 262.55 Tm (On errors: Compiler Log tab \(Chapter 8\).) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 226.30 Tm (Overflow checks) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 207.80 Tm (The checkbox controls --overflow-checks. On: integer overflow causes a trap \(the program aborts\).) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 193.30 Tm (Off: overflow wraps around. Default: on in debug builds, off in release builds of the IDE. The same) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 178.80 Tm (option is in the settings and on the dashboard.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 139.55 Tm (Limits) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 121.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 121.05 Tm (Running programs cannot be cancelled \(Shift+F5 only shows a notice\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 104.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 104.55 Tm (No input channel for running programs.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 88.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 88.05 Tm (Only the natively supported language subset builds \(Language reference\); everything else ends) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 73.55 Tm (with NX2001/NX2002.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (11) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 26 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+28 0 obj
+<< /Length 2157 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (7 Terminal and consoles) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (Back · Contents · Next: Error analysis and debugging) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 704.30 Tm (The bottom panel 03 / CONSOLE has three tabs:) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 683.30 Tm (Tab | Content | Open directly) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 668.30 Tm (Compiler Log \(n\) | Compiler output and diagnostics; n = count | Ctrl+Shift+M) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 653.30 Tm (Runtime Output | Output of the started program and exit code | Ctrl+Shift+U) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 638.30 Tm (Terminal | real PowerShell session | click the tab) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 615.80 Tm (Show/hide the panel: Ctrl+J or View -> Terminal / Diagnostics. A new build clears Compiler Log and) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 601.30 Tm (Runtime Output. Command palette -> Clear Console clears both as well.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 562.05 Tm (Terminal) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 543.55 Tm ([Abbildung: Terminal]) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 524.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 524.05 Tm (When the tab is first opened the shell \(powershell.exe\) starts in the background; the line shows) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 509.55 Tm ("\(active\)" or "\(ended\)" with a green/red dot.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 493.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 493.05 Tm (Type a command in the lower input field, Enter sends it. The output appears above.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 476.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 476.55 Tm (Clear or Ctrl+L clears the display.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 460.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 460.05 Tm (It is not a full console: no interactive programs, no color codes.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 443.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 443.55 Tm (Only one terminal; multiple consoles or terminal tabs do not exist.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 427.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 427.05 Tm (If the shell does not start, "Shell cannot be started: …" is shown.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (12) Tj ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 28 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+30 0 obj
+<< /Length 3989 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (8 Error analysis and debugging) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (Back · Contents · Next: Settings) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 684.55 Tm (Recognizing errors) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 666.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 666.05 Tm (The editor checks the text shortly after typing and marks errors directly in the code.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 649.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 649.55 Tm (The Compiler Log \(n\) tab lists all diagnostics; the status bar shows "n errors".) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 633.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 633.05 Tm (A red dot ? in the active tab means: the file has errors.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 616.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 616.55 Tm (After a build the status message is red/green.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 580.30 Tm (Reading diagnostics) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 561.80 Tm (Format in the Compiler Log: Code [file:line:column] message, below it optionally Help: …. Red = error,) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 547.30 Tm (amber = warning.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 527.80 Tm (Example \(typo summee, line 3, column 12\):) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 508.30 Tm (NX1004 [main.nx:3:12] Unknown identifier 'summee'. The value was neither declared nor impo) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 496.80 Tm (rted.) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 485.30 Tm (  Help: Check the spelling or declare the value before using it.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 462.80 Tm (Fix: correct the name \(summe\). A missing semicolon is reported as NX0100 \("A ';' is expected after a) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 448.30 Tm (variable declaration."\); the position points to the next token, so the semicolon is usually missing on) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 433.80 Tm (the line before.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 414.30 Tm (Meaning of codes: Diagnostic codes and Language reference, chapter 11. Compiler messages) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 399.80 Tm (themselves are currently in German.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 360.55 Tm (Common problems) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 340.55 Tm (Message | Cause / solution) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 325.55 Tm (NX2001 / NX2002 | Construct is checked but not generated natively yet \(e.g. float, string variables,) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 312.55 Tm (structs\). Restrict yourself to the supported subset) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 297.55 Tm (Linker error LNK2019 | public int main\(\) is missing) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 282.55 Tm ("Compiler … could not be started" | nortexc.exe not found \(Chapter 2\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 267.55 Tm ("Build failed \(exit code …\)" | The errors are in the Compiler Log above) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 225.30 Tm (Debugging features) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 206.80 Tm (Real debugging \(pausing, stepping, inspecting variables\) is not available. Reason: nortexc does not) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 192.30 Tm (emit debug information \(e.g. line tables\). Without it the IDE cannot stop a running program at a) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 177.80 Tm (source line. The IDE says so openly instead of faking a session.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 158.30 Tm (Breakpoint management and its user interface exist:) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 137.30 Tm (Feature | Status) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 122.30 Tm (Set/remove breakpoint | F9 on the cursor line. The file must be saved \(new documents without a path:) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 109.30 Tm (notice in the status bar\). The status bar reports "Breakpoint set/removed at line n".) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 94.30 Tm (Marker in the editor | A ? in the column left of the line number marks lines with a breakpoint.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 79.30 Tm (Breakpoint list | Debugger panel \(Activity bar -> Debugger or Ctrl+Shift+D\): "Breakpoints \(n\)" with file:line.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (13) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 30 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+32 0 obj
+<< /Length 1324 >>
+stream
+BT
+/F1 9.50 Tf 1 0 0 1 84.00 759.00 Tm (A click jumps to the line, x removes an entry, Remove all clears the list.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 744.00 Tm (Call stack / variables | The panel contains the sections Call stack and Variables. They show "No active) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 731.00 Tm (session." because no debugger is connected yet.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 716.00 Tm (F5 / ? Debug | Opens the Debugger panel and reports that step-by-step debugging is unavailable. The) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 703.00 Tm (session stays inactive.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 688.00 Tm (? Stop | Ends the \(non-existent\) session state.) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 673.00 Tm (Shift+F5 | Reports "Cancelling running programs is not implemented.") Tj
+/F1 10.50 Tf 1 0 0 1 62.00 650.50 Tm (Breakpoints are only held in the running IDE and are not saved; after a restart they are gone. They) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 636.00 Tm (have no effect on Ctrl+F5 \(Build & Run\).) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 616.50 Tm (Troubleshooting currently works through diagnostics, program output and the exit code \(e.g. return of) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 602.00 Tm (an intermediate result, see Chapter 11\).) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (14) Tj ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 32 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+34 0 obj
+<< /Length 4415 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (9 Settings and customization) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (Back · Contents · Next: Keyboard shortcuts) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 704.30 Tm ([Abbildung: Settings]) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 684.80 Tm (Open: gear at the bottom of the activity bar \(clicking again returns to the editor\). The appearance) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 670.30 Tm (controls are also in the View menu.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 631.05 Tm (Layout of the settings view) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 612.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 612.55 Tm (Search \(top\): searches title, description and keywords. All typed words must match. The search) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 598.05 Tm (also filters the shortcut table.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 581.55 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 581.55 Tm (Level filter: All levels, User, Project or Advanced. User are personal defaults. Project is intended) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 567.05 Tm (for project-specific values; these entries are prepared but without effect yet \(see "Planned"\).) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 552.55 Tm (Advanced contains special options.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 536.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 536.05 Tm (7 categories: Appearance · Editor · Shortcuts · Language and code help · Build and debug ·) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 521.55 Tm (Account and sync · System, security and updates.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 505.05 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 505.05 Tm (Changed entries carry a dot •; ? resets the single entry to its default.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 468.80 Tm (Reset, export and import) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 448.80 Tm (Action | Effect) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 433.80 Tm (? on an entry | resets this entry) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 418.80 Tm (Reset category | resets all active settings of the category) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 403.80 Tm (Reset all | resets all active settings; the list of recently opened files is kept) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 388.80 Tm (Export… | saves the settings as JSON \(suggested name nortex-code-settings.json\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 373.80 Tm (Import… | reads a JSON file; invalid files are rejected with a message, invalid single values fall back to the) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 360.80 Tm (default. Your own list of recently opened files stays unchanged) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 338.30 Tm (Settings are saved automatically in the folder %APPDATA%\\NORTEX Code \(the path is shown at) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 323.80 Tm (the end of the view\). Damaged files are repaired at start.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 284.55 Tm (Active settings) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 264.55 Tm (Setting | Category | Default | Effect) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 249.55 Tm (Color scheme | Appearance | Industrial Midnight | Industrial Midnight, Professional Dark or High Contrast.) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 236.55 Tm (Command palette -> Toggle Theme switches to the next one) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 221.55 Tm (Density | Appearance | Comfortable | Compact, Comfortable or Spacious: spacing of the interface) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 206.55 Tm (Language | Appearance | German | German or English; applies immediately and is saved) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 191.55 Tm (Interface zoom | Appearance | 100 % | 70–200 %; Ctrl+mouse wheel changes it in 10 % steps) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 176.55 Tm (Editor zoom | Appearance | 100 % | 70–200 %, editor font) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 161.55 Tm (Show status bar | Appearance | on | shows/hides the status bar) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 146.55 Tm (Show line numbers | Editor | on | line number column) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 131.55 Tm (Show minimap | Editor | off | also Ctrl+Alt+M) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 116.55 Tm (Auto save | Editor | off | saves modified documents with a file path at most every 30 seconds; new) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 103.55 Tm (documents without a path are not saved) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 88.55 Tm (Overflow checks | Build and debug | on in debug builds of the IDE, off in release builds | Trap on integer) Tj
+/F1 9.50 Tf 1 0 0 1 84.00 75.55 Tm (overflow; a nortex.toml can override the value. Same option as in the editor area \(Chapter 6\)) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (15) Tj ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 34 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+36 0 obj
+<< /Length 4259 >>
+stream
+BT
+/F1 10.50 Tf 1 0 0 1 62.00 757.50 Tm (The zoom slider works in 10 % steps and takes effect on release; enter more precise values directly.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 743.00 Tm (Typed percentages are only applied with Enter or after leaving the field. Invalid values in the file fall) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 728.50 Tm (back to the default on load.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 689.25 Tm (Planned \(visible, but greyed out and without effect\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 670.75 Tm (These entries are shown with the note "planned"; the tooltip names the reason.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 651.25 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 651.25 Tm (Editor: tab width, word wrap, show whitespace, format on save, highlight bracket pairs, editor) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 636.75 Tm (font) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 620.25 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 620.25 Tm (Language and code help: live diagnostics, auto-completion \(both are always on and cannot be) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 605.75 Tm (disabled yet\), inline hints) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 589.25 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 589.25 Tm (Build and debug: default build profile, additional compiler arguments, working directory \(project) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 574.75 Tm (level missing\), process time limit, stop on start \(debugger not available yet, see Chapter 8\)) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 558.25 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 558.25 Tm (Account: synchronize settings) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 541.75 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 541.75 Tm (System: update channel, usage data, workspace trust. Regarding usage data: no data is) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 527.25 Tm (currently collected.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 491.00 Tm (Shortcuts) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 472.50 Tm (The category shows the current assignment as a table. Customizing is not possible yet. Full list:) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 458.00 Tm (Chapter 10.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 418.75 Tm (Account and synchronization) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 400.25 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 400.25 Tm (Local mode: There is no account system in the sense of an online service. The IDE runs) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 385.75 Tm (entirely locally; editor, compiler, build and projects need no account.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 369.25 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 369.25 Tm (The Account menu item and the button Open Nortex account… show the status "Local mode".) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 354.75 Tm (Sign in with browser reports that the account service is not available yet. No sign-in is faked.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 338.25 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 338.25 Tm (Synchronization: Four switches \(settings, themes, shortcuts, list of extensions\) are only) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 323.75 Tm (prepared. They are saved but only take effect after a sign-in, which does not exist yet. All are) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 309.25 Tm (off by default.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 292.75 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 292.75 Tm (Source code stays local: source code, projects and files never leave the computer; they are not) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 278.25 Tm (among the synchronizable data.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 261.75 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 261.75 Tm (Planned \(only visible as greyed-out entries\): AI features, extensions, license, devices. A later) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 247.25 Tm (sign-in will use the system browser, without passwords in the IDE.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 211.00 Tm (Window layout) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 192.50 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 192.50 Tm (Side bar: Ctrl+B · Console: Ctrl+J · Sidecar: Ctrl+Shift+L · Zen mode: F11 or View.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 176.00 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 176.00 Tm (Editor layout: Chapter 5.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 159.50 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 159.50 Tm (Panel widths and heights can be adjusted within limits by dragging. Panels cannot be freely) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 145.00 Tm (moved or docked.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (16) Tj ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 36 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+38 0 obj
+<< /Length 380 >>
+stream
+BT
+/F2 15.00 Tf 1 0 0 1 62.00 751.75 Tm (Not customizable) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 733.25 Tm (Key bindings, font, colors of individual elements and panel position \(side bar always left, sidecar right,) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 718.75 Tm (console bottom\).) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (17) Tj ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 38 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+40 0 obj
+<< /Length 2874 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (10 Keyboard shortcuts) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (Back · Contents · Next: First steps) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 704.30 Tm (The keys apply while the command palette is closed. The assignment cannot be changed. Shortcuts) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 689.80 Tm (marked * do not appear in the help overview.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 650.55 Tm (General) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 630.55 Tm (Key | Function) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 615.55 Tm (Ctrl+Shift+P, F1 | Command palette) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 600.55 Tm (Ctrl+Z | Undo) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 585.55 Tm (Ctrl+Y, Ctrl+Shift+Z* | Redo) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 570.55 Tm (Ctrl+Shift+X* | Extensions – only shows "Extensions: not implemented.") Tj
+/F1 9.50 Tf 1 0 0 1 72.00 555.55 Tm (F11 | Toggle Zen mode) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 540.55 Tm (Esc | Leave Zen mode \(when active\)) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 518.05 Tm (In the palette: typing filters, arrow keys select, Enter runs, Esc closes. Available commands: Build &) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 503.55 Tm (Run, Toggle Theme, Clear Console, Toggle Zen Mode, Open File, Save File, Split Editor Columns /) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 489.05 Tm (Rows / 2x2 Grid, Editor Single Layout, Close Editor Pane, Toggle Minimap.) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 449.80 Tm (File management) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 429.80 Tm (Key | Function) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 414.80 Tm (Ctrl+N | New file) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 399.80 Tm (Ctrl+S | Save) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 384.80 Tm (Ctrl+Shift+S | Save as \(file dialog\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 369.80 Tm (Ctrl+P | "Quick open": opens the Windows file dialog \(no searchable file list\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 354.80 Tm (Ctrl+Tab* | next tab) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 312.55 Tm (Editor) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 292.55 Tm (Key | Function) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 277.55 Tm (Ctrl+F | Find) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 262.55 Tm (Ctrl+H | Replace) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 247.55 Tm (Ctrl+/ | Toggle line comment) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 232.55 Tm (Ctrl+D | select next occurrence) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 217.55 Tm (Alt+^ / Alt+v | Move line) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 202.55 Tm (Shift+Alt+v | Duplicate line) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 187.55 Tm (F2 | Rename symbol \(current file\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 172.55 Tm (Ctrl+Alt+M | Toggle minimap) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 157.55 Tm (Ctrl+Alt+B | Insert main skeleton) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 142.55 Tm (^ v, Tab/Enter, Esc | in the suggestion popup: select, accept, close) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 127.55 Tm (Enter, Shift+Enter, Esc | in the search field: next, previous match, close) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (18) Tj ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 40 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+42 0 obj
+<< /Length 2977 >>
+stream
+BT
+/F2 15.00 Tf 1 0 0 1 62.00 751.75 Tm (Navigation and side bar) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 731.75 Tm (Key | Function) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 716.75 Tm (Ctrl+Shift+E* | Explorer) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 701.75 Tm (Ctrl+Shift+F* | Search) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 686.75 Tm (Ctrl+Shift+G* | Git) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 671.75 Tm (Ctrl+Shift+D* | Debugger panel) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 656.75 Tm (Ctrl+1 … Ctrl+4* | Editor pane 1–4) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 641.75 Tm (Ctrl+Alt+<-/->/^/v, Alt+<-/-> | Focus neighboring pane) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 599.50 Tm (Terminal and console) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 579.50 Tm (Key | Function) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 564.50 Tm (Ctrl+L | Clear terminal display \(when the Terminal tab is active\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 549.50 Tm (Enter | Send command) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 534.50 Tm (Ctrl+Shift+M* | Show Compiler Log \(problems\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 519.50 Tm (Ctrl+Shift+U* | Show Runtime Output) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 477.25 Tm (Build, run and debugging) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 457.25 Tm (Key | Function) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 442.25 Tm (Ctrl+F5 | Build & Run) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 427.25 Tm (Ctrl+Shift+B | Build & Run \(identical; no build-only mode\)) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 412.25 Tm (F5 | "Start debugging": opens the Debugger panel and reports that step-by-step debugging is unavailable) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 397.25 Tm (Shift+F5* | Message "Cancelling running programs is not implemented.") Tj
+/F1 9.50 Tf 1 0 0 1 72.00 382.25 Tm (F9 | Set/remove breakpoint on the cursor line \(Chapter 8\)) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 340.00 Tm (Panels and windows) Tj
+/F2 9.50 Tf 1 0 0 1 72.00 320.00 Tm (Key | Function) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 305.00 Tm (Ctrl+B | Toggle side bar) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 290.00 Tm (Ctrl+J | Toggle console) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 275.00 Tm (Ctrl+Shift+L* | Toggle sidecar) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 260.00 Tm (Ctrl+\\ , Ctrl+Shift+2* | two columns) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 245.00 Tm (Ctrl+Shift+\\* , Ctrl+Shift+3* | two rows) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 230.00 Tm (Ctrl+Shift+4* | 2x2 grid) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 215.00 Tm (Ctrl+Shift+W* | close active pane) Tj
+/F1 9.50 Tf 1 0 0 1 72.00 200.00 Tm (Ctrl+mouse wheel | UI zoom) Tj
+/F2 15.00 Tf 1 0 0 1 62.00 157.75 Tm (Menu shortcuts) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 139.25 Tm (The menus show shortcuts only where they appear in the menu text; the entries are listed in Chapter) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 124.75 Tm (3. In addition Ctrl+X, Ctrl+C, Ctrl+V and Ctrl+A apply directly in the editor. Help -> Keyboard) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 110.25 Tm (shortcuts opens a window with the shortcut overview, Help -> NORTEX Code manual opens the) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 95.75 Tm (manual.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (19) Tj ET
+endstream
+endobj
+43 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 42 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+44 0 obj
+<< /Length 3123 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (11 First steps) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (Back · Contents · Next: Efficient workflows) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 704.30 Tm (Goal: write a program, build it, fix an error and save.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 684.80 Tm (1.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 684.80 Tm (Start: double-click nortex-code.exe. The dashboard appears.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 668.30 Tm (2.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 668.30 Tm (Choose the project folder: Activity bar -> Explorer, enter the folder path in the path field \(e.g.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 653.80 Tm (C:\\Nortex\\first\), Open. The folder must exist; the IDE cannot create a "new project".) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 637.30 Tm (3.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 637.30 Tm (New file: Activity bar -> Editor, click + in the tab strip. With Ctrl+S or File -> Save as… choose) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 622.80 Tm (the desired path and file name \(extension .nx\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 606.30 Tm (4.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 606.30 Tm (Write the program:) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 589.80 Tm (public int main\(\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 578.30 Tm (    int total = 2 + 3;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 566.80 Tm (    return total;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 555.30 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 532.80 Tm (5.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 532.80 Tm (Save: Ctrl+S. Status bar: "File saved".) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 516.30 Tm (6.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 516.30 Tm (Build and run: Ctrl+F5 \(or ? Run\). Runtime Output shows "Program finished \(exit code) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 501.80 Tm (Some\(5\)\)". The return value of main is the exit code.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 485.30 Tm (7.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 485.30 Tm (Provoke an error: change return total; to return totall;. The editor marks the spot; Ctrl+F5 gives) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 470.80 Tm (NX1004 … Unknown identifier 'totall' in the Compiler Log, status bar red.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 454.30 Tm (8.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 454.30 Tm (Fix it: back to total, Ctrl+F5 -> exit code 5 again, status bar green.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 437.80 Tm (9.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 437.80 Tm (Add output \(optional; one string value per call\):) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 421.30 Tm (using System;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 409.80 Tm () Tj
+/F3 8.50 Tf 1 0 0 1 72.00 398.30 Tm (public int main\(\) {) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 386.80 Tm (    Console.writeLine\("Hello, NORTEX!"\);) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 375.30 Tm (    return 0;) Tj
+/F3 8.50 Tf 1 0 0 1 72.00 363.80 Tm (}) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 341.30 Tm (Runtime Output: Hello, NORTEX!.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 321.80 Tm (10.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 321.80 Tm (Save: Ctrl+S. The dot • in the tab disappears as soon as everything is saved.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 305.30 Tm (More runnable examples: examples\\language\\ \(Language reference\).) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (20) Tj ET
+endstream
+endobj
+45 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 44 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+46 0 obj
+<< /Length 2015 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (12 Efficient workflows) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (Back · Contents · Next: FAQ) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 704.30 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 704.30 Tm (Cycle: write -> Ctrl+F5 -> check the Compiler Log -> correct. The IDE saves by itself before) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 689.80 Tm (every build.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 673.30 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 673.30 Tm (Command palette \(Ctrl+Shift+P\) instead of searching menus.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 656.80 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 656.80 Tm (Window layout: split the editor with Ctrl+\\ \(source next to example/test\). Toggle the console with) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 642.30 Tm (Ctrl+J, Ctrl+Shift+M/U jumps to the matching tab. Zen mode hides secondary elements.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 625.80 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 625.80 Tm (Projects: one folder per project, optionally nortex.toml \(manifest\) for project name, entry file and) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 611.30 Tm (build options; the window title and status bar then show the project name.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 594.80 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 594.80 Tm (Navigation: Ctrl+P \(open file\), project search Ctrl+Shift+F, Ctrl+Tab between tabs, Ctrl+F in the) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 580.30 Tm (document.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 563.80 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 563.80 Tm (Edit lines with Alt+^/v, Ctrl+/ and Ctrl+D instead of copy/paste.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 547.30 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 547.30 Tm (Overview: small functions, meaningful names; auto-completion uses identifiers of the) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 532.80 Tm (document.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 516.30 Tm (•) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 516.30 Tm (Always save before closing the IDE; unsaved tabs are not recovered.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (21) Tj ET
+endstream
+endobj
+47 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 46 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+48 0 obj
+<< /Length 2690 >>
+stream
+BT
+/F2 22.00 Tf 1 0 0 1 62.00 742.30 Tm (13 FAQ and troubleshooting) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 723.80 Tm (Back · Contents) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 704.30 Tm (Why can't a project be opened? Check the path \(the folder must exist\). Drag & drop only accepts .nx) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 689.80 Tm (\("Only .nx files are opened"\). A broken nortex.toml produces a message in the status bar.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 670.30 Tm (Why does compilation not work?) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 650.80 Tm (1.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 650.80 Tm ("Compiler … could not be started": nortexc.exe must be next to nortex-code.exe or on the PATH.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 634.30 Tm (2.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 634.30 Tm (Linker/runtime errors: nortex_runtime.lib is missing \(next to the EXE, in the parent folder or via) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 619.80 Tm (NORTEX_RUNTIME_LIB\).) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 603.30 Tm (3.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 603.30 Tm (New, not yet saved files: save with Ctrl+S first and choose a name in the file dialog.) Tj
+/F1 10.50 Tf 1 0 0 1 70.00 586.80 Tm (4.) Tj
+/F1 10.50 Tf 1 0 0 1 88.00 586.80 Tm (NX errors: see Chapter 8.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 570.30 Tm (Where do I find error messages? In the Compiler Log tab \(Ctrl+Shift+M\), marked in the editor, count) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 555.80 Tm (in the status bar.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 536.30 Tm (How do I open the terminal? Terminal tab in the bottom panel; show the panel with Ctrl+J.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 516.80 Tm (How do I save files? Ctrl+S or File -> Save; Ctrl+Shift+S for "Save as". Unsaved tabs show •.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 497.30 Tm (How do I change the appearance? Gear -> theme, density, zoom, language \(Chapter 9\).) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 477.80 Tm (Edit several files at once? Tabs and split editor \(Chapter 5\).) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 458.30 Tm (Why does the Run button show "Exitcode Some\(0\)"? That is how the IDE prints exit code 0; it is not) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 443.80 Tm (an error.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 424.30 Tm (Why does the IDE report an error for float or struct? These constructs cannot be generated natively) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 409.80 Tm (yet \(NX2001/NX2002\).) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 390.30 Tm (Is there a debugger, Git commit, rename/delete, AI? No, see the feature status in the contents.) Tj
+/F1 10.50 Tf 1 0 0 1 62.00 370.80 Tm (My settings were reset. Delete %APPDATA%\\NORTEX Code\\settings.json; it is created again.) Tj
+ET
+BT /F1 8.5 Tf 1 0 0 1 62 40 Tm (NORTEX Code – Manual) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 523.55 40 Tm (22) Tj ET
+endstream
+endobj
+49 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 48 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+50 0 obj
+<< /Title (NORTEX Code - Manual) /Producer (build_manual_pdf.py) >>
+endobj
+xref
+0 51
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000268 00000 n 
+0000000365 00000 n 
+0000000467 00000 n 
+0000000562 00000 n 
+0000000782 00000 n 
+0000000928 00000 n 
+0000005738 00000 n 
+0000005884 00000 n 
+0000008765 00000 n 
+0000008913 00000 n 
+0000011809 00000 n 
+0000011957 00000 n 
+0000015180 00000 n 
+0000015328 00000 n 
+0000019075 00000 n 
+0000019223 00000 n 
+0000022550 00000 n 
+0000022698 00000 n 
+0000025610 00000 n 
+0000025758 00000 n 
+0000029288 00000 n 
+0000029436 00000 n 
+0000031740 00000 n 
+0000031888 00000 n 
+0000035747 00000 n 
+0000035895 00000 n 
+0000038105 00000 n 
+0000038253 00000 n 
+0000042295 00000 n 
+0000042443 00000 n 
+0000043820 00000 n 
+0000043968 00000 n 
+0000048436 00000 n 
+0000048584 00000 n 
+0000052896 00000 n 
+0000053044 00000 n 
+0000053476 00000 n 
+0000053624 00000 n 
+0000056551 00000 n 
+0000056699 00000 n 
+0000059729 00000 n 
+0000059877 00000 n 
+0000063053 00000 n 
+0000063201 00000 n 
+0000065269 00000 n 
+0000065417 00000 n 
+0000068160 00000 n 
+0000068308 00000 n 
+trailer
+<< /Size 51 /Root 1 0 R /Info 50 0 R >>
+startxref
+68392
+%%EOF

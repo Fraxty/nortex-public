@@ -1,0 +1,29 @@
+using System;
+
+public class GraphicsWindow
+{
+    private string title;
+    private int width;
+    private int height;
+
+    public GraphicsWindow(string title, int width, int height)
+    {
+        this.title = title;
+        this.width = width;
+        this.height = height;
+    }
+
+    public void run()
+    {
+        // The graphics backend is not implemented yet; this is a compilable API placeholder.
+    }
+}
+
+public class Program
+{
+    public static void main()
+    {
+        GraphicsWindow window = new GraphicsWindow("NORTEX Graphics", 1280, 720);
+        window.run();
+    }
+}

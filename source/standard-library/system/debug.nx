@@ -1,0 +1,6 @@
+namespace System.Debug;
+
+public class DebugInfo
+{
+    public intrinsic static string getImplementationStatus();
+}

@@ -1,0 +1,6 @@
+namespace System.Memory;
+
+public class MemoryInfo
+{
+    public intrinsic static ulong sizeOf<T>();
+}

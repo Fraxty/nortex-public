@@ -1,0 +1,7 @@
+namespace System;
+
+public class Console
+{
+    public intrinsic static void writeLine(string value);
+    public intrinsic static void write(string value);
+}

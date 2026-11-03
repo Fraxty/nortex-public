@@ -1,0 +1,6 @@
+namespace System.Text;
+
+public class TextInfo
+{
+    public intrinsic static int length(string value);
+}

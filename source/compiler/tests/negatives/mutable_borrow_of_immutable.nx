@@ -1,0 +1,6 @@
+public class Ownership {
+    public void invalid() {
+        int value = 1;
+        &mut int exclusive = &mut value;
+    }
+}

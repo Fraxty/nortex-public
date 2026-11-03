@@ -1,0 +1,5 @@
+// Hilfsmodul, per `using util;` aus main.nx importiert.
+public int twice(int x)
+{
+    return x * 2;
+}

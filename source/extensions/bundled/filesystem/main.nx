@@ -1,0 +1,27 @@
+using System;
+using sdk;
+
+public int main() {
+    if (!sdk_init("Filesystem", "1.0.0")) { return 1; }
+    string listing = sdk_project_files();
+    if (Text.length(listing) == 0) {
+        sdk_notify("Filesystem: keine Projektdateien gefunden.");
+        sdk_wait_shutdown();
+        return 0;
+    }
+    StringList files = Text.split(listing, "\n");
+    mut int nx = 0;
+    mut int folders = 0;
+    mut int i = 0;
+    while (i < StringList.length(files)) {
+        string path = StringList.get(files, i);
+        if (Text.endsWith(path, ".nx")) { nx += 1; }
+        if (Text.contains(path, "/")) { folders += 1; }
+        i += 1;
+    }
+    int total = StringList.length(files);
+    StringList.free(files);
+    sdk_notify("Filesystem: " + Convert.toString(total) + " Dateien, davon " + Convert.toString(nx) + " .nx, " + Convert.toString(folders) + " in Unterordnern.");
+    sdk_wait_shutdown();
+    return 0;
+}

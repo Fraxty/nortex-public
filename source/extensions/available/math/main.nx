@@ -1,0 +1,113 @@
+using System;
+using sdk;
+
+// Zustand des Parsers: Index 0 = Position, Index 1 = Fehlerflag.
+public int position(IntList state) { return IntList.get(state, 0); }
+
+public bool advance(IntList state) { return IntList.set(state, 0, IntList.get(state, 0) + 1); }
+
+public bool fail(IntList state) { return IntList.set(state, 1, 1); }
+
+public bool skip_spaces(string src, IntList state) {
+    while (Text.charAt(src, position(state)) == 32) { advance(state); }
+    return true;
+}
+
+public int parse_atom(string src, IntList state) {
+    skip_spaces(src + "", state);
+    int c = Text.charAt(src, position(state));
+    if (c == 40) {
+        advance(state);
+        int inner = parse_sum(src + "", state);
+        skip_spaces(src + "", state);
+        if (Text.charAt(src, position(state)) != 41) { fail(state); } else { advance(state); }
+        return inner;
+    }
+    if (c == 45) {
+        advance(state);
+        return 0 - parse_atom(src + "", state);
+    }
+    mut int value = 0;
+    mut bool any = false;
+    while (Text.charAt(src, position(state)) >= 48 && Text.charAt(src, position(state)) <= 57) {
+        value = value * 10 + (Text.charAt(src, position(state)) - 48);
+        any = true;
+        advance(state);
+    }
+    if (!any) { fail(state); }
+    return value;
+}
+
+public int parse_product(string src, IntList state) {
+    mut int value = parse_atom(src + "", state);
+    skip_spaces(src + "", state);
+    mut int op = Text.charAt(src, position(state));
+    while ((op == 42 || op == 47) && IntList.get(state, 1) == 0) {
+        advance(state);
+        int right = parse_atom(src + "", state);
+        if (op == 42) { value = value * right; }
+        else if (right == 0) { fail(state); }
+        else { value = value / right; }
+        skip_spaces(src + "", state);
+        op = Text.charAt(src, position(state));
+    }
+    return value;
+}
+
+public int parse_sum(string src, IntList state) {
+    mut int value = parse_product(src + "", state);
+    skip_spaces(src + "", state);
+    mut int op = Text.charAt(src, position(state));
+    while ((op == 43 || op == 45) && IntList.get(state, 1) == 0) {
+        advance(state);
+        int right = parse_product(src + "", state);
+        if (op == 43) { value = value + right; } else { value = value - right; }
+        skip_spaces(src + "", state);
+        op = Text.charAt(src, position(state));
+    }
+    return value;
+}
+
+public int main() {
+    if (!sdk_init("Math", "1.0.0")) { return 1; }
+    string source = sdk_active_text();
+    if (Text.length(source) == 0) {
+        sdk_notify("Math: kein vollständig lesbares Dokument aktiv.");
+        sdk_wait_shutdown();
+        return 0;
+    }
+    StringList lines = Text.split(source + "", "\n");
+    mut string buf = "";
+    mut int solved = 0;
+    mut int i = 0;
+    int total = StringList.length(lines);
+    while (i < total) {
+        string line = StringList.get(lines, i);
+        mut string outLine = line + "";
+        if (Text.length(Text.trim(line)) > 0 && !Text.contains(line, "=")) {
+            IntList state = IntList.create();
+            IntList.add(state, 0);
+            IntList.add(state, 0);
+            int value = parse_sum(line + "", state);
+            skip_spaces(line + "", state);
+            if (IntList.get(state, 1) == 0 && position(state) == Text.length(line)) {
+                outLine = line + " = " + Convert.toString(value);
+                solved += 1;
+            }
+            IntList.free(state);
+        }
+        buf = buf + outLine;
+        if (i < total - 1) { buf = buf + "\n"; }
+        i += 1;
+    }
+    StringList.free(lines);
+    if (solved == 0) {
+        sdk_notify("Math: keine auswertbaren Ausdrücke gefunden.");
+    } else if (sdk_replace_active(buf)) {
+        sdk_notify("Math: " + Convert.toString(solved) + " Ausdrücke berechnet.");
+    } else {
+        sdk_log("error", "Dokument konnte nicht ersetzt werden.");
+    }
+    sdk_wait_shutdown();
+    return 0;
+}

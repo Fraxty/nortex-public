@@ -1,0 +1,10 @@
+{
+  "id": "docker-integration",
+  "name": "Docker Integration",
+  "description": "Legt Dockerfile und .dockerignore für ein NORTEX-Programm an, sofern sie noch nicht existieren. Startet kein Docker.",
+  "version": "1.0.0",
+  "entry": "main.nx",
+  "permissions": [],
+  "ide_api": ">=1.1.0, <2.0.0",
+  "ide_permissions": ["ide.file.read", "ide.file.write", "ide.notification", "ide.log"]
+}

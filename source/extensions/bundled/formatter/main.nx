@@ -1,0 +1,65 @@
+using System;
+using sdk;
+
+public string trim_end(string line) {
+    mut int end = Text.length(line);
+    while (end > 0) {
+        int c = Text.charAt(line, end - 1);
+        if (c != 32 && c != 9 && c != 13) { return Text.substring(line, 0, end); }
+        end -= 1;
+    }
+    return "";
+}
+
+// Zeilenenden werden bereinigt, Tabs zu vier Leerzeichen, mehrere Leerzeilen in
+// Folge zu einer, am Ende steht genau ein Zeilenumbruch.
+public string format_source(string source) {
+    StringList lines = Text.split(source, "\n");
+    StringList kept = StringList.create();
+    mut int blanks = 0;
+    mut int i = 0;
+    while (i < StringList.length(lines)) {
+        string line = Text.replace(trim_end(StringList.get(lines, i)), "\t", "    ");
+        if (Text.length(line) == 0) {
+            blanks += 1;
+            if (blanks == 1) { StringList.add(kept, ""); }
+        } else {
+            blanks = 0;
+            StringList.add(kept, line);
+        }
+        i += 1;
+    }
+    mut int count = StringList.length(kept);
+    while (count > 0 && Text.length(StringList.get(kept, count - 1)) == 0) {
+        count -= 1;
+    }
+    mut string buf = "";
+    mut int k = 0;
+    while (k < count) {
+        buf = buf + StringList.get(kept, k) + "\n";
+        k += 1;
+    }
+    StringList.free(lines);
+    StringList.free(kept);
+    return buf;
+}
+
+public int main() {
+    if (!sdk_init("Formatter", "1.0.0")) { return 1; }
+    string source = sdk_active_text();
+    if (Text.length(source) == 0) {
+        sdk_notify("Formatter: kein vollständig lesbares Dokument aktiv.");
+        sdk_wait_shutdown();
+        return 0;
+    }
+    string formatted = format_source(source + "");
+    if (formatted == source) {
+        sdk_notify("Formatter: Dokument ist bereits formatiert.");
+    } else if (sdk_replace_active(formatted)) {
+        sdk_notify("Formatter: Dokument formatiert.");
+    } else {
+        sdk_log("error", "Dokument konnte nicht ersetzt werden.");
+    }
+    sdk_wait_shutdown();
+    return 0;
+}

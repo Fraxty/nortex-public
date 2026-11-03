@@ -1,0 +1,15 @@
+[package]
+name = "nortex-runtime"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["rlib", "staticlib", "cdylib"]
+
+[features]
+default = []
+native-entrypoint = []
+
+[dependencies]

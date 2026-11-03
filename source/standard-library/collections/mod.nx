@@ -1,0 +1,6 @@
+namespace System.Collections;
+
+public class CollectionInfo
+{
+    public intrinsic static string getImplementationStatus();
+}

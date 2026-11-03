@@ -1,0 +1,112 @@
+using System;
+using sdk;
+
+public string indent_of(int depth) {
+    mut string pad = "";
+    mut int i = 0;
+    while (i < depth) {
+        pad = pad + "  ";
+        i += 1;
+    }
+    return pad;
+}
+
+// Zeichen außerhalb von Strings, die Leerraum sind, werden verworfen.
+public bool is_blank(int c) {
+    return c == 32 || c == 9 || c == 10 || c == 13;
+}
+
+// Prüft nur die Klammerstruktur, kein vollständiger JSON-Parser.
+public bool brackets_balanced(string src) {
+    mut int depth = 0;
+    mut bool inString = false;
+    mut int i = 0;
+    int n = Text.length(src);
+    while (i < n) {
+        int c = Text.charAt(src, i);
+        if (inString) {
+            if (c == 92) { i += 1; } else if (c == 34) { inString = false; }
+        } else if (c == 34) {
+            inString = true;
+        } else if (c == 123 || c == 91) {
+            depth += 1;
+        } else if (c == 125 || c == 93) {
+            depth -= 1;
+            if (depth < 0) { return false; }
+        }
+        i += 1;
+    }
+    return depth == 0 && !inString;
+}
+
+public string transform(string src, bool pretty) {
+    mut string buf = "";
+    mut int depth = 0;
+    mut bool inString = false;
+    mut int i = 0;
+    int n = Text.length(src);
+    while (i < n) {
+        int c = Text.charAt(src, i);
+        string ch = Text.substring(src, i, 1);
+        if (inString) {
+            buf = buf + ch;
+            if (c == 92 && i + 1 < n) {
+                buf = buf + Text.substring(src, i + 1, 1);
+                i += 1;
+            } else if (c == 34) {
+                inString = false;
+            }
+        } else if (c == 34) {
+            inString = true;
+            buf = buf + ch;
+        } else if (c == 123 || c == 91) {
+            buf = buf + ch;
+            mut int next = i + 1;
+            while (next < n && is_blank(Text.charAt(src, next))) { next += 1; }
+            if (next < n) {
+                int look = Text.charAt(src, next);
+                if ((c == 123 && look == 125) || (c == 91 && look == 93)) {
+                    buf = buf + Text.substring(src, next, 1);
+                    i = next;
+                } else {
+                    depth += 1;
+                    if (pretty) { buf = buf + "\n" + indent_of(depth); }
+                }
+            }
+        } else if (c == 125 || c == 93) {
+            depth -= 1;
+            if (pretty) { buf = buf + "\n" + indent_of(depth); }
+            buf = buf + ch;
+        } else if (c == 44) {
+            buf = buf + ch;
+            if (pretty) { buf = buf + "\n" + indent_of(depth); }
+        } else if (c == 58) {
+            if (pretty) { buf = buf + ": "; } else { buf = buf + ch; }
+        } else if (!is_blank(c)) {
+            buf = buf + ch;
+        }
+        i += 1;
+    }
+    if (pretty) { buf = buf + "\n"; }
+    return buf;
+}
+
+public int main() {
+    if (!sdk_init("JSON Tools", "1.0.0")) { return 1; }
+    string source = sdk_active_text();
+    if (Text.length(source) == 0) {
+        sdk_notify("JSON Tools: kein vollständig lesbares Dokument aktiv.");
+    } else if (!brackets_balanced(source + "")) {
+        sdk_notify("JSON Tools: Klammern oder Anführungszeichen sind nicht ausgeglichen.");
+    } else {
+        // Enthält das Dokument Zeilenumbrüche, wird minimiert, sonst formatiert.
+        bool pretty = Text.indexOf(source + "", "\n") < 0 || Text.length(source) < 3;
+        if (sdk_replace_active(transform(source + "", pretty))) {
+            if (pretty) { sdk_notify("JSON Tools: formatiert."); } else { sdk_notify("JSON Tools: minimiert."); }
+        } else {
+            sdk_log("error", "Dokument konnte nicht ersetzt werden.");
+        }
+    }
+    sdk_wait_shutdown();
+    return 0;
+}

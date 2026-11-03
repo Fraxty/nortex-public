@@ -1,0 +1,226 @@
+﻿openapi: 3.0.3
+info:
+  title: NORTEX Marketplace API
+  version: 0.1.0
+  description: >
+    Self-hosted extension marketplace. Plain HTTP on loopback by default; terminate TLS in a reverse proxy.
+    Packages are zip archives containing `nortex-extension.json`; the server never executes them.
+    Signatures are Ed25519 over the raw 32-byte SHA-256 digest of the package.
+servers:
+  - url: http://127.0.0.1:8787
+    description: Default loopback bind (override via NORTEX_MARKET_BIND)
+security: []
+components:
+  securitySchemes:
+    bearer:
+      type: http
+      scheme: bearer
+      description: Opaque token from /api/v1/auth/login; expires server-side.
+  schemas:
+    Error:
+      type: object
+      required: [error]
+      properties: { error: { type: string } }
+    Credentials:
+      type: object
+      required: [username, password]
+      properties:
+        username: { type: string, pattern: '^[A-Za-z0-9_-]{3,32}$' }
+        password: { type: string, minLength: 10, maxLength: 256 }
+    Summary:
+      type: object
+      properties:
+        id: { type: string, pattern: '^[a-z0-9][a-z0-9._-]{2,63}$' }
+        name: { type: string }
+        description: { type: string }
+        latest_version: { type: string }
+        sha256: { type: string }
+        rating_average: { type: number, nullable: true }
+        rating_count: { type: integer }
+    Submission:
+      type: object
+      properties:
+        submission_id: { type: integer }
+        id: { type: string }
+        version: { type: string }
+        status: { type: string, enum: [pending, published, rejected] }
+        sha256: { type: string }
+  responses:
+    Err:
+      description: Error
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/Error' }
+paths:
+  /api/v1/health:
+    get:
+      summary: Health check
+      responses: { '200': { description: OK } }
+  /api/v1/signing-key:
+    get:
+      summary: Public Ed25519 key used to sign packages
+      responses:
+        '200': { description: Public key (hex) }
+        '503': { description: Signing key not configured }
+  /api/v1/auth/register:
+    post:
+      summary: Register a user (role "user")
+      requestBody:
+        required: true
+        content: { application/json: { schema: { $ref: '#/components/schemas/Credentials' } } }
+      responses:
+        '201': { description: Registered }
+        '400': { $ref: '#/components/responses/Err' }
+        '409': { $ref: '#/components/responses/Err' }
+  /api/v1/auth/login:
+    post:
+      summary: Obtain an expiring opaque bearer token
+      requestBody:
+        required: true
+        content: { application/json: { schema: { $ref: '#/components/schemas/Credentials' } } }
+      responses:
+        '200': { description: Token issued }
+        '401': { $ref: '#/components/responses/Err' }
+  /api/v1/auth/logout:
+    post:
+      summary: Revoke the presented token
+      security: [{ bearer: [] }]
+      responses: { '204': { description: Revoked }, '401': { $ref: '#/components/responses/Err' } }
+  /api/v1/extensions:
+    get:
+      summary: Search published extensions
+      parameters:
+        - { name: q, in: query, schema: { type: string } }
+        - { name: limit, in: query, schema: { type: integer, minimum: 1, maximum: 100, default: 20 } }
+        - { name: offset, in: query, schema: { type: integer, minimum: 0, default: 0 } }
+      responses: { '200': { description: Results } }
+    post:
+      summary: Upload a package as pending (publisher or admin)
+      security: [{ bearer: [] }]
+      requestBody:
+        required: true
+        content: { application/zip: { schema: { type: string, format: binary } } }
+      responses:
+        '202': { description: Accepted as pending, content: { application/json: { schema: { $ref: '#/components/schemas/Submission' } } } }
+        '400': { $ref: '#/components/responses/Err' }
+        '401': { $ref: '#/components/responses/Err' }
+        '403': { $ref: '#/components/responses/Err' }
+        '409': { $ref: '#/components/responses/Err' }
+        '413': { description: Exceeds NORTEX_MARKET_MAX_UPLOAD_BYTES }
+  /api/v1/extensions/{id}:
+    get:
+      summary: Extension details (published only)
+      parameters: [{ name: id, in: path, required: true, schema: { type: string } }]
+      responses: { '200': { description: Details }, '404': { $ref: '#/components/responses/Err' } }
+  /api/v1/extensions/{id}/versions/{version}/download:
+    get:
+      summary: Download a published package; hash and signature are re-verified before serving
+      description: Headers X-NORTEX-SHA256 and X-NORTEX-Signature accompany the body.
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: string } }
+        - { name: version, in: path, required: true, schema: { type: string } }
+      responses:
+        '200': { description: Package, content: { application/zip: { schema: { type: string, format: binary } } } }
+        '404': { $ref: '#/components/responses/Err' }
+        '503': { description: Signing key not configured }
+  /api/v1/extensions/{id}/rating:
+    put:
+      summary: Set own rating (1-5)
+      security: [{ bearer: [] }]
+      parameters: [{ name: id, in: path, required: true, schema: { type: string } }]
+      requestBody:
+        required: true
+        content: { application/json: { schema: { type: object, required: [stars], properties: { stars: { type: integer, minimum: 1, maximum: 5 } } } } }
+      responses: { '200': { description: Saved }, '400': { $ref: '#/components/responses/Err' }, '401': { $ref: '#/components/responses/Err' }, '404': { $ref: '#/components/responses/Err' } }
+  /api/v1/extensions/{id}/favorite:
+    put:
+      summary: Add favorite
+      security: [{ bearer: [] }]
+      parameters: [{ name: id, in: path, required: true, schema: { type: string } }]
+      responses: { '204': { description: Added }, '401': { $ref: '#/components/responses/Err' }, '404': { $ref: '#/components/responses/Err' } }
+    delete:
+      summary: Remove favorite
+      security: [{ bearer: [] }]
+      parameters: [{ name: id, in: path, required: true, schema: { type: string } }]
+      responses: { '204': { description: Removed }, '401': { $ref: '#/components/responses/Err' } }
+  /api/v1/extensions/{id}/run:
+    post:
+      summary: Not supported - the marketplace never executes extensions
+      parameters: [{ name: id, in: path, required: true, schema: { type: string } }]
+      responses: { '501': { $ref: '#/components/responses/Err' } }
+  /api/v1/me/favorites:
+    get:
+      summary: List own favorites
+      security: [{ bearer: [] }]
+      responses: { '200': { description: Favorites }, '401': { $ref: '#/components/responses/Err' } }
+  /api/v1/updates/check:
+    post:
+      summary: Compare installed versions with latest published (max 500 items)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [installed]
+              properties:
+                installed:
+                  type: array
+                  maxItems: 500
+                  items: { type: object, required: [id, version], properties: { id: { type: string }, version: { type: string } } }
+      responses: { '200': { description: Available updates }, '400': { $ref: '#/components/responses/Err' } }
+  /api/v1/admin/submissions:
+    get:
+      summary: List pending submissions (admin)
+      security: [{ bearer: [] }]
+      responses:
+        '200':
+          description: Pending submissions, including their validated package manifests
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [submissions]
+                properties:
+                  submissions:
+                    type: array
+                    maxItems: 200
+                    items:
+                      type: object
+                      required: [submission_id, id, version, size, sha256, publisher, manifest]
+                      properties:
+                        submission_id: { type: integer }
+                        id: { type: string }
+                        version: { type: string }
+                        size: { type: integer }
+                        sha256: { type: string }
+                        publisher: { type: string }
+                        manifest: { type: string, description: JSON-encoded package manifest }
+        '401': { $ref: '#/components/responses/Err' }
+        '403': { $ref: '#/components/responses/Err' }
+  /api/v1/admin/submissions/{id}/approve:
+    post:
+      summary: Approve, sign and publish a pending submission (admin)
+      security: [{ bearer: [] }]
+      parameters: [{ name: id, in: path, required: true, schema: { type: integer } }]
+      responses:
+        '200': { description: Published }
+        '403': { $ref: '#/components/responses/Err' }
+        '404': { $ref: '#/components/responses/Err' }
+        '409': { $ref: '#/components/responses/Err' }
+        '503': { description: Signing key not configured }
+  /api/v1/admin/submissions/{id}/reject:
+    post:
+      summary: Reject a pending submission (admin)
+      security: [{ bearer: [] }]
+      parameters: [{ name: id, in: path, required: true, schema: { type: integer } }]
+      responses: { '200': { description: Rejected }, '403': { $ref: '#/components/responses/Err' }, '404': { $ref: '#/components/responses/Err' } }
+  /api/v1/admin/users/{username}/role:
+    put:
+      summary: Set a user's role (admin)
+      security: [{ bearer: [] }]
+      parameters: [{ name: username, in: path, required: true, schema: { type: string } }]
+      requestBody:
+        required: true
+        content: { application/json: { schema: { type: object, required: [role], properties: { role: { type: string, enum: [user, publisher, admin] } } } } }
+      responses: { '200': { description: Updated }, '403': { $ref: '#/components/responses/Err' }, '404': { $ref: '#/components/responses/Err' } }

@@ -1,0 +1,18 @@
+[project]
+name = "HelloWorld"
+version = "0.1.0"
+language = "NORTEX"
+entry = "src/main.nx"
+
+[target]
+platform = "windows"
+architecture = "x86_64"
+output = "executable"
+
+[build]
+optimization = "debug"
+debug_symbols = true
+
+[dependencies]
+
+[metadata]

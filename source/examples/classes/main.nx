@@ -1,0 +1,18 @@
+public class Player
+{
+    public int health = 100;
+
+    public void takeDamage(int damage)
+    {
+        health = health - damage;
+    }
+}
+
+public class Program
+{
+    public static void main()
+    {
+        Player player = new Player();
+        player.takeDamage(10);
+    }
+}

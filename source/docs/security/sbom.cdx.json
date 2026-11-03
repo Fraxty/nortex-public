@@ -1,0 +1,6577 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "component": {
+   "type": "application",
+   "name": "NORTEX",
+   "version": "0.1.0"
+  },
+  "tools": [
+   {
+    "name": "scripts/generate_sbom.py"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "cargo:ab_glyph@0.2.32",
+   "name": "ab_glyph",
+   "version": "0.2.32",
+   "purl": "pkg:cargo/ab_glyph@0.2.32",
+   "licenses": [
+    {
+     "expression": "Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/alexheretic/ab-glyph"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:ab_glyph_rasterizer@0.1.10",
+   "name": "ab_glyph_rasterizer",
+   "version": "0.1.10",
+   "purl": "pkg:cargo/ab_glyph_rasterizer@0.1.10",
+   "licenses": [
+    {
+     "expression": "Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/alexheretic/ab-glyph"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:adler2@2.0.1",
+   "name": "adler2",
+   "version": "2.0.1",
+   "purl": "pkg:cargo/adler2@2.0.1",
+   "licenses": [
+    {
+     "expression": "0BSD OR MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/oyvindln/adler2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:ahash@0.8.12",
+   "name": "ahash",
+   "version": "0.8.12",
+   "purl": "pkg:cargo/ahash@0.8.12",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/tkaitchuck/ahash"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:aho-corasick@1.1.5",
+   "name": "aho-corasick",
+   "version": "1.1.5",
+   "purl": "pkg:cargo/aho-corasick@1.1.5",
+   "licenses": [
+    {
+     "expression": "Unlicense OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/BurntSushi/aho-corasick"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:allocator-api2@0.2.21",
+   "name": "allocator-api2",
+   "version": "0.2.21",
+   "purl": "pkg:cargo/allocator-api2@0.2.21",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/zakarumych/allocator-api2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:android-activity@0.6.1",
+   "name": "android-activity",
+   "version": "0.6.1",
+   "purl": "pkg:cargo/android-activity@0.6.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-mobile/android-activity"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:android-properties@0.2.2",
+   "name": "android-properties",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/android-properties@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/miklelappo/android-properties"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:android_system_properties@0.1.6",
+   "name": "android_system_properties",
+   "version": "0.1.6",
+   "purl": "pkg:cargo/android_system_properties@0.1.6",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/nical/android_system_properties"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:anyhow@1.0.104",
+   "name": "anyhow",
+   "version": "1.0.104",
+   "purl": "pkg:cargo/anyhow@1.0.104",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/dtolnay/anyhow"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:arbitrary@1.5.0",
+   "name": "arbitrary",
+   "version": "1.5.0",
+   "purl": "pkg:cargo/arbitrary@1.5.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-fuzz/arbitrary/"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:arboard@3.7.0",
+   "name": "arboard",
+   "version": "3.7.0",
+   "purl": "pkg:cargo/arboard@3.7.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/1Password/arboard"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:arrayvec@0.7.8",
+   "name": "arrayvec",
+   "version": "0.7.8",
+   "purl": "pkg:cargo/arrayvec@0.7.8",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bluss/arrayvec"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:as-raw-xcb-connection@1.0.1",
+   "name": "as-raw-xcb-connection",
+   "version": "1.0.1",
+   "purl": "pkg:cargo/as-raw-xcb-connection@1.0.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/psychon/as-raw-xcb-connection"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:ash@0.38.0+1.3.281",
+   "name": "ash",
+   "version": "0.38.0+1.3.281",
+   "purl": "pkg:cargo/ash@0.38.0+1.3.281",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/ash-rs/ash"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:atomic-waker@1.1.2",
+   "name": "atomic-waker",
+   "version": "1.1.2",
+   "purl": "pkg:cargo/atomic-waker@1.1.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smol-rs/atomic-waker"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:autocfg@1.5.1",
+   "name": "autocfg",
+   "version": "1.5.1",
+   "purl": "pkg:cargo/autocfg@1.5.1",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/cuviper/autocfg"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:bit-set@0.8.0",
+   "name": "bit-set",
+   "version": "0.8.0",
+   "purl": "pkg:cargo/bit-set@0.8.0",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/contain-rs/bit-set"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:bit-vec@0.8.0",
+   "name": "bit-vec",
+   "version": "0.8.0",
+   "purl": "pkg:cargo/bit-vec@0.8.0",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/contain-rs/bit-vec"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:bitflags@1.3.2",
+   "name": "bitflags",
+   "version": "1.3.2",
+   "purl": "pkg:cargo/bitflags@1.3.2",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bitflags/bitflags"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:bitflags@2.13.2",
+   "name": "bitflags",
+   "version": "2.13.2",
+   "purl": "pkg:cargo/bitflags@2.13.2",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bitflags/bitflags"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:block@0.1.6",
+   "name": "block",
+   "version": "0.1.6",
+   "purl": "pkg:cargo/block@0.1.6",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "http://github.com/SSheldon/rust-block"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:block2@0.5.1",
+   "name": "block2",
+   "version": "0.5.1",
+   "purl": "pkg:cargo/block2@0.5.1",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:block2@0.6.2",
+   "name": "block2",
+   "version": "0.6.2",
+   "purl": "pkg:cargo/block2@0.6.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:bumpalo@3.20.3",
+   "name": "bumpalo",
+   "version": "3.20.3",
+   "purl": "pkg:cargo/bumpalo@3.20.3",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/fitzgen/bumpalo"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:bytemuck@1.25.2",
+   "name": "bytemuck",
+   "version": "1.25.2",
+   "purl": "pkg:cargo/bytemuck@1.25.2",
+   "licenses": [
+    {
+     "expression": "Zlib OR Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/Lokathor/bytemuck"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:bytemuck_derive@1.12.1",
+   "name": "bytemuck_derive",
+   "version": "1.12.1",
+   "purl": "pkg:cargo/bytemuck_derive@1.12.1",
+   "licenses": [
+    {
+     "expression": "Zlib OR Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/Lokathor/bytemuck"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:byteorder-lite@0.1.0",
+   "name": "byteorder-lite",
+   "version": "0.1.0",
+   "purl": "pkg:cargo/byteorder-lite@0.1.0",
+   "licenses": [
+    {
+     "expression": "Unlicense OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/image-rs/byteorder-lite"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:bytes@1.12.1",
+   "name": "bytes",
+   "version": "1.12.1",
+   "purl": "pkg:cargo/bytes@1.12.1",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/tokio-rs/bytes"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:calloop@0.13.0",
+   "name": "calloop",
+   "version": "0.13.0",
+   "purl": "pkg:cargo/calloop@0.13.0",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/Smithay/calloop"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:calloop@0.14.5",
+   "name": "calloop",
+   "version": "0.14.5",
+   "purl": "pkg:cargo/calloop@0.14.5",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/Smithay/calloop"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:calloop-wayland-source@0.3.0",
+   "name": "calloop-wayland-source",
+   "version": "0.3.0",
+   "purl": "pkg:cargo/calloop-wayland-source@0.3.0",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smithay/calloop-wayland-source"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:calloop-wayland-source@0.4.1",
+   "name": "calloop-wayland-source",
+   "version": "0.4.1",
+   "purl": "pkg:cargo/calloop-wayland-source@0.4.1",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smithay/calloop-wayland-source"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cc@1.10.0",
+   "name": "cc",
+   "version": "1.10.0",
+   "purl": "pkg:cargo/cc@1.10.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/cc-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cfg-if@1.0.5",
+   "name": "cfg-if",
+   "version": "1.0.5",
+   "purl": "pkg:cargo/cfg-if@1.0.5",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/cfg-if"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cfg_aliases@0.2.2",
+   "name": "cfg_aliases",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/cfg_aliases@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/katharostech/cfg_aliases"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cgl@0.3.2",
+   "name": "cgl",
+   "version": "0.3.2",
+   "purl": "pkg:cargo/cgl@0.3.2",
+   "licenses": [
+    {
+     "expression": "MIT / Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/servo/cgl-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:clipboard-win@5.4.3",
+   "name": "clipboard-win",
+   "version": "5.4.3",
+   "purl": "pkg:cargo/clipboard-win@5.4.3",
+   "licenses": [
+    {
+     "expression": "BSL-1.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/DoumanAsh/clipboard-win"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:codespan-reporting@0.11.1",
+   "name": "codespan-reporting",
+   "version": "0.11.1",
+   "purl": "pkg:cargo/codespan-reporting@0.11.1",
+   "licenses": [
+    {
+     "expression": "Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/brendanzab/codespan"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:combine@4.6.9",
+   "name": "combine",
+   "version": "4.6.9",
+   "purl": "pkg:cargo/combine@4.6.9",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/Marwes/combine"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:concurrent-queue@2.5.0",
+   "name": "concurrent-queue",
+   "version": "2.5.0",
+   "purl": "pkg:cargo/concurrent-queue@2.5.0",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smol-rs/concurrent-queue"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:core-foundation@0.9.4",
+   "name": "core-foundation",
+   "version": "0.9.4",
+   "purl": "pkg:cargo/core-foundation@0.9.4",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/servo/core-foundation-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:core-foundation-sys@0.8.7",
+   "name": "core-foundation-sys",
+   "version": "0.8.7",
+   "purl": "pkg:cargo/core-foundation-sys@0.8.7",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/servo/core-foundation-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:core-graphics@0.23.2",
+   "name": "core-graphics",
+   "version": "0.23.2",
+   "purl": "pkg:cargo/core-graphics@0.23.2",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/servo/core-foundation-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:core-graphics-types@0.1.3",
+   "name": "core-graphics-types",
+   "version": "0.1.3",
+   "purl": "pkg:cargo/core-graphics-types@0.1.3",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/servo/core-foundation-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cranelift-assembler-x64@0.121.2",
+   "name": "cranelift-assembler-x64",
+   "version": "0.121.2",
+   "purl": "pkg:cargo/cranelift-assembler-x64@0.121.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cranelift-assembler-x64-meta@0.121.2",
+   "name": "cranelift-assembler-x64-meta",
+   "version": "0.121.2",
+   "purl": "pkg:cargo/cranelift-assembler-x64-meta@0.121.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cranelift-bforest@0.121.2",
+   "name": "cranelift-bforest",
+   "version": "0.121.2",
+   "purl": "pkg:cargo/cranelift-bforest@0.121.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wasmtime"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cranelift-bitset@0.121.2",
+   "name": "cranelift-bitset",
+   "version": "0.121.2",
+   "purl": "pkg:cargo/cranelift-bitset@0.121.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wasmtime"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cranelift-codegen@0.121.2",
+   "name": "cranelift-codegen",
+   "version": "0.121.2",
+   "purl": "pkg:cargo/cranelift-codegen@0.121.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wasmtime"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cranelift-codegen-meta@0.121.2",
+   "name": "cranelift-codegen-meta",
+   "version": "0.121.2",
+   "purl": "pkg:cargo/cranelift-codegen-meta@0.121.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wasmtime"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cranelift-codegen-shared@0.121.2",
+   "name": "cranelift-codegen-shared",
+   "version": "0.121.2",
+   "purl": "pkg:cargo/cranelift-codegen-shared@0.121.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wasmtime"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cranelift-control@0.121.2",
+   "name": "cranelift-control",
+   "version": "0.121.2",
+   "purl": "pkg:cargo/cranelift-control@0.121.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wasmtime"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cranelift-entity@0.121.2",
+   "name": "cranelift-entity",
+   "version": "0.121.2",
+   "purl": "pkg:cargo/cranelift-entity@0.121.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wasmtime"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cranelift-frontend@0.121.2",
+   "name": "cranelift-frontend",
+   "version": "0.121.2",
+   "purl": "pkg:cargo/cranelift-frontend@0.121.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wasmtime"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cranelift-isle@0.121.2",
+   "name": "cranelift-isle",
+   "version": "0.121.2",
+   "purl": "pkg:cargo/cranelift-isle@0.121.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wasmtime/tree/main/cranelift/isle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cranelift-module@0.121.2",
+   "name": "cranelift-module",
+   "version": "0.121.2",
+   "purl": "pkg:cargo/cranelift-module@0.121.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wasmtime"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cranelift-native@0.121.2",
+   "name": "cranelift-native",
+   "version": "0.121.2",
+   "purl": "pkg:cargo/cranelift-native@0.121.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wasmtime"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cranelift-object@0.121.2",
+   "name": "cranelift-object",
+   "version": "0.121.2",
+   "purl": "pkg:cargo/cranelift-object@0.121.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wasmtime"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cranelift-srcgen@0.121.2",
+   "name": "cranelift-srcgen",
+   "version": "0.121.2",
+   "purl": "pkg:cargo/cranelift-srcgen@0.121.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wasmtime"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:crc32fast@1.5.3",
+   "name": "crc32fast",
+   "version": "1.5.3",
+   "purl": "pkg:cargo/crc32fast@1.5.3",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/srijs/rust-crc32fast"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:crossbeam-utils@0.8.23",
+   "name": "crossbeam-utils",
+   "version": "0.8.23",
+   "purl": "pkg:cargo/crossbeam-utils@0.8.23",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/crossbeam-rs/crossbeam"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:crunchy@0.2.4",
+   "name": "crunchy",
+   "version": "0.2.4",
+   "purl": "pkg:cargo/crunchy@0.2.4",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/eira-fransham/crunchy"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:cursor-icon@1.2.0",
+   "name": "cursor-icon",
+   "version": "1.2.0",
+   "purl": "pkg:cargo/cursor-icon@1.2.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0 OR Zlib"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-windowing/cursor-icon"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:dispatch@0.2.0",
+   "name": "dispatch",
+   "version": "0.2.0",
+   "purl": "pkg:cargo/dispatch@0.2.0",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "http://github.com/SSheldon/rust-dispatch"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:dispatch2@0.3.1",
+   "name": "dispatch2",
+   "version": "0.3.1",
+   "purl": "pkg:cargo/dispatch2@0.3.1",
+   "licenses": [
+    {
+     "expression": "Zlib OR Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:displaydoc@0.2.7",
+   "name": "displaydoc",
+   "version": "0.2.7",
+   "purl": "pkg:cargo/displaydoc@0.2.7",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/yaahc/displaydoc"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:dlib@0.5.3",
+   "name": "dlib",
+   "version": "0.5.3",
+   "purl": "pkg:cargo/dlib@0.5.3",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/elinorbgr/dlib"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:document-features@0.2.12",
+   "name": "document-features",
+   "version": "0.2.12",
+   "purl": "pkg:cargo/document-features@0.2.12",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/slint-ui/document-features"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:downcast-rs@1.2.1",
+   "name": "downcast-rs",
+   "version": "1.2.1",
+   "purl": "pkg:cargo/downcast-rs@1.2.1",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/marcianx/downcast-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:dpi@0.1.2",
+   "name": "dpi",
+   "version": "0.1.2",
+   "purl": "pkg:cargo/dpi@0.1.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 AND MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-windowing/winit"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:ecolor@0.31.1",
+   "name": "ecolor",
+   "version": "0.31.1",
+   "purl": "pkg:cargo/ecolor@0.31.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/emilk/egui"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:eframe@0.31.1",
+   "name": "eframe",
+   "version": "0.31.1",
+   "purl": "pkg:cargo/eframe@0.31.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/emilk/egui/tree/master/crates/eframe"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:egui@0.31.1",
+   "name": "egui",
+   "version": "0.31.1",
+   "purl": "pkg:cargo/egui@0.31.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/emilk/egui"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:egui-wgpu@0.31.1",
+   "name": "egui-wgpu",
+   "version": "0.31.1",
+   "purl": "pkg:cargo/egui-wgpu@0.31.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/emilk/egui/tree/master/crates/egui-wgpu"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:egui-winit@0.31.1",
+   "name": "egui-winit",
+   "version": "0.31.1",
+   "purl": "pkg:cargo/egui-winit@0.31.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/emilk/egui/tree/master/crates/egui-winit"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:egui_glow@0.31.1",
+   "name": "egui_glow",
+   "version": "0.31.1",
+   "purl": "pkg:cargo/egui_glow@0.31.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/emilk/egui/tree/master/crates/egui_glow"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:emath@0.31.1",
+   "name": "emath",
+   "version": "0.31.1",
+   "purl": "pkg:cargo/emath@0.31.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/emilk/egui/tree/master/crates/emath"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:epaint@0.31.1",
+   "name": "epaint",
+   "version": "0.31.1",
+   "purl": "pkg:cargo/epaint@0.31.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/emilk/egui/tree/master/crates/epaint"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:epaint_default_fonts@0.31.1",
+   "name": "epaint_default_fonts",
+   "version": "0.31.1",
+   "purl": "pkg:cargo/epaint_default_fonts@0.31.1",
+   "licenses": [
+    {
+     "expression": "(MIT OR Apache-2.0) AND OFL-1.1 AND Ubuntu-font-1.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/emilk/egui/tree/master/crates/epaint_default_fonts"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:equivalent@1.0.3",
+   "name": "equivalent",
+   "version": "1.0.3",
+   "purl": "pkg:cargo/equivalent@1.0.3",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/indexmap-rs/equivalent"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:errno@0.3.14",
+   "name": "errno",
+   "version": "0.3.14",
+   "purl": "pkg:cargo/errno@0.3.14",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/lambda-fairy/rust-errno"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:error-code@3.4.0",
+   "name": "error-code",
+   "version": "3.4.0",
+   "purl": "pkg:cargo/error-code@3.4.0",
+   "licenses": [
+    {
+     "expression": "BSL-1.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/DoumanAsh/error-code"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:fallible-iterator@0.3.0",
+   "name": "fallible-iterator",
+   "version": "0.3.0",
+   "purl": "pkg:cargo/fallible-iterator@0.3.0",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/sfackler/rust-fallible-iterator"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:fax@0.2.7",
+   "name": "fax",
+   "version": "0.2.7",
+   "purl": "pkg:cargo/fax@0.2.7",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/pdf-rs/fax"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:fdeflate@0.3.7",
+   "name": "fdeflate",
+   "version": "0.3.7",
+   "purl": "pkg:cargo/fdeflate@0.3.7",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/image-rs/fdeflate"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:find-msvc-tools@0.1.15",
+   "name": "find-msvc-tools",
+   "version": "0.1.15",
+   "purl": "pkg:cargo/find-msvc-tools@0.1.15",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/cc-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:flate2@1.1.10",
+   "name": "flate2",
+   "version": "1.1.10",
+   "purl": "pkg:cargo/flate2@1.1.10",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/flate2-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:foldhash@0.1.5",
+   "name": "foldhash",
+   "version": "0.1.5",
+   "purl": "pkg:cargo/foldhash@0.1.5",
+   "licenses": [
+    {
+     "expression": "Zlib"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/orlp/foldhash"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:foreign-types@0.5.0",
+   "name": "foreign-types",
+   "version": "0.5.0",
+   "purl": "pkg:cargo/foreign-types@0.5.0",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/sfackler/foreign-types"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:foreign-types-macros@0.2.4",
+   "name": "foreign-types-macros",
+   "version": "0.2.4",
+   "purl": "pkg:cargo/foreign-types-macros@0.2.4",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/sfackler/foreign-types"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:foreign-types-shared@0.3.1",
+   "name": "foreign-types-shared",
+   "version": "0.3.1",
+   "purl": "pkg:cargo/foreign-types-shared@0.3.1",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/sfackler/foreign-types"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:form_urlencoded@1.2.2",
+   "name": "form_urlencoded",
+   "version": "1.2.2",
+   "purl": "pkg:cargo/form_urlencoded@1.2.2",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/servo/rust-url"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:futures-core@0.3.34",
+   "name": "futures-core",
+   "version": "0.3.34",
+   "purl": "pkg:cargo/futures-core@0.3.34",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/futures-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:futures-task@0.3.34",
+   "name": "futures-task",
+   "version": "0.3.34",
+   "purl": "pkg:cargo/futures-task@0.3.34",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/futures-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:futures-util@0.3.34",
+   "name": "futures-util",
+   "version": "0.3.34",
+   "purl": "pkg:cargo/futures-util@0.3.34",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/futures-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:gethostname@1.1.0",
+   "name": "gethostname",
+   "version": "1.1.0",
+   "purl": "pkg:cargo/gethostname@1.1.0",
+   "licenses": [
+    {
+     "expression": "Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://codeberg.org/swsnr/gethostname.rs.git"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:getrandom@0.3.4",
+   "name": "getrandom",
+   "version": "0.3.4",
+   "purl": "pkg:cargo/getrandom@0.3.4",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-random/getrandom"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:getrandom@0.4.3",
+   "name": "getrandom",
+   "version": "0.4.3",
+   "purl": "pkg:cargo/getrandom@0.4.3",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-random/getrandom"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:gimli@0.31.1",
+   "name": "gimli",
+   "version": "0.31.1",
+   "purl": "pkg:cargo/gimli@0.31.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/gimli-rs/gimli"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:gl_generator@0.14.0",
+   "name": "gl_generator",
+   "version": "0.14.0",
+   "purl": "pkg:cargo/gl_generator@0.14.0",
+   "licenses": [
+    {
+     "expression": "Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/brendanzab/gl-rs/"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:glow@0.16.0",
+   "name": "glow",
+   "version": "0.16.0",
+   "purl": "pkg:cargo/glow@0.16.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0 OR Zlib"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/grovesNL/glow"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:glutin@0.32.3",
+   "name": "glutin",
+   "version": "0.32.3",
+   "purl": "pkg:cargo/glutin@0.32.3",
+   "licenses": [
+    {
+     "expression": "Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-windowing/glutin"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:glutin-winit@0.5.0",
+   "name": "glutin-winit",
+   "version": "0.5.0",
+   "purl": "pkg:cargo/glutin-winit@0.5.0",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-windowing/glutin"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:glutin_egl_sys@0.7.1",
+   "name": "glutin_egl_sys",
+   "version": "0.7.1",
+   "purl": "pkg:cargo/glutin_egl_sys@0.7.1",
+   "licenses": [
+    {
+     "expression": "Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-windowing/glutin"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:glutin_glx_sys@0.6.1",
+   "name": "glutin_glx_sys",
+   "version": "0.6.1",
+   "purl": "pkg:cargo/glutin_glx_sys@0.6.1",
+   "licenses": [
+    {
+     "expression": "Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-windowing/glutin"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:glutin_wgl_sys@0.6.1",
+   "name": "glutin_wgl_sys",
+   "version": "0.6.1",
+   "purl": "pkg:cargo/glutin_wgl_sys@0.6.1",
+   "licenses": [
+    {
+     "expression": "Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-windowing/glutin"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:gpu-alloc@0.6.2",
+   "name": "gpu-alloc",
+   "version": "0.6.2",
+   "purl": "pkg:cargo/gpu-alloc@0.6.2",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/zakarumych/gpu-alloc"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:gpu-alloc-types@0.3.1",
+   "name": "gpu-alloc-types",
+   "version": "0.3.1",
+   "purl": "pkg:cargo/gpu-alloc-types@0.3.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/zakarumych/gpu-alloc"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:gpu-descriptor@0.3.2",
+   "name": "gpu-descriptor",
+   "version": "0.3.2",
+   "purl": "pkg:cargo/gpu-descriptor@0.3.2",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/zakarumych/gpu-descriptor"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:gpu-descriptor-types@0.2.0",
+   "name": "gpu-descriptor-types",
+   "version": "0.2.0",
+   "purl": "pkg:cargo/gpu-descriptor-types@0.2.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/zakarumych/gpu-descriptor"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:half@2.7.1",
+   "name": "half",
+   "version": "2.7.1",
+   "purl": "pkg:cargo/half@2.7.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/VoidStarKat/half-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:hashbrown@0.15.5",
+   "name": "hashbrown",
+   "version": "0.15.5",
+   "purl": "pkg:cargo/hashbrown@0.15.5",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/hashbrown"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:hashbrown@0.17.1",
+   "name": "hashbrown",
+   "version": "0.17.1",
+   "purl": "pkg:cargo/hashbrown@0.17.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/hashbrown"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:heck@0.5.0",
+   "name": "heck",
+   "version": "0.5.0",
+   "purl": "pkg:cargo/heck@0.5.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/withoutboats/heck"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:hermit-abi@0.5.3",
+   "name": "hermit-abi",
+   "version": "0.5.3",
+   "purl": "pkg:cargo/hermit-abi@0.5.3",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/hermit-os/hermit-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:hexf-parse@0.2.1",
+   "name": "hexf-parse",
+   "version": "0.2.1",
+   "purl": "pkg:cargo/hexf-parse@0.2.1",
+   "licenses": [
+    {
+     "expression": "CC0-1.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/lifthrasiir/hexf"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:icu_collections@2.4.0",
+   "name": "icu_collections",
+   "version": "2.4.0",
+   "purl": "pkg:cargo/icu_collections@2.4.0",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:icu_locale_core@2.4.0",
+   "name": "icu_locale_core",
+   "version": "2.4.0",
+   "purl": "pkg:cargo/icu_locale_core@2.4.0",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:icu_normalizer@2.4.0",
+   "name": "icu_normalizer",
+   "version": "2.4.0",
+   "purl": "pkg:cargo/icu_normalizer@2.4.0",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:icu_normalizer_data@2.4.0",
+   "name": "icu_normalizer_data",
+   "version": "2.4.0",
+   "purl": "pkg:cargo/icu_normalizer_data@2.4.0",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:icu_properties@2.4.0",
+   "name": "icu_properties",
+   "version": "2.4.0",
+   "purl": "pkg:cargo/icu_properties@2.4.0",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:icu_properties_data@2.4.0",
+   "name": "icu_properties_data",
+   "version": "2.4.0",
+   "purl": "pkg:cargo/icu_properties_data@2.4.0",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:icu_provider@2.4.0",
+   "name": "icu_provider",
+   "version": "2.4.0",
+   "purl": "pkg:cargo/icu_provider@2.4.0",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:idna@1.1.0",
+   "name": "idna",
+   "version": "1.1.0",
+   "purl": "pkg:cargo/idna@1.1.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/servo/rust-url/"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:idna_adapter@1.2.2",
+   "name": "idna_adapter",
+   "version": "1.2.2",
+   "purl": "pkg:cargo/idna_adapter@1.2.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/hsivonen/idna_adapter"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:image@0.25.10",
+   "name": "image",
+   "version": "0.25.10",
+   "purl": "pkg:cargo/image@0.25.10",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/image-rs/image"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:indexmap@2.14.2",
+   "name": "indexmap",
+   "version": "2.14.2",
+   "purl": "pkg:cargo/indexmap@2.14.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/indexmap-rs/indexmap"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:itoa@1.0.18",
+   "name": "itoa",
+   "version": "1.0.18",
+   "purl": "pkg:cargo/itoa@1.0.18",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/dtolnay/itoa"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:jni@0.22.4",
+   "name": "jni",
+   "version": "0.22.4",
+   "purl": "pkg:cargo/jni@0.22.4",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/jni-rs/jni-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:jni-macros@0.22.4",
+   "name": "jni-macros",
+   "version": "0.22.4",
+   "purl": "pkg:cargo/jni-macros@0.22.4",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/jni-rs/jni-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:jni-sys@0.3.1",
+   "name": "jni-sys",
+   "version": "0.3.1",
+   "purl": "pkg:cargo/jni-sys@0.3.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/jni-rs/jni-sys"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:jni-sys@0.4.1",
+   "name": "jni-sys",
+   "version": "0.4.1",
+   "purl": "pkg:cargo/jni-sys@0.4.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/jni-rs/jni-sys"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:jni-sys-macros@0.4.1",
+   "name": "jni-sys-macros",
+   "version": "0.4.1",
+   "purl": "pkg:cargo/jni-sys-macros@0.4.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/jni-rs/jni-sys"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:jobserver@0.1.35",
+   "name": "jobserver",
+   "version": "0.1.35",
+   "purl": "pkg:cargo/jobserver@0.1.35",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/jobserver-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:js-sys@0.3.107",
+   "name": "js-sys",
+   "version": "0.3.107",
+   "purl": "pkg:cargo/js-sys@0.3.107",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:khronos-egl@6.0.0",
+   "name": "khronos-egl",
+   "version": "6.0.0",
+   "purl": "pkg:cargo/khronos-egl@6.0.0",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/timothee-haudebourg/khronos-egl"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:khronos_api@3.1.0",
+   "name": "khronos_api",
+   "version": "3.1.0",
+   "purl": "pkg:cargo/khronos_api@3.1.0",
+   "licenses": [
+    {
+     "expression": "Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/brendanzab/gl-rs/"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:libc@0.2.191",
+   "name": "libc",
+   "version": "0.2.191",
+   "purl": "pkg:cargo/libc@0.2.191",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/libc"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:libloading@0.8.9",
+   "name": "libloading",
+   "version": "0.8.9",
+   "purl": "pkg:cargo/libloading@0.8.9",
+   "licenses": [
+    {
+     "expression": "ISC"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/nagisa/rust_libloading/"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:libm@0.2.16",
+   "name": "libm",
+   "version": "0.2.16",
+   "purl": "pkg:cargo/libm@0.2.16",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/compiler-builtins"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:libredox@0.1.25",
+   "name": "libredox",
+   "version": "0.1.25",
+   "purl": "pkg:cargo/libredox@0.1.25",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://gitlab.redox-os.org/redox-os/libredox.git"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:linux-raw-sys@0.12.1",
+   "name": "linux-raw-sys",
+   "version": "0.12.1",
+   "purl": "pkg:cargo/linux-raw-sys@0.12.1",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/sunfishcode/linux-raw-sys"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:linux-raw-sys@0.4.15",
+   "name": "linux-raw-sys",
+   "version": "0.4.15",
+   "purl": "pkg:cargo/linux-raw-sys@0.4.15",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/sunfishcode/linux-raw-sys"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:litemap@0.8.3",
+   "name": "litemap",
+   "version": "0.8.3",
+   "purl": "pkg:cargo/litemap@0.8.3",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:litrs@1.0.1",
+   "name": "litrs",
+   "version": "1.0.1",
+   "purl": "pkg:cargo/litrs@1.0.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/LukasKalbertodt/litrs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:lock_api@0.4.14",
+   "name": "lock_api",
+   "version": "0.4.14",
+   "purl": "pkg:cargo/lock_api@0.4.14",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/Amanieu/parking_lot"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:log@0.4.35",
+   "name": "log",
+   "version": "0.4.35",
+   "purl": "pkg:cargo/log@0.4.35",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/log"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:malloc_buf@0.0.6",
+   "name": "malloc_buf",
+   "version": "0.0.6",
+   "purl": "pkg:cargo/malloc_buf@0.0.6",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/SSheldon/malloc_buf"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:memchr@2.8.3",
+   "name": "memchr",
+   "version": "2.8.3",
+   "purl": "pkg:cargo/memchr@2.8.3",
+   "licenses": [
+    {
+     "expression": "Unlicense OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/BurntSushi/memchr"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:memmap2@0.9.12",
+   "name": "memmap2",
+   "version": "0.9.12",
+   "purl": "pkg:cargo/memmap2@0.9.12",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/RazrFalcon/memmap2-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:memoffset@0.9.1",
+   "name": "memoffset",
+   "version": "0.9.1",
+   "purl": "pkg:cargo/memoffset@0.9.1",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/Gilnaa/memoffset"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:metal@0.31.0",
+   "name": "metal",
+   "version": "0.31.0",
+   "purl": "pkg:cargo/metal@0.31.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/gfx-rs/metal-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:miniz_oxide@0.8.9",
+   "name": "miniz_oxide",
+   "version": "0.8.9",
+   "purl": "pkg:cargo/miniz_oxide@0.8.9",
+   "licenses": [
+    {
+     "expression": "MIT OR Zlib OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:miniz_oxide@0.9.1",
+   "name": "miniz_oxide",
+   "version": "0.9.1",
+   "purl": "pkg:cargo/miniz_oxide@0.9.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Zlib OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:moxcms@0.8.1",
+   "name": "moxcms",
+   "version": "0.8.1",
+   "purl": "pkg:cargo/moxcms@0.8.1",
+   "licenses": [
+    {
+     "expression": "BSD-3-Clause OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/awxkee/moxcms.git"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:naga@24.0.0",
+   "name": "naga",
+   "version": "24.0.0",
+   "purl": "pkg:cargo/naga@24.0.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/gfx-rs/wgpu/tree/trunk/naga"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:ndk@0.9.0",
+   "name": "ndk",
+   "version": "0.9.0",
+   "purl": "pkg:cargo/ndk@0.9.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-mobile/ndk"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:ndk-context@0.1.1",
+   "name": "ndk-context",
+   "version": "0.1.1",
+   "purl": "pkg:cargo/ndk-context@0.1.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-windowing/android-ndk-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:ndk-sys@0.5.0+25.2.9519653",
+   "name": "ndk-sys",
+   "version": "0.5.0+25.2.9519653",
+   "purl": "pkg:cargo/ndk-sys@0.5.0+25.2.9519653",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-mobile/ndk"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:ndk-sys@0.6.0+11769913",
+   "name": "ndk-sys",
+   "version": "0.6.0+11769913",
+   "purl": "pkg:cargo/ndk-sys@0.6.0+11769913",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-mobile/ndk"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:nohash-hasher@0.2.0",
+   "name": "nohash-hasher",
+   "version": "0.2.0",
+   "purl": "pkg:cargo/nohash-hasher@0.2.0",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/paritytech/nohash-hasher"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:num-traits@0.2.19",
+   "name": "num-traits",
+   "version": "0.2.19",
+   "purl": "pkg:cargo/num-traits@0.2.19",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-num/num-traits"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:num_enum@0.7.6",
+   "name": "num_enum",
+   "version": "0.7.6",
+   "purl": "pkg:cargo/num_enum@0.7.6",
+   "licenses": [
+    {
+     "expression": "BSD-3-Clause OR MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/illicitonion/num_enum"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:num_enum_derive@0.7.6",
+   "name": "num_enum_derive",
+   "version": "0.7.6",
+   "purl": "pkg:cargo/num_enum_derive@0.7.6",
+   "licenses": [
+    {
+     "expression": "BSD-3-Clause OR MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/illicitonion/num_enum"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc@0.2.7",
+   "name": "objc",
+   "version": "0.2.7",
+   "purl": "pkg:cargo/objc@0.2.7",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "http://github.com/SSheldon/rust-objc"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc-sys@0.3.5",
+   "name": "objc-sys",
+   "version": "0.3.5",
+   "purl": "pkg:cargo/objc-sys@0.3.5",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2@0.5.3",
+   "name": "objc2",
+   "version": "0.5.3",
+   "purl": "pkg:cargo/objc2@0.5.3",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2@0.6.5",
+   "name": "objc2",
+   "version": "0.6.5",
+   "purl": "pkg:cargo/objc2@0.6.5",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-app-kit@0.2.2",
+   "name": "objc2-app-kit",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/objc2-app-kit@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-app-kit@0.3.2",
+   "name": "objc2-app-kit",
+   "version": "0.3.2",
+   "purl": "pkg:cargo/objc2-app-kit@0.3.2",
+   "licenses": [
+    {
+     "expression": "Zlib OR Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-cloud-kit@0.2.2",
+   "name": "objc2-cloud-kit",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/objc2-cloud-kit@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-contacts@0.2.2",
+   "name": "objc2-contacts",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/objc2-contacts@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-core-data@0.2.2",
+   "name": "objc2-core-data",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/objc2-core-data@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-core-foundation@0.3.2",
+   "name": "objc2-core-foundation",
+   "version": "0.3.2",
+   "purl": "pkg:cargo/objc2-core-foundation@0.3.2",
+   "licenses": [
+    {
+     "expression": "Zlib OR Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-core-graphics@0.3.2",
+   "name": "objc2-core-graphics",
+   "version": "0.3.2",
+   "purl": "pkg:cargo/objc2-core-graphics@0.3.2",
+   "licenses": [
+    {
+     "expression": "Zlib OR Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-core-image@0.2.2",
+   "name": "objc2-core-image",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/objc2-core-image@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-core-location@0.2.2",
+   "name": "objc2-core-location",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/objc2-core-location@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-encode@4.1.0",
+   "name": "objc2-encode",
+   "version": "4.1.0",
+   "purl": "pkg:cargo/objc2-encode@4.1.0",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-foundation@0.2.2",
+   "name": "objc2-foundation",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/objc2-foundation@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-foundation@0.3.2",
+   "name": "objc2-foundation",
+   "version": "0.3.2",
+   "purl": "pkg:cargo/objc2-foundation@0.3.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-io-surface@0.3.2",
+   "name": "objc2-io-surface",
+   "version": "0.3.2",
+   "purl": "pkg:cargo/objc2-io-surface@0.3.2",
+   "licenses": [
+    {
+     "expression": "Zlib OR Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-link-presentation@0.2.2",
+   "name": "objc2-link-presentation",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/objc2-link-presentation@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-metal@0.2.2",
+   "name": "objc2-metal",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/objc2-metal@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-quartz-core@0.2.2",
+   "name": "objc2-quartz-core",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/objc2-quartz-core@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-symbols@0.2.2",
+   "name": "objc2-symbols",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/objc2-symbols@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-ui-kit@0.2.2",
+   "name": "objc2-ui-kit",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/objc2-ui-kit@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-uniform-type-identifiers@0.2.2",
+   "name": "objc2-uniform-type-identifiers",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/objc2-uniform-type-identifiers@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:objc2-user-notifications@0.2.2",
+   "name": "objc2-user-notifications",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/objc2-user-notifications@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/madsmtm/objc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:object@0.36.7",
+   "name": "object",
+   "version": "0.36.7",
+   "purl": "pkg:cargo/object@0.36.7",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/gimli-rs/object"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:once_cell@1.21.4",
+   "name": "once_cell",
+   "version": "1.21.4",
+   "purl": "pkg:cargo/once_cell@1.21.4",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/matklad/once_cell"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:orbclient@0.3.55",
+   "name": "orbclient",
+   "version": "0.3.55",
+   "purl": "pkg:cargo/orbclient@0.3.55",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://gitlab.redox-os.org/redox-os/orbclient"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:ordered-float@4.6.0",
+   "name": "ordered-float",
+   "version": "4.6.0",
+   "purl": "pkg:cargo/ordered-float@4.6.0",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/reem/rust-ordered-float"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:owned_ttf_parser@0.25.1",
+   "name": "owned_ttf_parser",
+   "version": "0.25.1",
+   "purl": "pkg:cargo/owned_ttf_parser@0.25.1",
+   "licenses": [
+    {
+     "expression": "Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/alexheretic/owned-ttf-parser"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:parking_lot@0.12.5",
+   "name": "parking_lot",
+   "version": "0.12.5",
+   "purl": "pkg:cargo/parking_lot@0.12.5",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/Amanieu/parking_lot"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:parking_lot_core@0.9.12",
+   "name": "parking_lot_core",
+   "version": "0.9.12",
+   "purl": "pkg:cargo/parking_lot_core@0.9.12",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/Amanieu/parking_lot"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:paste@1.0.15",
+   "name": "paste",
+   "version": "1.0.15",
+   "purl": "pkg:cargo/paste@1.0.15",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/dtolnay/paste"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:percent-encoding@2.3.2",
+   "name": "percent-encoding",
+   "version": "2.3.2",
+   "purl": "pkg:cargo/percent-encoding@2.3.2",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/servo/rust-url/"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:pin-project@1.1.13",
+   "name": "pin-project",
+   "version": "1.1.13",
+   "purl": "pkg:cargo/pin-project@1.1.13",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/taiki-e/pin-project"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:pin-project-internal@1.1.13",
+   "name": "pin-project-internal",
+   "version": "1.1.13",
+   "purl": "pkg:cargo/pin-project-internal@1.1.13",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/taiki-e/pin-project"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:pin-project-lite@0.2.17",
+   "name": "pin-project-lite",
+   "version": "0.2.17",
+   "purl": "pkg:cargo/pin-project-lite@0.2.17",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/taiki-e/pin-project-lite"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:pkg-config@0.3.34",
+   "name": "pkg-config",
+   "version": "0.3.34",
+   "purl": "pkg:cargo/pkg-config@0.3.34",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/pkg-config-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:plain@0.2.3",
+   "name": "plain",
+   "version": "0.2.3",
+   "purl": "pkg:cargo/plain@0.2.3",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/randomites/plain"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:png@0.18.1",
+   "name": "png",
+   "version": "0.18.1",
+   "purl": "pkg:cargo/png@0.18.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/image-rs/image-png"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:polling@3.11.0",
+   "name": "polling",
+   "version": "3.11.0",
+   "purl": "pkg:cargo/polling@3.11.0",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smol-rs/polling"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:pollster@0.4.0",
+   "name": "pollster",
+   "version": "0.4.0",
+   "purl": "pkg:cargo/pollster@0.4.0",
+   "licenses": [
+    {
+     "expression": "Apache-2.0/MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/zesterer/pollster"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:potential_utf@0.1.6",
+   "name": "potential_utf",
+   "version": "0.1.6",
+   "purl": "pkg:cargo/potential_utf@0.1.6",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:proc-macro-crate@3.5.0",
+   "name": "proc-macro-crate",
+   "version": "3.5.0",
+   "purl": "pkg:cargo/proc-macro-crate@3.5.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bkchr/proc-macro-crate"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:proc-macro2@1.0.107",
+   "name": "proc-macro2",
+   "version": "1.0.107",
+   "purl": "pkg:cargo/proc-macro2@1.0.107",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/dtolnay/proc-macro2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:profiling@1.0.18",
+   "name": "profiling",
+   "version": "1.0.18",
+   "purl": "pkg:cargo/profiling@1.0.18",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/aclysma/profiling"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:pxfm@0.1.30",
+   "name": "pxfm",
+   "version": "0.1.30",
+   "purl": "pkg:cargo/pxfm@0.1.30",
+   "licenses": [
+    {
+     "expression": "BSD-3-Clause OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/awxkee/pxfm"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:quick-error@2.0.1",
+   "name": "quick-error",
+   "version": "2.0.1",
+   "purl": "pkg:cargo/quick-error@2.0.1",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "http://github.com/tailhook/quick-error"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:quick-xml@0.41.0",
+   "name": "quick-xml",
+   "version": "0.41.0",
+   "purl": "pkg:cargo/quick-xml@0.41.0",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/tafia/quick-xml"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:quote@1.0.47",
+   "name": "quote",
+   "version": "1.0.47",
+   "purl": "pkg:cargo/quote@1.0.47",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/dtolnay/quote"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:r-efi@5.3.0",
+   "name": "r-efi",
+   "version": "5.3.0",
+   "purl": "pkg:cargo/r-efi@5.3.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0 OR LGPL-2.1-or-later"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/r-efi/r-efi"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:r-efi@6.0.0",
+   "name": "r-efi",
+   "version": "6.0.0",
+   "purl": "pkg:cargo/r-efi@6.0.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0 OR LGPL-2.1-or-later"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/r-efi/r-efi"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:raw-window-handle@0.6.2",
+   "name": "raw-window-handle",
+   "version": "0.6.2",
+   "purl": "pkg:cargo/raw-window-handle@0.6.2",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0 OR Zlib"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-windowing/raw-window-handle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:redox_syscall@0.4.1",
+   "name": "redox_syscall",
+   "version": "0.4.1",
+   "purl": "pkg:cargo/redox_syscall@0.4.1",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://gitlab.redox-os.org/redox-os/syscall"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:redox_syscall@0.5.18",
+   "name": "redox_syscall",
+   "version": "0.5.18",
+   "purl": "pkg:cargo/redox_syscall@0.5.18",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://gitlab.redox-os.org/redox-os/syscall"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:redox_syscall@0.9.5",
+   "name": "redox_syscall",
+   "version": "0.9.5",
+   "purl": "pkg:cargo/redox_syscall@0.9.5",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://gitlab.redox-os.org/redox-os/kernel"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:regalloc2@0.12.2",
+   "name": "regalloc2",
+   "version": "0.12.2",
+   "purl": "pkg:cargo/regalloc2@0.12.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/regalloc2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:regex@1.13.1",
+   "name": "regex",
+   "version": "1.13.1",
+   "purl": "pkg:cargo/regex@1.13.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/regex"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:regex-automata@0.4.18",
+   "name": "regex-automata",
+   "version": "0.4.18",
+   "purl": "pkg:cargo/regex-automata@0.4.18",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/regex"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:regex-syntax@0.8.11",
+   "name": "regex-syntax",
+   "version": "0.8.11",
+   "purl": "pkg:cargo/regex-syntax@0.8.11",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/regex"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:renderdoc-sys@1.1.0",
+   "name": "renderdoc-sys",
+   "version": "1.1.0",
+   "purl": "pkg:cargo/renderdoc-sys@1.1.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/ebkalderon/renderdoc-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:rfd@0.17.2",
+   "name": "rfd",
+   "version": "0.17.2",
+   "purl": "pkg:cargo/rfd@0.17.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/PolyMeilex/rfd"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:rustc-hash@1.1.0",
+   "name": "rustc-hash",
+   "version": "1.1.0",
+   "purl": "pkg:cargo/rustc-hash@1.1.0",
+   "licenses": [
+    {
+     "expression": "Apache-2.0/MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang-nursery/rustc-hash"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:rustc-hash@2.1.3",
+   "name": "rustc-hash",
+   "version": "2.1.3",
+   "purl": "pkg:cargo/rustc-hash@2.1.3",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-lang/rustc-hash"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:rustc_version@0.4.1",
+   "name": "rustc_version",
+   "version": "0.4.1",
+   "purl": "pkg:cargo/rustc_version@0.4.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/djc/rustc-version-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:rustix@0.38.44",
+   "name": "rustix",
+   "version": "0.38.44",
+   "purl": "pkg:cargo/rustix@0.38.44",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/rustix"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:rustix@1.1.6",
+   "name": "rustix",
+   "version": "1.1.6",
+   "purl": "pkg:cargo/rustix@1.1.6",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/rustix"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:rustversion@1.0.23",
+   "name": "rustversion",
+   "version": "1.0.23",
+   "purl": "pkg:cargo/rustversion@1.0.23",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/dtolnay/rustversion"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:same-file@1.0.6",
+   "name": "same-file",
+   "version": "1.0.6",
+   "purl": "pkg:cargo/same-file@1.0.6",
+   "licenses": [
+    {
+     "expression": "Unlicense/MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/BurntSushi/same-file"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:scoped-tls@1.0.1",
+   "name": "scoped-tls",
+   "version": "1.0.1",
+   "purl": "pkg:cargo/scoped-tls@1.0.1",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/alexcrichton/scoped-tls"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:scopeguard@1.2.0",
+   "name": "scopeguard",
+   "version": "1.2.0",
+   "purl": "pkg:cargo/scopeguard@1.2.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bluss/scopeguard"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:semver@1.0.28",
+   "name": "semver",
+   "version": "1.0.28",
+   "purl": "pkg:cargo/semver@1.0.28",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/dtolnay/semver"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:serde@1.0.229",
+   "name": "serde",
+   "version": "1.0.229",
+   "purl": "pkg:cargo/serde@1.0.229",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/serde-rs/serde"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:serde_core@1.0.229",
+   "name": "serde_core",
+   "version": "1.0.229",
+   "purl": "pkg:cargo/serde_core@1.0.229",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/serde-rs/serde"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:serde_derive@1.0.229",
+   "name": "serde_derive",
+   "version": "1.0.229",
+   "purl": "pkg:cargo/serde_derive@1.0.229",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/serde-rs/serde"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:serde_json@1.0.154",
+   "name": "serde_json",
+   "version": "1.0.154",
+   "purl": "pkg:cargo/serde_json@1.0.154",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/serde-rs/json"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:serde_spanned@0.6.9",
+   "name": "serde_spanned",
+   "version": "0.6.9",
+   "purl": "pkg:cargo/serde_spanned@0.6.9",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/toml-rs/toml"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:shlex@2.0.1",
+   "name": "shlex",
+   "version": "2.0.1",
+   "purl": "pkg:cargo/shlex@2.0.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/comex/rust-shlex"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:simd-adler32@0.3.10",
+   "name": "simd-adler32",
+   "version": "0.3.10",
+   "purl": "pkg:cargo/simd-adler32@0.3.10",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/mcountryman/simd-adler32"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:simd_cesu8@1.2.0",
+   "name": "simd_cesu8",
+   "version": "1.2.0",
+   "purl": "pkg:cargo/simd_cesu8@1.2.0",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/seancroach/simd_cesu8"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:simdutf8@0.1.5",
+   "name": "simdutf8",
+   "version": "0.1.5",
+   "purl": "pkg:cargo/simdutf8@0.1.5",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rusticstuff/simdutf8"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:slab@0.4.12",
+   "name": "slab",
+   "version": "0.4.12",
+   "purl": "pkg:cargo/slab@0.4.12",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/tokio-rs/slab"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:slotmap@1.1.1",
+   "name": "slotmap",
+   "version": "1.1.1",
+   "purl": "pkg:cargo/slotmap@1.1.1",
+   "licenses": [
+    {
+     "expression": "Zlib"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/orlp/slotmap"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:smallvec@1.16.4",
+   "name": "smallvec",
+   "version": "1.16.4",
+   "purl": "pkg:cargo/smallvec@1.16.4",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/servo/rust-smallvec"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:smithay-client-toolkit@0.19.2",
+   "name": "smithay-client-toolkit",
+   "version": "0.19.2",
+   "purl": "pkg:cargo/smithay-client-toolkit@0.19.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smithay/client-toolkit"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:smithay-client-toolkit@0.20.0",
+   "name": "smithay-client-toolkit",
+   "version": "0.20.0",
+   "purl": "pkg:cargo/smithay-client-toolkit@0.20.0",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smithay/client-toolkit"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:smithay-clipboard@0.7.3",
+   "name": "smithay-clipboard",
+   "version": "0.7.3",
+   "purl": "pkg:cargo/smithay-clipboard@0.7.3",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smithay/smithay-clipboard"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:smol_str@0.2.2",
+   "name": "smol_str",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/smol_str@0.2.2",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-analyzer/smol_str"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:spirv@0.3.0+sdk-1.3.268.0",
+   "name": "spirv",
+   "version": "0.3.0+sdk-1.3.268.0",
+   "purl": "pkg:cargo/spirv@0.3.0+sdk-1.3.268.0",
+   "licenses": [
+    {
+     "expression": "Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/gfx-rs/rspirv"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:stable_deref_trait@1.2.1",
+   "name": "stable_deref_trait",
+   "version": "1.2.1",
+   "purl": "pkg:cargo/stable_deref_trait@1.2.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/storyyeller/stable_deref_trait"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:static_assertions@1.1.0",
+   "name": "static_assertions",
+   "version": "1.1.0",
+   "purl": "pkg:cargo/static_assertions@1.1.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/nvzqz/static-assertions-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:strum@0.26.3",
+   "name": "strum",
+   "version": "0.26.3",
+   "purl": "pkg:cargo/strum@0.26.3",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/Peternator7/strum"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:strum_macros@0.26.4",
+   "name": "strum_macros",
+   "version": "0.26.4",
+   "purl": "pkg:cargo/strum_macros@0.26.4",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/Peternator7/strum"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:syn@2.0.119",
+   "name": "syn",
+   "version": "2.0.119",
+   "purl": "pkg:cargo/syn@2.0.119",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/dtolnay/syn"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:syn@3.0.9",
+   "name": "syn",
+   "version": "3.0.9",
+   "purl": "pkg:cargo/syn@3.0.9",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/dtolnay/syn"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:synstructure@0.14.0",
+   "name": "synstructure",
+   "version": "0.14.0",
+   "purl": "pkg:cargo/synstructure@0.14.0",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/mystor/synstructure"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:target-lexicon@0.13.5",
+   "name": "target-lexicon",
+   "version": "0.13.5",
+   "purl": "pkg:cargo/target-lexicon@0.13.5",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/target-lexicon"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:termcolor@1.4.1",
+   "name": "termcolor",
+   "version": "1.4.1",
+   "purl": "pkg:cargo/termcolor@1.4.1",
+   "licenses": [
+    {
+     "expression": "Unlicense OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/BurntSushi/termcolor"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:thiserror@1.0.69",
+   "name": "thiserror",
+   "version": "1.0.69",
+   "purl": "pkg:cargo/thiserror@1.0.69",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/dtolnay/thiserror"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:thiserror@2.0.21",
+   "name": "thiserror",
+   "version": "2.0.21",
+   "purl": "pkg:cargo/thiserror@2.0.21",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/dtolnay/thiserror"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:thiserror-impl@1.0.69",
+   "name": "thiserror-impl",
+   "version": "1.0.69",
+   "purl": "pkg:cargo/thiserror-impl@1.0.69",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/dtolnay/thiserror"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:thiserror-impl@2.0.21",
+   "name": "thiserror-impl",
+   "version": "2.0.21",
+   "purl": "pkg:cargo/thiserror-impl@2.0.21",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/dtolnay/thiserror"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:tiff@0.11.3",
+   "name": "tiff",
+   "version": "0.11.3",
+   "purl": "pkg:cargo/tiff@0.11.3",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/image-rs/image-tiff"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:tinystr@0.8.5",
+   "name": "tinystr",
+   "version": "0.8.5",
+   "purl": "pkg:cargo/tinystr@0.8.5",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:tokio@1.54.1",
+   "name": "tokio",
+   "version": "1.54.1",
+   "purl": "pkg:cargo/tokio@1.54.1",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/tokio-rs/tokio"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:toml@0.5.11",
+   "name": "toml",
+   "version": "0.5.11",
+   "purl": "pkg:cargo/toml@0.5.11",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/toml-rs/toml"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:toml@0.8.23",
+   "name": "toml",
+   "version": "0.8.23",
+   "purl": "pkg:cargo/toml@0.8.23",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/toml-rs/toml"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:toml_datetime@0.6.11",
+   "name": "toml_datetime",
+   "version": "0.6.11",
+   "purl": "pkg:cargo/toml_datetime@0.6.11",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/toml-rs/toml"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:toml_datetime@1.1.2+spec-1.1.0",
+   "name": "toml_datetime",
+   "version": "1.1.2+spec-1.1.0",
+   "purl": "pkg:cargo/toml_datetime@1.1.2+spec-1.1.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/toml-rs/toml"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:toml_edit@0.22.27",
+   "name": "toml_edit",
+   "version": "0.22.27",
+   "purl": "pkg:cargo/toml_edit@0.22.27",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/toml-rs/toml"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:toml_edit@0.25.17+spec-1.1.0",
+   "name": "toml_edit",
+   "version": "0.25.17+spec-1.1.0",
+   "purl": "pkg:cargo/toml_edit@0.25.17+spec-1.1.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/toml-rs/toml"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:toml_parser@1.1.5+spec-1.1.0",
+   "name": "toml_parser",
+   "version": "1.1.5+spec-1.1.0",
+   "purl": "pkg:cargo/toml_parser@1.1.5+spec-1.1.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/toml-rs/toml"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:toml_write@0.1.2",
+   "name": "toml_write",
+   "version": "0.1.2",
+   "purl": "pkg:cargo/toml_write@0.1.2",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/toml-rs/toml"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:tracing@0.1.44",
+   "name": "tracing",
+   "version": "0.1.44",
+   "purl": "pkg:cargo/tracing@0.1.44",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/tokio-rs/tracing"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:tracing-core@0.1.36",
+   "name": "tracing-core",
+   "version": "0.1.36",
+   "purl": "pkg:cargo/tracing-core@0.1.36",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/tokio-rs/tracing"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:ttf-parser@0.25.1",
+   "name": "ttf-parser",
+   "version": "0.25.1",
+   "purl": "pkg:cargo/ttf-parser@0.25.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/harfbuzz/ttf-parser"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:type-map@0.5.1",
+   "name": "type-map",
+   "version": "0.5.1",
+   "purl": "pkg:cargo/type-map@0.5.1",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/kardeiz/type-map"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:unicode-ident@1.0.27",
+   "name": "unicode-ident",
+   "version": "1.0.27",
+   "purl": "pkg:cargo/unicode-ident@1.0.27",
+   "licenses": [
+    {
+     "expression": "(MIT OR Apache-2.0) AND Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/dtolnay/unicode-ident"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:unicode-segmentation@1.13.3",
+   "name": "unicode-segmentation",
+   "version": "1.13.3",
+   "purl": "pkg:cargo/unicode-segmentation@1.13.3",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-rs/unicode-segmentation"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:unicode-width@0.1.14",
+   "name": "unicode-width",
+   "version": "0.1.14",
+   "purl": "pkg:cargo/unicode-width@0.1.14",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-rs/unicode-width"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:unicode-xid@0.2.6",
+   "name": "unicode-xid",
+   "version": "0.2.6",
+   "purl": "pkg:cargo/unicode-xid@0.2.6",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-rs/unicode-xid"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:url@2.5.8",
+   "name": "url",
+   "version": "2.5.8",
+   "purl": "pkg:cargo/url@2.5.8",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/servo/rust-url"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:utf8_iter@1.1.0",
+   "name": "utf8_iter",
+   "version": "1.1.0",
+   "purl": "pkg:cargo/utf8_iter@1.1.0",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/hsivonen/utf8_iter"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:utf_types@1.0.0",
+   "name": "utf_types",
+   "version": "1.0.0",
+   "purl": "pkg:cargo/utf_types@1.0.0",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/hsivonen/utf_types"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:version_check@0.9.5",
+   "name": "version_check",
+   "version": "0.9.5",
+   "purl": "pkg:cargo/version_check@0.9.5",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/SergioBenitez/version_check"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:walkdir@2.5.0",
+   "name": "walkdir",
+   "version": "2.5.0",
+   "purl": "pkg:cargo/walkdir@2.5.0",
+   "licenses": [
+    {
+     "expression": "Unlicense/MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/BurntSushi/walkdir"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wasip2@1.0.4+wasi-0.2.12",
+   "name": "wasip2",
+   "version": "1.0.4+wasi-0.2.12",
+   "purl": "pkg:cargo/wasip2@1.0.4+wasi-0.2.12",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wasi-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wasm-bindgen@0.2.130",
+   "name": "wasm-bindgen",
+   "version": "0.2.130",
+   "purl": "pkg:cargo/wasm-bindgen@0.2.130",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/wasm-bindgen/wasm-bindgen"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wasm-bindgen-futures@0.4.80",
+   "name": "wasm-bindgen-futures",
+   "version": "0.4.80",
+   "purl": "pkg:cargo/wasm-bindgen-futures@0.4.80",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/futures"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wasm-bindgen-macro@0.2.130",
+   "name": "wasm-bindgen-macro",
+   "version": "0.2.130",
+   "purl": "pkg:cargo/wasm-bindgen-macro@0.2.130",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wasm-bindgen-macro-support@0.2.130",
+   "name": "wasm-bindgen-macro-support",
+   "version": "0.2.130",
+   "purl": "pkg:cargo/wasm-bindgen-macro-support@0.2.130",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/wasm-bindgen/wasm-bindgen/tree/main/crates/macro-support"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wasm-bindgen-shared@0.2.130",
+   "name": "wasm-bindgen-shared",
+   "version": "0.2.130",
+   "purl": "pkg:cargo/wasm-bindgen-shared@0.2.130",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/shared"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wasmtime-math@34.0.2",
+   "name": "wasmtime-math",
+   "version": "34.0.2",
+   "purl": "pkg:cargo/wasmtime-math@34.0.2",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wasmtime"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wayland-backend@0.3.17",
+   "name": "wayland-backend",
+   "version": "0.3.17",
+   "purl": "pkg:cargo/wayland-backend@0.3.17",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smithay/wayland-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wayland-client@0.31.15",
+   "name": "wayland-client",
+   "version": "0.31.15",
+   "purl": "pkg:cargo/wayland-client@0.31.15",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smithay/wayland-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wayland-csd-frame@0.3.0",
+   "name": "wayland-csd-frame",
+   "version": "0.3.0",
+   "purl": "pkg:cargo/wayland-csd-frame@0.3.0",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-windowing/wayland-csd-frame"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wayland-cursor@0.31.14",
+   "name": "wayland-cursor",
+   "version": "0.31.14",
+   "purl": "pkg:cargo/wayland-cursor@0.31.14",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smithay/wayland-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wayland-protocols@0.32.13",
+   "name": "wayland-protocols",
+   "version": "0.32.13",
+   "purl": "pkg:cargo/wayland-protocols@0.32.13",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smithay/wayland-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wayland-protocols-experimental@20250721.0.1",
+   "name": "wayland-protocols-experimental",
+   "version": "20250721.0.1",
+   "purl": "pkg:cargo/wayland-protocols-experimental@20250721.0.1",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smithay/wayland-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wayland-protocols-misc@0.3.12",
+   "name": "wayland-protocols-misc",
+   "version": "0.3.12",
+   "purl": "pkg:cargo/wayland-protocols-misc@0.3.12",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smithay/wayland-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wayland-protocols-plasma@0.3.12",
+   "name": "wayland-protocols-plasma",
+   "version": "0.3.12",
+   "purl": "pkg:cargo/wayland-protocols-plasma@0.3.12",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smithay/wayland-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wayland-protocols-wlr@0.3.12",
+   "name": "wayland-protocols-wlr",
+   "version": "0.3.12",
+   "purl": "pkg:cargo/wayland-protocols-wlr@0.3.12",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smithay/wayland-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wayland-scanner@0.31.11",
+   "name": "wayland-scanner",
+   "version": "0.31.11",
+   "purl": "pkg:cargo/wayland-scanner@0.31.11",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smithay/wayland-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wayland-sys@0.31.11",
+   "name": "wayland-sys",
+   "version": "0.31.11",
+   "purl": "pkg:cargo/wayland-sys@0.31.11",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/smithay/wayland-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:web-sys@0.3.107",
+   "name": "web-sys",
+   "version": "0.3.107",
+   "purl": "pkg:cargo/web-sys@0.3.107",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/web-sys"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:web-time@1.1.0",
+   "name": "web-time",
+   "version": "1.1.0",
+   "purl": "pkg:cargo/web-time@1.1.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/daxpedda/web-time"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:webbrowser@1.2.6",
+   "name": "webbrowser",
+   "version": "1.2.6",
+   "purl": "pkg:cargo/webbrowser@1.2.6",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/amodm/webbrowser-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:weezl@0.1.12",
+   "name": "weezl",
+   "version": "0.1.12",
+   "purl": "pkg:cargo/weezl@0.1.12",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/image-rs/weezl"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wgpu@24.0.5",
+   "name": "wgpu",
+   "version": "24.0.5",
+   "purl": "pkg:cargo/wgpu@24.0.5",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/gfx-rs/wgpu"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wgpu-core@24.0.5",
+   "name": "wgpu-core",
+   "version": "24.0.5",
+   "purl": "pkg:cargo/wgpu-core@24.0.5",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/gfx-rs/wgpu"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wgpu-hal@24.0.4",
+   "name": "wgpu-hal",
+   "version": "24.0.4",
+   "purl": "pkg:cargo/wgpu-hal@24.0.4",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/gfx-rs/wgpu"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wgpu-types@24.0.0",
+   "name": "wgpu-types",
+   "version": "24.0.0",
+   "purl": "pkg:cargo/wgpu-types@24.0.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/gfx-rs/wgpu"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:winapi@0.3.9",
+   "name": "winapi",
+   "version": "0.3.9",
+   "purl": "pkg:cargo/winapi@0.3.9",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/retep998/winapi-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:winapi-i686-pc-windows-gnu@0.4.0",
+   "name": "winapi-i686-pc-windows-gnu",
+   "version": "0.4.0",
+   "purl": "pkg:cargo/winapi-i686-pc-windows-gnu@0.4.0",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/retep998/winapi-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:winapi-util@0.1.11",
+   "name": "winapi-util",
+   "version": "0.1.11",
+   "purl": "pkg:cargo/winapi-util@0.1.11",
+   "licenses": [
+    {
+     "expression": "Unlicense OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/BurntSushi/winapi-util"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:winapi-x86_64-pc-windows-gnu@0.4.0",
+   "name": "winapi-x86_64-pc-windows-gnu",
+   "version": "0.4.0",
+   "purl": "pkg:cargo/winapi-x86_64-pc-windows-gnu@0.4.0",
+   "licenses": [
+    {
+     "expression": "MIT/Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/retep998/winapi-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows@0.58.0",
+   "name": "windows",
+   "version": "0.58.0",
+   "purl": "pkg:cargo/windows@0.58.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows-core@0.58.0",
+   "name": "windows-core",
+   "version": "0.58.0",
+   "purl": "pkg:cargo/windows-core@0.58.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows-implement@0.58.0",
+   "name": "windows-implement",
+   "version": "0.58.0",
+   "purl": "pkg:cargo/windows-implement@0.58.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows-interface@0.58.0",
+   "name": "windows-interface",
+   "version": "0.58.0",
+   "purl": "pkg:cargo/windows-interface@0.58.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows-link@0.2.1",
+   "name": "windows-link",
+   "version": "0.2.1",
+   "purl": "pkg:cargo/windows-link@0.2.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows-result@0.2.0",
+   "name": "windows-result",
+   "version": "0.2.0",
+   "purl": "pkg:cargo/windows-result@0.2.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows-strings@0.1.0",
+   "name": "windows-strings",
+   "version": "0.1.0",
+   "purl": "pkg:cargo/windows-strings@0.1.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows-sys@0.52.0",
+   "name": "windows-sys",
+   "version": "0.52.0",
+   "purl": "pkg:cargo/windows-sys@0.52.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows-sys@0.59.0",
+   "name": "windows-sys",
+   "version": "0.59.0",
+   "purl": "pkg:cargo/windows-sys@0.59.0",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows-sys@0.61.2",
+   "name": "windows-sys",
+   "version": "0.61.2",
+   "purl": "pkg:cargo/windows-sys@0.61.2",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows-targets@0.52.6",
+   "name": "windows-targets",
+   "version": "0.52.6",
+   "purl": "pkg:cargo/windows-targets@0.52.6",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows_aarch64_gnullvm@0.52.6",
+   "name": "windows_aarch64_gnullvm",
+   "version": "0.52.6",
+   "purl": "pkg:cargo/windows_aarch64_gnullvm@0.52.6",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows_aarch64_msvc@0.52.6",
+   "name": "windows_aarch64_msvc",
+   "version": "0.52.6",
+   "purl": "pkg:cargo/windows_aarch64_msvc@0.52.6",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows_i686_gnu@0.52.6",
+   "name": "windows_i686_gnu",
+   "version": "0.52.6",
+   "purl": "pkg:cargo/windows_i686_gnu@0.52.6",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows_i686_gnullvm@0.52.6",
+   "name": "windows_i686_gnullvm",
+   "version": "0.52.6",
+   "purl": "pkg:cargo/windows_i686_gnullvm@0.52.6",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows_i686_msvc@0.52.6",
+   "name": "windows_i686_msvc",
+   "version": "0.52.6",
+   "purl": "pkg:cargo/windows_i686_msvc@0.52.6",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows_x86_64_gnu@0.52.6",
+   "name": "windows_x86_64_gnu",
+   "version": "0.52.6",
+   "purl": "pkg:cargo/windows_x86_64_gnu@0.52.6",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows_x86_64_gnullvm@0.52.6",
+   "name": "windows_x86_64_gnullvm",
+   "version": "0.52.6",
+   "purl": "pkg:cargo/windows_x86_64_gnullvm@0.52.6",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:windows_x86_64_msvc@0.52.6",
+   "name": "windows_x86_64_msvc",
+   "version": "0.52.6",
+   "purl": "pkg:cargo/windows_x86_64_msvc@0.52.6",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/microsoft/windows-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:winit@0.30.13",
+   "name": "winit",
+   "version": "0.30.13",
+   "purl": "pkg:cargo/winit@0.30.13",
+   "licenses": [
+    {
+     "expression": "Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-windowing/winit"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:winnow@0.7.15",
+   "name": "winnow",
+   "version": "0.7.15",
+   "purl": "pkg:cargo/winnow@0.7.15",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/winnow-rs/winnow"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:winnow@1.0.4",
+   "name": "winnow",
+   "version": "1.0.4",
+   "purl": "pkg:cargo/winnow@1.0.4",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/winnow-rs/winnow"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:winres@0.1.12",
+   "name": "winres",
+   "version": "0.1.12",
+   "purl": "pkg:cargo/winres@0.1.12",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/mxre/winres"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:wit-bindgen@0.57.1",
+   "name": "wit-bindgen",
+   "version": "0.57.1",
+   "purl": "pkg:cargo/wit-bindgen@0.57.1",
+   "licenses": [
+    {
+     "expression": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/bytecodealliance/wit-bindgen"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:writeable@0.6.4",
+   "name": "writeable",
+   "version": "0.6.4",
+   "purl": "pkg:cargo/writeable@0.6.4",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:x11-dl@2.21.0",
+   "name": "x11-dl",
+   "version": "2.21.0",
+   "purl": "pkg:cargo/x11-dl@2.21.0",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/AltF02/x11-rs.git"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:x11rb@0.13.2",
+   "name": "x11rb",
+   "version": "0.13.2",
+   "purl": "pkg:cargo/x11rb@0.13.2",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/psychon/x11rb"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:x11rb-protocol@0.13.2",
+   "name": "x11rb-protocol",
+   "version": "0.13.2",
+   "purl": "pkg:cargo/x11rb-protocol@0.13.2",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/psychon/x11rb"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:xcursor@0.3.11",
+   "name": "xcursor",
+   "version": "0.3.11",
+   "purl": "pkg:cargo/xcursor@0.3.11",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/esposm03/xcursor-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:xkbcommon-dl@0.4.2",
+   "name": "xkbcommon-dl",
+   "version": "0.4.2",
+   "purl": "pkg:cargo/xkbcommon-dl@0.4.2",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/rust-windowing/xkbcommon-dl"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:xkeysym@0.2.1",
+   "name": "xkeysym",
+   "version": "0.2.1",
+   "purl": "pkg:cargo/xkeysym@0.2.1",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0 OR Zlib"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/notgull/xkeysym"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:xml-rs@0.8.29",
+   "name": "xml-rs",
+   "version": "0.8.29",
+   "purl": "pkg:cargo/xml-rs@0.8.29",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/kornelski/xml-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:yoke@0.8.4",
+   "name": "yoke",
+   "version": "0.8.4",
+   "purl": "pkg:cargo/yoke@0.8.4",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:yoke-derive@0.8.4",
+   "name": "yoke-derive",
+   "version": "0.8.4",
+   "purl": "pkg:cargo/yoke-derive@0.8.4",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:zerocopy@0.8.63",
+   "name": "zerocopy",
+   "version": "0.8.63",
+   "purl": "pkg:cargo/zerocopy@0.8.63",
+   "licenses": [
+    {
+     "expression": "BSD-2-Clause OR Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/google/zerocopy"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:zerocopy-derive@0.8.63",
+   "name": "zerocopy-derive",
+   "version": "0.8.63",
+   "purl": "pkg:cargo/zerocopy-derive@0.8.63",
+   "licenses": [
+    {
+     "expression": "BSD-2-Clause OR Apache-2.0 OR MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/google/zerocopy"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:zerofrom@0.1.8",
+   "name": "zerofrom",
+   "version": "0.1.8",
+   "purl": "pkg:cargo/zerofrom@0.1.8",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:zerofrom-derive@0.1.8",
+   "name": "zerofrom-derive",
+   "version": "0.1.8",
+   "purl": "pkg:cargo/zerofrom-derive@0.1.8",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:zerotrie@0.2.5",
+   "name": "zerotrie",
+   "version": "0.2.5",
+   "purl": "pkg:cargo/zerotrie@0.2.5",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:zerovec@0.11.9",
+   "name": "zerovec",
+   "version": "0.11.9",
+   "purl": "pkg:cargo/zerovec@0.11.9",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:zerovec-derive@0.11.7",
+   "name": "zerovec-derive",
+   "version": "0.11.7",
+   "purl": "pkg:cargo/zerovec-derive@0.11.7",
+   "licenses": [
+    {
+     "expression": "Unicode-3.0"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/unicode-org/icu4x"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:zlib-rs@0.6.8",
+   "name": "zlib-rs",
+   "version": "0.6.8",
+   "purl": "pkg:cargo/zlib-rs@0.6.8",
+   "licenses": [
+    {
+     "expression": "Zlib"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/trifectatechfoundation/zlib-rs"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:zmij@1.0.23",
+   "name": "zmij",
+   "version": "1.0.23",
+   "purl": "pkg:cargo/zmij@1.0.23",
+   "licenses": [
+    {
+     "expression": "MIT"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/dtolnay/zmij"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:zune-core@0.5.3",
+   "name": "zune-core",
+   "version": "0.5.3",
+   "purl": "pkg:cargo/zune-core@0.5.3",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0 OR Zlib"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/etemesi254/zune-image"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "cargo:zune-jpeg@0.5.15",
+   "name": "zune-jpeg",
+   "version": "0.5.15",
+   "purl": "pkg:cargo/zune-jpeg@0.5.15",
+   "licenses": [
+    {
+     "expression": "MIT OR Apache-2.0 OR Zlib"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/etemesi254/zune-image/tree/dev/crates/zune-jpeg"
+    }
+   ]
+  }
+ ]
+}

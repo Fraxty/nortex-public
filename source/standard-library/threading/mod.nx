@@ -1,0 +1,6 @@
+namespace System.Threading;
+
+public class ThreadInfo
+{
+    public intrinsic static void yieldThread();
+}

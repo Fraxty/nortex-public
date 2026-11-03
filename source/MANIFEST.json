@@ -1,0 +1,2654 @@
+{
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha256": "7bfbc1d4be013bafdb034648890e8a0f9351457ea32b7e877bc5356f3145a9ce",
+      "size": 800
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "d6d81427cbfd6fb2c87462698c241fd6c31e47025c137498e50b8a01b228cb95",
+      "size": 29
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha256": "416bd124e41d6a2957db49a674e82555d21329ec8302a86de163d8cce1366ef7",
+      "size": 242
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "60044a3a7b20168f61870a30cffb655c623b1d83271c8aa8be9355a47760b640",
+      "size": 2099
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha256": "9cd714032d065cd731880d57e44e510798784617d8d28883d4b125b4d0ecc267",
+      "size": 1513
+    },
+    {
+      "path": ".github/workflows/security.yml",
+      "sha256": "414a7837b9e635365ad337036db8c6e016dc1bebf7e9d60db94b315e8ab78822",
+      "size": 1115
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "b89983df12f55a777b234cced49b10f529ce5b6365a013c921b6bceaaef3545d",
+      "size": 175
+    },
+    {
+      "path": "BUILD.md",
+      "sha256": "f3e250109c1109e6c11ff0a3180951f0acbe00be1703361f340ecd39fe1bcd5d",
+      "size": 938
+    },
+    {
+      "path": "BUILD_STATUS.md",
+      "sha256": "2c0438f40e9fa71ed9c800bd1a35e9d7bae72aa24f4ae7d1de12c9e870035751",
+      "size": 31336
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "563642e29740246630e332695f15b6f0083271639248aed852770e01033665eb",
+      "size": 18479
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "dd27e9f3a27af1fc7f41ea887ce151db09aa835fab43a9466616353594e24d0e",
+      "size": 728
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "df27c09c3757d466802645ea01637e156184374461fac6e330d6e4add5a08e26",
+      "size": 437
+    },
+    {
+      "path": "Cargo.lock",
+      "sha256": "489883de7661f8298b346d7124cb77d1749b79bf61d7ffc165641453976f23a6",
+      "size": 115883
+    },
+    {
+      "path": "Cargo.toml",
+      "sha256": "e96948102a2c88d4bc20c5ef04b932dbaea294c112bedaa068e1972c3f47e9e3",
+      "size": 355
+    },
+    {
+      "path": "INSTALLATION.md",
+      "sha256": "13932d9e5ef8eb2d75d5f409ef088e03ad398e155e85942d244ad9353a0f3c87",
+      "size": 1217
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "a321307ec67dce90f5c30c7bc94666536397690e82154c096ce3d0949acd407a",
+      "size": 1589
+    },
+    {
+      "path": "README.md",
+      "sha256": "57284c5078f30a11686134fb405f8ff24af192267b071f7b7398fc48ae880bd1",
+      "size": 11086
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "f67aa43518a3cdd94793077798886b29e7f9beb1495cc5e3beaedad510b2c860",
+      "size": 2106
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "0cd2326fe35bb59051e5a396207dc12c215cd78081d4fa097b28523cc7bce0d0",
+      "size": 16713
+    },
+    {
+      "path": "assets/branding/nortex-symbol.svg",
+      "sha256": "a0b771c10dd72d07a0327270065fed408a242fef756a0c90b05e98dee193216c",
+      "size": 1722
+    },
+    {
+      "path": "assets/icons/app/nortex-code-256.png",
+      "sha256": "c42847be5007f6074bc6ecbfdbdafdf887cde7231e0e5e5570a05177ca298241",
+      "size": 10313
+    },
+    {
+      "path": "assets/icons/app/nortex-code.ico",
+      "sha256": "3ffea77bcd68f7ec8c43ed3d148d2bc9fe25471535e15773aa0c76dc1aad96a8",
+      "size": 25796
+    },
+    {
+      "path": "assets/icons/app/nortex-code.svg",
+      "sha256": "7a08ca824f8c2eee0930c365aa43e0ce6693ac8f8706002b94f74fb0a3492b62",
+      "size": 1362
+    },
+    {
+      "path": "assets/icons/files/nortex-code-file.svg",
+      "sha256": "85f03467160d9c1e2a4c84ba0c7e502a7997aeabb58211a0cb5c4a41e0636941",
+      "size": 1857
+    },
+    {
+      "path": "assets/icons/files/nortex-file.svg",
+      "sha256": "e84410f28722e7a89deffa86e560e184ddca14ba8d44737cc1f1afcaddd3da35",
+      "size": 2163
+    },
+    {
+      "path": "assets/icons/runtime/nortex-code-file-64.png",
+      "sha256": "bfa4a1c173816b67695d1e996da847fc652ed71a34435c5418494ce822c5213e",
+      "size": 940
+    },
+    {
+      "path": "assets/icons/runtime/nortex-file-64.png",
+      "sha256": "c3d0ea95294ce98659d6ae848f8f512dff1fff594e408bc7fed32f22222c18fb",
+      "size": 1308
+    },
+    {
+      "path": "assets/icons/runtime/nortex-symbol-128.png",
+      "sha256": "3fa3e136fadc8ecbda3e145111ada80908785191c4fdc5987ff2ea955ca70e83",
+      "size": 1702
+    },
+    {
+      "path": "build_app.ps1",
+      "sha256": "a470ddf1e1d08d1b9d88fd24730f6c18af28733e8c8bde1bdae26b90e516cf97",
+      "size": 1762
+    },
+    {
+      "path": "compiler/Cargo.toml",
+      "sha256": "d4d698533cb2787b12efdff0880222a57265766715b13a37c001db457ddcf170",
+      "size": 443
+    },
+    {
+      "path": "compiler/src/ast/mod.rs",
+      "sha256": "3abdee17d215c63aa15837d97006da29518131e261a54f7bd7df4a8f514c6367",
+      "size": 8134
+    },
+    {
+      "path": "compiler/src/ast/shift.rs",
+      "sha256": "69ee24f90ed243e03bfa1ed56d695667afe8b4f58ddb8014527e98b777fcaa83",
+      "size": 10365
+    },
+    {
+      "path": "compiler/src/bin/nortexc.rs",
+      "sha256": "2b59aeeed4349109ed04cd062cdb9a202da9e54dc328ff8323edeef88be766e6",
+      "size": 13242
+    },
+    {
+      "path": "compiler/src/builtins.rs",
+      "sha256": "2d349e2083f64cbc1dc3343d585fb0728275edce3ba603cc4ba370c604e58ca4",
+      "size": 6339
+    },
+    {
+      "path": "compiler/src/codegen/mod.rs",
+      "sha256": "b2fb467a30b5b61d81715e555993d9d921ebe1320d027dea7576b1ada35685cb",
+      "size": 72494
+    },
+    {
+      "path": "compiler/src/diagnostics/locale.rs",
+      "sha256": "e4b512bf75c53cc053796d3d530ff3a167238b64b582731762decc345c9018af",
+      "size": 5366
+    },
+    {
+      "path": "compiler/src/diagnostics/locale_table.rs",
+      "sha256": "c184c5ac9d6214b26c09aef650dda77a2d09f0f4bc21469b91c51c5cd6f075c2",
+      "size": 53540
+    },
+    {
+      "path": "compiler/src/diagnostics/mod.rs",
+      "sha256": "52f526bc39b1a3fe98d43cbb87e874f3cf0a238a526a6184431f8034e9cd515c",
+      "size": 3559
+    },
+    {
+      "path": "compiler/src/diagnostics/renderer.rs",
+      "sha256": "bc832d080b5834311b314308da8ba471d81246db5a9048d16cb5fda7380242dd",
+      "size": 5838
+    },
+    {
+      "path": "compiler/src/driver/mod.rs",
+      "sha256": "213ec44ee26ebb26f10841e2c165d849fe7042a7e34bfd838b5f096fbcb4e030",
+      "size": 8429
+    },
+    {
+      "path": "compiler/src/hir/mod.rs",
+      "sha256": "c2b6c2c6f11d514c6fa632bd085459c940575bfe44e1139fe055ed5118862377",
+      "size": 84030
+    },
+    {
+      "path": "compiler/src/lexer/incremental.rs",
+      "sha256": "324d118e88235c21e0033ad2cf92838e48df786bf85fe8ffc394144be8d0e802",
+      "size": 10515
+    },
+    {
+      "path": "compiler/src/lexer/mod.rs",
+      "sha256": "c7579a55b5e768dab09a2122e869e19078b8b6734fa403581000b26958de8844",
+      "size": 21980
+    },
+    {
+      "path": "compiler/src/lib.rs",
+      "sha256": "52e69c3b238f9cc3cdddaf760870818b8f1ecb65e9def793df986235423fc48e",
+      "size": 530
+    },
+    {
+      "path": "compiler/src/linker/mod.rs",
+      "sha256": "a6997b54e9fc4858447bf68b2180da614a875d76a34eaaa30a99cca3a8c7f1ab",
+      "size": 25247
+    },
+    {
+      "path": "compiler/src/manifest.rs",
+      "sha256": "7749689917937e7ee39de18fe134640a6f61eadcda2f5e3ae82cfd05e7c86275",
+      "size": 8861
+    },
+    {
+      "path": "compiler/src/mir/lowering.rs",
+      "sha256": "b780abebf57250116563a25e7049a49ee4e1f6bca3d5a34ae37520136b3a28c8",
+      "size": 70876
+    },
+    {
+      "path": "compiler/src/mir/mod.rs",
+      "sha256": "9ab2f2134ba725efda26bfd6f1e78ab4c7691373f39a4ad9f91b6cb8d8735b97",
+      "size": 78432
+    },
+    {
+      "path": "compiler/src/optimizer/mod.rs",
+      "sha256": "39f5e46e1481947fd74d31b8b144681d23d34872e0010645a11d750a91196120",
+      "size": 23396
+    },
+    {
+      "path": "compiler/src/parser/incremental.rs",
+      "sha256": "4ff31cca9259250ea2cc42f7bfe590cde4f81c5bd13791ad148ead8ab14e018b",
+      "size": 8545
+    },
+    {
+      "path": "compiler/src/parser/mod.rs",
+      "sha256": "182aefd11d73cd93a41edd87dc63d519adcdc8a65d55e7180eae3dd3f3fcdeac",
+      "size": 66085
+    },
+    {
+      "path": "compiler/src/semantic/declarations.rs",
+      "sha256": "2690745ed2eaea57fed879474791cf37d3533e99b5e7478b8396e4522a3414a3",
+      "size": 40446
+    },
+    {
+      "path": "compiler/src/semantic/expressions.rs",
+      "sha256": "93e5684c574c934fba81ba3f0a87610217704f28303e8bb44ffe6d9172aee5dd",
+      "size": 20727
+    },
+    {
+      "path": "compiler/src/semantic/functions.rs",
+      "sha256": "9abf7176074b649b442e2889920eb08f92efc523110d11506bc4472369d70262",
+      "size": 21719
+    },
+    {
+      "path": "compiler/src/semantic/mod.rs",
+      "sha256": "db23957de59c04de2f480386aa8656c185bc0c97b602f07a7d06f194ead3bce8",
+      "size": 14261
+    },
+    {
+      "path": "compiler/src/semantic/resolver.rs",
+      "sha256": "121eabfedd56670cf5452c79206a4f30f6a180247bf1edc00c15fc6733d8c545",
+      "size": 9697
+    },
+    {
+      "path": "compiler/src/semantic/statements.rs",
+      "sha256": "9efd857333f778fd3638b6ec2fbbc5fcfb6a87ce4bcb728b595ca7876573bf52",
+      "size": 35721
+    },
+    {
+      "path": "compiler/src/semantic/type_checker.rs",
+      "sha256": "254bad951c2e196fa8d1666327a137ac2cab2af9a07b1fe213dbbd73e8d05197",
+      "size": 3216
+    },
+    {
+      "path": "compiler/src/semantic/type_checker/calls.rs",
+      "sha256": "502c4c5758046a6e5d45d17092c49ec60c739ef913c28cf148406d8251ff5a8c",
+      "size": 29575
+    },
+    {
+      "path": "compiler/src/semantic/type_checker/checking.rs",
+      "sha256": "f0d6e7975463030eb4612491782648583cefbe5c03dde8f461608cd687cd7ad2",
+      "size": 24418
+    },
+    {
+      "path": "compiler/src/semantic/type_checker/expressions.rs",
+      "sha256": "af75a1c6ba8d589f1ff3429a1a15829a0395c7144e995e47d7d8e5e08b1570fa",
+      "size": 18903
+    },
+    {
+      "path": "compiler/src/semantic/type_checker/type_utils.rs",
+      "sha256": "5c8496f9845a31ac3e0e4ca47a4879f2a5fdb3a7e5e85815905a598b9f13ad21",
+      "size": 14053
+    },
+    {
+      "path": "compiler/src/type_system/mod.rs",
+      "sha256": "2039adfb5f9205b73d2a6357849bb43bd62efc1d2d5f7252d86ff54ce94e6ce0",
+      "size": 8881
+    },
+    {
+      "path": "compiler/src/type_system/struct_layout.rs",
+      "sha256": "ccc5c5e1ea5afb848dd0ee35ff495b247f8ccaab162af6008ab9d1059b3817ae",
+      "size": 7964
+    },
+    {
+      "path": "compiler/tests/cli_build.rs",
+      "sha256": "ef174a7848930cde774c421b72faf6709443d8d422805f1365e0e1370b5d33a1",
+      "size": 8202
+    },
+    {
+      "path": "compiler/tests/cli_check.rs",
+      "sha256": "0bed5258a64229bb7f1d90e38dbf41e870850652847acab35c9752cdb187ce36",
+      "size": 1590
+    },
+    {
+      "path": "compiler/tests/codegen_e2e.rs",
+      "sha256": "a267cb4d5faaef494dc69eb86ed4143fc0d77c7d5e01b51f67888aa21b859e80",
+      "size": 17746
+    },
+    {
+      "path": "compiler/tests/frontend.rs",
+      "sha256": "b2e58d905565f0f324603ea804f1c2977547fda310d691f36c873b2f5f891cad",
+      "size": 49400
+    },
+    {
+      "path": "compiler/tests/golden_tests.rs",
+      "sha256": "8edec986d09f351be3a713aff7b238d21176f670aac98653921b95aea9fc27fd",
+      "size": 3100
+    },
+    {
+      "path": "compiler/tests/manifest_test.rs",
+      "sha256": "864f00caa862c9f504de19d14497a8719aef9f2468258469b61e5dedf4626301",
+      "size": 4233
+    },
+    {
+      "path": "compiler/tests/native_classes.rs",
+      "sha256": "6c1df64630f4937fe02ddab24be230cdf9875946264b1161716e8b9dc843237b",
+      "size": 9355
+    },
+    {
+      "path": "compiler/tests/negatives/borrow_outlives_scope.nx",
+      "sha256": "0eabdcc897efcdfdfa9137db190fab469c13c0235d7203427a469eb7274a2632",
+      "size": 213
+    },
+    {
+      "path": "compiler/tests/negatives/mutable_borrow_of_immutable.nx",
+      "sha256": "5b55974c7fbdd5d6be0b8a7f8f722415dbcd2d9c9f9bdfded253417640d05aee",
+      "size": 131
+    },
+    {
+      "path": "compiler/tests/negatives/mutable_reborrow_from_shared.nx",
+      "sha256": "6621da53fc935f37e2c710ee37bb7be297524217538c34787a98f41ac7bec5f0",
+      "size": 114
+    },
+    {
+      "path": "compiler/tests/negatives/reference_return_without_lifetime.nx",
+      "sha256": "b01015ccec8ce5127e975e3480e96e29050ea0b017ce0288590d0768befad78c",
+      "size": 150
+    },
+    {
+      "path": "compiler/tests/negatives/shared_mutable_alias.nx",
+      "sha256": "128dad7188abc04a93bfad1f12314745006f3ec2a2465ba1f9309377539fa81a",
+      "size": 199
+    },
+    {
+      "path": "compiler/tests/negatives/use_after_move.nx",
+      "sha256": "5871bd3dc05b71c611d62e9831ca805347a1aa39ce5ce1888fb605784e810907",
+      "size": 193
+    },
+    {
+      "path": "compiler/tests/negatives/write_through_shared_reference.nx",
+      "sha256": "1159841c4d5d442d1b7cb4cb98ba6863d26b7657bd5ce6d28e0bd508b56d73fb",
+      "size": 96
+    },
+    {
+      "path": "compiler/tests/negatives/write_while_shared_borrowed.nx",
+      "sha256": "9735a97b58e116888acff2cb3fde2f6f3a31152857741228d568f62bbd044a73",
+      "size": 177
+    },
+    {
+      "path": "compiler/tests/ownership_negatives.rs",
+      "sha256": "32ece5fded2a68a9b675d24b84809d44de8b67424dba3d45ef14da8bbca506e5",
+      "size": 1717
+    },
+    {
+      "path": "compiler/tests/phase2_types.rs",
+      "sha256": "3cbbf547a636c19980a712f30dec270242daecf3ddf352efbb9d0c745ac58c68",
+      "size": 3669
+    },
+    {
+      "path": "compiler/tests/pipeline_smoke.rs",
+      "sha256": "260f5229c124dfc4662ae4785bbcfc9da561848aa46af4006630a33487924b3c",
+      "size": 17392
+    },
+    {
+      "path": "compiler/tests/typecheck_regressions.rs",
+      "sha256": "291a15bc67f84cb67b56dda05cddc7cd82971301e93810cfe5dd323ee6fd50d0",
+      "size": 15198
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "9872b13c989865f83359a16958dcc8a9fcaf2e4461a4e13a84e259564bf8ecc3",
+      "size": 2126
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "c36d5401b0a5fa4563426ec1f780416a06ff4541494cdca12a90ad192fced8ae",
+      "size": 2067
+    },
+    {
+      "path": "docs/build-system/README.md",
+      "sha256": "7f4853ab62040b49872adafe78cc253c209579c7ece0cf6d21c139e71f03fd32",
+      "size": 815
+    },
+    {
+      "path": "docs/build-system/manifest.md",
+      "sha256": "313e85bf29fbe32b1606c50c9383507d83fb7ea061fc53d6fe846a3fe117cfe2",
+      "size": 1494
+    },
+    {
+      "path": "docs/compiler/abi.md",
+      "sha256": "829da008882ff5f6fe4f4078470596defc7b9aade220d9b0344cce27048dd801",
+      "size": 853
+    },
+    {
+      "path": "docs/compiler/architecture.md",
+      "sha256": "54c7a80bee2ac7422804cc5670d0bf9228b4d52a8a07e58efef4de77964a1f19",
+      "size": 2529
+    },
+    {
+      "path": "docs/compiler/codegen.md",
+      "sha256": "80b9e5674813dbd722fc7cc2eac082b0ac43f79e223e6a59d8a1744866009f87",
+      "size": 2997
+    },
+    {
+      "path": "docs/compiler/diagnostic-codes.md",
+      "sha256": "bc4540bc370a386dce76bec46762d4cb60661134ac92fc21d60262736b635cc5",
+      "size": 3304
+    },
+    {
+      "path": "docs/compiler/hir.md",
+      "sha256": "204bd0627caa254341aa19aecada91a792097a6b75a8c902db819e0ea6b2905b",
+      "size": 904
+    },
+    {
+      "path": "docs/compiler/lexer.md",
+      "sha256": "401b859ca84f1f22d6dcbb487702fba9dc5efc4c22688613a4bc5fbef6adf728",
+      "size": 890
+    },
+    {
+      "path": "docs/compiler/mir.md",
+      "sha256": "16a491daacff5b1cc78a705a95cf2c0cc7b75a984d8beedbe6a256ed69c16c7e",
+      "size": 1359
+    },
+    {
+      "path": "docs/compiler/parser.md",
+      "sha256": "256545b1a7bd255f72f250e2dcdd1d1bcd3a5fbdc472f256f0ca8eefb68d6962",
+      "size": 1394
+    },
+    {
+      "path": "docs/compiler/semantic-analysis.md",
+      "sha256": "ff753c19531236d3d9ce929c134859e335e432f0171c01781bc635d4b40ccfc2",
+      "size": 1377
+    },
+    {
+      "path": "docs/compiler/syntax-support-matrix.md",
+      "sha256": "8013446492ec2387f88377a3eb45515d1c2bb549b2206fe385335d7f575237d9",
+      "size": 5461
+    },
+    {
+      "path": "docs/compiler/type-system.md",
+      "sha256": "45cab7db9099a5dba13dfd98a839e40a2fb87555f3f36739314dbed090d62783",
+      "size": 2212
+    },
+    {
+      "path": "docs/design/README.md",
+      "sha256": "bfa19738f8782a20b83ef2dea0dfaf8c044097e524fa95a26d7fcac70e97798a",
+      "size": 886
+    },
+    {
+      "path": "docs/design/phase-3-errors-async.md",
+      "sha256": "1492af3b25d828921f2297590fd278da88612e957b03c30efcf53f1e2b998aa9",
+      "size": 10344
+    },
+    {
+      "path": "docs/design/phase-4-native-runtime-abi.md",
+      "sha256": "9193213851f69fb16242a85f11521e4bd620965d5e64d274f687c5663b6ca4a8",
+      "size": 10502
+    },
+    {
+      "path": "docs/design/phase-5-compiler-build.md",
+      "sha256": "a436e0715ed8528e7aadf7d70f1bf03297df1d8e51667ef4625d1506f71ba8e9",
+      "size": 7566
+    },
+    {
+      "path": "docs/design/phase-6-standard-library.md",
+      "sha256": "e5d14c3e7911f1d25d9a1a1004d529fe708f370798f2d73d33117b8c02bf1275",
+      "size": 3887
+    },
+    {
+      "path": "docs/design/phase-7-graphics.md",
+      "sha256": "4b17eb644825754eca3183234b14998c6f81ece3b6f89ee566744045591c65b5",
+      "size": 3323
+    },
+    {
+      "path": "docs/design/phase-8-ide.md",
+      "sha256": "160c62463815dd4c6ff28c9e4aa210eeba4222c88efb6ad828b0b8c9536cb8d4",
+      "size": 5645
+    },
+    {
+      "path": "docs/development/developer-handbook.md",
+      "sha256": "218c13c4aa3932992ec1093b4006af973cd8bfd60a08fbf5a6ad3dbbebf65952",
+      "size": 1623
+    },
+    {
+      "path": "docs/development/gap-analysis.md",
+      "sha256": "9065a5f04c5bfed24e1407ffb68fd21f5971b7de49ab5235939253cb641828a0",
+      "size": 4425
+    },
+    {
+      "path": "docs/development/roadmap.md",
+      "sha256": "b658d8274c9b9114b202d1c4d401289a2dcf1b1c371ccb2a5a17c86ac9205744",
+      "size": 8545
+    },
+    {
+      "path": "docs/development/versioning.md",
+      "sha256": "19d2b5b7557d0b85149936facfc32f12a9eee4d526401354b99f4c5d27031e26",
+      "size": 2651
+    },
+    {
+      "path": "docs/feedback/de/NORTEX_Feedback_Form.pdf",
+      "sha256": "d56182a0e634d3ae3e29ebc4bbb09114fbfa3f8a4975a7d5792221cbe7aeae9f",
+      "size": 16582
+    },
+    {
+      "path": "docs/feedback/en/NORTEX_Feedback_Form.pdf",
+      "sha256": "9a3f3e7df576df3b8de796f0cc4ee67fce74e3ebab7dd7dd9d49e2809738a22a",
+      "size": 16153
+    },
+    {
+      "path": "docs/getting-started/installation.md",
+      "sha256": "65660b471d39212e9fae260d7e79ea49d42906d711c2d436b240b6ec3dd3b176",
+      "size": 2473
+    },
+    {
+      "path": "docs/graphics/README.md",
+      "sha256": "0b009923e5f73888cb8a10356210d29a6e2f40dc5a297af27a476e8951377241",
+      "size": 879
+    },
+    {
+      "path": "docs/ide/README.md",
+      "sha256": "d12c3d124307c2e9c6aee059ab49bdc4ed375a81c830ef99da79d7d3721cdc13",
+      "size": 4969
+    },
+    {
+      "path": "docs/ide/benchmarks.md",
+      "sha256": "1473754e681ce602d530fcf422c0ea3635a6a6940e7034467afacf15c333e8fa",
+      "size": 13797
+    },
+    {
+      "path": "docs/ide/editor-core.md",
+      "sha256": "488c31aab9feff0071043934c9cc606aaf58279c84b913fc54b4f6258eca035a",
+      "size": 6900
+    },
+    {
+      "path": "docs/ide/feedback.md",
+      "sha256": "828fc65050a7f6aa3d5611fc0cf59d622bf4b61e4e9dd11b0de2843775611a04",
+      "size": 3599
+    },
+    {
+      "path": "docs/ide/git-and-diagnostics.md",
+      "sha256": "8e60abced18515ccd4c389a09de5d9b0b9917204be9279211cfee46e91a56423",
+      "size": 1169
+    },
+    {
+      "path": "docs/ide/intellisense.md",
+      "sha256": "c72237cb3b32d01efa226a5798a2cab802330513ec8619cb699d23d1974471de",
+      "size": 3887
+    },
+    {
+      "path": "docs/ide/marketplace.md",
+      "sha256": "31a8af852816ea21316d1d373d8fb8b4d5ea74483524166f3a2f2dfeb8b87282",
+      "size": 4807
+    },
+    {
+      "path": "docs/ide/plugins.md",
+      "sha256": "81ce46ecb80ba797ccc4864d48e8f2aa7e1958913637be1cfab3b39e1ec6ea2d",
+      "size": 14219
+    },
+    {
+      "path": "docs/ide/ui-framework-evaluation.md",
+      "sha256": "43a0713febfe1e79302dd8957df59a89f7c1ba4130e11ecaa0e1140e3bbfc658",
+      "size": 2055
+    },
+    {
+      "path": "docs/language/01-introduction.md",
+      "sha256": "cdfec7308e4e0685d9c446c4c171119052c2cda0ce53185c75d5fc5872c5387d",
+      "size": 1962
+    },
+    {
+      "path": "docs/language/02-installation.md",
+      "sha256": "0c1e61faddd8579efbbc568b7a6a259b0b918fe553584a06e8ce9c8b2c877d11",
+      "size": 620
+    },
+    {
+      "path": "docs/language/03-language-basics.md",
+      "sha256": "dde01c5a6f44c89d3e44288608a6b5a490b8d042e531673c88feec3163e1fd81",
+      "size": 3360
+    },
+    {
+      "path": "docs/language/04-data-types.md",
+      "sha256": "431c776c1edddf1464f4a3933f8acd21210e40a2f93e863cc757a59d55899a7e",
+      "size": 8490
+    },
+    {
+      "path": "docs/language/05-operators.md",
+      "sha256": "90fcd8ad1bf7ee2907f4faa9b1ea04e2738546e89923de8632ff99d2067cb9d7",
+      "size": 3220
+    },
+    {
+      "path": "docs/language/06-control-flow.md",
+      "sha256": "3b8cf80a6f20fca259442221ea0d5cd212d19008c8f8b74ba0143fdc155c3eae",
+      "size": 2067
+    },
+    {
+      "path": "docs/language/07-functions-and-methods.md",
+      "sha256": "f88b65a6b91063765219b963b2959a57f81f3b8dd949f75ac34f4e9c3d73a434",
+      "size": 3469
+    },
+    {
+      "path": "docs/language/08-structs-and-data-structures.md",
+      "sha256": "f91451ba0ede1fe36d92c3deff772f1a7a993c1f814b87b0f728435a9db4a7bf",
+      "size": 4281
+    },
+    {
+      "path": "docs/language/09-memory-management.md",
+      "sha256": "59f0edbd7709448dd45446f6ec731d593dbc13b40545e8fe7bcae35f5d39232a",
+      "size": 3129
+    },
+    {
+      "path": "docs/language/10-input-output.md",
+      "sha256": "afaca219830788137c66b531abfdaf51e47f66d8a7b29c596efdb93f4c1482e8",
+      "size": 3361
+    },
+    {
+      "path": "docs/language/11-errors-and-debugging.md",
+      "sha256": "0f07a47a41719f987003f0ba10a9604c34214dcba9039c77c69289e0b02f2b27",
+      "size": 4706
+    },
+    {
+      "path": "docs/language/12-compiler-architecture.md",
+      "sha256": "474b0e0a397aded0c5265c4178ab798fed5f47917a5bb467826f809fbc981742",
+      "size": 4299
+    },
+    {
+      "path": "docs/language/13-examples.md",
+      "sha256": "54affa20f1a32f3adcf6861f69dcc2f7c697be1b86de923eea144712fce6d4fd",
+      "size": 4276
+    },
+    {
+      "path": "docs/language/14-language-reference.md",
+      "sha256": "a56956869e117babe055439f84859b03e2fa11237b383ddde13c13acb59960c3",
+      "size": 3818
+    },
+    {
+      "path": "docs/language/15-faq-and-best-practices.md",
+      "sha256": "ee276c06c6121afdb826defe07e8e5a3e174a574fb89b6fa2f44757525376471",
+      "size": 3512
+    },
+    {
+      "path": "docs/language/NORTEX-Language-Reference.pdf",
+      "sha256": "6da03922b2db8bb3c155b1cee69b74ed94293e2cc2f824f3eecd047c6367de1d",
+      "size": 109361
+    },
+    {
+      "path": "docs/language/NORTEX-Sprachreferenz.pdf",
+      "sha256": "87bbfd721c09bf9f8299fcba7c40b706bd4e103142fc88b5c447797e5c7311ff",
+      "size": 111901
+    },
+    {
+      "path": "docs/language/README.md",
+      "sha256": "c0c98892b99ebe7a27bd28cbdffff913f92f277708f846b8cd53beae503fbbb2",
+      "size": 5190
+    },
+    {
+      "path": "docs/language/SPECIFICATION_IMPLEMENTED.md",
+      "sha256": "2a80cd26827a14a362bda01f8b849d65185925aeeda9ea16dc81ffe9c616d873",
+      "size": 8535
+    },
+    {
+      "path": "docs/language/builtins.md",
+      "sha256": "bef42f83cda892cac4bbaa97eb3aff23e932e81749713d733fd554c657d5fb05",
+      "size": 3630
+    },
+    {
+      "path": "docs/language/en/01-introduction.md",
+      "sha256": "e7e2e74e4d9b483aaec9a4c2b3f2d5970636e6ae13fcfc7706af3ea1e5005393",
+      "size": 1775
+    },
+    {
+      "path": "docs/language/en/02-installation.md",
+      "sha256": "7bcaf096c55594dc64e42e0475c861623e644d854c2ed39c1c861a740ae19b62",
+      "size": 617
+    },
+    {
+      "path": "docs/language/en/03-language-basics.md",
+      "sha256": "b8e44ea8075f95f93e1f746e2aea68eb5ebf92f4c0b180d04a06d71fedfde256",
+      "size": 3294
+    },
+    {
+      "path": "docs/language/en/04-data-types.md",
+      "sha256": "87e8e4d4378a59177d821ec181878ed7efaf7088b8ece939371f8232172b23f1",
+      "size": 8003
+    },
+    {
+      "path": "docs/language/en/05-operators.md",
+      "sha256": "1751acb37e2cbd5f913fa75c0984d5582ed4d113e6634806c28be61e1b8eeb93",
+      "size": 3151
+    },
+    {
+      "path": "docs/language/en/06-control-flow.md",
+      "sha256": "1a076256c5fba2602c074a76362ebb90e0337f29b62d9ce8c0adeb23a7d08b8e",
+      "size": 2035
+    },
+    {
+      "path": "docs/language/en/07-functions-and-methods.md",
+      "sha256": "bb1b500e06bee156b6ecb385ca66242bcaf90a7fad7b504a7f8634797bf63530",
+      "size": 3128
+    },
+    {
+      "path": "docs/language/en/08-structs-and-data-structures.md",
+      "sha256": "0700518de911423ed4f8114c58b9aab92ba6f9ca2668c49dca8039ba4352063b",
+      "size": 5050
+    },
+    {
+      "path": "docs/language/en/09-memory-management.md",
+      "sha256": "b9dce76a8d568b5e59e8c9699756b8213302216737dfe27d6ab05d71ac991e2f",
+      "size": 2819
+    },
+    {
+      "path": "docs/language/en/10-input-output.md",
+      "sha256": "eb3e6d3775b89c90cea61dc57ebf968dfccdfb1d1f49f1ad521d15da7652ebd8",
+      "size": 3152
+    },
+    {
+      "path": "docs/language/en/11-errors-and-debugging.md",
+      "sha256": "4f412e4fd2368599e3138a7fd681ecf58f2f7df79123c3bbbc17d9d495b5abe5",
+      "size": 4492
+    },
+    {
+      "path": "docs/language/en/12-compiler-architecture.md",
+      "sha256": "c27723362b93e7d88d52ed8853790c4970ae4dd606ff4577b1afbe42a9dbc539",
+      "size": 4164
+    },
+    {
+      "path": "docs/language/en/13-examples.md",
+      "sha256": "824e5f6239341ee25626ce1a8a15d7be22cfa5d5bf528dd20440ab0678599d3e",
+      "size": 4108
+    },
+    {
+      "path": "docs/language/en/14-language-reference.md",
+      "sha256": "6aa605cfc71eacacb38dda2f461c23b4be1cb6b70f73ea32d39e37aa695f15aa",
+      "size": 3664
+    },
+    {
+      "path": "docs/language/en/15-faq-and-best-practices.md",
+      "sha256": "b3ef17faa394292f8f2068270ec259ad9aefafd5a417fc53cbfefd7389c6b945",
+      "size": 3444
+    },
+    {
+      "path": "docs/language/en/README.md",
+      "sha256": "e99fe2e6f30176bc788e7e6d072d3e5b3cd16eb8b94a734f849c521da34cd732",
+      "size": 5034
+    },
+    {
+      "path": "docs/language/en/SPECIFICATION_IMPLEMENTED.md",
+      "sha256": "30cd68f248df7a88f3e6e716153360decbe4c63c84a46e91611a41d1266c52fe",
+      "size": 8005
+    },
+    {
+      "path": "docs/language/en/ownership.md",
+      "sha256": "ade978536ffdb875a296e6407da44cbd43bfeba1b9253035c7313b4c643feefe",
+      "size": 4393
+    },
+    {
+      "path": "docs/language/grammar.ebnf",
+      "sha256": "845117912bc54948675859546ba0c189f7b52f99cedcc750aa4ccad82188d3f6",
+      "size": 8251
+    },
+    {
+      "path": "docs/language/ownership.md",
+      "sha256": "26ee0430723f7aefce169d1a5ec448de972bd81e3ab42c5a61a8181e0d0ed6fb",
+      "size": 4921
+    },
+    {
+      "path": "docs/legal/LEGAL_STATUS.md",
+      "sha256": "eee9f633b7faac382b48aca133058aa8067107cfa1fb68a8810afba10fb4e6c5",
+      "size": 2200
+    },
+    {
+      "path": "docs/legal/PRIVACY_POLICY.md",
+      "sha256": "baf0e3382b3fe9838609959b4da5987e0bb1cc75800d45ba1a02aa5045e6a306",
+      "size": 1550
+    },
+    {
+      "path": "docs/runtime/README.md",
+      "sha256": "c40078caee532c457631d2e9e9e9a76a30d9e2ab6f69292761da4d4cb8386d4e",
+      "size": 2080
+    },
+    {
+      "path": "docs/runtime/async-executor.md",
+      "sha256": "b3c357b16f379be5a7d35bbfbc0bf33c3db9fc352422ca200e6e80b182631656",
+      "size": 3938
+    },
+    {
+      "path": "docs/runtime/threading.md",
+      "sha256": "5a34e92805940c8b7a4d65d39c54fa87c5d78460baeed1b5c478ea1b55f7bdda",
+      "size": 2619
+    },
+    {
+      "path": "docs/security/README.md",
+      "sha256": "65817c30f4baccdbc447edfbddf78b068c3c44e13af5f1b0c9a162be20069958",
+      "size": 5446
+    },
+    {
+      "path": "docs/security/sbom.cdx.json",
+      "sha256": "2e4487307ed14b94f46f3d4887c25a2abdcb7dc2456816ec018140bcc847c034",
+      "size": 130101
+    },
+    {
+      "path": "docs/social/post-de.md",
+      "sha256": "e6c61ce322d6cb333d0107f1cc36f90d6e4b365907e80877243f347edd3c6e40",
+      "size": 4471
+    },
+    {
+      "path": "docs/social/post-en.md",
+      "sha256": "f1a761a028571d467ecff72f7700e8d2eca97102283a6b639becb54089641557",
+      "size": 3981
+    },
+    {
+      "path": "docs/social/reddit-banner.png",
+      "sha256": "8259f623f618ec7ac868e0d820fffafcad784c035e30fa8ed24fe9bb7cdbb949",
+      "size": 76849
+    },
+    {
+      "path": "docs/social/replies-en.md",
+      "sha256": "6647cd4a05cc9d694792722bea75f0506476eb68624ddb3393bec96688a22567",
+      "size": 1914
+    },
+    {
+      "path": "docs/social/screenshots/01-editor.png",
+      "sha256": "6485c64b4cfb7e8720d2e8198d07160fa075254d1138cffebd82f976b8bd6a4d",
+      "size": 276231
+    },
+    {
+      "path": "docs/social/screenshots/02-marketplace.png",
+      "sha256": "718cb78e0e993d43775b7fdd6d550bf7b141bf55281c0786c8928caebd9d9908",
+      "size": 352541
+    },
+    {
+      "path": "docs/social/screenshots/03-installed-extensions.png",
+      "sha256": "1c2cac3f6470252da5ebd0cf5d5801cd7e416d3d988175990683b87ece5a89fb",
+      "size": 355473
+    },
+    {
+      "path": "docs/social/screenshots/04-git.png",
+      "sha256": "8cadd329da6a64a8fd8d733a99ff28684f43ddf70c68fd1a1d2376273bd22940",
+      "size": 275210
+    },
+    {
+      "path": "docs/social/screenshots/05-git-diff.png",
+      "sha256": "e2912a97ebf59c117959a6af26e559eecff701c950451f901b1eab9c96e54b04",
+      "size": 302571
+    },
+    {
+      "path": "docs/social/screenshots/06-diagnostics.png",
+      "sha256": "f5df34d1afcd29600879cb9de395dae8140fe0d7004d2022bbbecb090e8aaf17",
+      "size": 294313
+    },
+    {
+      "path": "docs/social/screenshots/07-run.png",
+      "sha256": "2c1f3f765a9a39f47b9182352f2d638b74402260f1b5cd3d10f055e92daa1b5f",
+      "size": 305264
+    },
+    {
+      "path": "docs/social/screenshots/README.md",
+      "sha256": "d8effa3a14563215ae77f700e620cd4611dc0a16c5b68b830726359b301c85f7",
+      "size": 1509
+    },
+    {
+      "path": "docs/social/screenshots/ide-main.png",
+      "sha256": "6485c64b4cfb7e8720d2e8198d07160fa075254d1138cffebd82f976b8bd6a4d",
+      "size": 276231
+    },
+    {
+      "path": "docs/standard-library/README.md",
+      "sha256": "4518587eba06150c9fe457ffc553938daaa42fa0202f4e3320ed9f77cc6ca439",
+      "size": 1003
+    },
+    {
+      "path": "docs/user-manual/01-welcome.md",
+      "sha256": "5a4ccf8f972c0e1d3742985109e1c884f680ecb3208e57f83207a6aa7943f50a",
+      "size": 1712
+    },
+    {
+      "path": "docs/user-manual/02-installation.md",
+      "sha256": "20e88419e2ea6dc90f3a517e98d12f35c89ed4fe437e7a35a5d9bc11a1ce2453",
+      "size": 1890
+    },
+    {
+      "path": "docs/user-manual/03-interface-overview.md",
+      "sha256": "40dbefd3833a8148b8db8224cc68092e329cdad86382f2a9e14d3f88f62a764f",
+      "size": 5073
+    },
+    {
+      "path": "docs/user-manual/04-projects-and-files.md",
+      "sha256": "c324c84d0079183b607572e1ff16156b29a5f0fc824fb296e7f6c78aaa55ca29",
+      "size": 2067
+    },
+    {
+      "path": "docs/user-manual/05-editor.md",
+      "sha256": "8d8db7f9c47a66119ce2ac807036f7403ffe4ee5b5c060053edfb2c0a8f2c182",
+      "size": 3518
+    },
+    {
+      "path": "docs/user-manual/06-build-and-run.md",
+      "sha256": "aa9c4fcf137e4ef6b6673085e5e74cfea2cdf18cf78e26b9dba4d32803480e2c",
+      "size": 2275
+    },
+    {
+      "path": "docs/user-manual/07-terminal-and-consoles.md",
+      "sha256": "d607468a5aead2f37251cafceca8830a9c7dfebc2a06389408e874272251b5dc",
+      "size": 1280
+    },
+    {
+      "path": "docs/user-manual/08-debugging.md",
+      "sha256": "8f0bfbc1c653b4cb9c775667d13030b76cf4f77c2f657deb93f0997cb40a1d3f",
+      "size": 3643
+    },
+    {
+      "path": "docs/user-manual/09-settings-and-customization.md",
+      "sha256": "4c480236ebb07433a5f9c453d61b05b5b7b7ede95b1af95984a6ff04f0bc08a4",
+      "size": 5971
+    },
+    {
+      "path": "docs/user-manual/10-keyboard-shortcuts.md",
+      "sha256": "0b6c9aa4c8877d49cfa486bf2813fb58286954627af1f459ec018a18e695a82a",
+      "size": 3599
+    },
+    {
+      "path": "docs/user-manual/11-first-project.md",
+      "sha256": "099a5a7901e00e7e974001d3a3429907e672703c9b1278cfcf3e6a466a9d0481",
+      "size": 1775
+    },
+    {
+      "path": "docs/user-manual/12-efficient-workflows.md",
+      "sha256": "66e57d1440199eb00d712e4674a4e598373c3b4faa26bb740c708feabc515f2b",
+      "size": 1183
+    },
+    {
+      "path": "docs/user-manual/13-faq-and-troubleshooting.md",
+      "sha256": "f1c192b5a01f294e058378093ba7368ac8ddd55edc4396107102d8bdb0b6dc26",
+      "size": 1878
+    },
+    {
+      "path": "docs/user-manual/NORTEX-Code-Handbuch.pdf",
+      "sha256": "5eae92e6829cbbc3e3af372cfae8b9ee70be5071eaadef9f388030f4cc654ed7",
+      "size": 73673
+    },
+    {
+      "path": "docs/user-manual/NORTEX-Code-Manual.pdf",
+      "sha256": "18069202b49e21eb6ca31adf7cdf138eac1fd7fd017f9616caff3a1ed4a4f02b",
+      "size": 69492
+    },
+    {
+      "path": "docs/user-manual/README.md",
+      "sha256": "7e12623e438a0ccb3c9474321e82caa9a3ff01eee5bc37b30dc8e99a1324fbea",
+      "size": 3029
+    },
+    {
+      "path": "docs/user-manual/USER_GUIDE.md",
+      "sha256": "40d49723fc8227ef242af84011daeae30e67475f22c3772029efe9a7b8c9557c",
+      "size": 2829
+    },
+    {
+      "path": "docs/user-manual/en/01-welcome.md",
+      "sha256": "14eb38e6ab04d7d06654bb585a27d07fed7eec4f710fdca299059c2c39b6dd68",
+      "size": 1684
+    },
+    {
+      "path": "docs/user-manual/en/02-installation.md",
+      "sha256": "cecba15575adc220a488c1a0464a5d98111fe8388e4ab9a49b54668a2849e0c3",
+      "size": 1835
+    },
+    {
+      "path": "docs/user-manual/en/03-interface-overview.md",
+      "sha256": "98f32602cc325259ab9f3e66ec4331d155da513a598ba3ce26acd91d78f38ecc",
+      "size": 4510
+    },
+    {
+      "path": "docs/user-manual/en/04-projects-and-files.md",
+      "sha256": "4c6798aeb8642f904a4b660b01310516e2dec9b435edbac0d6d562b5452be8a9",
+      "size": 1781
+    },
+    {
+      "path": "docs/user-manual/en/05-editor.md",
+      "sha256": "3f1b1e1f43e5f70cf8d24b1516dc4b357fd1fd28b7fd075bf0a4de5df1c4bd74",
+      "size": 3180
+    },
+    {
+      "path": "docs/user-manual/en/06-build-and-run.md",
+      "sha256": "80105f0693cfc7834a0e484cd15ec74fcf8a77f8e6c711a6d70ece9c52b22ea9",
+      "size": 2143
+    },
+    {
+      "path": "docs/user-manual/en/07-terminal-and-consoles.md",
+      "sha256": "c37aa0b3e92c13af01c84ee916d3b3a65e66bc8fb86e2848c1b129c6299ed0c4",
+      "size": 1211
+    },
+    {
+      "path": "docs/user-manual/en/08-debugging.md",
+      "sha256": "a218a4af80ff65c3ae3d63ee30e46cbcf77db98f9d546b7d2eaddea3c05fa043",
+      "size": 3420
+    },
+    {
+      "path": "docs/user-manual/en/09-settings-and-customization.md",
+      "sha256": "ac3e542bd03b5090112b7c80bffe600e686668374514c9f372d308cba858ec07",
+      "size": 5404
+    },
+    {
+      "path": "docs/user-manual/en/10-keyboard-shortcuts.md",
+      "sha256": "27c87f5b1f65f8936fcf8321c4a132f49a0c8a2ea0fa02c5cb28a525d47f9938",
+      "size": 3261
+    },
+    {
+      "path": "docs/user-manual/en/11-first-project.md",
+      "sha256": "b85e35dedf39d15317f2fabf40cb6348cc2f83cc124ad86cd1b8a805f4f991c7",
+      "size": 1630
+    },
+    {
+      "path": "docs/user-manual/en/12-efficient-workflows.md",
+      "sha256": "9e36cf5caf4762c2d7476ecbd48b694d78ac5c1e4343f7d1c29a42c744cc4439",
+      "size": 1087
+    },
+    {
+      "path": "docs/user-manual/en/13-faq-and-troubleshooting.md",
+      "sha256": "8d176337f9bbc7cd8b724519fad499bad64778b7276fe1b2faf31eda1af83775",
+      "size": 1714
+    },
+    {
+      "path": "docs/user-manual/en/README.md",
+      "sha256": "7b88793f364f5ae8402b80d0cb2881be0aa2ea4cfb9bcb819d1ffe249eabbd8a",
+      "size": 2690
+    },
+    {
+      "path": "docs/user-manual/images/compiler-log.png",
+      "sha256": "130ad414dd0c2f2871565d0d2110e58979aa9ae98820c40802a2e10671c2bb8f",
+      "size": 171175
+    },
+    {
+      "path": "docs/user-manual/images/dashboard.png",
+      "sha256": "62865b3cb44efd8c23a8c333801ee26e3bc6f6ac2be492841bc94ff3d2f626ed",
+      "size": 194161
+    },
+    {
+      "path": "docs/user-manual/images/debugger.png",
+      "sha256": "3e196f52861cfc1ac7545b4c63e854831f24dbb2fb27d069182edf054f766366",
+      "size": 143675
+    },
+    {
+      "path": "docs/user-manual/images/editor.png",
+      "sha256": "aa36b179c7580cf436da1631e712f9c283eea3696ef70b6f32cce6963ac03e4e",
+      "size": 155841
+    },
+    {
+      "path": "docs/user-manual/images/git.png",
+      "sha256": "0dc50a3449037c0fe0f5b912dbf9209d9418563e092d8b1940bea83adce7d661",
+      "size": 144547
+    },
+    {
+      "path": "docs/user-manual/images/menu-bearbeiten.png",
+      "sha256": "309f073d619876dd346f5b722c8ea06856c3f3b2eff04fc2faa308fce13324bc",
+      "size": 196705
+    },
+    {
+      "path": "docs/user-manual/images/palette.png",
+      "sha256": "9aaacdc808937c9db5bbfa75a5d4acec9bc16c95188f4eca6289c761214df8d5",
+      "size": 164066
+    },
+    {
+      "path": "docs/user-manual/images/run.png",
+      "sha256": "024db6031213a858cf2f95b09d8dff3a5ed8e25d26e5860b8ff9d4903142e38a",
+      "size": 162955
+    },
+    {
+      "path": "docs/user-manual/images/search.png",
+      "sha256": "6df70017e216d3636fe3ea649d222d0e4a15b1ea8c3e1f30132ef2cd80017dbc",
+      "size": 143233
+    },
+    {
+      "path": "docs/user-manual/images/settings.png",
+      "sha256": "046f1be3f14339f4ee38ad4d97187cdb5bb6a418aaf5449bc6407c311b3420d3",
+      "size": 138925
+    },
+    {
+      "path": "docs/user-manual/images/terminal.png",
+      "sha256": "92894f3f3920ce7b3e020d8c9e556141a12daedfdbd06414f3015f878ff009b3",
+      "size": 161193
+    },
+    {
+      "path": "examples/async/main.nx",
+      "sha256": "793f8c9afc345c728546e7d0f7a1f268769d2254d7f2043591f544f0bdddcaa8",
+      "size": 282
+    },
+    {
+      "path": "examples/classes/main.nx",
+      "sha256": "4d3be2123f3d6f9bf6a623a9efef77280d2d40f868ba68b20c481e487b849a35",
+      "size": 276
+    },
+    {
+      "path": "examples/collections/main.nx",
+      "sha256": "5db96862dcf7904896bd302f2f71da60915e67861e781bc1ac4a943b5d9596c0",
+      "size": 417
+    },
+    {
+      "path": "examples/console/main.nx",
+      "sha256": "2aa7cebc13765a8073841a9d49ce80821b385b8236ff3b9f8f9e168093a49f57",
+      "size": 163
+    },
+    {
+      "path": "examples/graphics/main.nx",
+      "sha256": "b895591b10e4cfa7646f332bb5214e56939c216ed0923ba4f0f9875ceeae2bbf",
+      "size": 583
+    },
+    {
+      "path": "examples/hello-world/Example.nortex",
+      "sha256": "fc17c0bb442a8ba757bdd1999c0cb12b7f8b9ea3d79e8e43d0aac3fe60af4753",
+      "size": 248
+    },
+    {
+      "path": "examples/hello-world/src/main.nx",
+      "sha256": "87cf1f58f4822b6d35fba61293d7d78fbf51d632efb288af677480b632a6224f",
+      "size": 127
+    },
+    {
+      "path": "examples/language/01_hello.nx",
+      "sha256": "891bf832f918a15e89c8c0a01146f26257d355a8613da51da24124edd71fb6c7",
+      "size": 98
+    },
+    {
+      "path": "examples/language/01_hello_world/main.nx",
+      "sha256": "65106ba62058a9726c4471e6ff0e47386c68cc074771f37e29d86bef224ccca9",
+      "size": 158
+    },
+    {
+      "path": "examples/language/01_hello_world/nortex.toml",
+      "sha256": "b3cc49980e2b847ca3656baa4a7626773af4193aa5bb41297ce5443d6bd7692a",
+      "size": 81
+    },
+    {
+      "path": "examples/language/02_math_and_overflows/main.nx",
+      "sha256": "27b9204688f3f049fbf55a0c7caa363a99fb92c0c05d74aef6f793aba6a75c8e",
+      "size": 442
+    },
+    {
+      "path": "examples/language/02_math_and_overflows/nortex.toml",
+      "sha256": "51f5f2b76e96b3b513fd1c76b16c0bbaa9783b4a0f2e6a1831d1172216f394c2",
+      "size": 112
+    },
+    {
+      "path": "examples/language/02_variables.nx",
+      "sha256": "c3bec8345363e520c6e6c4e9e8fbfdc8b2bdf37f2f6017d6fb6400b0d8ae0dff",
+      "size": 213
+    },
+    {
+      "path": "examples/language/03_conditions.nx",
+      "sha256": "4995aecb8dbb2341d91cd5c00c0af49fc770d060ee00adef6d6430c2922c0c30",
+      "size": 257
+    },
+    {
+      "path": "examples/language/03_multi_file_project/nortex.toml",
+      "sha256": "101f25b6d4f777f68f79d912d15690f602f586e595046b79654277f064f5bd94",
+      "size": 92
+    },
+    {
+      "path": "examples/language/03_multi_file_project/src/main.nx",
+      "sha256": "8d2eb1d8a2d7cdcee07c2945dcf89d7008d09a771f43084dd910eb8abd874a0b",
+      "size": 236
+    },
+    {
+      "path": "examples/language/03_multi_file_project/src/util.nx",
+      "sha256": "e392d0d58c8ecd2530dabacafd323079577b51beed29008c6aec33ef7f16015c",
+      "size": 108
+    },
+    {
+      "path": "examples/language/04_loops.nx",
+      "sha256": "3dca0075e7c9cc0bee2ab6b332691b506f372d2a4c43f7d6e35e6fe9bdfe7293",
+      "size": 318
+    },
+    {
+      "path": "examples/language/04_win32_demo/nortex.toml",
+      "sha256": "1faa2acdb56cfe601c7766d2ecc1c8bde1e69d4424784efa42a4279e1dca0990",
+      "size": 172
+    },
+    {
+      "path": "examples/language/04_win32_demo/src/main.nx",
+      "sha256": "823deb3f9f1498ae45c65771cc5586e54dcf5b75bf222c4283e95f2a8a3b16f4",
+      "size": 687
+    },
+    {
+      "path": "examples/language/05_functions.nx",
+      "sha256": "09276124f0b02c36b5d5cd5ecadba87461ba640513ef472d211dda5dcb6633f1",
+      "size": 279
+    },
+    {
+      "path": "examples/language/06_primes.nx",
+      "sha256": "784778b74493fc3b45d0fba9b7cebf08fd78012434b6c546bb4378a1ffb08b0f",
+      "size": 562
+    },
+    {
+      "path": "examples/language/07_struct_frontend.nx",
+      "sha256": "784c95872efe49b7890efc1f75de79f68959880255e32b8cb8a2951cefd85414",
+      "size": 261
+    },
+    {
+      "path": "examples/language/08_class_frontend.nx",
+      "sha256": "dcba44160d85e8d6c458b32f16b0600bea5e04efed1f591349bb4746a531a160",
+      "size": 331
+    },
+    {
+      "path": "examples/native-sum/README.md",
+      "sha256": "9a05797fbc58ec13e571f728419dcd3c9fdce46fc7b6054dc57ea7b20cb2ab69",
+      "size": 1102
+    },
+    {
+      "path": "examples/native-sum/main.nx",
+      "sha256": "b0e6a38f5d537f8005ac91e768350b89eb97eb990869dfcb4afe1d684261b35e",
+      "size": 377
+    },
+    {
+      "path": "extensions/available/archive-tools/main.nx",
+      "sha256": "569e8cde1abb3e4af270aad83917fa9a86cf6dae59a918d48ea2956bc03e7a58",
+      "size": 2052
+    },
+    {
+      "path": "extensions/available/archive-tools/nortex-extension.json",
+      "sha256": "15f6fc031859d5bc323e0b6f018dae9bf87357efa91d3a323af3b04c8e135b39",
+      "size": 396
+    },
+    {
+      "path": "extensions/available/archive-tools/sdk.nx",
+      "sha256": "b2f0265e188ffca3e13d803f345f97756423b5999bf2b1dfd409f9ddff5bb911",
+      "size": 12411
+    },
+    {
+      "path": "extensions/available/compiler-tools/main.nx",
+      "sha256": "bf1c2872b7a46d6361b0f7340bccb8624377fe0afdd2d3df227e339ffc7e6120",
+      "size": 1229
+    },
+    {
+      "path": "extensions/available/compiler-tools/nortex-extension.json",
+      "sha256": "4ea221e4b9ebb4a4955b3e8c2b5837f2dfb58fdef687da1ebc5ce62dc39acf6b",
+      "size": 357
+    },
+    {
+      "path": "extensions/available/compiler-tools/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/available/compression/main.nx",
+      "sha256": "1030e5a4a1674078ce5f2ba1d82d398f30095848967320720bd82cd1549d4294",
+      "size": 1166
+    },
+    {
+      "path": "extensions/available/compression/nortex-extension.json",
+      "sha256": "05aee4f526b46d7628d3dc115cfd9e389d9c73ed8489ae9472f0a782b4e9f5c1",
+      "size": 360
+    },
+    {
+      "path": "extensions/available/compression/sdk.nx",
+      "sha256": "b2f0265e188ffca3e13d803f345f97756423b5999bf2b1dfd409f9ddff5bb911",
+      "size": 12411
+    },
+    {
+      "path": "extensions/available/container-tools/main.nx",
+      "sha256": "f1823de684d7cbccddd9387e36ec1f4c939a2c92f7a38263c869754115ac6ad3",
+      "size": 1334
+    },
+    {
+      "path": "extensions/available/container-tools/nortex-extension.json",
+      "sha256": "aff00b0f427a9954cf021e6c8ab028a99bb41bae1bca951e4aec411a0b91c66a",
+      "size": 364
+    },
+    {
+      "path": "extensions/available/container-tools/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/available/css-tools/main.nx",
+      "sha256": "e01e77380a2868bae35e010c5109a76cd3b7f7f36bf57b99ae5782a74296b0eb",
+      "size": 1123
+    },
+    {
+      "path": "extensions/available/css-tools/nortex-extension.json",
+      "sha256": "78df753ffea87d4532b6884886350db3549acdd17acfa2a20ce8da5cb315e380",
+      "size": 329
+    },
+    {
+      "path": "extensions/available/css-tools/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/available/database/main.nx",
+      "sha256": "41c3bb3b2da33077837760100483ec5770a0b803bf11327bdd574dbc371d3b77",
+      "size": 1527
+    },
+    {
+      "path": "extensions/available/database/nortex-extension.json",
+      "sha256": "155177a1b4ffd723fcfb349be60c35c1e35f6c0010f94e0083cea460bea0ee3b",
+      "size": 373
+    },
+    {
+      "path": "extensions/available/database/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/available/docker-integration/main.nx",
+      "sha256": "bb57a2d009277e4df71fb468b492f97bff6971dc5716682e2ec0c4d489f6c3e1",
+      "size": 1216
+    },
+    {
+      "path": "extensions/available/docker-integration/nortex-extension.json",
+      "sha256": "158f5dad7684501fd4e400fd4ed60d5206d00eb3aca0c9c65def8e8953779522",
+      "size": 399
+    },
+    {
+      "path": "extensions/available/docker-integration/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/available/html-tools/main.nx",
+      "sha256": "26c39ebcff4130a795b1a3c9ad7121a45589d4911e64fe4ced9b60a9fb37d0dc",
+      "size": 1598
+    },
+    {
+      "path": "extensions/available/html-tools/nortex-extension.json",
+      "sha256": "fa0898a3fe0af89a9123f9905e0e7693d8f24e8fc262db596a4a10167ee1ccdc",
+      "size": 339
+    },
+    {
+      "path": "extensions/available/html-tools/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/available/javascript-tools/main.nx",
+      "sha256": "be8a37169a3440f586390d903f1a6d5d333f17913a5a8ff7930c1eceac503547",
+      "size": 1841
+    },
+    {
+      "path": "extensions/available/javascript-tools/nortex-extension.json",
+      "sha256": "a2600f8fe898711bff4493a15ce3bc3753173585c58d012211582d7263292990",
+      "size": 351
+    },
+    {
+      "path": "extensions/available/javascript-tools/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/available/math/main.nx",
+      "sha256": "49d361f7cc031ff8b40127fd02bdcd91ab46b62b253ef314998c440c434f6f3d",
+      "size": 4035
+    },
+    {
+      "path": "extensions/available/math/nortex-extension.json",
+      "sha256": "e4eea636342c4eb708f7257979407450be1cfc818fcc5b6256fdff0dcffb8b7b",
+      "size": 350
+    },
+    {
+      "path": "extensions/available/math/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/available/network/main.nx",
+      "sha256": "e2b8ea7f70654a2394f06706bf5b269e651ee349636d1605aa62c1d3f7967f50",
+      "size": 1256
+    },
+    {
+      "path": "extensions/available/network/nortex-extension.json",
+      "sha256": "297b19f3b4325c80369bbe087b4dfad8f46911cd975236961043bbc8eb5cbb18",
+      "size": 352
+    },
+    {
+      "path": "extensions/available/network/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/available/pdf-tools/main.nx",
+      "sha256": "7a696f962c6c51437f7b412a76d1ba3bcc443bcf8763629da3038755499e9397",
+      "size": 1359
+    },
+    {
+      "path": "extensions/available/pdf-tools/nortex-extension.json",
+      "sha256": "a9596029608873f7a55742ed37c5f1b71bed965e8fa260a08fbf8b5efc20d703",
+      "size": 380
+    },
+    {
+      "path": "extensions/available/pdf-tools/sdk.nx",
+      "sha256": "b2f0265e188ffca3e13d803f345f97756423b5999bf2b1dfd409f9ddff5bb911",
+      "size": 12411
+    },
+    {
+      "path": "extensions/available/profiler/main.nx",
+      "sha256": "b1ce92bf750fb1db918357e5c81beecfd4491330d5ed5428ab1141cb5ac07f59",
+      "size": 1670
+    },
+    {
+      "path": "extensions/available/profiler/nortex-extension.json",
+      "sha256": "2074f05ea5b6de4076df228290ff27e404d7ec69e37163017be44503784e957b",
+      "size": 326
+    },
+    {
+      "path": "extensions/available/profiler/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/available/security/main.nx",
+      "sha256": "7c2a6538deb0f7f119f24871740ecb93c70c9934f7d9dec1f1fcc8e085f8fd4f",
+      "size": 1734
+    },
+    {
+      "path": "extensions/available/security/nortex-extension.json",
+      "sha256": "46deb94c3a49619bc81212d54c0ddcb355e9fe55bae68d57987d836cc1cfafb5",
+      "size": 360
+    },
+    {
+      "path": "extensions/available/security/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/available/system/main.nx",
+      "sha256": "182ea02747c91d8508d8385f015f179bf97078e053495d00965fd684cee43411",
+      "size": 829
+    },
+    {
+      "path": "extensions/available/system/nortex-extension.json",
+      "sha256": "377d69132cf340f7b0682c9dea87dd378962883bed97c0aa05f7820c843972c5",
+      "size": 338
+    },
+    {
+      "path": "extensions/available/system/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/available/ui/main.nx",
+      "sha256": "15e30f4819bfd9f5ce2fd91182a761a090f7140be59eefaf2044c5154051b5f7",
+      "size": 1709
+    },
+    {
+      "path": "extensions/available/ui/nortex-extension.json",
+      "sha256": "515490c195365ef404e99bcec36d1fdd34f8a2ac5326b2dc709760a7fa1603c1",
+      "size": 336
+    },
+    {
+      "path": "extensions/available/ui/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/available/web-preview/main.nx",
+      "sha256": "9b3f52cc04ab2bba907aea5f25fbc9b9ca493aba4e8332245e2e9415d05ac3ee",
+      "size": 1130
+    },
+    {
+      "path": "extensions/available/web-preview/nortex-extension.json",
+      "sha256": "c6d91baf8f0167957a7c707e6f26f183f412ffeee3140d262067d4624c4c8a76",
+      "size": 381
+    },
+    {
+      "path": "extensions/available/web-preview/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/bundled/csv-tools/main.nx",
+      "sha256": "01df0bade912d65f8324f6808a2ec48b2eea009e7eaf6f8ab423f62bbdad5713",
+      "size": 1627
+    },
+    {
+      "path": "extensions/bundled/csv-tools/nortex-extension.json",
+      "sha256": "14e48137fa43a3b1deff2b346532250b5a9bbc765509adc3cb344f271ea5c054",
+      "size": 315
+    },
+    {
+      "path": "extensions/bundled/csv-tools/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/bundled/filesystem/main.nx",
+      "sha256": "e3c54233b5fd414323cd6430a80d09a33a08a720c8eb5d1a55111eedbc01dd12",
+      "size": 937
+    },
+    {
+      "path": "extensions/bundled/filesystem/nortex-extension.json",
+      "sha256": "4afe55d8578dd80b33cd681552d957355e19b7167ce02d1620408fedb2b5946e",
+      "size": 305
+    },
+    {
+      "path": "extensions/bundled/filesystem/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/bundled/formatter/main.nx",
+      "sha256": "3d41922e9ca4cca697bf8db82eb58161684891805e06efef1f9eb0a24af81f7b",
+      "size": 2063
+    },
+    {
+      "path": "extensions/bundled/formatter/nortex-extension.json",
+      "sha256": "761b37ddf7b8a9b7e1be6f12e1616d10a02a40ee3622e598f3538bc0b47b1c91",
+      "size": 329
+    },
+    {
+      "path": "extensions/bundled/formatter/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/bundled/json-tools/main.nx",
+      "sha256": "f13441cbc98fefa0e2e5da7eef2f55e3f66f0a83d573ece33c39c9aeffddf64f",
+      "size": 3782
+    },
+    {
+      "path": "extensions/bundled/json-tools/nortex-extension.json",
+      "sha256": "3e45d8c9616c202c87c5b3907fd790afc5a832e9523b78d5b5a51ae1e24a20c8",
+      "size": 325
+    },
+    {
+      "path": "extensions/bundled/json-tools/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/bundled/templates/main.nx",
+      "sha256": "40ef341a975a0618670b92165a4e8af8d4440a3a2a8bddfe5857c3a40dbfa109",
+      "size": 754
+    },
+    {
+      "path": "extensions/bundled/templates/nortex-extension.json",
+      "sha256": "359ba5b981b6c1cedef73244ef8bb1f2824f8c3ca2c248d1c70a5fdd86bfd9d3",
+      "size": 333
+    },
+    {
+      "path": "extensions/bundled/templates/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/bundled/toml-tools/main.nx",
+      "sha256": "5dca12ce4ed27e2d18905a6a2b406676df722bedcb4ab35bcdb0ef33ca7274bf",
+      "size": 1326
+    },
+    {
+      "path": "extensions/bundled/toml-tools/nortex-extension.json",
+      "sha256": "12b44936ca7a25cd13e4fcc20e5d635050890396155c83d557179b6d4d304413",
+      "size": 320
+    },
+    {
+      "path": "extensions/bundled/toml-tools/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/bundled/xml-tools/main.nx",
+      "sha256": "e56e12124c89454fb65e7ea9f817529642424ba444e7abc83163bb313427b55d",
+      "size": 2232
+    },
+    {
+      "path": "extensions/bundled/xml-tools/nortex-extension.json",
+      "sha256": "104d7e96d8d023e12944b12696a0b41144fd1f092b364293c822594d5f9c5249",
+      "size": 321
+    },
+    {
+      "path": "extensions/bundled/xml-tools/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/bundled/yaml-tools/main.nx",
+      "sha256": "9fdf5d76445f46107f6b5b6bf8b39e54055bc3e3f3fb5cd22c0ceaa5639e5e00",
+      "size": 1556
+    },
+    {
+      "path": "extensions/bundled/yaml-tools/nortex-extension.json",
+      "sha256": "6ac8bef00600d7a0a428bb5116a0053ce46192ea33130d6443cb59f8bc0ac3e2",
+      "size": 339
+    },
+    {
+      "path": "extensions/bundled/yaml-tools/sdk.nx",
+      "sha256": "debf8a0aec34fa9576400273c0cbbfd6dada920de33c61ddfc084407d38201f4",
+      "size": 8273
+    },
+    {
+      "path": "extensions/sdk/sdk.nx",
+      "sha256": "b2f0265e188ffca3e13d803f345f97756423b5999bf2b1dfd409f9ddff5bb911",
+      "size": 12411
+    },
+    {
+      "path": "graphics/Cargo.toml",
+      "sha256": "52e8a9b49be1afae1af1c6368df762af54e058d12e04e8e441883eb6a8105dc1",
+      "size": 153
+    },
+    {
+      "path": "graphics/backends/README.md",
+      "sha256": "759f9640590f0df5d444bdd42bee7f93d3354ed000271917381f16999cefba7e",
+      "size": 79
+    },
+    {
+      "path": "graphics/backends/direct3d12/mod.rs",
+      "sha256": "ccbf17d15280f4bd178e4213b676ad88d97acb591e10ae1764e340bbcddde195",
+      "size": 313
+    },
+    {
+      "path": "graphics/backends/mod.rs",
+      "sha256": "032ac3f3ef81bdf3b65ad05c1b28e800bac05ce13f1a3e5e457679a5483acde7",
+      "size": 80
+    },
+    {
+      "path": "graphics/renderer/mod.rs",
+      "sha256": "3e3fdbab0e48c393e9cf74e95f4540399a3f64e80b3cfbdfee1e61e955fcf6d8",
+      "size": 196
+    },
+    {
+      "path": "graphics/rendergraph/mod.rs",
+      "sha256": "6befdbf9d33181db97c1c86cdd0985d2c99dab9ce93f5c075f39d8e9ea072cb1",
+      "size": 115
+    },
+    {
+      "path": "graphics/resources/README.md",
+      "sha256": "cc99fd54a6ce4affd076a09786a4e618d9c58675716a9b6969e09da7169eaa1c",
+      "size": 86
+    },
+    {
+      "path": "graphics/resources/mod.rs",
+      "sha256": "87b306c6a4fd96cb61cf231c8f8fb0110ac12a8539aff5b4e9270ce9afb4925a",
+      "size": 127
+    },
+    {
+      "path": "graphics/rhi/mod.rs",
+      "sha256": "28153eba4be2e36d573d2e424bcfcd04e8ece231a80cceeb8d5cd483d288a4a2",
+      "size": 108
+    },
+    {
+      "path": "graphics/shaders/basic.hlsl",
+      "sha256": "1b3dcde64a40a34ee7154e015e31c02a666c17413435ee1365c16669c4f86fe6",
+      "size": 415
+    },
+    {
+      "path": "graphics/src/lib.rs",
+      "sha256": "9f2e740d13ef0a720e5b4e9f544722e0c50fcac86baea3f25fa5555bc502227a",
+      "size": 397
+    },
+    {
+      "path": "ide/Cargo.toml",
+      "sha256": "49386ba1cfa891f128a60e62e6a703bbb2f6ac0b045723bf90c6c8b8a3ed1651",
+      "size": 1272
+    },
+    {
+      "path": "ide/README.md",
+      "sha256": "2d9f376ccec1ecd0e27ebc492c3b431bdea9f60362f3528e5aba1a38c3ca6ff4",
+      "size": 6323
+    },
+    {
+      "path": "ide/assets/fonts/Inter-Regular.otf",
+      "sha256": "a7e791e8f5a0fb02b65663f7fca73e1d1ca9543f772ad480cbd76f4e3fe3f8cc",
+      "size": 258992
+    },
+    {
+      "path": "ide/assets/fonts/JetBrainsMono-Regular.ttf",
+      "sha256": "e6fd0d7e91550b3ed2b735d4312474362c4716edc4fc0577a0f61ed782d5aed1",
+      "size": 270224
+    },
+    {
+      "path": "ide/assets/fonts/OFL-Inter.txt",
+      "sha256": "4d7d9c95e7d7f2f0ebf76d5e0b344826b74e903a34028ee18ab54bb639e45906",
+      "size": 4426
+    },
+    {
+      "path": "ide/assets/fonts/OFL-JetBrainsMono.txt",
+      "sha256": "a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697",
+      "size": 4399
+    },
+    {
+      "path": "ide/build.rs",
+      "sha256": "0bc53bcee418e3c96169ac4015d56dcfb1ded84206e2f9cc348edbae9ce0a98c",
+      "size": 919
+    },
+    {
+      "path": "ide/examples/plugin_stub.rs",
+      "sha256": "ede13879bff5016644e35e3c647c20207715b74c820e091545124143cfb8594a",
+      "size": 11743
+    },
+    {
+      "path": "ide/examples/write_feedback_form.rs",
+      "sha256": "33ae80345214c84274737c9a762a2f05fa341a9132bd3ada76ca61d9393b97e4",
+      "size": 622
+    },
+    {
+      "path": "ide/nortex.manifest",
+      "sha256": "f3b18a26b3a415cbdd7ce54de1e1800cd9ec57ef871f114e18927e240bb775d5",
+      "size": 719
+    },
+    {
+      "path": "ide/src/account/mod.rs",
+      "sha256": "2d7dd14c3ab6c660229e887138d189f034103c81402552558580e2d30af3abfa",
+      "size": 4117
+    },
+    {
+      "path": "ide/src/app/mod.rs",
+      "sha256": "1ec6a48b155eadcc1c631f0183056be6814f294b2b2e0a06f2916383f2635b20",
+      "size": 4256
+    },
+    {
+      "path": "ide/src/confine.rs",
+      "sha256": "2f76e64ab003937dfda724cdc4a8bbaea919340919038e2c5f1ad9a0535c3b88",
+      "size": 24116
+    },
+    {
+      "path": "ide/src/debugger/mod.rs",
+      "sha256": "de2458765b00d2bc1b4e94d6e03aff2d375fb03b3ca950e6f9677c278aa5eb24",
+      "size": 5737
+    },
+    {
+      "path": "ide/src/diagnostics/mod.rs",
+      "sha256": "8aca10be04b66af3bd28b83ef5c01cef11f317492b0e388f78087cbd631d8569",
+      "size": 16486
+    },
+    {
+      "path": "ide/src/editor/analysis.rs",
+      "sha256": "f4a4eb3b8587ffadf4e0ad63a42a962fdddb08fd9ca6f7b6b970809aed4922b2",
+      "size": 9885
+    },
+    {
+      "path": "ide/src/editor/completion.rs",
+      "sha256": "0a9cab4f0afcbe4d7aff2b6f3f614505e2b31e3e6a6b1e380ed82287bdcac5c2",
+      "size": 58376
+    },
+    {
+      "path": "ide/src/editor/completion_worker.rs",
+      "sha256": "f5449975905fa74f4cb4fa092b2152b33774f4510986b7becea0f027649ef2e0",
+      "size": 13968
+    },
+    {
+      "path": "ide/src/editor/diagnostics.rs",
+      "sha256": "33587f2883871cdc7f0bc2af24bf66533693c4f0353ac6928b1346d03497b699",
+      "size": 7414
+    },
+    {
+      "path": "ide/src/editor/document.rs",
+      "sha256": "e8d6bcfeab2603032ec03399111c4c6583c8be5aa8afe3277ff2f7201bc11811",
+      "size": 17754
+    },
+    {
+      "path": "ide/src/editor/find_replace.rs",
+      "sha256": "f8b630620935a60e14577282524e699f2d07d68cfc1d897e0adf4f2087a0dfa6",
+      "size": 8125
+    },
+    {
+      "path": "ide/src/editor/gutter.rs",
+      "sha256": "0bf1eb5740ceceebb7bf7ebb30638fa14dd9737a479d68ddc4d91e2df3a43c1e",
+      "size": 2068
+    },
+    {
+      "path": "ide/src/editor/highlighting.rs",
+      "sha256": "83185deb8753cacc8fddef2bb85c74157535e44a919b8411f7c4abb144874955",
+      "size": 8845
+    },
+    {
+      "path": "ide/src/editor/imports.rs",
+      "sha256": "b122a6a139e65df20490b47f9fe30f1b67a7e4b995cf5c77cb5cc46a88f1a8c4",
+      "size": 12177
+    },
+    {
+      "path": "ide/src/editor/lines.rs",
+      "sha256": "f5e4dd1862b2b3ca8cf59426a16b14771ed7d54d97be159d99c9ad110d7be044",
+      "size": 5573
+    },
+    {
+      "path": "ide/src/editor/mod.rs",
+      "sha256": "b5f903d180daa0042b2ab449af5f5999e02cd65a4caa0d8dc5b5ae843885772f",
+      "size": 55304
+    },
+    {
+      "path": "ide/src/editor/refactor.rs",
+      "sha256": "2da2813a3238e47d1b7671bf5c4cfb0e5b41a915da05765f1449901f35895152",
+      "size": 2797
+    },
+    {
+      "path": "ide/src/editor/scope.rs",
+      "sha256": "2567610253c01723f4212352497fa707996e1bb549ae2c8c71e2487562de8f2a",
+      "size": 5890
+    },
+    {
+      "path": "ide/src/editor/split.rs",
+      "sha256": "86b1bfa6be8b8d3dac2c02bd6838835395e55aa988a891df5000b5e9835fb7da",
+      "size": 15844
+    },
+    {
+      "path": "ide/src/editor/types.rs",
+      "sha256": "51530a6fc56a3b36feb0f431ce70777d1c89dbacc058f8308eb6cbc96616f98a",
+      "size": 34034
+    },
+    {
+      "path": "ide/src/feedback/mod.rs",
+      "sha256": "497e2b66781a10a40f31e7a8c217936058cb6ef252dedc2587f88ef483e0a160",
+      "size": 21976
+    },
+    {
+      "path": "ide/src/feedback/pdf.rs",
+      "sha256": "96eaedd0b0a3f0bf7357aa5e729382105b290be5dbc01d8b7314fa4ea720d69d",
+      "size": 22703
+    },
+    {
+      "path": "ide/src/git.rs",
+      "sha256": "a4202c8b33e9bb2fa9b912261d6a709d53114cffacd50dda7eb971551d4f94a2",
+      "size": 17334
+    },
+    {
+      "path": "ide/src/i18n.rs",
+      "sha256": "b78496be1152b204a397052e752ddab887dede9fee0819de0ddca9dc8ca85674",
+      "size": 9101
+    },
+    {
+      "path": "ide/src/i18n/translations.rs",
+      "sha256": "ef61428b7a97a1b524665aec246a7369160d0edb46c2fbd38277c45664ee6a29",
+      "size": 9232
+    },
+    {
+      "path": "ide/src/i18n/translations/bundle.rs",
+      "sha256": "361ce22efe2d3c8ec3f2b782f13fed0033e9887ed92e238ff0537df4ae5c6f00",
+      "size": 640
+    },
+    {
+      "path": "ide/src/i18n/translations/feedback.rs",
+      "sha256": "0779fb6ca844f2a68ecf0757ea3d36e01e3aac95bd0a95605103cc1119a13c6e",
+      "size": 10530
+    },
+    {
+      "path": "ide/src/i18n/translations/git.rs",
+      "sha256": "4abedcd49f84d9d5bf2402d898ccc6addb5cf8eab7a188adaa4841e92dc30d9c",
+      "size": 1179
+    },
+    {
+      "path": "ide/src/i18n/translations/messages.rs",
+      "sha256": "009f2c2fb7fd1976f4cbf408df63371fd97e7e505eabee4e34a5306c511e8a9d",
+      "size": 3780
+    },
+    {
+      "path": "ide/src/i18n/translations/more.rs",
+      "sha256": "0764639e4549bcd0891535440291a408d3d1ddc12466b6d2ff8c50af934e7a4e",
+      "size": 20749
+    },
+    {
+      "path": "ide/src/language/mod.rs",
+      "sha256": "7e3b9bf1bd28ea5eebb2f3b86a2a8c5633558ae470588b8e34486a8d80e21042",
+      "size": 3860
+    },
+    {
+      "path": "ide/src/lib.rs",
+      "sha256": "37d58404e209c3a93c6f2762d15cd08abc538bad2a9bb4f1fb4703fffab9b923",
+      "size": 321
+    },
+    {
+      "path": "ide/src/main.rs",
+      "sha256": "946c576d94ccd7f454323a6a3d81eb4f6b6b12bb6b2ec7bcbf4e15d090c947e7",
+      "size": 22203
+    },
+    {
+      "path": "ide/src/marketplace.rs",
+      "sha256": "d85b257d4f0cc62d1f855889dde7600765cd3d69af26c08f788a0d779510aa00",
+      "size": 64516
+    },
+    {
+      "path": "ide/src/plugins/archive.rs",
+      "sha256": "86ec912a70cc79d678066a254c77dec1238ac507c291350d35dba8625bdf906d",
+      "size": 8396
+    },
+    {
+      "path": "ide/src/plugins/bundle.rs",
+      "sha256": "29242788144209201f186bf0bfe4434d070651d3400778feffe19bcba981946f",
+      "size": 6497
+    },
+    {
+      "path": "ide/src/plugins/host.rs",
+      "sha256": "a123f4da8fde9a67799054baa281f4b2671433dbbbac78c1f4f7cdacd136af24",
+      "size": 38078
+    },
+    {
+      "path": "ide/src/plugins/mod.rs",
+      "sha256": "3f0a2b5d002821a5c12709aab26cb298fdb0c84709983e020d969f6de4e7222c",
+      "size": 7821
+    },
+    {
+      "path": "ide/src/plugins/pdf.rs",
+      "sha256": "1d374188f140fbc0dc7df6f18ae87783a4f6b17d24d41792ae7f53f61bf72d6e",
+      "size": 38344
+    },
+    {
+      "path": "ide/src/plugins/project_io.rs",
+      "sha256": "dcf51ff608053d366ec80cc4a04488e727cc56ebab03db6320218bcc0d19f927",
+      "size": 9589
+    },
+    {
+      "path": "ide/src/plugins/protocol.rs",
+      "sha256": "e4a49ce20120aed25b3bda7f4ad1360b1f5e8877d16e3cffd7a1ea704b3690f8",
+      "size": 14928
+    },
+    {
+      "path": "ide/src/project/mod.rs",
+      "sha256": "49fc812f99e944405d63e0bc121eb43d373f86382ad91acc453f6b0920653744",
+      "size": 12922
+    },
+    {
+      "path": "ide/src/sandbox.rs",
+      "sha256": "1843199007de1671dfbcf094cbf6ab4bc55a35f480ce43f8cba115b2ac1ea1aa",
+      "size": 44372
+    },
+    {
+      "path": "ide/src/search.rs",
+      "sha256": "f236f3b703d6a4369b5a9f2b89b147ab33a4428cd7fc26ccd6525465bbf32f9b",
+      "size": 2612
+    },
+    {
+      "path": "ide/src/shell/account.rs",
+      "sha256": "e818b5253769af8f1c7222fad1cee1568cf3f022d094513eacaf8afbe4f1f20d",
+      "size": 4054
+    },
+    {
+      "path": "ide/src/shell/background.rs",
+      "sha256": "94be6d05f0e121ca5df94e6ec42e789b9cb3d20555c6d5c39393ca5f1aea8545",
+      "size": 11930
+    },
+    {
+      "path": "ide/src/shell/build.rs",
+      "sha256": "16b2172f2dbff3f2926f9e0ef040f3ffcf1865dfed90d457ab3f2e7c10e6912f",
+      "size": 4055
+    },
+    {
+      "path": "ide/src/shell/chrome.rs",
+      "sha256": "a06dc43cdf84f3a2a95d127fd2a04db38a68124c451bc99eb02cc2685e8fce50",
+      "size": 40497
+    },
+    {
+      "path": "ide/src/shell/commands.rs",
+      "sha256": "a552fca6adae903ada974c4cb8b8abcd88b2b33a055120e3e0896aa73276da93",
+      "size": 6618
+    },
+    {
+      "path": "ide/src/shell/debugging.rs",
+      "sha256": "35de1865c5ac65d2241c5d8094d022fa197f904f4b5d8414dd814c1fb6e8bfef",
+      "size": 5156
+    },
+    {
+      "path": "ide/src/shell/documents.rs",
+      "sha256": "86eead0f719588932e992f49df12b389e748bda61f04c0e9337e8106536895e5",
+      "size": 7045
+    },
+    {
+      "path": "ide/src/shell/editor_actions.rs",
+      "sha256": "1bdaac06c4a1bd2dd8ba408e243de38178e38d0db77ef607e1617181c897cca3",
+      "size": 13879
+    },
+    {
+      "path": "ide/src/shell/explorer.rs",
+      "sha256": "37794e441a2e68afdb23d6accece924ade8b68e7aebe649cb8a9053d61293f50",
+      "size": 8607
+    },
+    {
+      "path": "ide/src/shell/extensions.rs",
+      "sha256": "87fddc5cc00abd99885b521ae20a9b1ffc7a0c0d33b17c64d52571c300043b17",
+      "size": 77654
+    },
+    {
+      "path": "ide/src/shell/feedback.rs",
+      "sha256": "e06aaac028112c7a91e690be39c4a4f7e72ba2fc11af492c85fb0954aa284631",
+      "size": 18560
+    },
+    {
+      "path": "ide/src/shell/frame.rs",
+      "sha256": "44f7e89bafe6f2da2f4fce84dc0d4be08289f040c6566d40c4116d0c2f626eb5",
+      "size": 39449
+    },
+    {
+      "path": "ide/src/shell/git_panel.rs",
+      "sha256": "def68c60a82ae089573b8a4af96bc65898c039bcd84028b15c775e037d93c33b",
+      "size": 7541
+    },
+    {
+      "path": "ide/src/shell/mod.rs",
+      "sha256": "ecd3ba66489127c3bf56410166999cc15cff1416a34bd8219cfae3e4e44c6443",
+      "size": 603
+    },
+    {
+      "path": "ide/src/shell/painting.rs",
+      "sha256": "2ae1aa0e4bb2a6f3de3efb0b43e6eaa52f2292b962482d11efef708568f98ff4",
+      "size": 12265
+    },
+    {
+      "path": "ide/src/shell/panels.rs",
+      "sha256": "c2c84bf175a175b75cba7781bbd18a0eac8258d967bd180a52d66f6df830c198",
+      "size": 11715
+    },
+    {
+      "path": "ide/src/shell/project_io.rs",
+      "sha256": "8c7e73355ad1f3829ef666818076e0a505b7bfa2d0aafaef3bc68642985c15ba",
+      "size": 2629
+    },
+    {
+      "path": "ide/src/shell/settings_view.rs",
+      "sha256": "5fd99834d5ea5ae497d15a520f59485632b68f882cbc86a59877b3abc331c7c5",
+      "size": 12426
+    },
+    {
+      "path": "ide/src/shell/tabs.rs",
+      "sha256": "e6909d8cac6186a8eb0852f119545d929f34379a8ea3989a484d07a9fd464cec",
+      "size": 11970
+    },
+    {
+      "path": "ide/src/shell/text_sync.rs",
+      "sha256": "c49b5f8d6b600c3a125832a8a2ec0bdfdfca5c99129bf789817120eee3eb7e1e",
+      "size": 1387
+    },
+    {
+      "path": "ide/src/terminal.rs",
+      "sha256": "344fc8fe7d974491eba521a77918101b94577bd5ce6cd20c8e4b12bcca2ce2f5",
+      "size": 4012
+    },
+    {
+      "path": "ide/src/toolchain.rs",
+      "sha256": "808eb38aa440bc846dd0a139161f46d38895a383ecaf7f4bd61557f4cdaaa5b4",
+      "size": 7220
+    },
+    {
+      "path": "ide/src/ui/activity_bar.rs",
+      "sha256": "35e0f8500bec5bfd1626e69b70db0475c806f5dd9aad410e85d270dd5db2e04a",
+      "size": 14604
+    },
+    {
+      "path": "ide/src/ui/branding.rs",
+      "sha256": "2595b7f94efc632caeaadb481df9fb7d4b85962f569b94424a7563eca046c1cf",
+      "size": 5034
+    },
+    {
+      "path": "ide/src/ui/breadcrumbs.rs",
+      "sha256": "9d2603c6bb1d0c57b41393504766ebc4f048da5a6af1b350bf52ab4e0ec11146",
+      "size": 1733
+    },
+    {
+      "path": "ide/src/ui/command_palette.rs",
+      "sha256": "0428828f07ecb7ee53d7c2f81a22f8f5d6fb3f0093b768889bc47a5efc60705d",
+      "size": 15397
+    },
+    {
+      "path": "ide/src/ui/components.rs",
+      "sha256": "fc4ab86e02a354d48961bad2bc372ac0d6450b4587723850efd7003dd0c04d85",
+      "size": 6664
+    },
+    {
+      "path": "ide/src/ui/dashboard.rs",
+      "sha256": "784159dfe23009a7fd73990ebd1c1af493fb54d95420f7814eb61f1c16ce388e",
+      "size": 12265
+    },
+    {
+      "path": "ide/src/ui/find_bar.rs",
+      "sha256": "e11d63447189f76438de0727358ee31d63e0610a56c65e7aa246f093623395d7",
+      "size": 8604
+    },
+    {
+      "path": "ide/src/ui/keymap.rs",
+      "sha256": "999416ed6d41f0e16a743d6dbfe06f649c1c3bec752ebee85921b7213a269e54",
+      "size": 7043
+    },
+    {
+      "path": "ide/src/ui/layout.rs",
+      "sha256": "c1b03f866f949e3278bbdd0f422f17b808ebe5a1dd95c31c7c797d827d1fae5d",
+      "size": 9341
+    },
+    {
+      "path": "ide/src/ui/minimap.rs",
+      "sha256": "5d54c7aa2738694a6280b527ac21eebf99f919432ed2197107a495a302fb8785",
+      "size": 3484
+    },
+    {
+      "path": "ide/src/ui/mod.rs",
+      "sha256": "a19b2e6c76ece6f796d68b65ae7e5004ea63999be7e27b9876eadebe95e8170f",
+      "size": 611
+    },
+    {
+      "path": "ide/src/ui/settings.rs",
+      "sha256": "b489ccb005db7bdfc10381f40ae99becea5157790e4a87523c1163dc7d5a2d97",
+      "size": 16682
+    },
+    {
+      "path": "ide/src/ui/settings_catalog.rs",
+      "sha256": "5d76817ccb62c492cf05f10b21a9a466e6ae01640647616e149ca751dc3cb017",
+      "size": 12250
+    },
+    {
+      "path": "ide/src/ui/status_bar.rs",
+      "sha256": "be784db5a2ebfdb1df9ff2cd80895c41a4bab39176786a1bfcd741ece04c80b8",
+      "size": 1218
+    },
+    {
+      "path": "ide/src/ui/theme/accessibility.rs",
+      "sha256": "29f1c47bc9377ccb191fd3147cdadfa1f508df904ef1c54aca839a1d2af4c2c1",
+      "size": 954
+    },
+    {
+      "path": "ide/src/ui/theme/colors.rs",
+      "sha256": "3d33a2b0b09961ab1c2e9b550543f16292c3812ef9e69a94f0d9d2dba875b63d",
+      "size": 4195
+    },
+    {
+      "path": "ide/src/ui/theme/editor.rs",
+      "sha256": "36f88c356dcc525919d0aa1803993d91db21d2437e2981d2d8c49f7e5be7c110",
+      "size": 2655
+    },
+    {
+      "path": "ide/src/ui/theme/mod.rs",
+      "sha256": "7f45a0f78037f692f8a050a00c4bf5baf9714efeecee2ce2e844ba0a2f2f8b51",
+      "size": 9521
+    },
+    {
+      "path": "ide/src/ui/theme/spacing.rs",
+      "sha256": "2c99e15e472127e11932fd7d7048db5afd8fae70740ddb87c232bc679c687bf6",
+      "size": 2137
+    },
+    {
+      "path": "ide/src/ui/theme/typography.rs",
+      "sha256": "cdc329242d686bb01066d72582bcb859ba469fcfc7506480731462bbd34a82f4",
+      "size": 1954
+    },
+    {
+      "path": "ide/tests/completion_async.rs",
+      "sha256": "9ffe80a19ce6c936a651057b18820aa83d42ebd77f320c61c8ab64d69c5f2737",
+      "size": 2199
+    },
+    {
+      "path": "ide/tests/completion_phases.rs",
+      "sha256": "cd6f9f6494f37bc18a763e80f2d2148efc377cc7e9912d4a9e6671719576ffaf",
+      "size": 5285
+    },
+    {
+      "path": "ide/tests/edge_cases.rs",
+      "sha256": "51d4f0170a04170b79aca3e08465b1ea9e56a59c8a38b5fddffbbb2593d3b46e",
+      "size": 6613
+    },
+    {
+      "path": "ide/tests/editor_stress.rs",
+      "sha256": "c5e717700d86632d95fa839274b6712eee3380fefb6182b3c984997c168bc42c",
+      "size": 918
+    },
+    {
+      "path": "ide/tests/ergonomics_test.rs",
+      "sha256": "a35ecbcd635ff3d7e5c273896b0a517a7cdc1d8d4b03b9ad4a47c1f02ba20b15",
+      "size": 5488
+    },
+    {
+      "path": "ide/tests/find_replace.rs",
+      "sha256": "d1a2ef1f4010bface4b7806889d45454279095d56a8b122a392d94612cb0ebed",
+      "size": 4611
+    },
+    {
+      "path": "ide/tests/inline_diagnostics.rs",
+      "sha256": "6f235992c79b10772aaed6af1f888167ff0a3f8a0694f4883c2d9625e8d4c8b8",
+      "size": 4886
+    },
+    {
+      "path": "ide/tests/intellisense_bench.rs",
+      "sha256": "bdeee91a75c4327824130af05b56bdf7f2b0ce20ace50bd4cf09cfe0aaae00bb",
+      "size": 10431
+    },
+    {
+      "path": "ide/tests/plugin_extensions_e2e.rs",
+      "sha256": "b16bce4e83dea69d26c4665531e467cb08ec08cccb4d72f28ed3e03c0c40c1f4",
+      "size": 8307
+    },
+    {
+      "path": "ide/tests/plugin_ipc.rs",
+      "sha256": "ec33cc93d4877fc0c78c6f809fd717ef51ed0d1c032a24d380e83a584c1acce9",
+      "size": 16937
+    },
+    {
+      "path": "ide/tests/plugin_ipc_bench.rs",
+      "sha256": "6f057b94df7187176d05643ff0f57496289290d1dcc4eb60e244c6a9b28f415b",
+      "size": 17854
+    },
+    {
+      "path": "ide/tests/split_keymap.rs",
+      "sha256": "37ae8a73a0bd6d49b9106f2dd6352e828f42f7e857bc9f8d94ccc6fe8a762a63",
+      "size": 10055
+    },
+    {
+      "path": "ide/tests/status_bar.rs",
+      "sha256": "6e4737ecd2c27c19a3e530449ca73ced8abbfc7cedf3400fa1c884471ddf9d92",
+      "size": 703
+    },
+    {
+      "path": "ide/tests/terminal.rs",
+      "sha256": "0a6be3583f3bd4176c08ca389f746aeccf1e9e03d168ef4b228d340d42c90a08",
+      "size": 1581
+    },
+    {
+      "path": "installer/nortex_setup.iss",
+      "sha256": "a0b9265df22d54d990c63dbb55bd0b183423b1d1af4f5cff4229914c9775b02f",
+      "size": 4008
+    },
+    {
+      "path": "main.nx",
+      "sha256": "0b51dbe4f8bbd5740262475b6c32c3bcd64378bd830611950396c603d8b835b5",
+      "size": 232
+    },
+    {
+      "path": "marketplace/.gitignore",
+      "sha256": "757c48f066286e69e5242846f62e8d929bf028f80b22e32ff40b07e4e2a3572c",
+      "size": 36
+    },
+    {
+      "path": "marketplace/Cargo.lock",
+      "sha256": "2f2e9f4a4608b3e4d61b54c430216f38fc6c7e054d0932b774720b0b87cbb543",
+      "size": 27764
+    },
+    {
+      "path": "marketplace/Cargo.toml",
+      "sha256": "dab4d288011f7a85dc4c3731835cdaa754ada8fb5b6727cbccbadcd37ea9de5a",
+      "size": 667
+    },
+    {
+      "path": "marketplace/README.md",
+      "sha256": "594502a60a7e2bbf6994af2e7182988e4e3c8d9391733c31b3bbeaef79e17795",
+      "size": 3377
+    },
+    {
+      "path": "marketplace/openapi.yaml",
+      "sha256": "4f4a601eff88e39e165a10abb7097d712baf16fcc8ce146139c655cb4122ca1a",
+      "size": 9967
+    },
+    {
+      "path": "marketplace/src/lib.rs",
+      "sha256": "1b455d2eb3b052411e82b5e122e305e0eda6a1914e86c37e9fa4b74fe4049e9c",
+      "size": 34134
+    },
+    {
+      "path": "marketplace/src/main.rs",
+      "sha256": "322bdda4af5d7c47f1549f5d388ac05343c8c802e3fe5d13f04368d969c48d7a",
+      "size": 1896
+    },
+    {
+      "path": "marketplace/src/nxpack.rs",
+      "sha256": "5a77b37e3bd667dde09f7304c7e3445f060fe83d29da77be69b99d7d1b55dc55",
+      "size": 8502
+    },
+    {
+      "path": "marketplace/tests/api.rs",
+      "sha256": "72d5ae7c781b08e33c91b62cfdd00260965dea613ba343d326aa2f0949fc694c",
+      "size": 15494
+    },
+    {
+      "path": "packaging.toml",
+      "sha256": "bb1e0cc7eedd26f65a06f6bf77704566691e0764f50e0cd366ab7abc780f4b89",
+      "size": 3605
+    },
+    {
+      "path": "run_nortex_code.ps1",
+      "sha256": "725c970f1b33f75111cab7cd1253da30c169f3184e421f9a33861e83ca30c8a2",
+      "size": 895
+    },
+    {
+      "path": "runtime/Cargo.toml",
+      "sha256": "96a37e2826dca29aa2626738a63e60d38ee7d270fa4ebf3cdbddd7907137dd34",
+      "size": 245
+    },
+    {
+      "path": "runtime/src/allocation/mod.rs",
+      "sha256": "bde7940c6f2a9b104812006602a7fd3e0ced644cf727f3ed29d36e5bf0fe5f3a",
+      "size": 190
+    },
+    {
+      "path": "runtime/src/async/mod.rs",
+      "sha256": "32ad32cab4ba9ee3f1fd43946ef9216264ad43b2c6750044217be74a2fe9820e",
+      "size": 35033
+    },
+    {
+      "path": "runtime/src/exceptions/mod.rs",
+      "sha256": "eed2e270ae0897084c6fea607b011a8081911931c001dbff680eb125d6ffb62c",
+      "size": 751
+    },
+    {
+      "path": "runtime/src/io/console.rs",
+      "sha256": "34577f3164f9ef9200a2cca4efb95a2a2e72b90b616bf751337a72b49492c5b7",
+      "size": 2859
+    },
+    {
+      "path": "runtime/src/io/mod.rs",
+      "sha256": "c7629590d5184e061f1ad1953c6af30af9d7f113c7b6c46f7965429d22ed45c8",
+      "size": 180
+    },
+    {
+      "path": "runtime/src/lib.rs",
+      "sha256": "9ba160c61e1618790c4cf02a667d17676bda67f4d8e19706b559f9b16b3a8814",
+      "size": 4137
+    },
+    {
+      "path": "runtime/src/memory/mod.rs",
+      "sha256": "4c47ea10c7ddec0252d44e4c83ae4ec135cfa4060051774df569b0eede391220",
+      "size": 176
+    },
+    {
+      "path": "runtime/src/networking/mod.rs",
+      "sha256": "f26a476bc3df207d3282c640de3b551d017cd6a3e9869cc8e63acd712f4779dc",
+      "size": 123
+    },
+    {
+      "path": "runtime/src/platform/mod.rs",
+      "sha256": "5bce9a25027ae1b700dfcab8a8c9275ebf6804ed5327b3fd7392af3eada0e9bf",
+      "size": 504
+    },
+    {
+      "path": "runtime/src/platform/windows_x64.rs",
+      "sha256": "dac7716a6ad4a9074be09a6266c8ff432aed4e0c57c6debe18cd126b68863d7f",
+      "size": 13363
+    },
+    {
+      "path": "runtime/src/startup/mod.rs",
+      "sha256": "6d49607e06de741d2707b6912ab8820561fe9ed52cf1a2939184e1f567600f93",
+      "size": 8612
+    },
+    {
+      "path": "runtime/src/string.rs",
+      "sha256": "6913aa82acdb1228a3dca107879e29538b0d9a4b4ca8979906c1cc71803fecf5",
+      "size": 7622
+    },
+    {
+      "path": "runtime/src/text.rs",
+      "sha256": "31c6d71a2dc05e82f1ec47004d05a1304012ec7369e47200145b1b620d557f4f",
+      "size": 25328
+    },
+    {
+      "path": "runtime/src/threading/mod.rs",
+      "sha256": "dcbc84b9f61fd43be7107dc42e33214068c2e55e15289c1950803a4880e151fe",
+      "size": 15354
+    },
+    {
+      "path": "scripts/bench_compile.ps1",
+      "sha256": "35ea1a49bb69282cdf1aa8f26bba76d7807cc6155e022b6ea8ba481aa1a0f45b",
+      "size": 3930
+    },
+    {
+      "path": "scripts/build.ps1",
+      "sha256": "b69f49798731c86c186f48017f2858b11b432ab2605b1ac755c786578206aecd",
+      "size": 118
+    },
+    {
+      "path": "scripts/build_installer.ps1",
+      "sha256": "cd6a887affbbf0c4978d18527c50936b96c7d9a188b483178c7d8dffed5816dd",
+      "size": 1643
+    },
+    {
+      "path": "scripts/build_manual_pdf.py",
+      "sha256": "cb24db1f61ce96512a5a47f352debf2c2a3f6fb088bceee345cbe4f980303bc1",
+      "size": 15023
+    },
+    {
+      "path": "scripts/build_portable.ps1",
+      "sha256": "a3657ee1a329151495021c36a5035bc2579f2332ced554ac1815ae48441f52cb",
+      "size": 1324
+    },
+    {
+      "path": "scripts/build_release.ps1",
+      "sha256": "72d4c4a65b45c4190b09b393be221773f7fd853312e3406939c6d9a0822bb795",
+      "size": 1964
+    },
+    {
+      "path": "scripts/build_release_clean.ps1",
+      "sha256": "bb8e16709e93a94eefb095cb917c1624f411fed0854c6ddc57e35c44b86613d4",
+      "size": 1321
+    },
+    {
+      "path": "scripts/check_md_links.ps1",
+      "sha256": "ca7589f2d22c632df488cffdee64b99bf34f91c1ac68c18ab6e3733099e5fe9c",
+      "size": 789
+    },
+    {
+      "path": "scripts/check_versions.py",
+      "sha256": "49d5676437ff0141757076bb6dd049559f3f2b7a4643b6b6cc1b9274d56c30fe",
+      "size": 1980
+    },
+    {
+      "path": "scripts/generate_brand_assets.py",
+      "sha256": "eb7d0187134c2340f5ab78e3f6ae86b83dcb1d683f1e87595bd2ce23b245538d",
+      "size": 9946
+    },
+    {
+      "path": "scripts/generate_sbom.py",
+      "sha256": "0b7c1b510ff40f7c06cf0355bac1ce2f5ed790a6c1012a9108d408de2c0736b7",
+      "size": 3600
+    },
+    {
+      "path": "scripts/measure.py",
+      "sha256": "5c552f061ee800bbb0b9d460d5ac3455ac0b1079161d7e95da3ddab58f5d6597",
+      "size": 2221
+    },
+    {
+      "path": "scripts/package.ps1",
+      "sha256": "225440a8adc4f7209c760be2f097356f0ac7e3461eede1dc0322285d2cda6d39",
+      "size": 156
+    },
+    {
+      "path": "scripts/package.py",
+      "sha256": "41006840e4d0c3cf844842f9bef1f4861e738924bf1753019d13716197bf70c7",
+      "size": 23591
+    },
+    {
+      "path": "scripts/stage_release.ps1",
+      "sha256": "fcb63a532be9767f0dac25a553153032f66c60658d11bbc1ee7b3993ffbd310d",
+      "size": 2587
+    },
+    {
+      "path": "scripts/test.ps1",
+      "sha256": "c5a0e46b5f822ec9ff69e85c7949534cd27de7ddd2048c31decd90e8bbab60f5",
+      "size": 117
+    },
+    {
+      "path": "scripts/verify.ps1",
+      "sha256": "4692b035fd7115ffcef6ab79001dd689645f09423f9fcacc4b50f0771ba16bda",
+      "size": 1110
+    },
+    {
+      "path": "scripts/wrap_i18n.py",
+      "sha256": "0f1e0c01d00ff3d9c89ee103a68c66a60d1610e2f0b57c3ec2dd238448b77c4d",
+      "size": 2680
+    },
+    {
+      "path": "scripts/wrap_i18n_fmt.py",
+      "sha256": "7ec7052134985e2ed8380c8d4085868f627478669b3a6ec9baa9c23e771fc90b",
+      "size": 4899
+    },
+    {
+      "path": "standard-library/collections/dictionary.nx",
+      "sha256": "a3582eb5350ac8009e3611d84fc32844f39713a250452496219608dcc1fadf19",
+      "size": 369
+    },
+    {
+      "path": "standard-library/collections/hash_set.nx",
+      "sha256": "f18bd50ed386efcd9f59826d3766b7c1b7b870930105fdbdd53f138541d5a06a",
+      "size": 298
+    },
+    {
+      "path": "standard-library/collections/list.nx",
+      "sha256": "e41157d967baa6da78d41de2c8d9fa4fe0b6110862985291f424916c75790343",
+      "size": 543
+    },
+    {
+      "path": "standard-library/collections/mod.nx",
+      "sha256": "d24cbe84c87d85b252044a81315e71e1a647b554b0e39418a3af17447affef43",
+      "size": 125
+    },
+    {
+      "path": "standard-library/collections/queue.nx",
+      "sha256": "c3571415618857918b4b0363f8c351aee916e7fd75e21ab016391717704b7bc2",
+      "size": 292
+    },
+    {
+      "path": "standard-library/collections/stack.nx",
+      "sha256": "f7f1282674207101bd44fc445d2abfa8524394ae856f747200677ddea0ad8c3c",
+      "size": 285
+    },
+    {
+      "path": "standard-library/collections/vec.nx",
+      "sha256": "9a7adf35ea0312efad704caf9defcb39fd7b009eac05a0d370a4f5eb357ba715",
+      "size": 561
+    },
+    {
+      "path": "standard-library/core_io.rs",
+      "sha256": "7b85894d8685071e6a945840b02ae3dc7a5320fde32ec5647330934501bcbe65",
+      "size": 14806
+    },
+    {
+      "path": "standard-library/core_memory.rs",
+      "sha256": "beb7f37d181d1e2472202005806f440e12f6a4993d12114aa07f75e5df37daa9",
+      "size": 19311
+    },
+    {
+      "path": "standard-library/io/mod.nx",
+      "sha256": "c61eb6a925e8ffd77b641c373eee78bcd403b1504e9db8facf5c5bc5d59fef54",
+      "size": 262
+    },
+    {
+      "path": "standard-library/math/mod.nx",
+      "sha256": "359df8c9b1899484ea9c8607bbea361be86b99d2ecaf5da7edab8e550ded3d14",
+      "size": 99
+    },
+    {
+      "path": "standard-library/memory/mod.nx",
+      "sha256": "912bd91eaaf72cc48c8b5525ae2a4025578792cedd030053e9ef948b12553b44",
+      "size": 101
+    },
+    {
+      "path": "standard-library/net/mod.nx",
+      "sha256": "9908c34519d7cda06a490f506735612784a6fe6d93631ba0440173d12297f18f",
+      "size": 100
+    },
+    {
+      "path": "standard-library/std_system.rs",
+      "sha256": "aafec7fdd7732950f6268ec7bc8e1977fe76dc72a91c0d2f02baf9866231e9a9",
+      "size": 12980
+    },
+    {
+      "path": "standard-library/system/console.nx",
+      "sha256": "d31d2fec61f4aebd426ad671fceac11cac9e5c1bf927455dc134cdcdad0213e0",
+      "size": 156
+    },
+    {
+      "path": "standard-library/system/debug.nx",
+      "sha256": "3ec76a9ce89560126f43a904ce3846a51fdf0179bdd26920a7d99aff930d06ac",
+      "size": 114
+    },
+    {
+      "path": "standard-library/system/environment.nx",
+      "sha256": "a3789ecf2493df5511d0c2678fe862d04927739eff109602e23104731313e938",
+      "size": 102
+    },
+    {
+      "path": "standard-library/system/mod.nx",
+      "sha256": "43b6cf86a7baefb6c912a2773b8c7f4e59a5ada578c19b52eeecc3495ebe271a",
+      "size": 149
+    },
+    {
+      "path": "standard-library/system/process.nx",
+      "sha256": "71b1efe78815a06f98c68d72e739929dbeb603820fdcfc18c60e37c84fbe41dc",
+      "size": 118
+    },
+    {
+      "path": "standard-library/text/mod.nx",
+      "sha256": "c483b944550459af82e4f4850a8ee13f3b568dad07e1d7c3661169a7fe595c68",
+      "size": 104
+    },
+    {
+      "path": "standard-library/threading/mod.nx",
+      "sha256": "d949a91cbff20b28a4a15dde862f5324f63a8b511c23e5052c555f3f74a91711",
+      "size": 105
+    },
+    {
+      "path": "standard-library/time/mod.nx",
+      "sha256": "72e9301b4c4da088179fa98b3c167ea330c59652314e927b6d38f44f6729281d",
+      "size": 81
+    },
+    {
+      "path": "tests/README.md",
+      "sha256": "f37367b4d2c1c25e3cb417aef080ab9f7e974bad94cba53d103ec17b0e987c6b",
+      "size": 1412
+    },
+    {
+      "path": "tests/integration/hello-world.nx",
+      "sha256": "e7b9b65b53cd243112f14a60c1dd49ad70fd10c772e05c72b93ab88b24b3bda8",
+      "size": 136
+    },
+    {
+      "path": "tests/lexer/case-sensitive.nx",
+      "sha256": "74f4361adc21437567925031fae9405e387654df464b1b0a0c11d12667cc716a",
+      "size": 109
+    },
+    {
+      "path": "tests/parser/class-method.nx",
+      "sha256": "c025fd4a73e9ac07edcb0b39defb0ad6c153b6fa9b4bfb426693549bca016436",
+      "size": 150
+    },
+    {
+      "path": "tests/runtime/thread-pool.nx",
+      "sha256": "0cd56a707cec229c63da740594724883f0c6bef12d62392b7289452b373be629",
+      "size": 47
+    },
+    {
+      "path": "tests/semantic/invalid-operator.nx",
+      "sha256": "2d1afcf1e17bcae2de045f703ee8dfe8bd7ad0d0ac396bc83fa6fd4a4671ca62",
+      "size": 120
+    },
+    {
+      "path": "tools/Cargo.toml",
+      "sha256": "e13b4c9c469cd8fa0b35555580800c9eb16b5c7505f19371027159a4f9198042",
+      "size": 491
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "1ee89fff946c088b665abd9b4658f73a85bb1388860edf063e2c207cb243c0cd",
+      "size": 757
+    },
+    {
+      "path": "tools/cli/main.rs",
+      "sha256": "2ad4c0b7594997f44e6ae6ea703dcc8461e2795b6d4dfe724e37a4bcdc0c7377",
+      "size": 23181
+    },
+    {
+      "path": "tools/documentation-generator/main.rs",
+      "sha256": "804742b114dc184a492845908600c3b2e5d6614075330747b00a1d6f44c5c117",
+      "size": 101
+    },
+    {
+      "path": "tools/formatter/main.rs",
+      "sha256": "1fcaaf33ef4808e6d785c6391b4ceaeac3c6dd5455edabb922c1c6882a424a72",
+      "size": 87
+    },
+    {
+      "path": "tools/language-server/main.rs",
+      "sha256": "5fda47291434b393bf359999879b21e8873d6e4cf9223308472367c2fe91ef4f",
+      "size": 96
+    },
+    {
+      "path": "tools/package-manager/main.rs",
+      "sha256": "5809583a8dbb1a69490085da8b558b3c023a21921b54881d7eda611b746118ba",
+      "size": 100
+    }
+  ]
+}

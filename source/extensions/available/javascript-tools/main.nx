@@ -1,0 +1,37 @@
+using System;
+using sdk;
+
+public int count_of(string text, string part) {
+    StringList pieces = Text.split(text, part);
+    int found = StringList.length(pieces) - 1;
+    StringList.free(pieces);
+    return found;
+}
+
+public int main() {
+    if (!sdk_init("JavaScript Tools", "1.0.0")) { return 1; }
+    string source = sdk_active_text();
+    if (Text.length(source) == 0) {
+        sdk_notify("JavaScript Tools: kein vollständig lesbares Dokument aktiv.");
+        sdk_wait_shutdown();
+        return 0;
+    }
+    mut string problems = "";
+    if (count_of(source + "", "(") != count_of(source + "", ")")) { problems = problems + " Klammern () unausgeglichen;"; }
+    if (count_of(source + "", "{") != count_of(source + "", "}")) { problems = problems + " Klammern {} unausgeglichen;"; }
+    if (count_of(source + "", "[") != count_of(source + "", "]")) { problems = problems + " Klammern [] unausgeglichen;"; }
+    int loose = count_of(source + "", " == ") + count_of(source + "", " != ") - count_of(source + "", " === ") - count_of(source + "", " !== ");
+    if (loose > 0) { problems = problems + " lockerer Vergleich (==/!=) " + Convert.toString(loose) + "x;"; }
+    int vars = count_of(source + "", "var ");
+    if (vars > 0) { problems = problems + " var statt let/const " + Convert.toString(vars) + "x;"; }
+    int logs = count_of(source + "", "console.log");
+    if (logs > 0) { problems = problems + " console.log " + Convert.toString(logs) + "x;"; }
+    int functions = count_of(source + "", "function ") + count_of(source + "", "=>");
+    if (Text.length(problems) == 0) {
+        sdk_notify("JavaScript Tools: keine Probleme, " + Convert.toString(functions) + " Funktionen.");
+    } else {
+        sdk_notify("JavaScript Tools:" + problems);
+    }
+    sdk_wait_shutdown();
+    return 0;
+}

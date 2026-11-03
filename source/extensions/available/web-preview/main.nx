@@ -1,0 +1,28 @@
+using System;
+using sdk;
+
+public string escape_html(string text) {
+    return Text.replace(Text.replace(Text.replace(text, "&", "&amp;"), "<", "&lt;"), ">", "&gt;");
+}
+
+// HTML-Dokumente werden unverändert gespeichert, anderer Text wird als <pre> eingebettet.
+public int main() {
+    if (!sdk_init("Web Preview", "1.0.0")) { return 1; }
+    string source = sdk_active_text();
+    if (Text.length(source) == 0) {
+        sdk_notify("Web Preview: kein vollständig lesbares Dokument aktiv.");
+        sdk_wait_shutdown();
+        return 0;
+    }
+    mut string page = source + "";
+    if (!Text.contains(Text.toLower(source), "<html")) {
+        page = "<!doctype html>\n<html><head><meta charset=\"utf-8\"><title>Vorschau</title></head>\n<body><pre>" + escape_html(source + "") + "</pre></body></html>\n";
+    }
+    if (sdk_write_file("vorschau.html", page + "")) {
+        sdk_notify("Web Preview: vorschau.html im Projektordner gespeichert, im Browser öffnen.");
+    } else {
+        sdk_log("error", "vorschau.html konnte nicht geschrieben werden.");
+    }
+    sdk_wait_shutdown();
+    return 0;
+}

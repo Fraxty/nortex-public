@@ -1,0 +1,21 @@
+using System;
+using sdk;
+
+public int main() {
+    if (!sdk_init("System", "1.0.0")) { return 1; }
+    string theme = sdk_string_field(sdk_call("theme.current", "{}"), "name");
+    string git = sdk_call("git.status", "{}");
+    string branch = sdk_string_field(git + "", "branch");
+    string files = sdk_project_files();
+    mut int count = 0;
+    if (Text.length(files) > 0) {
+        StringList list = Text.split(files, "\n");
+        count = StringList.length(list);
+        StringList.free(list);
+    }
+    mut string report = "System: Theme " + theme + ", " + Convert.toString(count) + " Projektdateien";
+    if (Text.length(branch) > 0) { report = report + ", Git-Branch " + branch; } else { report = report + ", kein Git-Repository"; }
+    sdk_notify(report);
+    sdk_wait_shutdown();
+    return 0;
+}

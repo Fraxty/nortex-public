@@ -1,0 +1,9 @@
+public class PlayerController
+{
+    private int health = 100;
+
+    public void takeDamage(int damage)
+    {
+        health = health - damage;
+    }
+}

@@ -1,0 +1,7 @@
+public class Number
+{
+    public static Number operator +(Number left, Number right)
+    {
+        return left;
+    }
+}

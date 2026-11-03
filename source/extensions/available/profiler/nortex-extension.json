@@ -1,0 +1,10 @@
+{
+  "id": "profiler",
+  "name": "Profiler",
+  "description": "Statisches Profil: findet die längsten Funktionen im aktiven NORTEX-Dokument.",
+  "version": "1.0.0",
+  "entry": "main.nx",
+  "permissions": [],
+  "ide_api": ">=1.1.0, <2.0.0",
+  "ide_permissions": ["ide.document.read", "ide.notification", "ide.log"]
+}

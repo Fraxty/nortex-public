@@ -3,8 +3,8 @@
 **NORTEX Code — Public Preview 0.1.0**
 
 NORTEX is an independent programming-language and IDE project. This repository distributes the
-Windows application; it does not contain the complete source code. The preview is therefore not
-a request for source-level review.
+Windows application and its complete Rust source distribution. The inspectable source tree is in
+[`source/`](source/); a verified source archive is also available below.
 
 ## Downloads
 
@@ -12,11 +12,13 @@ a request for source-level review.
 |---|---|
 | [NORTEX-Setup-x64.exe](https://github.com/Fraxty/nortex-public/raw/refs/heads/main/NORTEX-Setup-x64.exe) | Per-user Windows installer |
 | [NORTEX-Portable-x64.zip](https://github.com/Fraxty/nortex-public/raw/refs/heads/main/NORTEX-Portable-x64.zip) | Portable package; run `bin\nortex-code.exe` |
+| [nortex-0.1.0-src.zip](https://github.com/Fraxty/nortex-public/raw/refs/heads/main/nortex-0.1.0-src.zip) | Complete, checksummed NORTEX source distribution |
 | [SHA256SUMS.txt](https://github.com/Fraxty/nortex-public/raw/refs/heads/main/SHA256SUMS.txt) | SHA-256 checksums |
 
-**Platform:** Windows 11 x64. Windows 10 is untested and unsupported. The binaries are not
-digitally signed; SmartScreen may show a warning. Verify downloaded files against the checksums.
-See [INSTALLATION.md](INSTALLATION.md).
+**Platform:** Windows 11 x64 (tested). The application manifest declares Windows 10/11 compatibility,
+but Windows 10 22H2 runtime and installer tests remain outstanding because no Windows 10 test
+machine/VM is available. The binaries are not digitally signed; SmartScreen may show a warning.
+Verify downloads against the checksums. See [INSTALLATION.md](INSTALLATION.md).
 
 ## Included project components
 
@@ -31,9 +33,10 @@ capabilities vary, and the preview has known language and integration limitation
 
 ## Source and license
 
-The downloadable preview is closed-source in this repository; no source-level code review is
-possible from these files. The distributed software is provided under the MIT License in
-[LICENSE.txt](LICENSE.txt). Third-party notices are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+The source distribution includes the compiler, runtime, IDE, extensions, tools, examples, tests,
+build scripts and public documentation. Follow [`source/README.md`](source/README.md) to build it.
+The project is provided under the MIT License in [LICENSE](LICENSE). Third-party notices
+are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 NORTEX is under active development. Features may change, and this preview is not intended for
 production use. See [PRIVACY.md](PRIVACY.md) for the documented data-collection behavior.

@@ -1,0 +1,30 @@
+using System;
+
+public bool isPrime(int n) {
+    if (n < 2) {
+        return false;
+    }
+    mut int d = 2;
+    while (d * d <= n) {
+        if (n % d == 0) {
+            return false;
+        }
+        d += 1;
+    }
+    return true;
+}
+
+public int countPrimes(int limit) {
+    mut int count = 0;
+    for (mut int n = 2; n <= limit; n += 1) {
+        if (isPrime(n)) {
+            count += 1;
+        }
+    }
+    return count;
+}
+
+public int main() {
+    Console.writeLine("Zaehle Primzahlen bis 100");
+    return countPrimes(100);
+}
