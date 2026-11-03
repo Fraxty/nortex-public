@@ -1,0 +1,2 @@
+8516a7dd94527277902ec76c9e1e500c54fe3d9f6e4d69ae2737cccab1881ecd *NORTEX-Setup-x64.exe
+912f69dcab791ffcbdf85232abc052a9c18a50eacff6aa0315340ec1383ccc84 *NORTEX-Portable-x64.zip

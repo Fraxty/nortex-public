@@ -1,18 +1,10 @@
-# NORTEX Code – Public Preview 0.1.0 (Release Notes)
+# NORTEX Code – Public Preview 0.1.0 test record
 
-**Vorabversion / Pre-release** – zum Testen und Evaluieren, nicht für den Produktiveinsatz. MIT-Lizenz, siehe `LICENSE`.
+Validation performed for the Windows x64 release package:
 
-## Dateien
-- `NORTEX-Setup-x64.exe` – Installer (pro Benutzer, ohne Administratorrechte)
-- `NORTEX-Portable-x64.zip` – portable Version
-- `SHA256SUMS.txt` – Prüfsummen
+- `cargo test --workspace -- --test-threads=1` — passed, including native-class compiler tests, marketplace archive tests, and the interactive plugin-extension end-to-end test.
+- `cargo clippy --workspace --all-targets -- -D warnings` — passed.
+- `cargo fmt --all -- --check` — passed.
+- Release build, Inno Setup 7 installer build, portable ZIP contents, and SHA-256 sums are checked for this package.
 
-## Systemanforderungen
-Windows 11 x64; Windows 10 nicht getestet/nicht unterstützt. Zum Bauen nativer Programme mit `nortexc` werden die Microsoft Visual Studio Build Tools (MSVC-Linker) benötigt. Grafikfähiger Desktop (OpenGL).
-
-## Bekannte Einschränkungen
-Nicht digital signiert (SmartScreen-Warnung möglich); kein Debugger; keine Sandbox für Terminal/Build; keine Updates; nur lokal getestet, nicht auf einer sauberen Windows-11-Installation; Windows 10 ungetestet.
-
-## Feedback
-GitHub Issues. Sicherheitslücken: siehe `SECURITY.md`.
-
+The interactive extension test exercises `.nxpack` creation and PDF export through the hosted-plugin IPC path. It does not exercise the AppContainer sandbox on a clean Windows installation. Release binaries are unsigned; Windows 10 and clean-machine installation are not tested.

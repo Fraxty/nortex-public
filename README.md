@@ -1,53 +1,39 @@
 # NORTEX
 
-### Official Software Project
+**NORTEX Code — Public Preview 0.1.0**
 
-**NORTEX** is an independent software project focused on its own programming language, compiler technology and integrated development environment.
-
-## NORTEX Code
-
-NORTEX Code is an integrated development environment designed for developing software with the NORTEX programming language.
-
-### Current Release
-
-**NORTEX Code – Public Preview 0.1.0**
-
-- Early public testing version
-- Closed-source software
-- Free public download
-- Feedback and bug reports welcome
-
-## Project Components
-
-- **NORTEX Language** – Independent programming language
-- **NORTEX Compiler** – Compiler and language processing
-- **NORTEX Code** – Integrated development environment
-- **NORTEX Tools** – Additional development utilities
+NORTEX is an independent programming-language and IDE project. This repository distributes the
+Windows application; it does not contain the complete source code. The preview is therefore not
+a request for source-level review.
 
 ## Downloads
 
-Download the latest public preview from the [Releases](../../releases) section.
+| File | Description |
+|---|---|
+| [NORTEX-Setup-x64.exe](https://github.com/Fraxty/nortex-public/raw/refs/heads/main/NORTEX-Setup-x64.exe) | Per-user Windows installer |
+| [NORTEX-Portable-x64.zip](https://github.com/Fraxty/nortex-public/raw/refs/heads/main/NORTEX-Portable-x64.zip) | Portable package; run `bin\nortex-code.exe` |
+| [SHA256SUMS.txt](https://github.com/Fraxty/nortex-public/raw/refs/heads/main/SHA256SUMS.txt) | SHA-256 checksums |
 
-## Feedback and Bug Reports
+**Platform:** Windows 11 x64. Windows 10 is untested and unsupported. The binaries are not
+digitally signed; SmartScreen may show a warning. Verify downloaded files against the checksums.
+See [INSTALLATION.md](INSTALLATION.md).
 
-Found a problem or have a suggestion?
+## Included project components
 
-Please use the GitHub Issues section to submit bug reports and feature requests.
+- NORTEX language, compiler, runtime, and NORTEX Code IDE
+- Extension host and an offline catalog containing 8 bundled and 17 optional extension packages
+- GitHub Issues for feedback and bug reports; report security issues privately as described in
+  [SECURITY.md](SECURITY.md)
 
-## Project Status
+The extension catalog is local and offline; it is not a live online marketplace. Package
+capabilities vary, and the preview has known language and integration limitations. See
+[RELEASE_NOTES.md](RELEASE_NOTES.md) before relying on a feature.
 
-NORTEX is currently under active development. Features, interfaces and language specifications may change between releases.
+## Source and license
 
-## Licensing
+The downloadable preview is closed-source in this repository; no source-level code review is
+possible from these files. The distributed software is provided under the MIT License in
+[LICENSE.txt](LICENSE.txt). Third-party notices are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-NORTEX is proprietary software. Public preview releases are provided under separate testing and evaluation terms.
-
-No open-source license is granted.
-
-## Disclaimer
-
-This is a pre-release version. It is provided for testing and evaluation purposes and is not intended for production use.
-
----
-
-**NORTEX – Independent Software Project**
+NORTEX is under active development. Features may change, and this preview is not intended for
+production use. See [PRIVACY.md](PRIVACY.md) for the documented data-collection behavior.
